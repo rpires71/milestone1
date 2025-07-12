@@ -5,9 +5,10 @@ Development Milestone Project 1 - User Centric Frontend
 
 ## Project Overview
 
-This project is a personal portfolio website developed as part of the User-Centric Frontend Development Milestone Project 1 for the Level 5 Diploma in Web Application Development. The website acts as a professional showcase of my skills and experience as a private tutor and educator in Computer Science and Mathematics.
+As part of the **User-Centric Frontend Development – Milestone Project 1** for the **Level 5 Diploma in Web Application Development**, this project is a personally developed portfolio website. It professionally showcases my skills and experience as a private tutor and educator in **Computer Science and Mathematics**.
 
-It is designed with a focus on user-centric principles, ensuring it is both accessible and responsive to different devices and user needs. The project demonstrates my ability to combine technical frontend development skills with an understanding of real-world user requirements.
+The design follows user-centric principles, focusing on meeting user needs by ensuring the site is **responsive across different devices** and includes **accessible features**. Throughout the project, I demonstrate the integration of **real-world user requirements** with **technical front-end development skills**.
+
 
 ## Project Goals
 
