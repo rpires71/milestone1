@@ -51,3 +51,32 @@ The website highlights my experience as an educator while also showcasing my tec
 
 This project reflects my ability to apply modern web development techniques in a user-focused context, while presenting my professional identity as an educator.
 
+# UX Strategy
+
+The strategy I intend to implement will be divided into three parts:  
+- Research and Planning  
+- Design Principles  
+- Testing and Feedback  
+
+I will be following an approach that adheres to user-centred design principles to ensure the website meets the expectations and needs of my target audiences. The UX strategy will remain focused on **accessibility**, **clarity**, **responsiveness**, and **ease of use**.
+
+## Research and Planning
+
+This stage will focus on identifying key user groups such as students, parents/guardians, and education providers/employers. I will also examine user needs, expectations, and goals by developing personas and using scenario planning techniques. In addition, I will prioritise content and features based on their relevance and importance to each user group.
+
+## Design Principles
+
+- **Accessibility:** I will use semantic HTML5, appropriate alt text, and a logical heading structure. High colour contrast will be applied to support inclusive access.  
+- **Responsiveness:** I will design mobile-first layouts using CSS media queries and Bootstrap to ensure smooth performance across devices.  
+- **Navigation:** I will implement a clear and consistent navigation structure that allows users to move intuitively through the site.  
+- **Visual Hierarchy:** I will establish consistent styling, spacing, and typography to direct users’ attention to key content areas.  
+- **Interactivity:** User-friendly features such as a contact form, downloadable resources, and clear calls to action will be included to encourage engagement.
+
+## Testing and Feedback
+
+I plan to carry out manual usability testing across a range of devices, including desktop computers, tablets, and mobile phones. I will validate the HTML and CSS using W3C tools to ensure code quality and compliance. Finally, I will refine the design and layout based on user feedback and testing insights to improve clarity, accessibility, and overall usability.
+
+---
+
+This UX strategy will ensure a user-friendly and professional experience for all visitors, while also reflecting best practices in modern front-end web development.
+
