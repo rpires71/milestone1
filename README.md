@@ -51,7 +51,7 @@ The website highlights my experience as an educator while also showcasing my tec
 
 This project reflects my ability to apply modern web development techniques in a user-focused context, while presenting my professional identity as an educator.
 
-# UX Strategy
+## UX Strategy
 
 The strategy I intend to implement will be divided into three parts:  
 - Research and Planning  
@@ -60,11 +60,11 @@ The strategy I intend to implement will be divided into three parts:
 
 I will be following an approach that adheres to user-centred design principles to ensure the website meets the expectations and needs of my target audiences. The UX strategy will remain focused on **accessibility**, **clarity**, **responsiveness**, and **ease of use**.
 
-## Research and Planning
+### Research and Planning
 
 This stage will focus on identifying key user groups such as students, parents/guardians, and education providers/employers. I will also examine user needs, expectations, and goals by developing personas and using scenario planning techniques. In addition, I will prioritise content and features based on their relevance and importance to each user group.
 
-## Design Principles
+### Design Principles
 
 - **Accessibility:** I will use semantic HTML5, appropriate alt text, and a logical heading structure. High colour contrast will be applied to support inclusive access.  
 - **Responsiveness:** I will design mobile-first layouts using CSS media queries and Bootstrap to ensure smooth performance across devices.  
@@ -72,11 +72,20 @@ This stage will focus on identifying key user groups such as students, parents/g
 - **Visual Hierarchy:** I will establish consistent styling, spacing, and typography to direct users’ attention to key content areas.  
 - **Interactivity:** User-friendly features such as a contact form, downloadable resources, and clear calls to action will be included to encourage engagement.
 
-## Testing and Feedback
+### Testing and Feedback
 
 I plan to carry out manual usability testing across a range of devices, including desktop computers, tablets, and mobile phones. I will validate the HTML and CSS using W3C tools to ensure code quality and compliance. Finally, I will refine the design and layout based on user feedback and testing insights to improve clarity, accessibility, and overall usability.
 
 ---
 
 This UX strategy will ensure a user-friendly and professional experience for all visitors, while also reflecting best practices in modern front-end web development.
+
+## Features
+
+The website incorporates a responsive design that functions smoothly across desktop, tablet, and mobile devices. It includes an accessible HTML5 structure with semantic tags and high-contrast visuals to support inclusive use. The site showcases my professional portfolio, highlighting teaching experience, subject specialisms, and qualifications. An interactive contact form provides a straightforward way for users to get in touch, while a downloadable CV is available for employers and education providers. Additionally, the website features clean, intuitive navigation with a clear visual hierarchy to enhance user experience.
+
+## Future Features
+
+Planned enhancements include user authentication to enable personalised dashboards for students and parents, as well as a dedicated resources section offering examples and learning materials. I also aim to integrate multimedia content such as video tutorials and interactive quizzes. An advanced analytics dashboard will help monitor student engagement and collect feedback. To reach a wider audience, multi-language support is planned. Further accessibility improvements—including screen reader optimisation and enhanced keyboard navigation—are also under consideration. Finally, SEO enhancements will be implemented to improve search engine rankings and increase discoverability.
+
 
