@@ -1,4 +1,4 @@
-# milestone1
+# Milestone Project 1
 Development Milestone Project 1 - User Centric Frontend
 
 # Personal Portfolio Website
