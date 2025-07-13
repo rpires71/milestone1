@@ -166,3 +166,21 @@ Another advantage of GitHub is that it integrates seamlessly with Visual Studio.
 During the development of this portfolio website, GitHub has been indispensable in maintaining a structured, efficient and reliable development workflow.
 
 ---
+
+### Notepad++
+
+For quick code editing and script authoring, at times I opted to use the versatile and lightweight text editor Notepad++. 
+
+To inspect code segments without the overhead of a full integrated development environment, Notepad++ proved to be a helpful utility throughout this project. 
+
+To enhance readability and minimise errors during manual code modifications, Notepad++’s syntax highlighting for HTML and CSS is a significant advantage. 
+
+To enable easy comparison and multitasking, while working concurrently on multiple files, Notepad++’s tabbed interface makes this process more manageable. 
+
+For automating repetitive actions, Notepad++ provides features that assist such as search and replace with regular expressions, auto-completion and macro recording. 
+
+Particularly for quick debugging and minor code adjustments, Notepad++’s simplicity combined with robust functionality made it a valuable complement.
+
+---
+
+
