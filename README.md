@@ -144,3 +144,24 @@ To achieve a refined and visually engaging interface, features such as **gradien
 **Distinct branding** and **consistent visual presentation** are made possible when custom CSS styling is applied to complement the structure provided by Bootstrap. A website accessible to users with visual impairments is supported through CSS3’s ability to adjust font sizes, colours, and contrast settings.
 
 In the broader context, CSS3 plays a vital role in delivering a visually attractive, adaptive, and user-focused front-end design for this portfolio website.
+
+---
+## GitHub
+
+A cloud-based system which includes capabilities such as collaborative development using Git and offers a version control framework.
+
+Enabling secure and efficient tracking of modifications, managing source code revisions has been supported by using GitHub throughout this project.
+
+I can revert to earlier iterations if required due to the functionality of being able to create repositories where the complete project history is maintained.
+
+Without impacting the primary codebase, I could explore new concepts thanks to GitHub’s branching and merging capabilities.
+
+Also, to assist in documenting bugs or improvements, the use of GitHub’s issue tracking and project management utilities proves to be a valuable skill cultivated throughout the project.
+
+Straightforward collaboration with others is achievable as GitHub allows effortless sharing of public or private code simply by hosting the project repository.
+
+Another advantage of GitHub is that it integrates seamlessly with Visual Studio.
+
+During the development of this portfolio website, GitHub has been indispensable in maintaining a structured, efficient and reliable development workflow.
+
+---
