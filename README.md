@@ -183,4 +183,20 @@ Particularly for quick debugging and minor code adjustments, Notepad++’s simpl
 
 ---
 
+### W3C Validator Tools
+
+To verify the correctness of HTML and CSS code against web standards defined by the World Wide Web Consortium (W3C), the W3C Validator tools are indispensable online resources.
+
+To enhance cross-browser consistency and accessibility and ensure that the website’s markup and styling conform to current web standards, these tools have been utilised throughout the project.
+
+In the development process, issues relating to accessibility, obsolete elements, and syntax errors are detected and this validates HTML5 and CSS3 code.
+
+Owing to the fact that search engines favour websites with valid and well-structured code, using W3C Validator tools assists in improving search engine optimisation (SEO).
+
+In addition, this results in cleaner, more dependable code and an improved user experience.
+
+To apply best practices throughout the development of this portfolio website, such as ensuring accessibility compliance and upholding code quality, W3C Validator tools proved to be invaluable.
+
+---
+
 
