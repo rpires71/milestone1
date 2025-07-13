@@ -89,3 +89,58 @@ The website incorporates a responsive design that functions smoothly across desk
 Planned enhancements include user authentication to enable personalised dashboards for students and parents, as well as a dedicated resources section offering examples and learning materials. I also aim to integrate multimedia content such as video tutorials and interactive quizzes. An advanced analytics dashboard will help monitor student engagement and collect feedback. To reach a wider audience, multi-language support is planned. Further accessibility improvements—including screen reader optimisation and enhanced keyboard navigation—are also under consideration. Finally, SEO enhancements will be implemented to improve search engine rankings and increase discoverability.
 
 
+## Technologies Used
+
+During the development of this project, a range of tools and technologies were used to support both the design and development process.
+
+---
+
+### Dell Latitude 5401
+
+This project was carried out on a Dell Latitude 5401 x64-based laptop, which features an Intel® Core™ i7-9850H processor (2.60GHz, 6 cores, 12 threads) and 16GB of RAM. This high-performance setup provides a smooth multitasking environment, fast build times, and efficient operation of development tools and browser-based testing.
+
+---
+
+### Windows 11 Pro
+
+The operating system used for this project is **Windows 11 Pro**, Microsoft’s latest version of Windows. It offers enhanced security, optimised performance, and a range of developer-oriented features.
+
+Windows 11 Pro supports advanced hardware and software integration, creating a stable and efficient environment for web development. Valuable features such as improved virtual desktops, enhanced window management, and seamless integration with Microsoft’s development tools help streamline the coding process.
+
+In addition, Windows 11 Pro includes robust security measures such as **BitLocker encryption** and **Secure Boot**, contributing to a safe and secure development setup. Its compatibility with popular IDEs, web browsers, and validation tools—combined with regular system updates—ensures that the project can be developed and tested on a modern, dependable platform.
+
+---
+
+### Visual Studio Code
+
+For the purposes of website development, **Visual Studio Code (VS Code)** is a lightweight yet powerful source code editor that enhances productivity and supports high-quality coding through a broad range of features.
+
+During the development of this project, VS Code offered **intelligent code completion** and **syntax highlighting** for HTML5 and CSS3, which improved coding speed and reduced errors. It includes built-in **Git integration** for version control, simplifying the management of commits and collaboration.
+
+Additional extensions, such as **Live Server**, allowed for real-time previews of web pages during development, enhancing the efficiency of testing responsive design and interactive elements. Workflow preferences were customised using the interface and keyboard shortcuts, helping tailor the environment to suit development needs.
+
+**Debugging tools** and **code linting extensions** also played a key role in promoting cleaner, error-free code. Overall, Visual Studio Code has significantly supported the organisation of the development process and the maintenance of high-quality code throughout the creation of this portfolio website.
+
+---
+
+### HTML5
+
+The latest version of the HyperText Markup Language used to organise content on the web is **HTML5**. This website syntax code provides an accessible and semantic foundation, improving the clarity and organisation of the content by using meaningful elements such as `<header>`, `<nav>`, `<main>`, `<section>`, and `<footer>`.
+
+For users relying on screen readers, these syntax tags enhance accessibility and make the site's structure easier for search engines to understand, which improves SEO. Without relying on external plugins, enabling rich media integration can be done by using multimedia elements like `<video>` and `<audio>`, which HTML also supports.
+
+To improve user interaction and validation, HTML also includes powerful **form controls** and **attributes**. Overall, enhanced user experience, improved performance, and better cross-browser compatibility is achieved by HTML5, ensuring that the website is built on modern, standards-compliant code.
+
+---
+
+### CSS3
+
+The latest development of the Cascading Style Sheets language is **CSS3**, which is used to format and visually enhance web pages.
+
+Devices and various screen sizes benefit from a clean, professional, and smoothly adapted responsive layout through key features offered by CSS3. Regardless of the device used, an optimal user experience is ensured for desktops, tablets, and mobiles by using features such as **media queries** that support device-specific layouts.
+
+To achieve a refined and visually engaging interface, features such as **gradients**, **shadows**, **transitions**, and **animations** are enabled by CSS3’s advanced styling capabilities.
+
+**Distinct branding** and **consistent visual presentation** are made possible when custom CSS styling is applied to complement the structure provided by Bootstrap. A website accessible to users with visual impairments is supported through CSS3’s ability to adjust font sizes, colours, and contrast settings.
+
+In the broader context, CSS3 plays a vital role in delivering a visually attractive, adaptive, and user-focused front-end design for this portfolio website.
