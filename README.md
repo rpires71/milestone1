@@ -146,6 +146,7 @@ To achieve a refined and visually engaging interface, features such as **gradien
 In the broader context, CSS3 plays a vital role in delivering a visually attractive, adaptive, and user-focused front-end design for this portfolio website.
 
 ---
+
 ## GitHub
 
 A cloud-based system which includes capabilities such as collaborative development using Git and offers a version control framework.
