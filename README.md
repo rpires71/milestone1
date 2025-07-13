@@ -199,4 +199,18 @@ To apply best practices throughout the development of this portfolio website, su
 
 ---
 
+### Bootstrap
 
+While developing responsive and mobile-first websites, the use of Bootstrap, which is a widely used, open-source front-end framework, simplifies this process.
+
+By utilising the adaptable grid system, pre-designed interface components, and utility classes that accelerate development and ensure a refined appearance, throughout this project, Bootstrap was significant in providing uniformity.
+
+Responsive design capabilities have allowed the website to adapt seamlessly across desktops, tablets, and mobile devices without extensive custom CSS.
+
+To create an intuitive and visually engaging user interface, components from Bootstrap’s comprehensive library have been employed, such as navigation bars, buttons, cards, and forms.
+
+Also worth mentioning is the assurance of the site being accessible to users with disabilities, which was facilitated by Bootstrap’s integrated accessibility support features.
+
+Considering the overall context, a smooth, user-friendly experience across devices, a professional presentation, and efficient development were effectively achieved through the use of Bootstrap.
+
+---
