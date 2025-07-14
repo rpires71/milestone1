@@ -286,6 +286,19 @@ The contribution towards a clean and professional look of the website is due to 
 
 ---
 
+### DALL·E
+
+To generate images for this project, I selected the AI-driven image creation tool developed by OpenAI, called DALL·E, which produces unique, high-quality visuals based on prompts.
+
+DALL·E has enhanced the website’s aesthetic appeal without the need for stock photography or advanced graphic design expertise by creating custom visuals and imaginative artwork.
+
+To help maintain originality and coherence in this project, DALL·E allows me to produce bespoke images tailored to the theme and content of the website.
+
+The creative workflow is faster and enables rapid prototyping of design concepts, while enhancing engagement with distinctive graphics.
+
+Additionally, it complements the technical aspects of frontend development effectively, contributing to a distinctive and professional online presence.
+
+---
 
 
 
