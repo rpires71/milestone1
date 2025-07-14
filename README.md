@@ -274,6 +274,18 @@ Furthermore, it removes the need for manual colour matching and eliminates guess
 
 ---
 
+### GIMP
+
+My selected software that offers a wide range of features for graphic design, photo enhancement, image composition, as well as serving as a complement to this portfolio website, is the powerful, open-source image editor GIMP (GNU Image Manipulation Program).
+
+I used this programme primarily for creating and editing images, optimising graphics for fast loading in browsers, and preparing assets such as logos and icons.
+
+To help maintain quick page load times without compromising visual appeal, its comprehensive tools allow precise control over image quality and file size.
+
+The contribution towards a clean and professional look of the website is due to GIMP’s interface that enables us to work with layers, masks, and filters, which allows advanced editing and creative refinements.
+
+---
+
 
 
 
