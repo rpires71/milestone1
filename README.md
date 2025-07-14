@@ -316,4 +316,19 @@ Additionally, Balsamiq Wireframes contributed to a comprehensive workflow that e
 
 ---
 
+### ChatGPT
+
+Conversational support across a wide range of topics, including programming and web development, is what I primarily used ChatGPT, the advanced OpenAI language model, for.
+
+Throughout the course and this project, it has assisted me by providing suggestions to enhance code quality and efficiency, explain concepts, and serve as an invaluable resource for debugging code.
+
+ChatGPT has the capability to review my HTML and CSS code, where at times it identifies optimisation opportunities, logical errors, and syntax mistakes.
+
+Additionally, it assists with generating design ideas and clarifying technical documentation.
+
+I feel that it has accelerated problem-solving, helping me maintain focus on development challenges, overall quality, and maintainability of the website.
+
+Throughout the project lifecycle, it has proved to be a valuable productivity tool.
+
+---
 
