@@ -332,3 +332,20 @@ Throughout the project lifecycle, it has proved to be a valuable productivity to
 
 ---
 
+### Microsoft Edge and Google Chrome
+
+Renowned for their speed, stability, and comprehensive developer tools, Google Chrome and Microsoft Edge are modern, widely used web browsers.
+
+For ensuring a crucial responsive design, both these browsers provide features for previewing and testing websites with various device resolutions and screen dimensions, which in the context of this project served the purpose of checking performance across mobile, tablet, and desktop devices.
+
+Both browsers offer developer tools that deliver functionality such as advanced debugging, including live editing of HTML and CSS, accessibility evaluation, performance analysis, and network inspection.
+
+Layout issues, scripting faults, and accessibility problems can be detected and addressed efficiently.
+
+Furthermore, both browsers enhance the development workflow through integrations and support for extensions.
+
+Using both these browsers throughout the project ensured that the website was thoroughly tested and optimised for a broad range of target users, delivering a consistent cross-device user experience.
+
+---
+
+
