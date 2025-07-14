@@ -232,6 +232,20 @@ In the end, I’ve concluded that Slack has influenced the quality of this proje
 
 ---
 
+### Google Meet
+
+Another communication platform with video capabilities, Google Meet facilitated seamless virtual interaction and collaboration.
+
+Despite geographical separation, this platform has enabled real-time engagement while attending live tutorials, mentor sessions, and group discussions.
+
+It enables us to obtain immediate feedback from mentors or peers while reviewing course content and project progress through screen sharing.
+
+Google Meet’s reliability and intuitive interface ensure productive meetings, assisting in clarifying project specifications and resolving technical issues effectively.
+
+Lastly, the successful development and timely delivery of this project have been supported by Google Meet’s efficient communication and collaboration.
+
+---
+
 ### Diffchecker
 
 To detect code differences quickly and precisely or compare text, code, and files side by side, Diffchecker is an online utility that offers these capabilities.
