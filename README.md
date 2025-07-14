@@ -215,7 +215,7 @@ Considering the overall context, a smooth, user-friendly experience across devic
 
 ---
 
-## Code Institute Slack
+### Code Institute Slack
 
 Students and mentors throughout this course have utilised the communication and collaboration platform known as Code Institute Slack.
 
