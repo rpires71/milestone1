@@ -233,4 +233,20 @@ In the end, I’ve concluded that Slack has influenced the quality of this proje
 
 ---
 
+### Diffchecker
+
+To detect code differences quickly and precisely or compare text, code, and files side by side, Diffchecker is an online utility that offers these capabilities.
+
+During the project development, this tool has proved to be very beneficial when comparing different versions of HTML or CSS files to ensure uniformity by easily identifying changes and spotting errors.
+
+During the development phase, it has provided assistance in preventing accidental overwrites and verifying amendments.
+
+Before committing code to GitHub locally, Diffchecker can facilitate debugging and version control through its practical features such as clearly highlighting additions, deletions, and modifications.
+
+Diffchecker supports the integrity of the project’s codebase progression by contributing to maintaining code standards, sharing revisions, and enhancing collaboration.
+
+---
+
+
+
 
