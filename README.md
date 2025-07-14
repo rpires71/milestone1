@@ -260,6 +260,20 @@ Diffchecker supports the integrity of the project’s codebase progression by co
 
 ---
 
+### Image Colour Picker
+
+A very useful utility, Image Colour Picker enables us to select exact colour values from an image, providing HSL, RGB, and hexadecimal (HEX) codes.
+
+To ensure a consistent and attractive colour palette across the website, this tool has been valuable for extracting precise colours from logos, design references, or photographs.
+
+With custom CSS styling, I have sought to achieve optimal colour combinations and preserve thematic consistency.
+
+To improve user experience through well-coordinated visual elements, the accuracy Image Colour Picker delivers has enhanced the appearance and feel of my portfolio website.
+
+Furthermore, it removes the need for manual colour matching and eliminates guesswork, which has accelerated the design workflow.
+
+---
+
 
 
 
