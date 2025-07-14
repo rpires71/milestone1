@@ -214,3 +214,23 @@ Also worth mentioning is the assurance of the site being accessible to users wit
 Considering the overall context, a smooth, user-friendly experience across devices, a professional presentation, and efficient development were effectively achieved through the use of Bootstrap.
 
 ---
+
+## Code Institute Slack
+
+Students and mentors throughout this course have utilised the communication and collaboration platform known as Code Institute Slack.
+
+Throughout this project, the learning community has remained connected by using Slack.
+
+In this environment, we’ve exchanged resources, posed questions, and received guidance from fellow developers and mentors.
+
+Project support, problem-solving, and frontend development aspects are the main communication focus and these are organised on the platform’s channels by topic.
+
+Ongoing feedback and effective teamwork are facilitated through the use of features such as direct messaging, file sharing, among others.
+
+Knowledge exchange and promoting steady progress are supported by Slack, ensuring that challenges during the project can be swiftly addressed.
+
+In the end, I’ve concluded that Slack has influenced the quality of this project by providing support to refine my skills as part of a collaborative learning environment.
+
+---
+
+
