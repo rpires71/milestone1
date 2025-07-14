@@ -300,5 +300,20 @@ Additionally, it complements the technical aspects of frontend development effec
 
 ---
 
+### Balsamiq Wireframes
+
+For this project, I opted to create wireframes and mock-ups with the online application Balsamiq. A valuable tool, significant during the User Experience Design (UXD) Skeleton plane phase of development.
+
+A user-friendly wireframing application that accelerates the creation process for websites. Balsamiq assisted in planning my website layout and user interface prior to the development stage.
+
+I quickly sketched and refined design concepts, focusing on navigation, user flow, and structure.
+
+The drag-and-drop elements and intuitive interface streamline the Skeleton plane phase, which helps identify potential usability issues early and ensures alignment with the target audience.
+
+Planning with Balsamiq has been robust, with a clear representation of a user-focused design that translates effectively into the accessible and responsive frontend implementation.
+
+Additionally, Balsamiq Wireframes contributed to a comprehensive workflow that enhanced understanding of the design’s clarity.
+
+---
 
 
