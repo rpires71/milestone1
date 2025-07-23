@@ -346,7 +346,7 @@ Furthermore, both browsers enhance the development workflow through integrations
 
 Using both these browsers throughout the project ensured that the website was thoroughly tested and optimised for a broad range of target users, delivering a consistent cross-device user experience.
 
---
+---
 
 ## Wireframes
 
@@ -374,7 +374,7 @@ The importance of demonstrating an understanding of user experience (UX) princip
 ## Portfolio Wireframes
 The wireframes presented here correspond to the seven pages planned for inclusion in this portfolio website. Each page is shown in three versions: desktop, tablet, and mobile.
 
--- 
+---
 
 ### Homepage
 
