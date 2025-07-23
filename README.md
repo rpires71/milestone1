@@ -358,23 +358,20 @@ To enable stakeholders to reach consensus on functionality and structure before 
 
 Showcasing wireframes in my portfolio project is a recognised professional practice which emphasises a systematic, user-focused process. Wireframes serve as the initial conceptual blueprint stage of the project before coding and visual styling begin. During the design and development phase of a project, wireframes are a crucial element which fulfils several significant functions such as:
 
---- 
-
 ### Design Rationale and Planning
 
 The following wireframes illustrate strategic usability, content hierarchy, and layout. This evidence helps me break down my project into logical steps so I can plan effectively and make decisions that place user needs and objectives as the priority. The presentation of these wireframes highlights the thought process behind the work rather than the final outcome, which reflects an understanding of the importance of planning through an iterative design approach.
 
----
 
 ### UX Awareness
 
 The importance of demonstrating an understanding of user experience (UX) principles ensures clarity for employers and clients. Wireframes prioritise flow and functionality before the final visual product, which means I can collaborate effectively with stakeholders at the conceptual stage to refine ideas and minimise time-consuming revisions. This reinforces my commitment to creating a technically robust, intuitive, and user-friendly solution for this project.
 
 ---
+
 ## Portfolio Wireframes
 The wireframes presented here correspond to the seven pages planned for inclusion in this portfolio website. Each page is shown in three versions: desktop, tablet, and mobile.
 
----
 
 ### Homepage
 
@@ -386,7 +383,6 @@ This page is intended to provide a welcoming introduction to the website, establ
 
 <img width="972" height="3328" alt="homePageMobile" src="https://github.com/user-attachments/assets/b8f4f895-1a5f-491b-8460-06ded232aedd" />
 
----
 
 ### About Me
 
@@ -399,8 +395,6 @@ The About Me page’s purpose is to present a design that remains approachable a
 <img width="884" height="3514" alt="aboutMeMobile" src="https://github.com/user-attachments/assets/80fa7638-f599-401e-9b2f-4f930befcfdc" />
 
 
----
-
 ### Work Experience
 
 By using an easy-to-digest tile layout, this page will showcase my career history. Each section highlights my roles, achievements, and responsibilities across development, IT support, tutoring, and teaching. It also demonstrates my versatility and experience in different contexts.
@@ -412,7 +406,6 @@ By using an easy-to-digest tile layout, this page will showcase my career histor
 
 <img width="898" height="3698" alt="workExperienceMobile" src="https://github.com/user-attachments/assets/b8b11d77-95aa-4be8-a26b-ce38238b3d4b" />
 
----
 
 ### Skills
 
@@ -425,8 +418,6 @@ This page presents the grouping of key competencies into distinct categories suc
 <img width="884" height="4532" alt="skillsMobile" src="https://github.com/user-attachments/assets/c5ef9662-28a2-40cd-b2a0-75bd53540334" />
 
 
----
-
 ### Conferences and Workshops
 
 This page highlights my commitment to professional development by showcasing relevant workshops, conferences, and training I have attended. It demonstrates my engagement with industry best practices and continuous improvement, reinforcing my professional credibility.
@@ -437,7 +428,6 @@ This page highlights my commitment to professional development by showcasing rel
 
 <img width="884" height="4532" alt="conferencesWorkshopsMobile" src="https://github.com/user-attachments/assets/66b16a6f-e6c1-4ff2-ad12-c8a45b2495a1" />
 
----
 
 ### Certifications
 
@@ -449,7 +439,6 @@ This page lists my formal qualifications and certifications, including CompTIA c
 
 <img width="884" height="5408" alt="certificationsMobile" src="https://github.com/user-attachments/assets/236c0fcf-3aeb-42e1-86ac-1edba94ee369" />
 
----
 
 ### Bookings
 
