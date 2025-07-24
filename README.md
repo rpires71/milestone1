@@ -452,4 +452,112 @@ The Bookings page enables potential clients, schools, or students to contact me 
 <img width="884" height="3340" alt="bookingsMobile" src="https://github.com/user-attachments/assets/fc1c2b56-1ebc-403b-9dd6-6b19b4b186b1" />
 
 ---
+## User Stories - Homepage
 
+### 1. Rob Pires – Website Developer (Site Owner)
+
+**User Story**  
+As the website developer, I want the homepage to deliver a clear, professional first impression and guide visitors smoothly to other sections so that they engage meaningfully with my content.
+
+**Description**  
+The homepage should reflect my personal brand and present my key strengths across teaching, tutoring, and IT services. It should introduce the site, establish credibility, and invite further exploration.
+
+**Acceptance Criteria**
+- [ ] My full name and professional tagline are visible.
+- [ ] The site is responsive across desktop, tablet, and mobile.
+- [ ] A clear introduction summarises who I am and what I offer.
+- [ ] There is an intuitive navigation menu linking to all main pages.
+- [ ] A visible call-to-action (e.g. “Download CV” or “Book a Session”) is included.
+
+**Tasks**
+- [ ] Design hero section with name, tagline, and introductory message.
+- [ ] Implement responsive navigation using HTML/CSS or Bootstrap.
+- [ ] Add call-to-action button(s).
+- [ ] Link to key sections to other pages.
+- [ ] Style homepage with a clean, professional layout.
+
+
+---
+
+### 2. Potential Tutees / Parents (Tutoring Clients)
+
+**User Story**  
+As a student or parent, they want to understand quickly who I am and what subjects I tutor so that I can decide whether to book a session.
+
+**Description**  
+The homepage should briefly explain the tutoring services offered (Computer Science and Mathematics at various levels) and present myself as a qualified, friendly, and experienced educator.
+
+**Acceptance Criteria**
+- [ ] A short summary explains tutoring subjects (KS3 to A-level).
+- [ ] A call-to-action guides users to the Bookings page.
+- [ ] My teaching background is clearly introduced.
+- [ ] Navigation is easy to use for non-technical users.
+- [ ] The site is responsive across desktop, tablet, and mobile.
+
+**Tasks**
+- [ ] Write brief paragraph outlining tutoring subjects and levels.
+- [ ] Add visual cues or icons (e.g. book, graduation cap).
+- [ ] Include button or link: “Book a Tutoring Session”.
+- [ ] Ensure menu links to other pages.
+- [ ] Implement responsive navigation using HTML/CSS or Bootstrap.
+---
+
+## 3. Education Employers (e.g. headteachers, department leads)
+
+**User Story**  
+As an education employer, they want to understand my background and qualifications immediately so that they can decide whether to explore my CV and experience further.
+
+**Description**  
+The homepage should present myself as a professional with a long-standing teaching career, offering quick access to credentials, work history, and downloadable CV.
+
+**Acceptance Criteria**
+- [ ] My teaching title and years of experience are stated clearly.
+- [ ] Links to other pages are easily accessible.
+- [ ] Option to download CV is visible.
+- [ ] The layout reflects professionalism and clarity.
+- [ ] The site is responsive across desktop, tablet, and mobile.
+
+**Tasks**
+- [ ] Add brief statement like: “Over 20 years of teaching experience across schools and colleges.”
+- [ ] Include a CV download button or link.
+- [ ] Feature quick-access links to other pages.
+- [ ] Style homepage in line with education sector expectations.
+- [ ] Implement responsive navigation using HTML/CSS or Bootstrap.
+
+
+---
+
+## 4. IT Support / Web Employers (Recruiters / Hiring Managers)
+
+**User Story**  
+As an IT employer or recruiter, they want want to immediately assess my technical profile and view my skills or projects so that I can determine whether I fit a technical or support role.
+
+**Description**  
+The homepage should reference my IT certifications, web development training, and technical competencies with a link to explore my skills or recent projects.
+
+**Acceptance Criteria**
+- [ ] Technical certifications (e.g. CompTIA A+, ITF+, CCNA) are mentioned.
+- [ ] Link to other pages is visible.
+- [ ] My IT background is summarised in the introduction.
+- [ ] Navigation and layout are mobile/tablet-friendly and accessible.
+- [ ] The site is responsive across desktop, tablet, and mobile.
+
+**Tasks:**
+- [ ] Add bullet or tagline: “Certified in CompTIA A+, ITF+, CCNA – Full Stack Developer in training.”
+- [ ] Include links or buttons.
+- [ ] Ensure homepage loads quickly and looks clean on all devices.
+- [ ] Place technical content where it's easy to notice but not overwhelming.
+- [ ] Implement responsive navigation using HTML/CSS or Bootstrap.
+
+---
+
+## Summary
+
+| **Stakeholder**       | **User Goal**                                                    | **Key Action/Outcome**                                         |
+|-----------------------|------------------------------------------------------------------|----------------------------------------------------------------|
+| Developer (Me)       | Present a clean, responsive and professional entry point to the site | Clear layout, call-to-action, easy navigation                  |
+| Students/Parents      | Understand my tutoring subjects and teaching approach         | Subject summary, CTA to Bookings, approachable design          |
+| Education Employers   | See my experience and qualifications at a glance              | Quick access to CV, experience and certification pages         |
+| IT Employers          | Assess my technical background and see projects/skills        | Mention certifications, link to Skills and Projects pages      |
+
+## User Stories - About Me
