@@ -1013,7 +1013,7 @@ This page should clearly list my technical certifications (e.g. CompTIA A+, ITF+
 - [ ] Shows relevant IT and networking certifications (A+, CCNA, ITF+).  
 - [ ] Mentions current full-stack training and web dev focus.  
 - [ ] Includes skills related to support, networks, coding.  
-- [ ] Provides men links to other pages e.g. Projects and Skills pages. 
+- [ ] Provides menu links to other pages e.g. Projects and Skills pages. 
 - [ ] Navigation and layout are mobile/tablet-friendly and accessible.
 - [ ] The site is responsive across desktop, tablet, and mobile.
 
