@@ -1028,7 +1028,7 @@ This page should clearly list my technical certifications (e.g. CompTIA A+, ITF+
 - [ ] Implement responsive navigation using HTML/CSS or Bootstrap.
 
 
-## Summary: Stakeholder Goals for Certifications Page
+### Summary: Stakeholder Goals for Certifications Page
 
 | Stakeholder         | Key Goal                                         | Essential Features / Links                      |
 |---------------------|--------------------------------------------------|--------------------------------------------------|
