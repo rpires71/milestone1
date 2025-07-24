@@ -451,7 +451,6 @@ The Bookings page enables potential clients, schools, or students to contact me 
 
 <img width="884" height="3340" alt="bookingsMobile" src="https://github.com/user-attachments/assets/fc1c2b56-1ebc-403b-9dd6-6b19b4b186b1" />
 
----
 ## User Stories - Homepage
 
 ### 1. Rob Pires – Website Developer (Site Owner)
@@ -477,8 +476,6 @@ The homepage should reflect my personal brand and present my key strengths acros
 - [ ] Style homepage with a clean, professional layout.
 
 
----
-
 ### 2. Potential Tutees / Parents (Tutoring Clients)
 
 **User Story**  
@@ -500,9 +497,8 @@ The homepage should briefly explain the tutoring services offered (Computer Scie
 - [ ] Include button or link: “Book a Tutoring Session”.
 - [ ] Ensure menu links to other pages.
 - [ ] Implement responsive navigation using HTML/CSS or Bootstrap.
----
 
-## 3. Education Employers (e.g. headteachers, department leads)
+### 3. Education Employers (e.g. headteachers, department leads)
 
 **User Story**  
 As an education employer, they want to understand my background and qualifications immediately so that they can decide whether to explore my CV and experience further.
@@ -525,9 +521,8 @@ The homepage should present myself as a professional with a long-standing teachi
 - [ ] Implement responsive navigation using HTML/CSS or Bootstrap.
 
 
----
 
-## 4. IT Support / Web Employers (Recruiters / Hiring Managers)
+### 4. IT Support / Web Employers (Recruiters / Hiring Managers)
 
 **User Story**  
 As an IT employer or recruiter, they want want to immediately assess my technical profile and view my skills or projects so that I can determine whether I fit a technical or support role.
@@ -549,9 +544,8 @@ The homepage should reference my IT certifications, web development training, an
 - [ ] Place technical content where it's easy to notice but not overwhelming.
 - [ ] Implement responsive navigation using HTML/CSS or Bootstrap.
 
----
 
-## Summary
+### Summary
 
 | **Stakeholder**       | **User Goal**                                                    | **Key Action/Outcome**                                         |
 |-----------------------|------------------------------------------------------------------|----------------------------------------------------------------|
@@ -560,4 +554,112 @@ The homepage should reference my IT certifications, web development training, an
 | Education Employers   | See my experience and qualifications at a glance              | Quick access to CV, experience and certification pages         |
 | IT Employers          | Assess my technical background and see projects/skills        | Mention certifications, link to Skills and Projects pages      |
 
+---
+
 ## User Stories - About Me
+
+### 1. Rob Pires – Website Developer (Site Owner)
+
+**User Goal**  
+As the developer, I want the About Me page to reflect my personality, professionalism, and background so that users can understand who I am and what I offer.
+
+**Description**  
+This page should humanise the portfolio, going beyond qualifications to show my career journey, commitment to education and IT, and enthusiasm for learning. It acts as a narrative that builds trust and connection with all visitors.
+
+**Acceptance Criteria**
+- [ ] The page includes a personal introduction written in a warm, professional tone.  
+- [ ] A profile photo is clearly displayed.  
+- [ ] My teaching, tutoring, and IT experience are summarised.  
+- [ ] There are clear links to the other pages.  
+- [ ] The site is responsive and accessible across desktop, tablet, and mobile.
+
+**Tasks**
+- [ ] Write a 2–3 paragraph bio including background, values, and current training.  
+- [ ] Insert a professional headshot with alt text.  
+- [ ] Include menu links to other pages.  
+- [ ] Style the page with clear headings and appropriate spacing.  
+- [ ] Test readability and responsiveness across desktop, tablet, and mobile.  
+
+### 2. Potential Tutees / Parents
+
+**User Goal**  
+As a student or parent, they want to understand who I am as a tutor so that they feel confident I am approachable, qualified, and able to support learning needs.
+
+**Description**  
+The page should show my human side — my passion for education, patience, communication style, and ability to support learners of different ages and abilities.
+
+**Acceptance Criteria**
+- [ ] The tone is clear, supportive, and easy to understand.  
+- [ ] Mentions tutoring subjects and levels (KS3, GCSE, A-levels).  
+- [ ] Reassures users of my experience and personal approach.  
+- [ ] A call-to-action or link to Bookings and other pages is visible.  
+- [ ] The site is responsive and accessible across desktop, tablet, and mobile.
+
+**Tasks**
+- [ ] Add sentence like: “I offer tutoring in Computer Science and Maths for KS3, GCSE, and A-Level.”  
+- [ ] Mention my approach: patient, structured, encouraging.  
+- [ ] Include a friendly line about how to get in touch.  
+- [ ] Add “Book a Tutoring Session” button/link to Bookings and other pages.  
+- [ ] Test readability and responsiveness across desktop, tablet, and mobile.  
+
+
+### 3. Education Employers (e.g. Headteachers, Curriculum Leads)
+
+**User Goal**  
+As an education employer, they want to get a sense of my ethos and background in teaching so that they can assess my cultural fit and motivation.
+
+**Description**  
+The About Me page should convey my philosophy on education, lifelong learning, curriculum delivery, and adaptability. It should reinforce my credibility as a professional educator.
+
+**Acceptance Criteria**
+- [ ] Includes teaching experience and subject specialisms.  
+- [ ] Mentions of FE/secondary education and key qualifications.  
+- [ ] Shows commitment to CPD and learning.  
+- [ ] Links to other relevant pages are available.  
+- [ ] The site is responsive and accessible across desktop, tablet, and mobile.
+
+**Tasks**
+- [ ] Write about experience in schools and colleges.  
+- [ ] Reference CPD and formal qualifications (e.g. PGCE, CPD Graphic Design).  
+- [ ] Add links to other pages.  
+- [ ] Ensure tone is professional yet personal.  
+- [ ] Test readability and responsiveness across desktop, tablet, and mobile.  
+
+
+### 💼 4. IT Support / Web Employers (Recruiters / Hiring Managers)
+
+**User Goal**  
+As an IT employer, they want to understand my journey into IT and web development so that they can assess my technical potential and transferable skills.
+
+**Description**  
+This page should summarise my technical training, certifications, and motivation for entering IT. It should highlight my transition from teaching into full-stack development and technical support roles.
+
+**Acceptance Criteria**
+- [ ] Briefly mentions IT certifications: CompTIA A+, ITF+, CCNA.  
+- [ ] Notes current training: Level 5 Full Stack Development.  
+- [ ] Indicates transferable skills (communication, problem-solving, analysis).  
+- [ ] Links to other relevant pages are available.  
+- [ ] The site is responsive and accessible across desktop, tablet, and mobile.
+
+
+**Tasks**
+- [ ] Add paragraph like: “Alongside my teaching career, I hold industry certifications including A+, ITF+, and CCNA. I’m currently completing a Level 5 Full Stack Development diploma.”  
+- [ ] Emphasise adaptability and strong communication.  
+- [ ] Add buttons or links: “See My Technical Skills” / “View Projects”.  
+- [ ] Maintain a clean, modern layout.  
+- [ ] Add links to other pages.  
+- [ ] Test readability and responsiveness across desktop, tablet, and mobile.  
+
+
+## Summary of About Me Page Coverage
+
+| Stakeholder         | Focus                                            | Link/CTA                           |
+|---------------------|--------------------------------------------------|------------------------------------|
+| Developer (You)     | Communicate identity, values, and professionalism | Skills, Work Experience            |
+| Students/Parents    | Reassure about tutoring style and subjects       | Bookings                           |
+| Education Employers | Highlight teaching ethos, CPD, and qualifications | CV, Certifications, Experience     |
+| IT/Web Employers    | Showcase IT certifications and transition to development | Skills, Projects              |
+
+---
+
+## User Stories - Work Experience
