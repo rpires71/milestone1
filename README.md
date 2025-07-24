@@ -782,3 +782,131 @@ This page should briefly showcase my experience in IT systems, technical trouble
 ---
 
 ## User Stories - Skills
+
+### 1. Rob Pires – Website Developer (Site Owner)
+
+**User Goal** 
+
+As the developer, I want to showcase my diverse skill set in teaching, tutoring, IT, and web development so that all users understand my expertise and versatility.
+
+**Description** 
+
+The Skills page should present my strengths across multiple disciplines: education, IT support, and development. It should be clearly organised, visually appealing, and easy to scan. The content must be relevant to each target audience and lead users to deeper content (e.g. Certifications, Projects).
+
+**Acceptance Criteria**
+
+- [ ] Skills are grouped into logical categories (e.g. Teaching, Coding, Networking, IT Support, Project Management).  
+- [ ] Each skill has a short, clear description.  
+- [ ] Visual layout is consistent with site design (e.g. tiles, icons, badges).  
+- [ ] Links to supporting pages (e.g. Certifications, Projects, Work Experience) are included.  
+- [ ] Navigation is easy to use for non-technical users.
+- [ ] The site is responsive across desktop, tablet, and mobile.
+
+**Tasks**
+
+- [ ] Categorise skills and write short descriptions for each.  
+- [ ] Design tile-based or grid layout with icons and responsive behaviour.  
+- [ ] Link technical skills to Projects page and teaching skills to Work Experience.  
+- [ ] Implement responsive navigation using HTML/CSS or Bootstrap.
+- [ ] Test across desktop, tablet, and mobile.  
+
+### 2. Potential Tutees / Parents
+
+**User Goal**
+
+As a student or parent, they want to understand what subjects I tutor and how skilled I am so that they can be confident in my ability to support academic progress.
+
+**Description**
+
+This page should clearly communicate my subject knowledge in Computer Science and Mathematics. It should reassure users that I am experienced, qualified, and capable of supporting a range of learners.
+
+**Acceptance Criteria**
+
+- [ ] Subject areas are clearly listed with the relevant levels (KS3, GCSE, A-Level, Functional Skills).  
+- [ ] Teaching experience and approach are mentioned briefly.  
+- [ ] Key qualifications are highlighted or linked to the Certifications page.  
+- [ ] A link to Bookings or Contact page is visible.  
+- [ ] The site is responsive across desktop, tablet, and mobile.
+- [ ] There is an intuitive navigation menu linking to all main pages.
+
+**Tasks**
+
+- [ ] Write brief, accessible descriptions for CS and Maths.  
+- [ ] Include call-to-action: “Book a Tutoring Session” or “Enquire Now”.  
+- [ ] Highlight PGCE, CPD or relevant CPD courses with a link.  
+- [ ] Ensure menu links to other pages.
+- [ ] Implement responsive navigation using HTML/CSS or Bootstrap.
+- [ ] - [ ] Test across desktop, tablet, and mobile.  
+
+### 3. Education Employers (e.g. Headteachers, Curriculum Coordinators)
+
+**User Goal**
+
+As an employer, they want to see my professional competencies so that they can assess my suitability for teaching roles and curriculum development.
+
+**Description**
+
+This page should highlight teaching-related skills, such as curriculum planning, assessment, pastoral care, digital learning, and cross-curricular delivery. It should demonstrate my range, CPD engagement, and professional polish.
+
+**Acceptance Criteria**
+
+- [ ] Lists teaching competencies with clear examples (e.g. “GCSE Curriculum Design”, “BTEC Coursework Moderation”).  
+- [ ] Shows CPD engagement and adaptability (e.g. “Blended Learning”, “Behaviour Management”).  
+- [ ] Link to Work Experience and Certifications provided.  
+- [ ] Layout is formal and easy to scan.
+- [ ] Menu Links to other pages are easily accessible.
+- [ ] Option to download CV is visible.
+- [ ] The site is responsive across desktop, tablet, and mobile.
+
+
+**Tasks**
+
+- [ ] Write bullet points or tiles for each teaching skill with real-world context.  
+- [ ] Include subheadings: “Teaching & Curriculum Skills”, “Digital Learning”, “Leadership & Pastoral”.  
+- [ ] Add link: “See My Teaching Experience” or “View My Qualifications”.  
+- [ ] Style using a clean and professional format.  
+- [ ] Include a CV download button or link.
+- [ ] Feature quick-access menu links to other pages.
+- [ ] Implement responsive navigation using HTML/CSS or Bootstrap.
+
+### 4. IT Support / Web Employers
+
+**User Goal**
+
+As an IT recruiter or hiring manager, they want to quickly review my technical and development skills so that they can evaluate my potential for technical roles.
+
+**Description**
+
+This page should clearly communicate my hands-on knowledge of IT systems, networks, hardware, and web technologies. It should also reference my current full-stack training and technical certifications.
+
+**Acceptance Criteria**
+
+- [ ] IT and web development skills are grouped (e.g. “Frontend”, “Backend”, “Networking”, “Support”).  
+- [ ] Relevant technologies and tools are listed (e.g. Python, Git, HTML, Cisco, CompTIA).  
+- [ ] Mentions of qualifications (A+, CCNA, etc.) and current Full Stack course.  
+- [ ] Menu Links to other pages are provided e.g. Projects and Certifications pages .  
+- [ ] Navigation and layout are mobile/tablet-friendly and accessible.
+
+**Tasks**
+
+- [ ] List each technical skill with tool/language (e.g. “Python – scripting and basic web apps”).  
+- [ ] Organise into clear groups: Programming, Networking, Web Dev, Systems Support.  
+- [ ] Include short paragraph about ongoing Code Institute Level 5 training.  
+- [ ] Menu link to other pages e.g. Projects and Certifications pages.  
+- [ ] Use icons or badges for modern, visual appeal. 
+- [ ] Ensure skills loads quickly and looks clean on all devices.
+- [ ] Implement responsive navigation using HTML/CSS or Bootstrap.
+
+
+### Summary: Skills Page Coverage by Stakeholder
+
+| Stakeholder         | Focus                                           | Key Features / CTA                       |
+|---------------------|--------------------------------------------------|------------------------------------------|
+| Developer (You)     | Present well-organised, responsive summary of all skill areas | Grouped tiles, links to Projects and Certs |
+| Students / Parents  | Understand tutoring areas and confidence in subject delivery   | CS & Maths levels, call-to-action to Bookings |
+| Education Employers | Review teaching/pedagogical skills in detail               | Curriculum skills, CPD, link to Experience |
+| IT / Web Employers  | View IT and dev expertise and relevant tools/languages     | Programming, certifications, link to Projects |
+
+---
+
+## User Stories - Certifications
