@@ -909,3 +909,134 @@ This page should clearly communicate my hands-on knowledge of IT systems, networ
 ---
 
 ## User Stories - Certifications
+
+### 1. Rob Pires – Website Developer (Site Owner)
+
+**User Goal** 
+
+As the developer, I want to clearly inform them of my teaching and IT-related qualifications so that visitors can verify my professional credentials and trust my expertise.
+
+**Description**  
+
+This page will inform the target audience of my formal training, including teaching, IT support, graphic design, and full stack development. The layout should be clean and responsive, using icons or tiles for easy scanning.
+
+**Acceptance Criteria**
+
+- [ ] Displays all relevant qualifications with name, awarding body, and year.  
+- [ ] Groups certifications by category (e.g. Teaching, IT, Design, Development).  
+- [ ] Includes visual elements like icons or logos where appropriate.  
+- [ ] Responsive design works across desktop, tablet, and mobile.  
+- [ ] Links to download CV or view Work Experience and Skills.  
+- [ ] There is an intuitive navigation menu linking to all main pages.
+
+**Tasks**
+
+- [ ] Categorise and list certifications (e.g. PGCE, CompTIA A+, CCNA, CPD Graphic Design).  
+- [ ] Write clear descriptions for each.  
+- [ ] Design tile or card layout with logos/icons.  
+- [ ] Add menu links to other pages e.g. CV, Work Experience, and Skills pages.  
+- [ ] Ensure accessibility (alt text, keyboard navigation).  
+- [ ] Implement responsive navigation using HTML/CSS or Bootstrap.
+- [ ] Style certification page with a clean, professional layout.
+
+### 2.Potential Tutees / Parents
+
+**User Goal**  
+
+As a parent or student, they want to see my qualifications so that they know I am properly trained to teach and tutor Computer Science and Mathematics.
+
+**Description**  
+
+This page should highlight my teaching credentials and relevant subject-related training (e.g. PGCE, CPD courses), helping build trust and demonstrating professional legitimacy.
+
+**Acceptance Criteria**
+
+- [ ] Teaching qualifications (e.g. PGCE, CPD) are easy to find and explained simply.  
+- [ ] No technical jargon — use parent-friendly language.  
+- [ ] Highlights subject-specific credentials (e.g. Computer Science).  
+- [ ] Includes a call-to-action to Bookings page.  
+- [ ] A call-to-action guides users to the Bookings page.
+- [ ] Navigation is easy to use for non-technical users.
+- [ ] The site is responsive across desktop, tablet, and mobile.
+
+**Tasks**
+
+- [ ] Add a heading like “Qualified Teacher & Subject Specialist”.  
+- [ ] Provide short description of PGCE and CPD training in plain English.  
+- [ ] Emphasise Maths and CS relevance.  
+- [ ] Include a button or link: “Book a Tutoring Session”.  
+- [ ] Ensure menu links to other pages.
+- [ ] Implement responsive navigation using HTML/CSS or Bootstrap.
+
+### 3. Education Employers (e.g. Headteachers, HR Managers)
+
+**User Goal**  
+
+As an education employer, they want to verify my formal qualifications so that they can ensure I meets compliance and curriculum delivery standards.
+
+**Description**  
+
+The page should provide a clear breakdown of my teaching qualifications, IT expertise, and additional CPD. It should demonstrate subject specialism, continuous development, and eligibility for roles in secondary or FE education.
+
+**Acceptance Criteria**
+
+- [ ] Clearly lists PGCE, subject degree, and recent CPD.  
+- [ ] Includes dates and awarding institutions.  
+- [ ] Mentions any safeguarding or SEND CPD if applicable.  
+- [ ] Offers link to downloadable CV or Work Experience.  
+- [ ] Menu links to other pages are easily accessible.
+- [ ] The layout reflects professionalism and clarity.
+- [ ] The site is responsive across desktop, tablet, and mobile.
+
+**Tasks**
+
+- [ ] Add list format or structured layout for formal credentials.  
+- [ ] Label each entry: “Qualification – Institution – Year”.  
+- [ ] Include section for recent CPD (e.g. National College, BCS).  
+- [ ] Add link: “View Full CV” or “Explore Teaching Experience”.  
+- [ ] Feature quick-access menu links to other pages.
+- [ ] Implement responsive navigation using HTML/CSS or Bootstrap.
+
+
+### 4. IT Support / Web Employers (Recruiters, Tech Hiring Managers)
+
+**User Goal**  
+
+As an IT/web employer, they want to see my technical certifications and current training so that they can assess whether I am qualified for a support or development role.
+
+**Description**  
+
+This page should clearly list my technical certifications (e.g. CompTIA A+, ITF+, CCNA) and current training (e.g. Full Stack Diploma with Code Institute), showing my proactive upskilling and technical credibility.
+
+**Acceptance Criteria**
+
+- [ ] Shows relevant IT and networking certifications (A+, CCNA, ITF+).  
+- [ ] Mentions current full-stack training and web dev focus.  
+- [ ] Includes skills related to support, networks, coding.  
+- [ ] Provides men links to other pages e.g. Projects and Skills pages. 
+- [ ] Navigation and layout are mobile/tablet-friendly and accessible.
+- [ ] The site is responsive across desktop, tablet, and mobile.
+
+**Tasks**
+
+- [ ] Group technical qualifications separately from teaching.  
+- [ ] Use IT-related logos/icons (e.g. CompTIA, Cisco, Code Institute).  
+- [ ] Write short, informative blurbs for each certification.  
+- [ ] Add internal menu links to other mages ]e.g. Skills, Projects.  
+- [ ] Ensure certifications page loads quickly and looks clean on all devices.
+- [ ] Place technical content where it's easy to notice but not overwhelming.
+- [ ] Implement responsive navigation using HTML/CSS or Bootstrap.
+
+
+## Summary: Stakeholder Goals for Certifications Page
+
+| Stakeholder         | Key Goal                                         | Essential Features / Links                      |
+|---------------------|--------------------------------------------------|--------------------------------------------------|
+| Developer (You)     | Showcase all credentials in a visual, accessible format | Grouped layout, icons, links to CV/Skills        |
+| Students / Parents  | Build trust through clear evidence of teaching training | PGCE/CPD highlighted, CTA to Bookings            |
+| Education Employers | Verify Rob's qualifications for teaching positions       | Full list with institutions and dates, CV link   |
+| IT/Web Employers    | Validate technical ability and current IT training      | IT/Dev certs, link to Projects and Skills        |
+
+---
+
+## User Stories - Bookings
