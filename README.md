@@ -1169,7 +1169,7 @@ The page should provide a brief summary of my IT services (e.g. technical suppor
 | Developer (You)     | Provide simple way for visitors to request services    | Booking form, service summaries, confirmation message          |
 | Students / Parents  | Easily book tutoring for specific subjects and levels  | Service options, friendly tone, “Book Now” CTA                 |
 | Education Employers | Make professional enquiries and access CV and credentials | Form + CV download, links to Work Experience & Certs         |
-| IT / Web Employers  | Request Rob for freelance/contract work in IT/web dev  | IT service list, form fields, links to Projects/Skills         |
+| IT / Web Employers  | Request me for freelance/contract work in IT/web dev  | IT service list, form fields, links to Projects/Skills         |
 
 ---
 
