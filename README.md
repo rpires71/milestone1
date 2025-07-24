@@ -779,3 +779,6 @@ This page should briefly showcase my experience in IT systems, technical trouble
 | Education Employers | Assess Rob’s teaching background, subject areas, and institutions | Bullet points, chronological layout, link to CV |
 | IT/Web Employers    | Identify relevant IT support and technical roles         | Mention certifications, link to Skills/Projects  |
 
+---
+
+## User Stories - Skills
