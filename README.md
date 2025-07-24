@@ -896,7 +896,7 @@ This page should clearly communicate my hands-on knowledge of IT systems, networ
 - [ ] Use icons or badges for modern, visual appeal. 
 - [ ] Ensure skills loads quickly and looks clean on all devices.
 - [ ] Implement responsive navigation using HTML/CSS or Bootstrap.
-
+- [ ] 
 
 ### Summary: Skills Page Coverage by Stakeholder
 
