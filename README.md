@@ -626,7 +626,7 @@ The About Me page should convey my philosophy on education, lifelong learning, c
 - [ ] Test readability and responsiveness across desktop, tablet, and mobile.  
 
 
-### 💼 4. IT Support / Web Employers (Recruiters / Hiring Managers)
+### 4. IT Support / Web Employers (Recruiters / Hiring Managers)
 
 **User Goal**  
 As an IT employer, they want to understand my journey into IT and web development so that they can assess my technical potential and transferable skills.
