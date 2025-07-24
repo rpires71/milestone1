@@ -1040,3 +1040,137 @@ This page should clearly list my technical certifications (e.g. CompTIA A+, ITF+
 ---
 
 ## User Stories - Bookings
+
+### 1. Rob Pires – Website Developer (Site Owner)
+
+**User Goal**  
+
+As the developer, I want a clean and accessible booking form so that visitors can easily enquire about tutoring, teaching, or IT services without needing to contact me manually.
+
+**Description**  
+
+The page should include a simple, responsive booking/enquiry form and outline the services I offer (e.g. tutoring, freelance IT support, training). It should provide multiple ways to get in touch and reinforce professionalism and trust.
+
+**Acceptance Criteria**
+
+- [ ] Includes a contact/booking form with fields for name, telephone, email, subject/service and message.  
+- [ ] Form is responsive across all devices.  
+- [ ] A confirmation message appears upon successful submission.  
+- [ ] Clear summary of available services is shown above the form.  
+- [ ] Menu links to all relevant pages e.g. Skills, and Projects.  
+- [ ] The site is responsive across desktop, tablet, and mobile.
+- [ ] There is an intuitive navigation menu linking to all main pages.
+
+**Tasks**
+
+- [ ] Design and build a booking form using HTML and CSS (or form integration tool).  
+- [ ] Add validation for required fields.  
+- [ ] Write short service descriptions (e.g. “Tutoring – GCSE Maths & CS”, “IT support – software/hardware troubleshooting”).  
+- [ ] Set up form submission (e.g. via email).  
+- [ ] Add confirmation message or redirect.  
+- [ ] Style layout to be clean, professional, and accessible.  
+- [ ] Implement responsive navigation using HTML/CSS or Bootstrap.
+- [ ] Menu links to key sections to other pages.
+- [ ] Style bookings page with a clean, professional layout.
+
+### 2. Potential Tutees / Parents
+
+**User Goal**  
+
+As a student or parent, they want to book a tutoring session easily so that they can get academic support from me without delays or confusion.
+
+**Description**  
+
+The page should provide a friendly summary of tutoring services offered (subject, level, availability), followed by a clear and easy-to-use form. Tone and layout should be reassuring and parent/student-friendly.
+
+**Acceptance Criteria**
+
+- [ ] Clearly lists subjects and levels offered (e.g. KS3, GCSE, A-Level).  
+- [ ] Form includes service selection and optional message area.  
+- [ ] Language is accessible and welcoming.  
+- [ ] Menu links to other pages are visible.  
+- [ ] Navigation is easy to use for non-technical users.
+- [ ] The site is responsive across desktop, tablet, and mobile.
+
+**Tasks**
+
+- [ ] Write a short section explaining tutoring services.  
+- [ ] Add form field for selecting tutoring level or subject.  
+- [ ] Include prompt: “Not sure what you need? Leave a message and I’ll get in touch.”  
+- [ ] Add call-to-action: “Book a Tutoring Session” or “Enquire Now”.  
+- [ ] Style form for simplicity and accessibility.  
+- [ ] Ensure menu links to other pages.
+- [ ] Implement responsive navigation using HTML/CSS or Bootstrap.
+
+### 3. Education Employers (e.g. Heads, Cover Managers)
+
+**User Goal**  
+
+As an education employer, they want to enquire about my availability for teaching or freelance curriculum support so that they can quickly initiate a professional conversation.
+
+**Description**  
+
+The page should cater to professional inquiries by listing available services (e.g. short-term teaching, resource design, tutoring), a form to capture details, and menu links to other pages e.g. CV and certifications.
+
+**Acceptance Criteria**
+
+- [ ] Mentions availability for part-time/contract roles, online sessions, or curriculum consultation.  
+- [ ] Includes a message field to outline request details.  
+- [ ] CV download and links to Work Experience and Certifications are clearly accessible.  
+- [ ] Professional tone throughout.  
+- [ ] Menu links to other pages are easily accessible.
+- [ ] The layout reflects professionalism and clarity.
+- [ ] The site is responsive across desktop, tablet, and mobile.
+
+**Tasks**
+
+- [ ] Add brief section: “Available for freelance teaching, intervention support, or curriculum resource development.”  
+- [ ] Include link: “Download My CV” and button to “View Teaching Experience”.  
+- [ ] Customise form field for “Organisation / Institution Name”.  
+- [ ] Test for form reliability and professional tone.  
+- [ ] Feature quick-access menu links to other pages.
+- [ ] Implement responsive navigation using HTML/CSS or Bootstrap.
+
+### 4. IT Support / Web Employers
+
+**User Goal**  
+
+As an IT recruiter or employer, they want to request my availability for technical work or collaboration so that they can make an informed hiring decision.
+
+**Description**  
+
+The page should provide a brief summary of my IT services (e.g. technical support, web development, training), along with a clear form to request availability or submit an opportunity.
+
+**Acceptance Criteria**
+
+- [ ] Lists services like PC setup, troubleshooting, web dev, or support roles.  
+- [ ] Option to specify the type of service needed.  
+- [ ] Includes links to technical Skills and Projects pages.  
+- [ ] Professional and concise layout.  
+- [ ] Provides menu links to other pages e.g. Projects and Skills pages.
+- [ ] Navigation and layout are mobile/tablet-friendly and accessible.
+- [ ] The site is responsive across desktop, tablet, and mobile.
+
+**Tasks**
+
+- [ ] Write short list: “Technical services offered: CompTIA-certified PC support, network troubleshooting, front-end development.”  
+- [ ] Include form field for “Type of Service Requested”.  
+- [ ] Add internal links: “See My IT Skills” / “View Projects”.  
+- [ ] Include option to upload job spec (optional advanced feature).  
+- [ ] Ensure layout works well on mobile and desktop.  
+- [ ] Add internal menu links to other mages ]e.g. Skills, Projects.
+- [ ] Ensure bookings page loads quickly and looks clean on all devices.
+- [ ] Implement responsive navigation using HTML/CSS or Bootstrap.
+
+### Summary – Bookings Page for All Stakeholders
+
+| Stakeholder         | User Goal                                              | Key Features / Actions                                        |
+|---------------------|--------------------------------------------------------|----------------------------------------------------------------|
+| Developer (You)     | Provide simple way for visitors to request services    | Booking form, service summaries, confirmation message          |
+| Students / Parents  | Easily book tutoring for specific subjects and levels  | Service options, friendly tone, “Book Now” CTA                 |
+| Education Employers | Make professional enquiries and access CV and credentials | Form + CV download, links to Work Experience & Certs         |
+| IT / Web Employers  | Request Rob for freelance/contract work in IT/web dev  | IT service list, form fields, links to Projects/Skills         |
+
+---
+
+## User Stories - Conferences/Workshops
