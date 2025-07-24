@@ -836,7 +836,7 @@ This page should clearly communicate my subject knowledge in Computer Science an
 - [ ] Highlight PGCE, CPD or relevant CPD courses with a link.  
 - [ ] Ensure menu links to other pages.
 - [ ] Implement responsive navigation using HTML/CSS or Bootstrap.
-- [ ] - [ ] Test across desktop, tablet, and mobile.  
+- [ ] Test across desktop, tablet, and mobile.  
 
 ### 3. Education Employers (e.g. Headteachers, Curriculum Coordinators)
 
@@ -896,7 +896,6 @@ This page should clearly communicate my hands-on knowledge of IT systems, networ
 - [ ] Use icons or badges for modern, visual appeal. 
 - [ ] Ensure skills loads quickly and looks clean on all devices.
 - [ ] Implement responsive navigation using HTML/CSS or Bootstrap.
-- [ ] 
 
 ### Summary: Skills Page Coverage by Stakeholder
 
