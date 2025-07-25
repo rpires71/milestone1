@@ -954,7 +954,6 @@ This page should highlight my teaching credentials and relevant subject-related 
 - [ ] Teaching qualifications (e.g. PGCE, CPD) are easy to find and explained simply.  
 - [ ] No technical jargon — use parent-friendly language.  
 - [ ] Highlights subject-specific credentials (e.g. Computer Science).  
-- [ ] Includes a call-to-action to Bookings page.  
 - [ ] A call-to-action guides users to the Bookings page.
 - [ ] Navigation is easy to use for non-technical users.
 - [ ] The site is responsive across desktop, tablet, and mobile.
