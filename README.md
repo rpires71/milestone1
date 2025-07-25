@@ -1173,3 +1173,141 @@ The page should provide a brief summary of my IT services (e.g. technical suppor
 ---
 
 ## User Stories - Conferences/Workshops
+
+### 1. Rob Pires – Website Developer (Site Owner)
+
+**User Goal**
+
+As the developer, I want to present a record of professional development activities so that I can demonstrate my commitment to lifelong learning, industry engagement, and continual skill growth.
+
+**Description**
+
+This page should visually and clearly display a timeline or list of workshops, conferences, and training programmes I’ve attended. It should highlight relevance to teaching, IT, and web development.
+
+**Acceptance Criteria**
+
+- [ ] Events are listed in chronological or grouped format.  
+- [ ] Each entry includes title, provider, date, and focus topic.  
+- [ ] Related pages are linked (e.g. Skills, Certifications).  
+- [ ] Layout is visually clean and easy to update in future.  
+- [ ] Includes visual elements like icons or logos where appropriate.
+- [ ] Responsive design works across desktop, tablet, and mobile.
+- [ ] There is an intuitive navigation menu linking to all main pages.
+
+**Tasks**
+
+- [ ] Compile list of CPD activities from CV.  
+- [ ] Organise into categories (e.g. Teaching, IT, Web Dev).  
+- [ ] Write short descriptions (1–2 lines each).  
+- [ ] Design layout (e.g. vertical timeline or grid).  
+- [ ] Link relevant workshops to other site sections if applicable. 
+- [ ] Design tile or card layout with logos/icons.
+- [ ] Add menu links to other pages e.g. CV, Work Experience, and Skills pages.
+- [ ] Ensure accessibility (alt text, keyboard navigation).
+- [ ] Implement responsive navigation using HTML/CSS or Bootstrap.
+- [ ] Style conferences/workshops page with a clean, professional layout.
+
+### 2. Potential Tutees / Parents
+
+**User Goal**
+  
+As a student or parent, they want to see that I keep my subject knowledge up to date so that they feel confident that my tutoring reflects current best practices and methods.
+
+**Description** 
+
+The page should highlight relevant educational training and subject updates. The tone should be reassuring and show that I am active in improving my teaching for student benefit.
+
+**Acceptance Criteria**
+
+- [ ] Lists events that relate to subject content, pedagogy, or exam boards.  
+- [ ] Uses friendly, accessible language with minimal jargon.  
+- [ ] Mentions events that relate to supporting students of all abilities.  
+- [ ] Menu links to other relevant pages e.g. Bookings.  
+- [ ] No technical jargon — use parent-friendly language.
+- [ ] Navigation is easy to use for non-technical users.
+- [ ] The site is responsive across desktop, tablet, and mobile.
+
+**Tasks**
+
+- [ ] Highlight workshops focused on curriculum, SEND, assessment or exam board updates.  
+- [ ] Avoid heavy technical terms in summaries.  
+- [ ] Write brief intro paragraph explaining why CPD matters in tutoring.  
+- [ ] Add call-to-action: “Book a Tutoring Session”.  
+- [ ] Ensure menu links to other pages.
+- [ ] Implement responsive navigation using HTML/CSS or Bootstrap.
+
+### 3. Education Employers (e.g. Headteachers, Quality Leads)
+
+**User Goal**
+
+As an employer, they want to review my engagement with CPD and professional development so that they can assess my enthusiasm for teaching and professional growth.
+
+**Description** 
+
+The page should provide evidence of regular CPD and formal training attendance. It should reflect a proactive, reflective practitioner who values development in pedagogy, technology, and subject delivery.
+
+**Acceptance Criteria**
+
+- [ ] Shows a diverse range of events (safeguarding, behaviour, curriculum, tech).  
+- [ ] Includes organiser/provider (e.g. National College, BCS, exam boards).  
+- [ ] Shows recent activity (within the last 2–3 years).  
+- [ ] Offers link to downloadable CV.
+- [ ] Menu links to other pages are easily accessible.
+- [ ] The layout reflects professionalism and clarity.
+- [ ] The site is responsive across desktop, tablet, and mobile.
+
+**Tasks**
+
+- [ ] Categorise events by topic or year.  
+- [ ] Include providers and official names (e.g. “BCS National Conference on Digital Literacy”).  
+- [ ] Ensure dates are visible or approximated.  
+- [ ] Add link: “View My Certifications” or “Explore Teaching Experience”.  
+- [ ] Include recent CPD (e.g. National College, BCS).
+- [ ] Feature quick-access menu links to other pages.
+- [ ] Implement responsive navigation using HTML/CSS or Bootstrap.
+
+
+### 4. IT Support / Web Employers
+
+**User Goal**
+
+As an IT recruiter, they want to see if I have engaged in any technical or digital development events so that they can assess my readiness for hybrid or IT-focused roles.
+
+**Description**
+
+This page should highlight attendance at tech-focused events, digital transformation workshops, or any formal IT training. It should indicate I am upskilling beyond the classroom and into digital technologies.
+
+**Acceptance Criteria**
+
+- [ ] Lists tech/web development-related conferences and workshops.  
+- [ ] Mentions any networking, systems, or digital tools covered.  
+- [ ] Shows progression toward full-stack development or IT support.  
+- [ ] Includes link to Projects or Skills pages.  
+- [ ] Provides menu links to other pages e.g. Projects and Skills pages.
+- [ ] Navigation and layout are mobile/tablet-friendly and accessible.
+- [ ] The site is responsive across desktop, tablet, and mobile.
+
+**Tasks**
+
+- [ ] Isolate IT/web-focused entries from broader CPD list.  
+- [ ] Add skills gained or technologies explored where relevant.  
+- [ ] Include entry like: “Code Institute Bootcamp: Full Stack Fundamentals”.  
+- [ ] Add button/link: “View My Technical Skills” / “See Projects”.  
+- [ ] Write short, informative blurbs for each conference/workshop.
+- [ ] Add internal menu links to other mages ]e.g. Skills, Projects.
+- [ ] Ensure conferences/workshops page loads quickly and looks clean on all devices.
+- [ ] Place technical content where it's easy to notice but not overwhelming.
+- [ ] Implement responsive navigation using HTML/CSS or Bootstrap.
+
+### Summary of Stakeholder Goals on Conferences/Workshops Page
+
+| Stakeholder         | Focus                                               | Key Features / Actions                                      |
+|---------------------|-----------------------------------------------------|-------------------------------------------------------------|
+| Developer (You)     | Document commitment to professional growth          | Organised CPD listing, links to Skills/Certs                |
+| Students/Parents    | Reassure learners of up-to-date teaching knowledge  | Subject-related events, student-first language              |
+| Education Employers | Assess CPD engagement, safeguarding, pedagogy       | Variety of CPD shown, dated entries, formal providers       |
+| IT/Web Employers    | Evidence of digital/technical training and growth   | Mention tech events, link to Projects or Skills             |
+
+---
+
+## User Stories - Projects
