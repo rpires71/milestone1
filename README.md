@@ -1311,3 +1311,143 @@ This page should highlight attendance at tech-focused events, digital transforma
 ---
 
 ## User Stories - Projects
+
+### 1. Rob Pires – Website Developer (Site Owner)
+
+**User Goal**  
+
+As the developer, I want to showcase a variety of my technical, creative, and educational projects so that visitors can see how I apply my skills in real-world scenarios.
+
+**Description**  
+
+This page should demonstrate practical applications of my teaching, web development, and IT skills through real or simulated projects. It should show progression, relevance to each stakeholder, and reflect both technical and problem-solving ability.
+
+**Acceptance Criteria**
+
+- [ ] At least 2–4 projects are presented with title, description, technologies used, and role.  
+- [ ] Each project includes images, code links (e.g. GitHub), or live demos where possible.  
+- [ ] Projects span a variety of skill areas (e.g. tutoring, web dev, IT support).  
+- [ ] Projects are presented in a clean, responsive grid or card layout.  
+- [ ] Includes visual elements like icons or logos where appropriate.
+- [ ] Responsive design works across desktop, tablet, and mobile.
+- [ ] There is an intuitive navigation menu linking to all main pages.
+
+**Tasks**
+
+- [ ] Select 2–4 strong projects to include.  
+- [ ] Write 100–150 word summaries for each (challenge, solution, result).  
+- [ ] Mention tools/technologies used (e.g. HTML, CSS, Bootstrap, Python, Canva).  
+- [ ] Include screenshots, GitHub links, or embedded previews.  
+- [ ] Style the layout in responsive tiles/cards.  
+- [ ] Design tile or card layout with logos/icons.
+- [ ] Add menu links to other pages e.g. CV, Work Experience, and Skills pages.
+- [ ] Ensure accessibility (alt text, keyboard navigation).
+- [ ] Implement responsive navigation using HTML/CSS or Bootstrap.
+- [ ] Style certification page with a clean, professional layout.
+
+### 2. Potential Tutees / Parents
+
+**User Goal**  
+
+As a student or parent, they want to see examples of my educational or digital teaching projects so that they feel confident in my ability to create engaging, useful learning resources.
+
+**Description**  
+
+The page should show examples of projects that demonstrate creativity, organisation, and the ability to support student learning—especially with younger learners or exam preparation. Projects should be described clearly without heavy jargon.
+
+**Acceptance Criteria**
+
+- [ ] At least one project is related to education or student support.  
+- [ ] Descriptions are written in plain English.  
+- [ ] Mentions how the project supports learning (e.g. revision app, lesson planning tool).  
+- [ ] Option to get in touch or book a session is included.  
+- [ ] No technical jargon — use parent-friendly language.
+- [ ] A call-to-action guides users to the Bookings page.
+- [ ] Navigation is easy to use for non-technical users.
+- [ ] The site is responsive across desktop, tablet, and mobile.
+
+**Tasks**
+
+- [ ] Identify and feature a relevant education-related project (e.g. interactive quiz, digital lesson resource).  
+- [ ] Use student/parent-friendly language.  
+- [ ] Add call-to-action: “Book Tutoring Support” or “View Subjects I Teach”.  
+- [ ] Include visuals to show project outcome (e.g. interface screenshot or PDF layout).  
+- [ ] Include a button or link: “Book a Tutoring Session”.
+- [ ] Ensure menu links to other pages.
+- [ ] Implement responsive navigation using HTML/CSS or Bootstrap.
+
+### 3. Education Employers (e.g. Curriculum Leads, SLT)
+
+**User Goal**  
+
+As an education employer, they want to see practical examples of my curriculum contributions, digital tools, or subject knowledge so that they can assess my suitability for teaching or blended learning roles.
+
+**Description**  
+
+This page should highlight education-aligned projects that reflect planning, resource design, and subject mastery. Projects might involve teaching materials, tech-enhanced learning, or cross-disciplinary skills (e.g. design, IT, coding).
+
+**Acceptance Criteria**
+
+- [ ] At least one project demonstrates subject curriculum delivery or digital education.  
+- [ ] Describes the educational intent, tools used, and outcomes.  
+- [ ] Includes mention of differentiation, student engagement, or assessment design (if relevant).  
+- [ ] Clearly linked to Work Experience and Skills pages.  
+- [ ] Clearly lists PGCE, subject degree, and recent CPD.
+- [ ] Offers link to downloadable CV or Work Experience.
+- [ ] Menu links to other pages are easily accessible.
+- [ ] The layout reflects professionalism and clarity.
+- [ ] The site is responsive across desktop, tablet, and mobile.
+
+**Tasks**
+
+- [ ] Choose or adapt a project that reflects your teaching background.  
+- [ ] Write a summary focusing on pedagogy, planning, and subject knowledge.  
+- [ ] Label it under “Educational Projects” or similar heading.  
+- [ ] Link to About Me, Work Experience, or Skills for further context.  
+- [ ] Feature quick-access menu links to other pages.
+- [ ] Implement responsive navigation using HTML/CSS or Bootstrap.
+
+### 4. IT Support / Web Employers
+
+**User Goal**  
+
+As an IT recruiter or employer, they want to assess my ability to build, document, and maintain digital projects using current tools and practices so that they can evaluate my technical and communication skills.
+
+**Description** 
+ 
+This page should feature projects built using web or IT-related technologies. Projects should highlight both technical competence and attention to detail, including evidence of problem-solving, documentation, and collaboration potential.
+
+**Acceptance Criteria**
+
+- [ ] At least two projects demonstrate technical ability (e.g. web app, script, website).  
+- [ ] Clearly mentions languages/technologies used.  
+- [ ] Includes GitHub link or live site preview.  
+- [ ] Describes project purpose, scope, and your role in its completion.  
+- [ ] Provides menu links to other pages e.g. Certifications and Skills pages.
+- [ ] Navigation and layout are mobile/tablet-friendly and accessible.
+- [ ] The site is responsive across desktop, tablet, and mobile.
+
+**Tasks**
+
+- [ ] Select IT/web-related projects (e.g. portfolio site, responsive form, game).  
+- [ ] Write technical summaries: stack used, challenges faced, learning outcomes.  
+- [ ] Add GitHub buttons and images/screen recordings if available.  
+- [ ] Organise with tags like “Frontend”, “Backend”, or “Full Stack”.  
+- [ ] Write short, informative blurbs for each project.
+- [ ] Add internal menu links to other pages e.g. Skills, Projects.
+- [ ] Ensure projects page loads quickly and looks clean on all devices.
+- [ ] Place technical content where it's easy to notice but not overwhelming.
+- [ ] Implement responsive navigation using HTML/CSS or Bootstrap.
+
+### Summary Table – Stakeholder Goals on Projects Page
+
+| Stakeholder         | Goal                                                         | Key Features / CTA                                           |
+|---------------------|--------------------------------------------------------------|--------------------------------------------------------------|
+| Developer (You)     | Showcase diverse real-world applications of your skills      | Grid layout, links to GitHub, live demos, screenshots        |
+| Students / Parents  | See educational or tutoring-related projects to build trust  | Plain English, education focus, “Book a Session” link        |
+| Education Employers | Assess curriculum, resource creation, and subject planning   | Pedagogical context, education tools, planning focus         |
+| IT/Web Employers    | Evaluate technical skills and development workflow           | GitHub links, stack details, documentation quality           |
+
+---
+
+
