@@ -1967,7 +1967,7 @@ Two typeface fonts will be used across the website to ensure consistency and per
 ### HTML integration:
 
 ```html
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">```
 
 ### CSS Usage:
 
@@ -1977,7 +1977,7 @@ body {
 }
 h1, h2, h3 {
   font-family: 'Montserrat', sans-serif;
-}
+}```
 
 ### Accessibility and Compatibility
 
