@@ -1923,4 +1923,88 @@ This thoughtful application of colour not only reflects my professional ethos bu
 
 ---
 
+## Typography Justification for Portfolio Website
 
+### Overview
+
+To ensure professionalism, clarity, and accessibility across a range of devices and target audiences, the typography for this portfolio website has been thoughtfully selected.
+
+The target audience includes IT/web recruiters, education employers, students, and parents. After researching effective approaches that align with industry standards and also support a strong visual hierarchy, the chosen combination is **Montserrat** for headings and **Open Sans** for body text.
+
+### Typography Goals
+
+The above combination of typefaces was chosen due to being:
+
+- Easy to read and accessible  
+- Professional and trustworthy  
+- Modern yet friendly  
+- Fully responsive and readable on all screen sizes  
+
+### Primary Typeface – Montserrat (Headings)
+
+A widely used educational and tech-based web interface is the geometric, sans-serif typeface **Montserrat**. For section titles, headings and navigation items, its wide character spacing and structured design is ideal.
+
+**Justification:**  
+The Montserrat typeface conveys professionalism and clarity. It also supports visual hierarchy for fast content scanning. Furthermore, it performs consistently across desktop and mobile platforms and is well-suited to education and technology contexts.
+
+### Secondary Typeface – Open Sans (Body Text)
+
+For optimal reading comfort, **Open Sans**, a sans-serif typeface, is effective. Owing to its open structure and high x-height, it performs well for body text, CV content, project summaries, and extended written material.
+
+**Justification:**  
+The Open Sans typeface is optimised for on-screen legibility at smaller sizes. Moreover, it offers a neutral and friendly tone, appropriate for both academic and professional contexts. It is also highly accessible for users with dyslexia or visual processing difficulties, and helps to minimise eye strain and improve long-form readability.
+
+### Implementation
+
+Two typeface fonts will be used across the website to ensure consistency and performance.
+
+### Typography specifications:
+
+- Body text minimum size: `16px` (in line with accessibility standards)  
+- Font weights: `400` for body content, `600–700` for headings  
+- System fallback: `'Arial', sans-serif`  
+
+### HTML integration:
+
+```html
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+
+### CSS Usage:
+
+```css
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+h1, h2, h3 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+### Accessibility and Compatibility
+
+- Both **Montserrat** and **Open Sans** comply with **WCAG 2.1** guidelines for typographic contrast and legibility.  
+- Fully supported across all major browsers: Chrome, Firefox, Edge, Safari, and mobile platforms.  
+- Delivered via the **Google Fonts CDN** for speed and reliability.  
+- Option available to self-host for offline scenarios.  
+
+
+### Alignment with Stakeholders
+
+| **Stakeholder**         | **Typographic Benefit**                                                                 |
+|-------------------------|------------------------------------------------------------------------------------------|
+| Students / Parents       | Open Sans provides clarity and a welcoming tone, fostering trust and readability.        |
+| Education Employers      | Montserrat presents professionalism and structure, assisting in credential review.       |
+| IT/Web Employers         | The modern sans-serif pairing demonstrates digital fluency and technical awareness.      |
+| Developer (Site Owner)   | Straightforward to apply and maintain; supports responsive layouts on all devices.       |
+
+### Summary
+
+The combination of **Montserrat** and **Open Sans** forms a strong typographic system that:
+
+- Improves readability, clarity, and user accessibility.  
+- Projects a modern, confident, and professional visual tone.  
+- Meets the needs of educational and technology-oriented audiences.  
+- Supports consistent branding and responsive web design.  
+
+This typography approach meets both the aesthetic goals and functional requirements for my portfolio website. It also contributes to a visually cohesive, inclusive, and engaging user experience.
+
+---
