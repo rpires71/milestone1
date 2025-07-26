@@ -1846,3 +1846,81 @@ As an IT recruiter or employer, they want to initiate a live conversation with m
 
 ---
 
+## Colour Palette Justification for Portfolio Website
+
+### Chosen Colour Palette
+
+| Colour Name              | Hex Code   | Usage                                 |
+|--------------------------|------------|----------------------------------------|
+| Hazel Brown              | `#B7986B`  | Primary accents, buttons               |
+| Gold Brown               | `#CBA135`  | Highlights, call-to-action elements    |
+| Dark Chocolate Brown     | `#3E2C23`  | Headings, footer backgrounds           |
+| Light Beige (Background) | `#F9F6F1`  | Main page background                   |
+| Dark Grey / Dark Brown   | –          | Body text and headings                 |
+
+
+### Overview and Rationale
+
+To ensure accessibility and visual consistency that reflects my personal brand, my selected colour scheme is intended to create a warm, welcoming, and professional appearance. To support readability and user comfort across a range of devices, the brown and gold tones are paired with a neutral background.
+
+
+### Justification
+
+**Warm, Earthy Tones for Professional Appeal**
+
+To convey a sense of reliability, the colour scheme is based on warm and earthy tones. I consider this approach appropriate for a professional portfolio—particularly in my case, which involves education and IT contexts where credibility and clarity are essential.
+
+**High Contrast for Readability and Accessibility**
+
+By adhering to WCAG accessibility standards and ensuring optimal colour contrast, the use of dark chocolate brown and dark grey text on a light beige background has been selected. This approach supports readability for users with visual impairments or cognitive processing challenges.
+
+**Harmonious and Balanced Design**
+
+By incorporating five core colours into the website, the approach follows the design ‘odd number rule’. This helps the interface remain both dynamic and visually appealing while maintaining a sense of balance and interest.
+
+**Strategic Emphasis with Gold Accents**
+
+For interactive elements such as highlights and call-to-action buttons, I have chosen Gold Brown (`#CBA135`). Without distracting or detracting from the overall content hierarchy, this approach provides clear visual focal points.
+
+**Brand Consistency Across All Components**
+
+The defined colour palette ensures that all design elements—including icons, interface components, and typographic styles—adhere to a cohesive standard. This contributes to a seamless and consistent browsing experience, reinforcing user familiarity and brand recognition.
+
+### Applied Colour Theory Principles
+
+**1. Warm Colour Psychology**
+
+To create an environment of comfort and trust, this is supported by the use of warm tones such as brown and gold. For the target audience, which includes parents and employers in creative or IT-oriented sectors, these colour attributes are particularly effective.
+
+**Monochromatic and Analogous Harmony**
+
+To provide a sense of unity and prevent visual clutter, the scheme avoids conflicting colours, allowing users to focus on the content. Based on related hues on the colour wheel, hazel, chocolate, and gold browns form a visually harmonious combination.
+
+**Neutral Base for Contrast**
+
+To create a soft, non-intrusive foundation, a light beige background (`#F9F6F1`) is used. To support the legibility of foreground text and interface components, ample negative space is provided to allow the content to breathe.
+
+**4. Accessibility Through Contrast**
+
+Inclusive design is achieved through the use of dark brown or dark grey text, which provides strong contrast against the pale background. This approach ensures compliance with best practices for visual hierarchy and accessible communication in digital interfaces.
+
+**5. Odd-Numbered Palette for Aesthetic Balance**
+
+The five-colour palette—comprising a neutral background, two tonal browns, one gold accent, and a contrasting text colour—follows the principle of odd-numbered grouping. This enhances both visual harmony and functional clarity.
+
+### Strategic Use of Colour
+
+- **Emphasis**: To highlight key elements such as buttons, calls to action, or alerts, gold brown is applied selectively.
+- **Hierarchy**: To support the reading flow, differentiation between headings (dark chocolate) and body text (dark grey) is implemented.
+- **Consistency**: To establish a cohesive and refined appearance, every visual component across the site—including navigation, footers, and imagery—is styled in accordance with the defined palette.
+
+
+### Summary
+
+I believe my chosen colour scheme balances warmth, professionalism, and accessibility. The palette enhances user experience while reinforcing brand identity, and it is firmly grounded in established principles of colour theory and user interface design. Highly adaptable to responsive design frameworks such as Bootstrap and custom CSS, the natural tones also align with contemporary digital aesthetics.
+
+This thoughtful application of colour not only reflects my professional ethos but also ensures an inclusive and engaging experience for all users.
+
+---
+
+
