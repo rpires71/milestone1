@@ -1964,20 +1964,6 @@ Two typeface fonts will be used across the website to ensure consistency and per
 - Font weights: `400` for body content, `600–700` for headings  
 - System fallback: `'Arial', sans-serif`  
 
-### HTML integration:
-
-```html
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">```
-
-### CSS Usage:
-
-```css
-body {
-  font-family: 'Open Sans', sans-serif;
-}
-h1, h2, h3 {
-  font-family: 'Montserrat', sans-serif;
-}```
 
 ### Accessibility and Compatibility
 
@@ -2006,5 +1992,19 @@ The combination of **Montserrat** and **Open Sans** forms a strong typographic s
 - Supports consistent branding and responsive web design.  
 
 This typography approach meets both the aesthetic goals and functional requirements for my portfolio website. It also contributes to a visually cohesive, inclusive, and engaging user experience.
+
+### HTML and CSS Integration
+
+```html
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3 {
+  font-family: 'Montserrat', sans-serif;
+}
 
 ---
