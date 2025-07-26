@@ -1997,8 +1997,9 @@ This typography approach meets both the aesthetic goals and functional requireme
 
 ```html
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+```
 
-
+```css
 body {
   font-family: 'Open Sans', sans-serif;
 }
@@ -2006,5 +2007,6 @@ body {
 h1, h2, h3 {
   font-family: 'Montserrat', sans-serif;
 }
+```
 
 ---
