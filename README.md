@@ -1746,3 +1746,103 @@ As an IT employer or recruiter, they want to see testimonials relating to my tec
 ---
 
 ## User Stories - Live Chat
+
+### 1. Rob Pires – Website Developer (Site Owner)
+
+**User Story**
+
+As the developer, I want to integrate a live chat feature so that users can get quick answers to questions and engage with me in real time.
+
+**Acceptance Criteria**
+
+- [ ] Live chat widget is present on selected or all pages.
+- [ ] Users can send and receive messages in real time.
+- [ ] Welcome message is triggered automatically on site visit.
+- [ ] Responsive design works across desktop, tablet, and mobile.
+- [ ] Offline messages are forwarded or stored for later.
+
+**Tasks**
+
+- [ ] Research and select a live chat service (e.g. Tawk.to, Crisp, Chatra).
+- [ ] Embed live chat widget using HTML/JS.
+- [ ] Configure automatic greetings and chat availability.
+- [ ] Set up offline message fallback with email forwarding.
+- [ ] Style widget to align with website branding.
+- [ ] Implement responsive navigation using HTML/CSS or Bootstrap.
+
+### 2. Potential Tutees / Parents
+
+**User Story**
+
+As a student or parent, they want to ask quick questions via live chat so that they can understand my tutoring services or availability without needing to email or wait.
+
+**Acceptance Criteria**
+
+- [ ] Chat icon is clearly visible on homepage and Bookings page.
+- [ ] No login required to send a message.
+- [ ] Chat status (online/offline) is clearly indicated.
+- [ ] Users can leave their name and email for follow-up.
+- [ ] Responsive design works across desktop, tablet, and mobile.
+
+**Tasks**
+
+- [ ] Display chat on tutoring-focused pages.
+- [ ] Add friendly message: “Hi! Have a question about tutoring? Ask here!”
+- [ ] Configure offline mode to capture name/email.
+- [ ] Implement responsive navigation using HTML/CSS or Bootstrap.
+
+### 3. Education Employers
+
+**User Story** 
+ 
+As an education employer, they want to reach out quickly via live chat so that they can ask about my availability or qualifications without booking a call.
+
+**Acceptance Criteria**
+
+- [ ] Chat is available on CV, Work Experience, and Bookings pages.
+- [ ] Users can receive a chat transcript.
+- [ ] Optional field for organisation or enquiry type is provided.
+- [ ] Professional branding and tone is maintained.
+- [ ] Responsive design works across desktop, tablet, and mobile.
+
+**Tasks**
+
+- [ ] Add a prompt like: “Ask Rob about freelance or part-time roles.”
+- [ ] Include a custom field for school/organisation name.
+- [ ] Ensure chat interface is branded and professional.
+- [ ] Enable chat transcript download or email.
+- [ ] Implement responsive navigation using HTML/CSS or Bootstrap.
+
+### 4. IT Support / Web Employers
+
+**User Story**
+
+As an IT recruiter or employer, they want to initiate a live conversation with me about freelance availability or portfolio projects so that they can evaluate his suitability for a technical contract.
+
+**Acceptance Criteria**
+
+- [ ] Live chat appears on Projects and Skills pages.
+- [ ] Users can ask about technologies, GitHub links, or services.
+- [ ] Offline messages are handled professionally.
+- [ ] Chat interface matches tech-focused design aesthetics.
+- [ ] Responsive design works across desktop, tablet, and mobile.
+
+**Tasks**
+
+- [ ] Add a message prompt like: “Need help with an IT project? Chat with Rob.”
+- [ ] Link chat to email/notifications (e.g. via Zapier or webhook).
+- [ ] Include internal links to GitHub or Projects within the chat flow.
+- [ ] Customise chat UI with icons and modern styling.
+- [ ] Implement responsive navigation using HTML/CSS or Bootstrap.
+
+### Summary Table – Live Chat
+
+| Stakeholder            | User Goal                                                                 | Key Features / Actions                                               |
+|------------------------|---------------------------------------------------------------------------|-----------------------------------------------------------------------|
+| **Developer (You)**    | Enable real-time user engagement and quick support                        | Embed chat tool, customise greeting, offline fallback                 |
+| **Students / Parents** | Ask questions about tutoring without delays                               | Visible chat on homepage, friendly tone, mobile-friendly UI          |
+| **Education Employers**| Make quick inquiries about availability or credentials                    | Chat on CV/Bookings pages, transcript available, professional layout |
+| **IT/Web Employers**   | Discuss technical services and project availability live                  | Chat on Skills/Projects pages, GitHub links discussed via chat        |
+
+---
+
