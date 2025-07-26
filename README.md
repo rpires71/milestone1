@@ -1587,7 +1587,8 @@ As a student or parent, they want to subscribe to updates from myself so they ca
 - [ ] Consent checkbox reassures users their email won't be misused.
 - [ ] Responsive design works across desktop, tablet, and mobile.
 
-**Tasks:**
+**Tasks**
+
 - [ ] Write short intro text above form (e.g. “Subscribe for tutoring updates and free learning tips”).
 - [ ] Add call-to-action button: “Subscribe” or “Join Mailing List”.
 - [ ] Position the form near tutoring-related content or Bookings page.
@@ -1647,3 +1648,101 @@ As an IT or web employer, they want to sign up for updates on my technical progr
 ---
 
 ## User Stories - Testimonials
+
+### 1. Rob Pires – Website Developer (Site Owner)
+
+**User Story**
+
+As the developer, I want to showcase testimonials from former students, parents, or colleagues so that visitors gain confidence in my professionalism and teaching or technical capabilities.
+
+**Acceptance Criteria**
+
+- [ ] Testimonials are displayed clearly and accessibly on relevant pages.
+- [ ] Each testimonial includes the name (or initials) and role (e.g. parent, student, colleague).
+- [ ] Testimonials are concise and highlight specific strengths (e.g. subject knowledge, communication).
+- [ ] Layout is mobile and tablet responsive and styled consistently with the site design.
+
+**Tasks**
+
+- [ ] Collect quotes from students, parents, colleagues, or employers.
+- [ ] Ask for permission to use names or initials.
+- [ ] Organise testimonials by type (Tutoring, Education, IT).
+- [ ] Create a testimonial section (e.g. carousel, card layout) using HTML/CSS or Bootstrap.
+- [ ] Link to testimonials from relevant pages (About Me, Bookings, Projects).
+- [ ] Implement responsive navigation using HTML/CSS or Bootstrap.
+
+### 2. Potential Tutees / Parents
+
+**User Story**
+
+As a student or parent, they want to see testimonials from others so that they can feel confident that I am a qualified and effective tutor.
+
+**Acceptance Criteria**
+
+- [ ] At least 2–3 testimonials relate to tutoring outcomes or experience.
+- [ ] Quotes mention approachability, effectiveness, or progress made.
+- [ ] Language is friendly and relevant to non-technical users.
+- [ ] Layout is mobile and tablet responsive and styled consistently with the site design.
+
+**Tasks**
+
+- [ ] Highlight 1–2 tutoring-focused testimonials with mentions of subject support.
+- [ ] Use easy-to-read layout with reassuring tone.
+- [ ] Implement responsive navigation using HTML/CSS or Bootstrap.
+
+
+
+### 3. Education Employers
+
+**User Story**
+
+As an education employer or recruiter, they want to read comments from colleagues or managers about my teaching so that they can assess my professionalism and cultural fit.
+
+**Acceptance Criteria**
+
+- [ ] At least one testimonial comes from an education manager or peer.
+- [ ] Comments reference reliability, curriculum delivery, or pastoral contribution.
+- [ ] Testimonials support what’s stated on the CV or Work Experience pages.
+- [ ] Layout is mobile and tablet responsive and styled consistently with the site design.
+
+**Tasks**
+
+- [ ] Feature a quote from a Head of Department, Line Manager or SLT.
+- [ ] Place testimonial block near the Work Experience or Certifications page.
+- [ ] Ensure tone is formal and concise.
+- [ ] Implement responsive navigation using HTML/CSS or Bootstrap.
+
+
+### 4. IT Support / Web Employers
+
+**User Story**
+
+As an IT employer or recruiter, they want to see testimonials relating to my technical projects or collaborative ability so that they can gauge my readiness for IT roles.
+
+**Acceptance Criteria**
+
+- [ ] At least one testimonial references my technical or digital skills.
+- [ ] Mention collaboration, problem-solving, or technical accuracy.
+- [ ] Testimonials are brief and focused on outcomes.
+- [ ] Layout is mobile and tablet responsive and styled consistently with the site design.
+
+**Tasks**
+
+- [ ] Feature a quote from a technical client or course tutor (e.g. Code Institute).
+- [ ] Add testimonial section near the Projects or Skills pages.
+- [ ] Use a clean, modern layout with optional logos or icons.
+- [ ] Implement responsive navigation using HTML/CSS or Bootstrap.
+
+
+###  Summary Table – Testimonials
+
+| Stakeholder         | User Goal                                                  | Key Features / Actions                                               |
+|---------------------|-------------------------------------------------------------|-----------------------------------------------------------------------|
+| **Developer (You)**     | Build trust and credibility with social proof               | Testimonial carousel or cards, categorised by service area           |
+| **Students / Parents**  | Feel reassured through others’ positive tutoring experiences| Tutoring-focused quotes, clear CTA to Bookings                       |
+| **Education Employers** | Assess cultural fit and teaching performance                | Quotes from managers/colleagues, near CV and Work Experience         |
+| **IT/Web Employers**    | Gauge technical collaboration and reliability               | Quotes from tech clients or tutors, near Projects and Skills pages   |
+
+---
+
+## User Stories - Live Chat
