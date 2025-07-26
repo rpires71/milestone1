@@ -1550,7 +1550,7 @@ As an IT or web employer, they want to download my CV so that they can assess my
 
 ---
 
-## User Stories - CV Newsletter Sign-up
+## User Stories - Newsletter Sign-up
 
 ### 1. Rob Pires – Website Developer (Site Owner)
 
@@ -1644,3 +1644,6 @@ As an IT or web employer, they want to sign up for updates on my technical progr
 | Education Employers | Stay updated on freelance availability and events      | Professional tone, placed near CV/Certs, simple opt-in              |
 | IT/Web Employers    | Monitor technical progress and future collaboration    | Opt-in form on Projects/Skills, mention project/news update focus   |
 
+---
+
+## User Stories - Testimonials
