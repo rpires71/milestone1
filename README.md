@@ -1450,4 +1450,104 @@ This page should feature projects built using web or IT-related technologies. Pr
 
 ---
 
+## User Stories - CV Download
 
+### 1. Rob Pires – Website Developer (Site Owner)
+
+**User Story**
+  
+As the developer, I want users to be able to download my CV so that they have offline access to my qualifications and experience.
+
+**Acceptance Criteria**
+
+- [ ] A download button or link is visible on key pages (e.g. Homepage, About Me, Work Experience).
+- [ ] The CV is provided in PDF format.
+- [ ] The file is professionally formatted and up to date.
+- [ ] The link is accessible and clearly labelled (e.g. “Download My CV”).
+- [ ] The download link works on all devices and browsers.
+
+**Tasks**
+
+- [ ] Create and format the latest CV as a PDF.
+- [ ] Upload the PDF to the web server or GitHub repository.
+- [ ] Add download buttons/links to relevant pages.
+- [ ] Test download functionality across desktop and mobile.
+- [ ] Ensure accessibility with descriptive alt text or ARIA labels.
+
+### 2. Potential Tutees / Parents
+
+**User Story**  
+As a student or parent, they want to download my CV so that they can review my teaching qualifications and experience in detail before committing to a session.
+
+**Acceptance Criteria**
+
+- [ ] CV is easily accessible from relevant pages.
+- [ ] CV includes relevant teaching qualifications, subjects taught, and experience.
+- [ ] The document is clearly labelled and downloadable in one click.
+- [ ] The download link works on all devices and browsers.
+
+**Tasks**
+
+- [ ] Include CV link next to or within the About Me or Bookings section.
+- [ ] Ensure file name is clear and readable (e.g. `Rob_Pires_Tutor_CV.pdf`).
+- [ ] Write supporting text like: “Download my full CV to learn more about my teaching background.”
+- [ ] Test download functionality across desktop and mobile.
+- [ ] Ensure accessibility with descriptive alt text or ARIA labels.
+
+
+### 3. Education Employers
+
+**User Story**
+
+As an education employer, they want to download my CV so that they can review my credentials and experience offline to assess suitability for future roles.
+
+**Acceptance Criteria**
+
+- [ ] Downloadable CV includes professional history, subject specialisms, and qualifications.
+- [ ] Clear link/button to download CV from relevant pages e.g. homepage or Work Experience page.
+- [ ] File is accessible and opens without issue.
+- [ ] The document is clearly labelled and downloadable in one click.
+- [ ] The download link works on all devices and browsers.
+
+**Tasks**
+
+- [ ] Ensure CV includes full qualifications (e.g. PGCE, CPD) and experience timeline.
+- [ ] Label link professionally (e.g. “Download Full Teaching CV”).
+- [ ] Test download functionality across desktop and mobile.
+- [ ] Ensure accessibility with descriptive alt text or ARIA labels.
+
+
+### 4. IT Support / Web Employers
+
+**User Story**
+
+As an IT or web employer, they want to download my CV so that they can assess my technical training and development skills for support or development roles.
+
+**Acceptance Criteria**
+
+- [ ] CV highlights IT certifications and current web development training.
+- [ ] Link to CV is accessible on relevant pages e.g. homepage or Projects/Skills pages.
+- [ ] The file provides an overview of relevant technical skills and experience.
+- [ ] The document is clearly labelled and downloadable in one click.
+- [ ] The download link works on all devices and browsers.
+
+**Tasks**
+- [ ] Highlight IT qualifications (CompTIA A+, ITF+, CCNA, Code Institute Level 5) in CV.
+- [ ] Add download link to Skills or Projects section.
+- [ ] Consider tagging download link as “Technical CV (PDF)” if separate from education-focused CV.
+- [ ] Test download functionality across desktop and mobile.
+- [ ] Ensure accessibility with descriptive alt text or ARIA labels.
+---
+
+## Summary Table – CV Download Feature (Could Have)
+
+| Stakeholder         | Goal                                              | Key Feature/Action                                      |
+|---------------------|---------------------------------------------------|---------------------------------------------------------|
+| Developer (You)     | Make CV easily downloadable for all user types   | Download button, hosted PDF, cross-device testing       |
+| Students / Parents  | Check qualifications before booking tutoring     | Clear CV link with relevant teaching background         |
+| Education Employers | Verify credentials for recruitment consideration | Detailed PDF CV, labelled and easy to find              |
+| IT/Web Employers    | Evaluate technical skills and IT qualifications  | Technical focus in CV, linked from Skills/Projects page |
+
+---
+
+## User Stories - CV Newsletter Sign-up
