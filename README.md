@@ -1539,7 +1539,7 @@ As an IT or web employer, they want to download my CV so that they can assess my
 - [ ] Ensure accessibility with descriptive alt text or ARIA labels.
 ---
 
-## Summary Table – CV Download Feature (Could Have)
+### Summary Table – CV Download Feature (Could Have)
 
 | Stakeholder         | Goal                                              | Key Feature/Action                                      |
 |---------------------|---------------------------------------------------|---------------------------------------------------------|
@@ -1551,3 +1551,96 @@ As an IT or web employer, they want to download my CV so that they can assess my
 ---
 
 ## User Stories - CV Newsletter Sign-up
+
+### 1. Rob Pires – Website Developer (Site Owner)
+
+**User Story** 
+
+As the developer, I want to collect user emails via a newsletter sign-up form so I can share updates and grow engagement.
+
+**Acceptance Criteria**
+
+- [ ] Newsletter form is visible on key pages (e.g. Homepage, Footer, Bookings).
+- [ ] Form includes an email input and a consent checkbox for GDPR compliance.
+- [ ] Confirmation message appears after sign-up.
+- [ ] Collected data is securely stored or sent via email/newsletter service.
+- [ ] Responsive design works across desktop, tablet, and mobile.
+
+**Tasks:**
+- [ ] Create email input form using HTML and add validation.
+- [ ] Include GDPR-compliant consent checkbox.
+- [ ] Connect form to a mailing list service (e.g. Mailchimp, Formspree).
+- [ ] Add success message or redirect confirmation page.
+- [ ] Style form to match site branding and ensure accessibility.
+- [ ] Implement responsive navigation using HTML/CSS or Bootstrap.
+
+### 2. Potential Tutees / Parents
+
+**User Story** 
+
+As a student or parent, they want to subscribe to updates from myself so they can receive information about availability, resources, and tips.
+
+**Acceptance Criteria**
+
+- [ ] Sign-up form is clearly labelled and easy to use.
+- [ ] Language is friendly, brief, and clear about what emails will contain.
+- [ ] Consent checkbox reassures users their email won't be misused.
+- [ ] Responsive design works across desktop, tablet, and mobile.
+
+**Tasks:**
+- [ ] Write short intro text above form (e.g. “Subscribe for tutoring updates and free learning tips”).
+- [ ] Add call-to-action button: “Subscribe” or “Join Mailing List”.
+- [ ] Position the form near tutoring-related content or Bookings page.
+- [ ] Implement responsive navigation using HTML/CSS or Bootstrap.
+
+
+### 3. Education Employers
+
+**User Story**
+
+As an education employer,they want to optionally sign up for updates about my availability or training events so that they stay informed about his services.
+
+**Acceptance Criteria**
+
+- [ ] Option to subscribe without unnecessary personal data.
+- [ ] Language is professional, with examples of what updates include.
+- [ ] Reassurance of no spam or irrelevant content.
+- [ ] Responsive design works across desktop, tablet, and mobile.
+
+**Tasks**
+
+- [ ] Tailor message: “Receive updates on availability for freelance teaching or curriculum support.”
+- [ ] Include this near CV, Certifications, or Work Experience sections.
+- [ ] Ensure compliance with GDPR or similar policies (e.g. unsubscribe link or note).
+- [ ] Implement responsive navigation using HTML/CSS or Bootstrap.
+
+
+### 4. IT Support / Web Employers
+
+**User Story**
+
+As an IT or web employer, they want to sign up for updates on my technical progress so they can stay aware of my latest skills or project completions.
+
+**Acceptance Criteria**
+
+- [ ] Email sign-up includes mention of web dev or IT content.
+- [ ] Optionally highlights when new projects or blog posts are published.
+- [ ] Allows users to unsubscribe at any time.
+- [ ] Responsive design works across desktop, tablet, and mobile.
+
+**Tasks:**
+- [ ] Include form on the Projects or Skills page.
+- [ ] Write summary text: “Be notified when I launch new tech projects or complete certifications.”
+- [ ] Link to unsubscribe option in future emails.
+- [ ] Implement responsive navigation using HTML/CSS or Bootstrap.
+
+
+### Summary Table – Newsletter Sign-Up (Could Have)
+
+| Stakeholder         | Goal                                                   | Key Features / Actions                                              |
+|---------------------|--------------------------------------------------------|----------------------------------------------------------------------|
+| Developer (You)     | Build mailing list and boost long-term engagement      | Sign-up form, GDPR consent, success message, backend integration    |
+| Students / Parents  | Receive tips, reminders, and session availability      | Friendly CTA, positioned on Bookings or Homepage                    |
+| Education Employers | Stay updated on freelance availability and events      | Professional tone, placed near CV/Certs, simple opt-in              |
+| IT/Web Employers    | Monitor technical progress and future collaboration    | Opt-in form on Projects/Skills, mention project/news update focus   |
+
