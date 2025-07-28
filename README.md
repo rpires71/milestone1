@@ -2010,3 +2010,78 @@ h1, h2, h3 {
 ```
 
 ---
+
+## Accessibility Implementation and User Flow and Navigation Strategies
+
+A crucial aspect of the development of this portfolio website is the implementation of accessibility features. To ensure the website is usable by the broadest possible audience, including users with visual, motor, auditory, and cognitive impairments, coding and design choices adhere to the **Web Content Accessibility Guidelines (WCAG) 2.1**.
+
+### Key Accessibility Features
+
+**Semantic HTML**  
+To improve assistive technology interpretation and enhance screen reader compatibility, semantic elements such as `<header>`, `<main>`, `<nav>`, `<section>`, and `<footer>` are incorporated into the website’s structure.
+**Justification:** Semantic HTML promotes code clarity and optimises search engine visibility. In addition, by clearly identifying the function and structure of content, it enhances usability for assistive technologies and improves accessibility for screen reader users.
+
+**Keyboard Navigation**  
+We can implement via keyboard with visible focus indicators accessible interactive components such as forms, buttons, links, etc.  
+**Justification:** Navigation without a mouse is achievable for users with motor disabilities or those utilising assistive equipment. Functionality and compliance with WCAG 2.1 Success Criterion 2.1.1 (Keyboard Accessible) ensures clear tab sequencing and visible focus states.
+
+**Colour Contrast**  
+A contrast ratio of at least 4.5:1 against their backgrounds is maintained with all text and interactive elements. This can be validated using tools such as the WebAIM Contrast Checker.  
+**Justification:** In line with WCAG 2.1 Success Criterion 1.4.3 (Contrast – Minimum), legibility for users with visual impairments, including low vision and colour vision deficiency, is ensured.
+
+**Responsive Typography**  
+To support text scaling in browser preferences and proportionally scaled headings, the minimum body text is set to 16px using scalable units (`rem`).  
+**Justification:** Responsive typography respects user browser configurations for accessibility by ensuring text remains readable across all screen sizes. This supports users with dyslexia, older individuals, and those with cognitive disabilities.
+
+**ARIA (Accessible Rich Internet Applications)**  
+With components such as alerts, interactive widgets, and forms, attributes such as `aria-label`, `aria-describedby`, and `role` are applied. This enhances context for assistive technologies including live regions and form inputs by assigning ARIA roles and labels where appropriate.  
+**Justification:** Although semantic HTML addresses most requirements, it may be insufficient in scenarios where native elements lack clarity. In such cases, ARIA attributes provide supplementary context by improving screen reader interpretation and easing cognitive load.
+
+**Alt Text and Descriptive Links**  
+Meaningful descriptions such as “View Projects” instead of “Click Here” are implemented, and all images contain `alt` attributes.  
+**Justification:** In line with WCAG 2.1 Success Criterion 2.4.4 (Link Purpose) and 1.1.1 (Non-text Content), overall usability is enhanced and compatibility with screen reader technologies is supported.
+
+**Form Accessibility**  
+Using ARIA and semantic markup, accessible error notifications, real-time validation with clear messages, and labels included in forms can be implemented. Accessible design patterns are followed when forms provide clear error messaging and validation (e.g. using `aria-describedby` and inline feedback).  
+**Justification:** Helps remove barriers in user interaction, such as correctly labelled forms with accessible error handling to support users with cognitive, motor, or visual impairments.
+
+## User Flow and Navigation Strategy
+
+I’ve planned to apply a clear, logical user flow designed to assist users of all backgrounds in achieving their objectives effectively and intuitively. By keeping user-focused interaction in mind, the website is structured with user-friendly navigation.
+
+### Logic Flow
+
+- **Homepage** introduces the site’s purpose and key actions such as presenting who I am, what I offer, and the main routes to explore further (e.g. Projects, Bookings).
+- **About Me** page fosters user engagement and trust by outlining professional background.
+- **Skills** page outlines information regarding the technical competencies acquired throughout my career.
+- **Work Experience** page details the professional pathway throughout my career.
+- **Certifications** page highlights key relevant achievements obtained throughout my career.
+- **Projects** page will exhibit examples of professional expertise relevant to employer and student audiences.
+- **Conferences and Workshops** page provides verification of additional training and current knowledge of up-to-date trends and competencies.
+- **Bookings** page will feature a contact form for enquiries and may include the implementation of a live chat facility.
+
+### Intended Enhancements
+
+- For screen reader and keyboard users, the **Skip to Content** function will be integrated.
+- A **responsive grid layout** will be implemented across tablets, mobile devices, and desktops to facilitate orientation and navigation, particularly for users utilising assistive technologies.
+- A **consistent user interface** will be applied across all pages to support visual familiarity and reduce cognitive load.
+- **Clear information architecture** will be used to enhance navigability; each section will be logically categorised and distinctly labelled.
+- A **mobile- and tablet-first design** will be applied to ensure interfaces are fully responsive and tested across various screen sizes, prioritising readability, accessibility, and usability.
+
+
+### Summary of Justified Accessibility and Flow Features
+
+| Feature                  | Justification                                                                 |
+|--------------------------|------------------------------------------------------------------------------|
+| Semantic HTML            | Enhances screen reader compatibility and improves code comprehension.        |
+| Keyboard Accessibility   | Facilitates interaction for users without a mouse and supports inclusive user experience models. |
+| Colour Contrast          | Secures text visibility for users with impaired vision or colour perception deficiencies. |
+| Scalable Typography      | Improves legibility across all device types and accommodates accessibility preferences. |
+| ARIA Support             | Provides additional context and structure for assistive technologies.        |
+| Descriptive Links / ALT  | Allows screen reader users to interpret link purpose and visual media effectively. |
+| Accessible Forms         | Improves form interaction and clarity of validation messages for all user groups. |
+| Clear Navigation Flow    | Minimises disorientation and supports diverse user intents (e.g., employers, students). |
+
+---
+
+
