@@ -2106,7 +2106,7 @@ I’ve planned to apply a clear, logical user flow designed to assist users of a
 
 | Testing Type         | Description                                                                 |
 |----------------------|-----------------------------------------------------------------------------|
-| Functional Testing   | Test forms, buttons, navigation, links, image rendering                     |
+| Functional and Content Accuracy Testing   | Test forms, buttons, navigation, links, image rendering                     |
 | Usability Testing    | Ensure intuitive navigation and positive user experience                    |
 | Responsive Testing   | Verify content and layout on desktop, tablet, and mobile devices            |
 | Accessibility Testing| Use tools such as Lighthouse or WAVE to test keyboard navigation, alt text, and colour contrast |
@@ -2149,7 +2149,6 @@ At the end of each test case, I plan to:
 **Justification**: Reflection analysis demonstrates iterative design practice and critical thinking.
 
 > Tests will be linked directly to user stories and project objectives to demonstrate traceability and planning alignment.
-```
 
 ---
 
