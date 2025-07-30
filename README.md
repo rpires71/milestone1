@@ -2084,4 +2084,74 @@ I’ve planned to apply a clear, logical user flow designed to assist users of a
 
 ---
 
+## Approach for Website Test Planning
+
+### Definition of Purpose and Scope
+
+**Purpose** – Ensure the website fulfils user requirements, adapts effectively across devices, adheres to accessibility standards, and operates as intended.
+
+**Scope** – Ensure all essential components of the website are rigorously evaluated. The essential components are the content, inclusive design features, adaptability, user input forms, and site navigation.
+
+**Justification**: To demonstrate planning and alignment with the project objectives, it is important to define what I will be evaluating and the rationale for these decisions.
+
+### Defining Clear Objectives
+
+- Ensure the website satisfies functional specifications.
+- Ensure the website upholds usability and complies with accessibility standards set by WCAG 2.1 guidelines.
+- Confirm interoperability across various devices and web browsers.
+
+**Justification**: The above objectives are directly linked to professional web standards, compliance, and positive user experience.
+
+### Types of Tests to Be Implemented
+
+| Testing Type         | Description                                                                 |
+|----------------------|-----------------------------------------------------------------------------|
+| Functional Testing   | Test forms, buttons, navigation, links, image rendering                     |
+| Usability Testing    | Ensure intuitive navigation and positive user experience                    |
+| Responsive Testing   | Verify content and layout on desktop, tablet, and mobile devices            |
+| Accessibility Testing| Use tools such as Lighthouse or WAVE to test keyboard navigation, alt text, and colour contrast |
+| Cross-Browser Testing| Edge, Safari, Firefox, and Chrome                                           |
+| Performance Testing  | Overall site speed and page load times                                      |
+| Security Testing     | Basic checks with form validation and input sanitisation                    |
+| Regression Testing   | Re-test after updates or changes                                            |
+
+**Justification**: Implementing the above testing methods demonstrates a professional approach and helps ensure readiness for real-world live deployment.
+
+### Browser Developer Tools for Responsive Testing
+
+- Google Lighthouse (Accessibility, performance scores)
+- WAVE Accessibility Tool
+- Responsively.app or Screenfly (for device previews)
+- BrowserStack or CrossBrowserTesting.com (for browser testing)
+
+**Justification**: Use of the right tools demonstrates industry-standard practices.
+
+### Justification of the Importance of Each Test
+
+Relate how each test supports:
+
+- User objectives  
+- Accessibility standards  
+- Technical reliability  
+- Course requirements (e.g. UX, responsive design, and accessibility)
+
+**Justification**: Reflection and justification are essential to demonstrate responsible and thorough testing.
+
+### Inclusion of Test Summary and Evaluation
+
+At the end of each test case, I plan to:
+
+- Summarise test outcomes  
+- Reflect on improvements after each test case  
+- Take note of any remaining issues (if existing)  
+- Verify readiness for deployment  
+
+**Justification**: Reflection analysis demonstrates iterative design practice and critical thinking.
+
+> Tests will be linked directly to user stories and project objectives to demonstrate traceability and planning alignment.
+```
+
+---
+
+
 
