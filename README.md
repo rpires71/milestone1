@@ -2156,19 +2156,19 @@ At the end of each test case, I plan to:
 
 **Justification:** Using test cases provides evidence of thorough and repeated testing.
 
-| Functionality and Content Accuracy Testing |
-|--------------------------------------------|
-| **Purpose:** To ensure that website components and interactive elements function as intended. Also, in alignment with user expectations, confirm that content is comprehensive and accurate. |
-| **Description:** Embedded media, image sliders, links, forms, buttons, and navigation menus validation functionality is what will be tested. Also, relevance, consistency, and grammatical accuracy of the written content across all pages (e.g., About, Work Experience, Bookings) will be reviewed. To ensure there are no dead ends or errors, each component will be tested to confirm it performs the intended action. |
-| **Justification:** To ensure trust, support user goals, and prevent frustration, it is essential that content accuracy and functional reliability are assured. Regarding usability, credibility, and adherence to web development best practices, a professionally functioning website that communicates clearly is essential. Another factor to consider is that course objectives related to user-centred design and quality assurance are upheld. |
-| Test Case: TC001 | Feature: Navigation Menu |
-|------------------|--------------------------|
-| Description: When verifying the menu operation across all platforms, it is necessary to ensure each hyperlink directs to the appropriate page or section. |
-|----------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Justification: To ensure a seamless user journey, avoid misunderstanding and uphold inclusivity, precise and adaptive navigation is required.             |
-| Steps: Launch the homepage in all web browsers. Select each navigation link (e.g. About Me, Skills, Work Experience, etc.). Confirm that the appropriate page or section displays without issue. Repeat on a tablet and smartphone. Test keyboard accessibility using the Tab key to cycle through the navigation. While using the keyboard, ensure visible focus highlights are present. |
-| Expected Result: All hyperlinks function correctly and lead users to the appropriate page/section. Navigation remains uniform across all pages. Responsive collapsible menu appears accurately when viewed on mobile and tablet formats. When navigating through all menu options, keyboard users can interact and observe visible focus outlines. |
-| Actual Result:                                                                                                                                           |
-| Pass/Fail:                                                                                                                                               |
+### Functionality and Content Accuracy Testing
 
+## Purpose: To ensure that website components and interactive elements function as intended. Also, in alignment with user expectations, confirm that content is comprehensive and accurate.
 
+## Description: Embedded media, image sliders, links, forms, buttons, and navigation menus validation functionality is what will be tested. Also, relevance, consistency, and grammatical accuracy of the written content across all pages (e.g., About, Work Experience, Bookings) will be reviewed. To ensure there are no dead ends or errors, each component will be tested to confirm it performs the intended action.
+
+## Justification: To ensure trust, support user goals, and prevent frustration, it is essential that content accuracy and functional reliability are assured. Regarding usability, credibility, and adherence to web development best practices, a professionally functioning website that communicates clearly is essential. Another factor to consider is that course objectives related to user-centred design and quality assurance are upheld.
+
+| Test Case: TC001       | Feature: Navigation Menu                                                                 |
+|------------------------|------------------------------------------------------------------------------------------|
+|**Description:** When verifying the menu operation across all platforms, it is necessary to ensure each hyperlink directs to the appropriate page or section.|
+|**Description:** When verifying the menu operation across all platforms, it is necessary to ensure each hyperlink directs to the appropriate page or section.|
+|**Description:** When verifying the menu operation across all platforms, it is necessary to ensure each hyperlink directs to the appropriate page or section.|
+|**Description:** When verifying the menu operation across all platforms, it is necessary to ensure each hyperlink directs to the appropriate page or section.|
+|**Description:** When verifying the menu operation across all platforms, it is necessary to ensure each hyperlink directs to the appropriate page or section.|
+|**Description:** When verifying the menu operation across all platforms, it is necessary to ensure each hyperlink directs to the appropriate page or section.|
