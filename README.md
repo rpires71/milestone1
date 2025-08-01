@@ -2198,3 +2198,43 @@ At the end of each test case, I plan to:
     <td colspan="2"><strong>Pass/Fail:</strong> </td>
   </tr>
 </table>
+<table>
+  <tr>
+    <td><strong>Test Case:</strong> TC002</td>
+    <td><strong>Feature:</strong> Forms (e.g. Bookings)</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Description:</strong> Verify that user entries are accepted, validation activates correctly, error notifications are perceivable, and the form processes as expected when evaluating the booking/contact form.</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Justification:</strong> For user interaction and objective achievement, a fully operational and inclusive form is essential. Communication between the user and website owner is facilitated, WCAG accessibility guidelines are upheld (e.g. appropriate labelling, error display), and course criteria for interactivity, usability, and inclusive design are satisfied.
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Steps:</strong> 1. Launch the homepage in all web browsers.<br>
+2. Navigate to the Bookings page.<br>
+3. Submit the form with incomplete fields.<br>
+4. Ensure that error notifications appear and are clearly phrased and perceivable.<br>
+5. Enter incorrect data (e.g. invalid email format) and observe the validation behaviour.<br>
+6. Input valid entries in all fields.<br>
+7. Submit the form.<br>
+8. Verify a confirmation message or redirection occurs.<br>
+9. Confirm all fields and controls are navigable using keyboard input only.<br>
+10. To evaluate field labels and error notifications, use screen reader technology.<br>
+
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Expected Result:</strong> - All hyperlinks function correctly and lead users to the appropriate page/section.
+- Navigation remains uniform across all pages.
+- Responsive collapsible menu appears accurately when viewed on mobile and tablet formats.
+- When navigating through all menu options, keyboard users can interact and observe visible focus outlines.
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Actual Result:</strong> </td>
+  </tr>
+<tr>
+    <td colspan="2"><strong>Pass/Fail:</strong> </td>
+  </tr>
+</table>
