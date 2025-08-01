@@ -2158,11 +2158,11 @@ At the end of each test case, I plan to:
 
 ### Functionality and Content Accuracy Testing
 
-## Purpose: To ensure that website components and interactive elements function as intended. Also, in alignment with user expectations, confirm that content is comprehensive and accurate.
+**Purpose:** To ensure that website components and interactive elements function as intended. Also, in alignment with user expectations, confirm that content is comprehensive and accurate.
 
-## Description: Embedded media, image sliders, links, forms, buttons, and navigation menus validation functionality is what will be tested. Also, relevance, consistency, and grammatical accuracy of the written content across all pages (e.g., About, Work Experience, Bookings) will be reviewed. To ensure there are no dead ends or errors, each component will be tested to confirm it performs the intended action.
+**Description:** Embedded media, image sliders, links, forms, buttons, and navigation menus validation functionality is what will be tested. Also, relevance, consistency, and grammatical accuracy of the written content across all pages (e.g., About, Work Experience, Bookings) will be reviewed. To ensure there are no dead ends or errors, each component will be tested to confirm it performs the intended action.
 
-## Justification: To ensure trust, support user goals, and prevent frustration, it is essential that content accuracy and functional reliability are assured. Regarding usability, credibility, and adherence to web development best practices, a professionally functioning website that communicates clearly is essential. Another factor to consider is that course objectives related to user-centred design and quality assurance are upheld.
+**Justification:** To ensure trust, support user goals, and prevent frustration, it is essential that content accuracy and functional reliability are assured. Regarding usability, credibility, and adherence to web development best practices, a professionally functioning website that communicates clearly is essential. Another factor to consider is that course objectives related to user-centred design and quality assurance are upheld.
 
 <table>
   <tr>
@@ -2176,12 +2176,25 @@ At the end of each test case, I plan to:
     <td colspan="2"><strong>Justification:</strong> To ensure a seamless user journey, avoid misunderstanding and uphold inclusivity, precise and adaptive navigation is required.</td>
   </tr>
   <tr>
-    <td colspan="2"><strong>Steps:</strong> Launch the homepage in all web browsers... (and so on)</td>
+    <td colspan="2"><strong>Steps:</strong> Launch the homepage in all web browsers.
+1. Select each navigation link (e.g. About Me, Skills, Work Experience, etc.).
+2. Confirm that the appropriate page or section displays without issue.
+3. Repeat on a tablet and smartphone.
+4. Test keyboard accessibility using the Tab key to cycle through the navigation.
+5. While using the keyboard, ensure visible focus highlights are present.
+</td>
   </tr>
   <tr>
-    <td colspan="2"><strong>Expected Result:</strong> All hyperlinks function correctly and lead users to the appropriate page/section...</td>
+    <td colspan="2"><strong>Expected Result:</strong> - All hyperlinks function correctly and lead users to the appropriate page/section.
+- Navigation remains uniform across all pages.
+- Responsive collapsible menu appears accurately when viewed on mobile and tablet formats.
+- When navigating through all menu options, keyboard users can interact and observe visible focus outlines.
+</td>
   </tr>
   <tr>
-    <td colspan="2"><strong>Actual Result:</strong> Pass/Fail</td>
+    <td colspan="2"><strong>Actual Result:</strong> </td>
+  </tr>
+<tr>
+    <td colspan="2"><strong>Pass/Fail:</strong> </td>
   </tr>
 </table>
