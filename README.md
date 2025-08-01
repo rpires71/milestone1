@@ -2164,11 +2164,24 @@ At the end of each test case, I plan to:
 
 ## Justification: To ensure trust, support user goals, and prevent frustration, it is essential that content accuracy and functional reliability are assured. Regarding usability, credibility, and adherence to web development best practices, a professionally functioning website that communicates clearly is essential. Another factor to consider is that course objectives related to user-centred design and quality assurance are upheld.
 
-| Test Case: TC001       | Feature: Navigation Menu                                                                 |
-|-------------------------------------------------------------------------------------------------------------------|
-|**Description:** When verifying the menu operation across all platforms, it is necessary to ensure each hyperlink directs to the appropriate page or section.|
-|**Description:** When verifying the menu operation across all platforms, it is necessary to ensure each hyperlink directs to the appropriate page or section.|
-|**Description:** When verifying the menu operation across all platforms, it is necessary to ensure each hyperlink directs to the appropriate page or section.|
-|**Description:** When verifying the menu operation across all platforms, it is necessary to ensure each hyperlink directs to the appropriate page or section.|
-|**Description:** When verifying the menu operation across all platforms, it is necessary to ensure each hyperlink directs to the appropriate page or section.|
-|**Description:** When verifying the menu operation across all platforms, it is necessary to ensure each hyperlink directs to the appropriate page or section.|
+<table>
+  <tr>
+    <td><strong>Test Case:</strong> TC001</td>
+    <td><strong>Feature:</strong> Navigation Menu</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Description:</strong> When verifying the menu operation across all platforms, it is necessary to ensure each hyperlink directs to the appropriate page or section.</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Justification:</strong> To ensure a seamless user journey, avoid misunderstanding and uphold inclusivity, precise and adaptive navigation is required.</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Steps:</strong> Launch the homepage in all web browsers... (and so on)</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Expected Result:</strong> All hyperlinks function correctly and lead users to the appropriate page/section...</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Actual Result:</strong> Pass/Fail</td>
+  </tr>
+</table>
