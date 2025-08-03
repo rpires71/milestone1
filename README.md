@@ -2964,7 +2964,7 @@ At the end of each test case, I plan to:
 </td>
   </tr>
   <tr>
-    <td colspan="2"><strong>Description:</strong>  Check that appropriate semantic HTML5 elements such as '<header>', '<main>', '<nav>', '<section>', '<article>', and '<footer>' are used to structure the content. Verify that content hierarchy and meaning are conveyed clearly through correct use of headings and tags.
+    <td colspan="2"><strong>Description:</strong>  Check that appropriate semantic HTML5 elements such as &lt;header&gt;, &lt;main&gt;, &lt;nav&gt;, &lt;section&gt;,&lt;article&gt;,and &lt;footer&gt; are used to structure the content. Verify that content hierarchy and meaning are conveyed clearly through correct use of headings and tags.
 </td>
   </tr>
   <tr>
