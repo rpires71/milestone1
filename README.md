@@ -2519,6 +2519,7 @@ At the end of each test case, I plan to:
     <td colspan="2"><strong>Pass/Fail:</strong> </td>
   </tr>
 </table>
+
 ### Usability and Typography Testing
 
 **Purpose:** Ensure typographic support across all devices in terms of legibility, visual structure, and a professional appearance. Confirm that the site offers a user-friendly and intuitive experience that meets the expectations of the target audience.
