@@ -2564,6 +2564,151 @@ At the end of each test case, I plan to:
     <td colspan="2"><strong>Pass/Fail:</strong> </td>
   </tr>
 </table>
+  <table>
+  <tr>
+    <td><strong>Test Case:</strong> TC011</td>
+    <td><strong>Feature:</strong> Font Readability</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Description:</strong> Evaluate whether the selected fonts (e.g. Montserrat for headings and Open Sans for body text) are legible and accessible across different devices, screen sizes, and lighting conditions. Verify adequate size, spacing, and contrast.
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Justification:</strong> Readable typography is essential for accessibility, especially for users with dyslexia, low vision, or cognitive impairments. It also enhances usability and aligns with WCAG 2.1 guidelines on minimum text size and contrast. Ensures the content is understandable for all users, including students, parents, and recruiters.
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Steps:</strong><br>
+1. View the website on desktop, tablet, and mobile screens.<br>
+2. Check that the body font size is at least 16px using rem/em units.<br>
+3. Confirm adequate line spacing and paragraph spacing (1.5x or more).<br>
+4. Inspect text contrast against background using a contrast checker tool (e.g. WebAIM).<br>
+5. Review font choices in both light and dark mode (if applicable).<br>
+6. Ensure headings are distinguishable from body text by size and weight.<br>
+7. Test zooming in (up to 200%) and verify text remains legible without breaking layout.<br>
+8. Ask a peer or user with different accessibility needs for feedback.<br>
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Expected Result:</strong><br>
+- All text remains clear, easy to read, and accessible across all viewports and conditions without causing strain or requiring adjustment.
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Actual Result:</strong> </td>
+  </tr>
+<tr>
+    <td colspan="2"><strong>Pass/Fail:</strong> </td>
+  </tr>
+</table>
+  <table>
+  <tr>
+    <td><strong>Test Case:</strong> TC012</td>
+    <td><strong>Feature:</strong> Visual Hierarchy</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Description:</strong> Assess whether headings, subheadings, body text, buttons, and key elements are structured and styled to guide the user’s attention logically through each page. Confirm the use of font weights, sizes, spacing, and positioning to indicate importance.
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Justification:</strong> A clear visual hierarchy helps users quickly understand the structure of content and navigate intuitively—especially important for users scanning CVs, project summaries, or booking forms. It enhances usability, supports accessibility (WCAG 2.1 Success Criterion 1.3.1), and strengthens the professional tone of the site.
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Steps:</strong><br>
+1. Navigate through each page (Home, About, Skills, Projects, etc.).<br>
+2. Identify H1, H2, H3 tags and verify correct semantic use and consistent styling.<br>
+3. Confirm that headings are more prominent than body text (by size, weight, or spacing).<br>
+4. Ensure call-to-action buttons and links stand out with contrast or position.<br>
+5. Review alignment and grouping of elements (e.g. form fields, card layouts, sections).<br>
+6. Test on multiple devices to verify hierarchy is maintained on different screen sizes.<br>
+7. Check that no content is visually competing unnecessarily for attention.<br>
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Expected Result:</strong><br>
+- Users can easily distinguish headings from subheadings and body text, identify interactive elements, and scan pages without confusion. The layout supports intuitive reading and interaction flow.
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Actual Result:</strong> </td>
+  </tr>
+<tr>
+    <td colspan="2"><strong>Pass/Fail:</strong> </td>
+  </tr>
+</table>
 <table>
+  <tr>
+    <td><strong>Test Case:</strong> TC013</td>
+    <td><strong>Feature:</strong> Text Spacing</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Description:</strong>  Evaluate whether spacing between lines, letters, and paragraphs follows accessibility and readability standards across all content. Confirm consistent application throughout all pages (e.g. About, Skills, Projects).
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Justification:</strong> Proper text spacing improves legibility, reduces cognitive load, and supports users with visual or reading difficulties (e.g. dyslexia). It contributes to a cleaner layout, professional tone, and aligns with WCAG 2.1 Success Criterion 1.4.12 (Text Spacing).
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Steps:</strong><br>
+1. Open each main page (Home, About, Skills, Projects, Bookings, etc.).<br>
+2. Check that line spacing (line height) is at least 1.5 times the font size.<br>
+3. Verify paragraph spacing is at least 2.0 times the line height.<br>
+4. Confirm letter spacing is not too tight or too wide (especially in headings and buttons).<br>
+5. Ensure consistency in spacing across all page sections and devices.<br>
+6. Test increased text spacing using browser accessibility settings or a custom CSS snippet.<br>
+7. Validate that no text overlaps, is cut off, or becomes illegible when spacing is increased.<br>
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Expected Result:</strong><br>
+- All text remains legible and visually balanced. Increased spacing does not break the layout or affect readability. The site meets accessibility standards and provides a comfortable reading experience.
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Actual Result:</strong> </td>
+  </tr>
+<tr>
+    <td colspan="2"><strong>Pass/Fail:</strong> </td>
+  </tr>
+</table>
+<table>
+  <tr>
+    <td><strong>Test Case:</strong> TC014</td>
+    <td><strong>Feature:</strong> Button Styles</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Description:</strong>  EExamine whether all buttons are consistently styled across the website. Check visual clarity, alignment with the overall design theme, responsiveness, and visibility when hovered or focused.
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Justification:</strong> PConsistent and accessible button styling ensures intuitive interaction and helps users distinguish interactive elements from static content. Visual states (hover, focus) are vital for usability and accessibility, especially for keyboard users. This supports WCAG 2.1 Success Criterion 2.4.7 (Focus Visible) and enhances the user experience.
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Steps:</strong><br>
+1. Navigate to all pages containing buttons (e.g. Bookings, Projects, Home).<br>
+2. Verify buttons use a consistent colour scheme, shape, font size, and padding.<br>
+3. Hover over each button to check for colour/visual change on mouse interaction.<br>
+4. Use the Tab key to test keyboard focus visibility for all buttons.<br>
+5. Confirm contrast between button text and background meets accessibility standards (at least 4.5:1).<br>
+6. Test button responsiveness on various screen sizes (mobile, tablet, desktop).<br>
+7. Ensure all buttons are functional and styled appropriately even when disabled.<br>
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Expected Result:</strong><br>
+- All buttons are visually distinct, responsive to interaction, consistently styled, and accessible via keyboard navigation. Focus and hover states are clearly visible and improve usability without disrupting layout.
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Actual Result:</strong> </td>
+  </tr>
+<tr>
+    <td colspan="2"><strong>Pass/Fail:</strong> </td>
+  </tr>
+</table>
+
 ---
 
