@@ -2711,5 +2711,126 @@ At the end of each test case, I plan to:
   </tr>
 </table>
 
+### Responsiveness Testing Testing
+
+**Purpose:** Correct adaptation across a range of device sizes and orientations (desktop, tablet, and mobile) of website layout, content, and interactive components is ensured.
+
+**Description:** Test across multiple screen resolutions the visual layout, site navigation, media components (images, sliders), and typography. Verify that all interactive functions remain accessible and operable and no content is truncated, overlaps, or becomes non-functional.
+
+**Justification:** Essential for user experience and a fundamental principle of modern web development is responsive design. User expectations across devices are met and usability and accessibility are supported when responsiveness is ensured. Industry standards, course learning objectives such as mobile-first design, responsive user interface/user experience principles, and inclusive development are aligned with responsive design. Demonstration of professional attention to detail, reduction of bounce rates, and enhancement of search engine optimisation are achieved by a fully responsive site.
+
+<table>
+  <tr>
+    <td><strong>Test Case:</strong> TC015</td>
+    <td><strong>Feature:</strong> Desktop (Chrome, Firefox, Edge). Desktop (1920x1080)
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Description:</strong>  Ensure that the website layout, typography, images, and navigation display correctly and consistently on desktop browsers at full HD resolution (1920x1080), without distortion, overflow, or visual inconsistency.
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Justification:</strong> Full HD displays remain standard for many desktop and laptop users. Verifying responsive behaviour at this resolution ensures the site delivers a polished and professional user experience, regardless of browser choice. It also demonstrates compliance with cross-browser and responsive design requirements.
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Steps:</strong><br>
+1. Open the website in Chrome at 1920x1080 resolution.<br>
+2. Repeat using Firefox and Microsoft Edge at the same resolution.<br>
+3. Navigate through each page (Home, About Me, Projects, etc.).<br>
+4. Check layout consistency, image scaling, button placement, font alignment, and interactive elements.<br>
+5. Confirm no horizontal scrollbars appear.<br>
+6. Ensure all elements are legible and spaced appropriately.<br>
+7. Repeat after resizing the window slightly to test fluid responsiveness.<br>
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Expected Result:</strong><br>
+- All elements adjust appropriately to screen size. No content overlaps or breaks layout. Site displays consistently across all tested desktop browsers at 1920x1080.
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Actual Result:</strong> </td>
+  </tr>
+<tr>
+    <td colspan="2"><strong>Pass/Fail:</strong> </td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td><strong>Test Case:</strong> TC016</td>
+    <td><strong>Feature:</strong> Tablet (iPad, Android)Tablet (768x1024)
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Description:</strong>  Check that the layout, navigation, images, and text adapt correctly to a standard tablet portrait resolution (768x1024). This includes correct stacking of columns, readable font sizes, and touch-friendly spacing.
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Justification:</strong> Tablets are widely used for browsing educational and portfolio websites. Ensuring responsive behaviour at this resolution improves accessibility and usability for key audiences (e.g., parents, students, employers). It demonstrates adherence to mobile-first, responsive web design best practices.
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Steps:</strong><br>
+1. Open the website using browser developer tools or a responsive testing tool set to 768x1024 (portrait).<br>
+2. Check the display in both iPad and Android simulation modes.<br>
+3. Navigate through all pages: Home, About Me, Skills, Work Experience, etc.<br>
+4. Verify that the layout stacks correctly (e.g., columns become single-column).<br>
+5. Confirm that text is legible and buttons/links are large enough for touch input.<br>
+6. Ensure all elements remain visible without horizontal scrolling.<br>
+7. Test embedded media, sliders, and forms for correct scaling and interaction.<br>
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Expected Result:</strong><br>
+- The website displays cleanly on tablet devices with no broken layouts. All interactive components are accessible and touch-friendly. Content remains fully visible and legible without zoom or scroll issues.
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Actual Result:</strong> </td>
+  </tr>
+<tr>
+    <td colspan="2"><strong>Pass/Fail:</strong> </td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td><strong>Test Case:</strong> TC017</td>
+    <td><strong>Feature:</strong>  Mobile (iOS, Android)Mobile (375x667)
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Description:</strong>  Evaluate how the website adapts to smaller mobile screens, particularly the 375x667 viewport size used by many smartphones. This includes checking layout reflow, visibility of content, touch-target sizing, and functionality of navigation menus and interactive elements.
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Justification:</strong> A significant portion of users access websites via smartphones. Testing at this resolution ensures optimal readability, functionality, and usability on mobile. This supports WCAG 2.1 accessibility standards and aligns with mobile-first design principles expected at a professional level.
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Steps:</strong><br>
+1. Open the website using developer tools or a responsive testing tool (e.g. Chrome DevTools, Responsively.app) at 375x667.<br>
+2. Check each page (Home, About Me, Skills, Work Experience, etc.) for proper layout adjustment.<br>
+3. Verify hamburger menu (if implemented) functions correctly and allows navigation.<br>
+4. Ensure that all text remains legible, buttons are touch-friendly, and forms are easy to interact with.<br>
+5. Test image scaling and slider functionality on small screens.<br>
+6. Confirm that there is no horizontal scrolling and that all important information is visible.<br>
+7. Check that tap targets have appropriate spacing to avoid misclicks.<br>
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Expected Result:</strong><br>
+- The website is fully functional and visually coherent on mobile devices. Navigation is smooth, content is clearly visible and readable, and interactive elements work as expected without any layout or usability issues.
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Actual Result:</strong> </td>
+  </tr>
+<tr>
+    <td colspan="2"><strong>Pass/Fail:</strong> </td>
+  </tr>
+</table>
 ---
 
