@@ -2832,5 +2832,281 @@ At the end of each test case, I plan to:
     <td colspan="2"><strong>Pass/Fail:</strong> </td>
   </tr>
 </table>
+
+### Accessibility Testing
+
+**Purpose:** Fulfilling acknowledged accessibility criteria to ensure the website is usable by all users, including individuals with disabilities.
+
+**Description:** Conformance with WCAG 2.1 standards, which emphasises features such as keyboard operability, screen reader support, adequate colour contrast, meaningful HTML semantics, ARIA properties, descriptive alternative text, and inclusive form controls is validated through accessibility testing.
+
+**Justification:**  In accordance with the UK Equality Act 2010 and WCAG 2.1 guidelines, ensuring accessibility is both an ethical and legal requirement. Accommodating users with visual, auditory, motor, and cognitive impairments, professionally built websites must be universally accessible. Course learning objectives related to usability, inclusiveness, and established standards in contemporary web development are fulfilled by demonstrating accessibility testing.
+
+<table>
+  <tr>
+    <td><strong>Test Case:</strong> TC018</td>
+    <td><strong>Feature:</strong> Colour contrast
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Description:</strong>  Ensure that all text and interface elements maintain a minimum contrast ratio of 4.5:1 against their background colours. This applies to headings, body text, buttons, form labels, and links.
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Justification:</strong> Adequate colour contrast is essential for users with low vision or colour vision deficiency. It is a requirement of WCAG 2.1 Success Criterion 1.4.3 (Contrast – Minimum) and demonstrates inclusive design. Maintaining proper contrast enhances readability, usability, and user satisfaction across all devices and lighting environments.
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Steps:</strong><br>
+1. Open the website on a desktop browser.<br>
+2. Use the WebAIM Contrast Checker or Chrome DevTools → Lighthouse → Accessibility audit.<br>
+3. Inspect all text elements, buttons, and links across all pages (e.g. Homepage, Bookings, Projects).<br>
+4. Ensure each item has a contrast ratio of at least 4.5:1.<br>
+5. Record any elements failing the check and note suggested improvements.<br>
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Expected Result:</strong><br>
+- All text and interactive elements meet or exceed the required 4.5:1 contrast ratio for compliance and optimal legibility.
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Actual Result:</strong> </td>
+  </tr>
+<tr>
+    <td colspan="2"><strong>Pass/Fail:</strong> </td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td><strong>Test Case:</strong> TC019</td>
+    <td><strong>Feature:</strong> Keyboard navigation
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Description:</strong>  Ensure users can navigate through all interactive elements (e.g. links, buttons, forms, image sliders) using the Tab, Shift+Tab, Enter, and Arrow keys, without requiring a mouse.
+
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Justification:</strong> Many users with motor impairments or those using assistive technologies rely solely on the keyboard for navigation. This test supports WCAG 2.1 Success Criterion 2.1.1 (Keyboard Accessible) and ensures that the site is operable for a wider audience. It also demonstrates commitment to accessibility best practices.
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Steps:</strong><br>
+1. Load the website in a desktop browser (e.g. Chrome or Firefox).<br>
+2. Without using a mouse, press the Tab key to navigate through focusable elements on the page.<br>
+3. Use Shift + Tab to navigate backwards.<br>
+4. Press Enter to activate buttons and links, and Arrow keys where applicable (e.g. sliders).<br>
+5. Verify that the focus indicator is clearly visible on each element.<br>
+6. Repeat the process for all major pages (Homepage, Bookings, About, etc.).<br>
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Expected Result:</strong><br>
+- All focusable elements can be accessed and activated using only the keyboard, and visual focus indicators are clearly visible.
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Actual Result:</strong> </td>
+  </tr>
+<tr>
+    <td colspan="2"><strong>Pass/Fail:</strong> </td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td><strong>Test Case:</strong> TC020</td>
+    <td><strong>Feature:</strong> Screen reader compatibility
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Description:</strong>  Verify that all content, headings, links, forms, image alt text, and navigation elements are correctly read aloud by popular screen readers (e.g. NVDA or VoiceOver), following a logical reading order and reflecting the intended structure of the page.
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Justification:</strong> This ensures compliance with WCAG 2.1 accessibility guidelines, particularly Success Criterion 1.3.1 (Info and Relationships) and 4.1.2 (Name, Role, Value). It is vital for supporting users who are blind or visually impaired and rely on screen readers to understand and navigate website content. Testing this also demonstrates inclusive design practice and commitment to meeting the needs of all users.
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Steps:</strong><br>
+Steps:
+1. Open the website in a browser supported by the screen reader (e.g. Chrome with NVDA on Windows, Safari with VoiceOver on macOS).<br>
+2. Activate the screen reader.<br>
+3. Navigate through the site using screen reader keyboard shortcuts (e.g. heading navigation, tab, arrow keys).<br>
+4. Listen to ensure that:<br>
+- All headings are read in the correct order (e.g. H1 before H2).<br>
+- Links and buttons are clearly described (including purpose).<br>
+- Form fields are labelled appropriately (e.g. via label or aria-label).<br>
+- Image alt text is meaningful or skipped if decorative.<br>
+- Dynamic components (e.g. sliders or alerts) announce changes where necessary.<br>
+5. Repeat for multiple pages of the site.<br>
+
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Expected Result:</strong><br>
+- The screen reader reads content in a logical, meaningful order. All interface components are described correctly, and no important information is missed or misread.
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Actual Result:</strong> </td>
+  </tr>
+<tr>
+    <td colspan="2"><strong>Pass/Fail:</strong> </td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td><strong>Test Case:</strong> TC021</td>
+    <td><strong>Feature:</strong> Semantic HTML
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Description:</strong>  Check that appropriate semantic HTML5 elements such as <header>, <main>, <nav>, <section>, <article>, and <footer> are used to structure the content. Verify that content hierarchy and meaning are conveyed clearly through correct use of headings and tags.
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Justification:</strong> Semantic HTML enhances accessibility by helping assistive technologies understand the layout and importance of content. It also improves SEO and aligns with WCAG 2.1 Success Criterion 1.3.1 (Info and Relationships). Ensuring semantic structure supports a professional standard in modern web development.
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Steps:</strong><br>
+Steps:
+1. Open the browser's developer tools (e.g. Chrome DevTools).<br>
+2. Inspect each page to confirm the presence and correct usage of semantic tags (<header>, <main>, <nav>, <section>, <footer>, etc.).<br>
+3. Check heading order (H1 to H6) to ensure it follows a logical and nested structure.<br>
+4. Ensure ARIA roles are not used to replace semantics unnecessarily (e.g. <div role="main"> when <main> could be used).<br>
+5. Validate HTML using the W3C Markup Validator to identify structural or nesting errors.<br>
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Expected Result:</strong><br>
+- The site uses semantic HTML tags appropriately and consistently. Headings are properly ordered, and screen readers can interpret page regions effectively. No structural or semantic HTML errors are reported by the validator.
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Actual Result:</strong> </td>
+  </tr>
+<tr>
+    <td colspan="2"><strong>Pass/Fail:</strong> </td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td><strong>Test Case:</strong> TC022</td>
+    <td><strong>Feature:</strong> Alt Text on Images
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Description:</strong>  Check that all meaningful images include appropriate alt attributes describing their content or function. Ensure decorative images either have empty alt attributes (alt="") or are handled with appropriate roles.
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Justification:</strong> Providing descriptive alt text is essential for users who rely on screen readers. It ensures compliance with WCAG 2.1 Success Criterion 1.1.1 (Non-text Content) and supports accessibility for users with visual impairments. It also improves SEO and overall content quality.
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Steps:</strong><br>
+Steps:
+1. Inspect each image across the website using browser developer tools.<br>
+2. Confirm that all content-carrying images include a meaningful alt attribute.<br>
+3. Verify that purely decorative images include alt="" or are hidden from assistive technologies using aria-hidden="true".<br>
+4. Use a screen reader (e.g. NVDA or VoiceOver) to test whether the alt descriptions are read appropriately.<br>
+5. Validate image accessibility using tools such as the WAVE tool or Google Lighthouse.<br>
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Expected Result:</strong><br>
+- All images have suitable alt attributes. Content images provide accurate and helpful descriptions, and decorative images do not interfere with screen reader output.
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Actual Result:</strong> </td>
+  </tr>
+<tr>
+    <td colspan="2"><strong>Pass/Fail:</strong> </td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td><strong>Test Case:</strong> TC023</td>
+    <td><strong>Feature:</strong> ARIA Attributes
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Description:</strong>  Verify that ARIA attributes (such as aria-label, aria-describedby, role, aria-live) are correctly used on interactive or dynamic elements like forms, modals, alerts, and sliders. Confirm they provide additional context where native HTML elements alone are insufficient.
+
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Justification:</strong>  ARIA attributes are essential in improving accessibility for users relying on screen readers or other assistive technologies, especially where default semantic elements do not provide enough context. This supports WCAG 2.1 guidelines and enhances usability by reducing confusion and improving navigation for users with cognitive or visual impairments.
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Steps:</strong><br>
+Steps:
+1. Identify dynamic or non-standard components (e.g. form validation messages, modal pop-ups, live regions).<br>
+2. Use browser developer tools to inspect elements for proper ARIA attributes.<br>
+3. Confirm that each element has correct and meaningful aria-label, aria-labelledby, or aria-describedby values.<br>
+4. Use a screen reader (e.g. NVDA, VoiceOver) to test how the elements are announced.<br>
+5. Run automated checks using tools such as axe DevTools or WAVE to detect missing or incorrect ARIA usage.<br>
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Expected Result:</strong><br>
+- ARIA attributes are applied correctly, enhancing screen reader output and improving the accessibility of complex or interactive components. There are no redundant or conflicting ARIA attributes.
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Actual Result:</strong> </td>
+  </tr>
+<tr>
+    <td colspan="2"><strong>Pass/Fail:</strong> </td>
+  </tr>
+</table>
+<table>
+  <tr>
+    <td><strong>Test Case:</strong> TC024</td>
+    <td><strong>Feature:</strong> Skip to Content
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Description:</strong> Verify the presence and functionality of a "Skip to Content" link that allows users using a keyboard or screen reader to bypass repetitive navigation and jump directly to the main content area.
+
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Justification:</strong> This feature significantly improves accessibility for users with visual or motor impairments by reducing the number of keystrokes required to access core content. It aligns with WCAG 2.1 Success Criterion 2.4.1 (Bypass Blocks) and enhances the usability of the site for all users relying on assistive technologies or keyboard navigation.
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Steps:</strong><br>
+Steps:
+1. Load the website in a browser.<br>
+2. Press the Tab key upon page load to bring focus to the first interactive element.<br>
+3. Observe whether a visible "Skip to Content" link appears.<br>
+4. Press Enter when the link is focused.<br>
+5. Confirm the page scrolls/focuses directly to the main content (<main> tag).<br>
+6. Optionally, test with a screen reader to ensure the link is announced clearly and navigates as expected.<br>
+
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Expected Result:</strong><br>
+- The "Skip to Content" link appears as the first focusable item, is accessible via keyboard, and correctly navigates to the main content area when activated.
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Actual Result:</strong> </td>
+  </tr>
+<tr>
+    <td colspan="2"><strong>Pass/Fail:</strong> </td>
+  </tr>
+</table>
 ---
 
