@@ -1,6 +1,23 @@
 /* Google fonts import */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Macondo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:wght@400;600&display=swap');
+/* CSS Variables */
+:root{
+    --primary-typeface: "Montserrat", sans-serif;
+    --secondary-typeface: "Open Sans", sans-serif;
+    --body-text-colour: #3a1705; /* dark brown */
+    --page-background: #F9F6F1; /* light beige */
+    --headings-footer-background: #3E2C23; /*Dark Chocolate Brown*/ 
+    --highlights-call-to-action-elements: #CBA135; /* Gold Brown */
+    --primary-accents-buttons: #B7986B; /*Hazel Brown*/
+}
 
+/* Global styles */
 body{
-    color:blue;
+    font-family: var(--secondary-typeface);
+    color: var(--body-text-colour);
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: var(--primary-typeface);
+    color: var(--headings-footer-background);
 }
