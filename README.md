@@ -2279,6 +2279,44 @@ At the end of each test case, I plan to:
     <td colspan="2"><strong>Pass/Fail:</strong> </td>
   </tr>
 </table>
-
+<table>
+  <tr>
+    <td><strong>Test Case:</strong> TC004</td>
+    <td><strong>Feature:</strong> External Links</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Description:</strong>To ensure external hyperlinks (e.g. links to LinkedIn, GitHub, certifications, or projects hosted externally) direct users to the appropriate third-party resources in a new browser tab or window are tested.
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Justification:</strong>Enhance credibility and provide proof of professional involvement (e.g. GitHub repositories, credentials) by ensuring external links operate correctly. Maintains positive user experience and follows recommended practices for usability when hyperlinks open in a separate tab. For consistent navigation and accessibility, user intent, human-centred design, and professional expectations are supported.
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Steps:</strong><br>
+1. Locate all external hyperlinks across the site (e.g. footer, header, contact area, project sections).<br>
+2. Select each external hyperlink.<br>
+3. Confirm the link opens the relevant external destination in a new tab.<br>
+4. Verify that the linked page loads successfully without errors (e.g. 404).<br>
+5. Check that target="_blank" and rel="noopener noreferrer" attributes are correctly implemented in the HTML markup.<br>
+6. Navigate to each hyperlink using keyboard-only interaction and activate it.<br>
+7. Use a screen reader to verify that the hyperlink is described clearly and appropriately (not labelled as “click here”).<br>
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Expected Result:</strong><br>
+- The correct page opens in a separate tab when selecting each external hyperlink.<br>
+- No instances of broken links or page errors occur.<br>
+- target="_blank" and rel="noopener noreferrer" attributes are applied to ensure security and retain user context.<br>
+- All hyperlinks are accessible via keyboard navigation and announced properly by screen readers.<br>
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Actual Result:</strong> </td>
+  </tr>
+<tr>
+    <td colspan="2"><strong>Pass/Fail:</strong> </td>
+  </tr>
+</table>
 ---
 
