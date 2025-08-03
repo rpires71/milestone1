@@ -2176,16 +2176,17 @@ At the end of each test case, I plan to:
     <td colspan="2"><strong>Justification:</strong> To ensure a seamless user journey, avoid misunderstanding and uphold inclusivity, precise and adaptive navigation is required.</td>
   </tr>
   <tr>
-    <td colspan="2"><strong>Steps:</strong> Launch the homepage in all web browsers.
-1. Select each navigation link (e.g. About Me, Skills, Work Experience, etc.).<br>
-2. Confirm that the appropriate page or section displays without issue.<br>
-3. Repeat on a tablet and smartphone.<br>
-4. Test keyboard accessibility using the Tab key to cycle through the navigation.<br>
-5. While using the keyboard, ensure visible focus highlights are present.<br>
+    <td colspan="2"><strong>Steps:</strong><br>1. Launch the homepage in all web browsers.<br>
+2. Select each navigation link (e.g. About Me, Skills, Work Experience, etc.).<br>
+3. Confirm that the appropriate page or section displays without issue.<br>
+4. Repeat on a tablet and smartphone.<br>
+5. Test keyboard accessibility using the Tab key to cycle through the navigation.<br>
+6. While using the keyboard, ensure visible focus highlights are present.<br>
 </td>
   </tr>
   <tr>
-    <td colspan="2"><strong>Expected Result:</strong> - All hyperlinks function correctly and lead users to the appropriate page/section.<br>
+    <td colspan="2"><strong>Expected Result:</strong><br>
+- All hyperlinks function correctly and lead users to the appropriate page/section.<br>
 - Navigation remains uniform across all pages.<br>
 - Responsive collapsible menu appears accurately when viewed on mobile and tablet formats.<br>
 - When navigating through all menu options, keyboard users can interact and observe visible focus outlines.<br>
@@ -2211,7 +2212,8 @@ At the end of each test case, I plan to:
 </td>
   </tr>
   <tr>
-    <td colspan="2"><strong>Steps:</strong> 1. Launch the homepage in all web browsers.<br>
+    <td colspan="2"><strong>Steps:</strong><br>
+1. Launch the homepage in all web browsers.<br>
 2. Navigate to the Bookings page.<br>
 3. Submit the form with incomplete fields.<br>
 4. Ensure that error notifications appear and are clearly phrased and perceivable.<br>
@@ -2221,11 +2223,11 @@ At the end of each test case, I plan to:
 8. Verify a confirmation message or redirection occurs.<br>
 9. Confirm all fields and controls are navigable using keyboard input only.<br>
 10. To evaluate field labels and error notifications, use screen reader technology.<br>
-
 </td>
   </tr>
   <tr>
-    <td colspan="2"><strong>Expected Result:</strong> - All hyperlinks function correctly and lead users to the appropriate page/section.<br>
+    <td colspan="2"><strong>Expected Result:</strong><br>
+- All hyperlinks function correctly and lead users to the appropriate page/section.<br>
 - Navigation remains uniform across all pages.<br>
 - Responsive collapsible menu appears accurately when viewed on mobile and tablet formats.<br>
 - When navigating through all menu options, keyboard users can interact and observe visible focus outlines.<br>
@@ -2252,23 +2254,23 @@ At the end of each test case, I plan to:
 </td>
   </tr>
   <tr>
-    <td colspan="2"><strong>Steps:</strong> 1. Access the section or page where the CV download button is placed.<br>
+    <td colspan="2"><strong>Steps:</strong><br>
+1. Access the section or page where the CV download button is placed.<br>
 2. Click the download button.<br>
 3. Verify that the correct file (e.g. CV.pdf) is retrieved.<br>
 4. Confirm the file is complete, legible, and correctly formatted by opening it.<br>
 5. On smartphone and tablet devices, repeat the test.<br>
 6. Using keyboard-only interaction and screen reader (confirm the button is labelled and announced accurately), repeat the test.<br>
 7. Using Chrome, Firefox, Safari, and Edge, verify the download function.<br>
-
 </td>
   </tr>
   <tr>
-    <td colspan="2"><strong>Expected Result:</strong> - The button is accessible and labelled clearly (e.g. "Download CV").<br>
+    <td colspan="2"><strong>Expected Result:</strong><br>
+- The button is accessible and labelled clearly (e.g. "Download CV").<br>
 - No errors occur and the file downloads successfully.<br>
 - The downloaded document opens and displays correctly.<br>
 - Across devices and browsers, the button works consistently .<br>
 - Download is activated by users easily using keyboard and screen reader.<br>
-
 </td>
   </tr>
   <tr>
@@ -2278,3 +2280,6 @@ At the end of each test case, I plan to:
     <td colspan="2"><strong>Pass/Fail:</strong> </td>
   </tr>
 </table>
+
+---
+
