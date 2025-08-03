@@ -2358,7 +2358,6 @@ At the end of each test case, I plan to:
     <td colspan="2"><strong>Pass/Fail:</strong> </td>
   </tr>
 </table>
-
 <table>
   <tr>
     <td><strong>Test Case:</strong> TC006</td>
@@ -2520,5 +2519,51 @@ At the end of each test case, I plan to:
     <td colspan="2"><strong>Pass/Fail:</strong> </td>
   </tr>
 </table>
+### Usability and Typography Testing
+
+**Purpose:** Ensure typographic support across all devices in terms of legibility, visual structure, and a professional appearance. Confirm that the site offers a user-friendly and intuitive experience that meets the expectations of the target audience.
+
+**Description:** Font application (Montserrat for headings and Open Sans for body text) is evaluated by this test in terms of clarity, uniformity, and adaptability. Assessment of overall typographic hierarchy, line height, text sizing, and font weight. Testing ensures that navigation, page layout, and interactive elements are intuitive and inclusive for users of varied backgrounds and requirements.
+
+**Justification:** The following tests contribute to a reliable and coherent interface. Also, legible, well-organised typography improves user comprehension and minimises visual fatigue. WCAG 2.1 readability and accessibility standards are fundamentally adhered to. Both course objectives and industry-standard web design practices are supported by effective usability, which also directly impacts user satisfaction and interaction.
+
+<table>
+  <tr>
+    <td><strong>Test Case:</strong> TC010</td>
+    <td><strong>Feature:</strong> Visual consistency</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Description:</strong> Verify that layout structure, colour palette, typography, spacing, and UI components (e.g. buttons, headings, links) remain uniform across all pages including Homepage, About, Projects, Bookings, and others.
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Justification:</strong> Consistent design improves user experience by reinforcing brand identity, reducing cognitive load, and supporting navigation familiarity. It meets professional standards of user interface design and contributes to accessibility, usability, and aesthetic quality.
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Steps:</strong><br>
+1. Open each main page of the website (Homepage, About, Skills, Work Experience, Projects, Certifications, Conferences, Bookings).<br>
+2. Compare layout alignment, margins, padding, and spacing between components.<br>
+3. Confirm consistent use of colours for headings, text, links, and backgrounds.<br>
+4. Check that the same heading styles and font sizes are applied throughout.<br>
+5. Ensure buttons and interactive elements are styled identically across pages.<br>
+6. Verify the same navigation bar and footer appear on all pages with consistent styling.<br>
+7. Check for consistent icon usage, image style, and component borders.<br>
+8. Test on desktop, tablet, and mobile to ensure consistency remains across breakpoints.<br>
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Expected Result:</strong><br>
+- The website displays a cohesive, uniform design throughout all pages and devices, reinforcing clarity, professionalism, and usability.
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Actual Result:</strong> </td>
+  </tr>
+<tr>
+    <td colspan="2"><strong>Pass/Fail:</strong> </td>
+  </tr>
+</table>
+<table>
 ---
 
