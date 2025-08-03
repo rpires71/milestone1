@@ -2931,7 +2931,6 @@ At the end of each test case, I plan to:
   </tr>
   <tr>
     <td colspan="2"><strong>Steps:</strong><br>
-Steps:
 1. Open the website in a browser supported by the screen reader (e.g. Chrome with NVDA on Windows, Safari with VoiceOver on macOS).<br>
 2. Activate the screen reader.<br>
 3. Navigate through the site using screen reader keyboard shortcuts (e.g. heading navigation, tab, arrow keys).<br>
