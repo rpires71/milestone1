@@ -3103,5 +3103,124 @@ At the end of each test case, I plan to:
     <td colspan="2"><strong>Pass/Fail:</strong> </td>
   </tr>
 </table>
+
+### Performance Testing
+
+**Purpose:** Regardless of device or network performance, it is essential to ensure the website loads promptly and operates efficiently under standard user conditions.
+
+**Description:** Overall system resource usage, responsiveness of interface components, and assessing the loading times of web pages is what is involved when evaluating performance. Verifying the optimisation of resources such as images, style sheets, and scripts to guarantee a satisfactory user experience. To carry out these evaluations, tools such as Google Lighthouse, PageSpeed Insights, or GTmetrix may be utilised.
+
+**Justification:**  User satisfaction, lower bounce rates, and enhanced accessibility for users with slower internet connections can be improved with fast-loading websites. By ensuring that the site is efficient, scalable, and suitable for deployment, performance testing also aligns with best practices in web development and search engine optimisation. For this project, attention to quality assurance and preparedness for real-world usage scenarios is demonstrated by optimising performance.
+
+<table>
+  <tr>
+    <td><strong>Test Case:</strong> TC025</td>
+    <td><strong>Feature:</strong> Load time (home/project)
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Description:</strong>  Measure the time taken for the Home and Project pages to fully load, including all visible content, interactive elements, and media.
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Justification:</strong> Fast load times enhance user satisfaction and reduce bounce rates. Ensuring these key pages load within 2–3 seconds aligns with performance best practices and supports a smooth user experience on all devices.
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Steps:</strong><br>
+1. Open the Home page using Chrome and record the time taken for full page load using developer tools or Lighthouse.<br>
+2. Repeat the process for the Project page.<br>
+3. Perform the same tests using a mobile simulation or physical mobile device.<br>
+4. Use Google PageSpeed Insights or GTmetrix to generate a performance report for each page.<br>
+5. Review suggestions for improving load time and document any performance issues.<br>
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Expected Result:</strong><br>
+- Both the Home and Project pages should load fully in under 3 seconds on standard broadband and 4G mobile connections.<br>
+- All visual elements (e.g. headers, text, images, image sliders) and interactive components (buttons, links) should render without delay or visual glitches.<br>
+- Performance score from Google Lighthouse or PageSpeed Insights should be above 85% for both desktop and mobile views.<br>
+- No critical issues such as render-blocking scripts, oversized images, or excessive unused CSS should be reported.<br>
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Actual Result:</strong> </td>
+  </tr>
+<tr>
+    <td colspan="2"><strong>Pass/Fail:</strong> </td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td><strong>Test Case:</strong> TC026</td>
+    <td><strong>Feature:</strong> Optimised images
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Description:</strong>  Verify that all images across the website are appropriately compressed and sized for fast loading without sacrificing visual quality. Formats like WebP or properly scaled JPEG/PNG should be used.
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Justification:</strong> Optimised images reduce page load time and bandwidth usage, contributing to better performance scores and an improved user experience—especially for users on slower connections. It also supports accessibility and SEO best practices.
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Steps:</strong><br>
+1. Open website pages containing multiple images (e.g. homepage, projects, about).<br>
+2. Use browser developer tools to inspect image file sizes and formats.<br>
+3. Run performance tests using tools like Google Lighthouse or PageSpeed Insights.<br>
+4. Confirm images load correctly and maintain visual quality across devices.<br>
+5. Ensure no oversized or uncompressed image files are present.<br>
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Expected Result:</strong><br>
+- All images should load quickly, appear sharp, and be under appropriate file size limits (generally <500KB per image). No unnecessary large images or format warnings should be flagged in performance testing tools.
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Actual Result:</strong> </td>
+  </tr>
+<tr>
+    <td colspan="2"><strong>Pass/Fail:</strong> </td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td><strong>Test Case:</strong> TC027</td>
+    <td><strong>Feature:</strong> Code validation
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Description:</strong> Validate the HTML and CSS code used across all pages of the website using tools such as the W3C Markup Validation Service and CSS Validation Service to check for syntax errors, deprecated tags, and semantic accuracy.
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Justification:</strong> O Clean, valid code enhances cross-browser compatibility, improves accessibility, and supports SEO. It also reduces the likelihood of rendering issues or broken functionality, and aligns with professional standards in web development.
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Steps:</strong><br>
+1. Open the W3C HTML Validator and paste or upload the HTML for each page (e.g. Home, About, Projects, Bookings).<br>
+2. Repeat the process using the W3C CSS Validator for your stylesheets.<br>
+3. Review the results for any warnings or errors.<br>
+4. Correct any issues flagged by the validators.<br>
+5. Re-test after making adjustments.<br>
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Expected Result:</strong><br>
+- All pages should pass validation without critical errors. Minor warnings (if any) should not impact performance or accessibility. The codebase should reflect best practices, be clean, and semantically structured.
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Actual Result:</strong> </td>
+  </tr>
+<tr>
+    <td colspan="2"><strong>Pass/Fail:</strong> </td>
+  </tr>
+</table>
 ---
 
