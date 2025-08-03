@@ -2679,11 +2679,11 @@ At the end of each test case, I plan to:
     <td><strong>Feature:</strong> Button Styles</td>
   </tr>
   <tr>
-    <td colspan="2"><strong>Description:</strong>  EExamine whether all buttons are consistently styled across the website. Check visual clarity, alignment with the overall design theme, responsiveness, and visibility when hovered or focused.
+    <td colspan="2"><strong>Description:</strong>  Examine whether all buttons are consistently styled across the website. Check visual clarity, alignment with the overall design theme, responsiveness, and visibility when hovered or focused.
 </td>
   </tr>
   <tr>
-    <td colspan="2"><strong>Justification:</strong> PConsistent and accessible button styling ensures intuitive interaction and helps users distinguish interactive elements from static content. Visual states (hover, focus) are vital for usability and accessibility, especially for keyboard users. This supports WCAG 2.1 Success Criterion 2.4.7 (Focus Visible) and enhances the user experience.
+    <td colspan="2"><strong>Justification:</strong> Consistent and accessible button styling ensures intuitive interaction and helps users distinguish interactive elements from static content. Visual states (hover, focus) are vital for usability and accessibility, especially for keyboard users. This supports WCAG 2.1 Success Criterion 2.4.7 (Focus Visible) and enhances the user experience.
 </td>
   </tr>
   <tr>
