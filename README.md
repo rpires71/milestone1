@@ -2213,24 +2213,23 @@ At the end of each test case, I plan to:
   </tr>
   <tr>
     <td colspan="2"><strong>Steps:</strong><br>
-1. Launch the homepage in all web browsers.<br>
-2. Navigate to the Bookings page.<br>
-3. Submit the form with incomplete fields.<br>
-4. Ensure that error notifications appear and are clearly phrased and perceivable.<br>
-5. Enter incorrect data (e.g. invalid email format) and observe the validation behaviour.<br>
-6. Input valid entries in all fields.<br>
-7. Submit the form.<br>
-8. Verify a confirmation message or redirection occurs.<br>
-9. Confirm all fields and controls are navigable using keyboard input only.<br>
-10. To evaluate field labels and error notifications, use screen reader technology.<br>
+1. Navigate to the Bookings page.<br>
+2. Submit the form with incomplete fields.<br>
+3. Ensure that error notifications appear and are clearly phrased and perceivable.<br>
+4. Enter incorrect data (e.g. invalid email format) and observe the validation behaviour.<br>
+5. Input valid entries in all fields.<br>
+6. Submit the form.<br>
+7. Verify a confirmation message or redirection occurs.<br>
+8. Confirm all fields and controls are navigable using keyboard input only.<br>
+9. To evaluate field labels and error notifications, use screen reader technology.<br>
 </td>
   </tr>
   <tr>
     <td colspan="2"><strong>Expected Result:</strong><br>
-- All hyperlinks function correctly and lead users to the appropriate page/section.<br>
-- Navigation remains uniform across all pages.<br>
-- Responsive collapsible menu appears accurately when viewed on mobile and tablet formats.<br>
-- When navigating through all menu options, keyboard users can interact and observe visible focus outlines.<br>
+- Mandatory fields are enforced and clearly identified.<br>
+- Invalid entries trigger feedback that is visible and accessible via screen readers.<br>
+- A confirmation is provided upon successful submission of valid data.<br>
+- The form is fully navigable using both keyboard and screen reader tools.<br>
 </td>
   </tr>
   <tr>
