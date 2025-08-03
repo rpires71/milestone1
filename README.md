@@ -2973,9 +2973,8 @@ At the end of each test case, I plan to:
   </tr>
   <tr>
     <td colspan="2"><strong>Steps:</strong><br>
-Steps:
 1. Open the browser's developer tools (e.g. Chrome DevTools).<br>
-2. Inspect each page to confirm the presence and correct usage of semantic tags (<header>, <main>, <nav>, <section>, <footer>, etc.).<br>
+2. Inspect each page to confirm the presence and correct usage of semantic tags (&lt;header&gt;, &lt;main&gt;, &lt;nav&gt;, &lt;section&gt;, &lt;footer&gt;, etc.).<br>
 3. Check heading order (H1 to H6) to ensure it follows a logical and nested structure.<br>
 4. Ensure ARIA roles are not used to replace semantics unnecessarily (e.g. <div role="main"> when <main> could be used).<br>
 5. Validate HTML using the W3C Markup Validator to identify structural or nesting errors.<br>
