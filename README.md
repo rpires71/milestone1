@@ -2285,11 +2285,11 @@ At the end of each test case, I plan to:
     <td><strong>Feature:</strong> External Links</td>
   </tr>
   <tr>
-    <td colspan="2"><strong>Description:</strong>To ensure external hyperlinks (e.g. links to LinkedIn, GitHub, certifications, or projects hosted externally) direct users to the appropriate third-party resources in a new browser tab or window are tested.
+    <td colspan="2"><strong>Description:</strong> To ensure external hyperlinks (e.g. links to LinkedIn, GitHub, certifications, or projects hosted externally) direct users to the appropriate third-party resources in a new browser tab or window are tested.
 </td>
   </tr>
   <tr>
-    <td colspan="2"><strong>Justification:</strong>Enhance credibility and provide proof of professional involvement (e.g. GitHub repositories, credentials) by ensuring external links operate correctly. Maintains positive user experience and follows recommended practices for usability when hyperlinks open in a separate tab. For consistent navigation and accessibility, user intent, human-centred design, and professional expectations are supported.
+    <td colspan="2"><strong>Justification:</strong> Enhance credibility and provide proof of professional involvement (e.g. GitHub repositories, credentials) by ensuring external links operate correctly. Maintains positive user experience and follows recommended practices for usability when hyperlinks open in a separate tab. For consistent navigation and accessibility, user intent, human-centred design, and professional expectations are supported.
 </td>
   </tr>
   <tr>
@@ -2309,6 +2309,208 @@ At the end of each test case, I plan to:
 - No instances of broken links or page errors occur.<br>
 - target="_blank" and rel="noopener noreferrer" attributes are applied to ensure security and retain user context.<br>
 - All hyperlinks are accessible via keyboard navigation and announced properly by screen readers.<br>
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Actual Result:</strong> </td>
+  </tr>
+<tr>
+    <td colspan="2"><strong>Pass/Fail:</strong> </td>
+  </tr>
+</table>
+<table>
+  <tr>
+    <td><strong>Test Case:</strong> TC005</td>
+    <td><strong>Feature:</strong> Footer Links</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Description:</strong> Ensure that all navigation and informational links located in the footer (e.g. internal page links, social media icons, contact links) function correctly, are labelled clearly, and follow accessibility standards.
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Justification:</strong> The footer serves as a secondary navigation hub and contributes to a consistent and user-friendly layout. Ensuring all footer links work as intended reinforces user trust, supports accessibility, and aligns with professional UX practices. This also demonstrates attention to detail and compliance with best practices in inclusive web design.
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Steps:</strong><br>
+1. Scroll to the footer on every page.<br>
+2. Click each internal link (e.g. "About", "Projects", "Bookings") to ensure it navigates to the correct section/page.<br>
+3. Click each external link or icon (e.g. LinkedIn, GitHub) to verify it opens the correct site in a new browser tab.<br>
+4. Hover over each link to check visual feedback (e.g. underline, colour change).<br>
+5. Use keyboard tabbing to focus each link and press Enter to activate it.<br>
+6. Use a screen reader to ensure links are announced meaningfully.<br>
+7. Inspect HTML to confirm appropriate ARIA labels or accessible link text is used.<br>
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Expected Result:</strong><br>
+- All internal links navigate correctly within the site.<br>
+- External links open in a new tab using target="_blank" and include rel="noopener noreferrer".<br>
+- Visual and keyboard focus indicators are present.<br>
+- All links are readable and correctly announced by screen readers.<br>
+- No broken or incorrect links appear.<br>
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Actual Result:</strong> </td>
+  </tr>
+<tr>
+    <td colspan="2"><strong>Pass/Fail:</strong> </td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td><strong>Test Case:</strong> TC006</td>
+    <td><strong>Feature:</strong> Image Slider on homepage</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Description:</strong> Evaluate the homepage image slider to ensure it functions correctly, transitions between slides smoothly, includes visible navigation controls, and adheres to accessibility standards (e.g. alt text, keyboard operability, readable content).
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Justification:</strong> The image slider is a visually engaging feature used to communicate key messages or showcase work. Its functionality and accessibility directly affect the first impression of users, especially those with visual or motor impairments. Ensuring a seamless, accessible slider enhances UX, supports WCAG 2.1 compliance, and reflects professional web development practices.
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Steps:</strong><br>
+1. Load the homepage and observe if the image slider initiates automatically.<br>
+2. Confirm slide transitions occur smoothly and within an appropriate time frame.<br>
+3. Click the left/right arrow navigation buttons to manually cycle through slides.<br>
+4. Use keyboard arrows (← → or Tab/Enter) to navigate between slides.<br>
+5. Inspect the presence of alt text for all images.<br>
+6. Use a screen reader to test whether images and associated text are announced appropriately.<br>
+7. Check the responsiveness of the slider on tablet and mobile devices.<br>
+8. Confirm that animations do not trigger motion sensitivity issues (e.g. flashing, fast transitions).<br>
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Expected Result:</strong><br>
+- Slider loads automatically with smooth transitions.<br>
+- Manual navigation works using buttons and keyboard input.<br>
+- All images include meaningful alt text.<br>
+- Slider content is accessible via screen readers.<br>
+- Design adapts properly across all screen sizes.<br>
+- Visual indicators are clear and non-disruptive.<br>
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Actual Result:</strong> </td>
+  </tr>
+<tr>
+    <td colspan="2"><strong>Pass/Fail:</strong> </td>
+  </tr>
+</table>
+<table>
+  <tr>
+    <td><strong>Test Case:</strong> TC007</td>
+    <td><strong>Feature:</strong> Live Chat (if used)</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Description:</strong> Test the availability, visibility, usability, and accessibility of the live chat widget across devices. Confirm that users can open the chat, send and receive messages, and navigate the interface using a keyboard and screen reader.
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Justification:</strong> Live chat provides immediate communication for visitors, which improves user support and responsiveness—especially valuable for prospective students, parents, and employers. Ensuring functional, accessible, and responsive live chat aligns with user-centred design principles, professional UX standards, and WCAG 2.1 compliance.
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Steps:</strong><br>
+1. Load the homepage and verify the live chat icon/widget appears (e.g., bottom right corner).<br>
+2. Click or tap the chat icon to open the chat interface.<br>
+3. Enter a test message and click send.<br>
+4. A confirmation message is delivered and a response (automated or manual) is displayed.<br>
+5. Navigate the chat using keyboard keys (Tab, Shift+Tab, Enter, Esc).<br>
+6. Use screen reader software to test label announcements, focus order, and message feedback.<br>
+7. Resize browser window or test on mobile/tablet to check responsive behaviour.<br>
+8. Refresh the page and confirm expected session behaviour (reset or persistent).<br>
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Expected Result:</strong><br>
+- The chat icon is visible and accessible across all screen sizes.<br>
+- Messages can be sent and responses are displayed.<br>
+- Widget is operable via keyboard and screen reader.<br>
+- Responsive layout adapts smoothly to mobile and tablet views.<br>
+- No errors or accessibility barriers present.<br>
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Actual Result:</strong> </td>
+  </tr>
+<tr>
+    <td colspan="2"><strong>Pass/Fail:</strong> </td>
+  </tr>
+</table>
+<table>
+  <tr>
+    <td><strong>Test Case:</strong> TC008</td>
+    <td><strong>Feature:</strong> Content accuracy - All pages</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Description:</strong> Verify that written content on each page (e.g. Homepage, About Me, Work Experience, Projects, Bookings) is grammatically correct, relevant, and free from typographical errors. Ensure consistency of tone, spelling (UK English), dates, and professional terminology.
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Justification:</strong> Accurate and professionally presented content builds trust, supports user comprehension, and enhances the credibility of the website. It also reflects the standards expected in educational and technical sectors, fulfilling user goals and aligning with course requirements related to clarity, quality assurance, and professional presentation.
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Steps:</strong><br>
+1. Open each page of the website: Homepage, About Me, Skills, Work Experience, Certifications, Projects, Conferences/Workshops, Bookings.<br>
+2. Read all headings, paragraphs, and list items to check for grammar, spelling, punctuation, and tone.<br>
+3. Confirm correct UK spelling (e.g. “optimise” instead of “optimize”).<br>
+4. Validate consistency of names, job titles, dates, and qualifications.<br>
+5. Check that terminology is relevant to the audience (e.g. “book a session” for students vs. “request a call” for recruiters).<br>
+6. Use a grammar checking tool (e.g. Grammarly, Hemingway Editor) for final proofreading.<br>
+7. Repeat tests on desktop and mobile view to check for content cut-offs or rendering issues.<br>
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Expected Result:</strong><br>
+- No spelling or grammatical errors present.<br>
+- Content is relevant, consistent, and professionally worded.<br>
+- Tone remains clear and appropriate across all pages.<br>
+- All content displays correctly on desktop, tablet, and mobile screens.<br>
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Actual Result:</strong> </td>
+  </tr>
+<tr>
+    <td colspan="2"><strong>Pass/Fail:</strong> </td>
+  </tr>
+</table>
+<table>
+  <tr>
+    <td><strong>Test Case:</strong> TC009</td>
+    <td><strong>Feature:</strong> Content accuracy - Link Titles</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Description:</strong> Verify that all hyperlinks across the site have clear, descriptive titles or visible text that accurately reflects the destination or function of the link (e.g. "View Projects", "Download CV" instead of "Click Here").
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Justification:</strong> Descriptive link titles improve user navigation, accessibility for screen reader users, and SEO performance. This supports WCAG 2.1 Success Criterion 2.4.4 (Link Purpose), and ensures the site meets usability and clarity standards. It also helps users quickly identify what each link does, preventing confusion and enhancing trust.
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Steps:</strong><br>
+1. Navigate to all pages of the site (Homepage, About Me, Work Experience, Projects, etc.).<br>
+2. Locate all text-based and image-based links.<br>
+3. Confirm that the visible link text is meaningful and contextually descriptive.<br>
+4. Hover over links to review the title attribute (if used) for relevance.<br>
+5. Check for consistency in link phrases across the site.<br>
+6. Use a screen reader (or simulator) to ensure links make sense when read aloud independently.<br>
+7. Test links on mobile and desktop to ensure accessibility and responsiveness.<br>
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Expected Result:</strong><br>
+- All links use descriptive, relevant text.<br>
+- No vague terms like "Click here" or "More info" without context.<br>
+- Link titles support screen reader users.<br>
+- Links are consistent, clear, and function as expected across all devices<br>
 </td>
   </tr>
   <tr>
