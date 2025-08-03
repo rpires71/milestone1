@@ -2245,7 +2245,7 @@ At the end of each test case, I plan to:
     <td><strong>Feature:</strong> CV Download Button</td>
   </tr>
   <tr>
-    <td colspan="2"><strong>Description:</strong>  When offering access to a downloadable version of the CV (e.g. PDF), it is necessary to verify that the download button operates correctly. Across platforms and browsers, it is necessary to assess accessibility, file validity, and consistent performance.
+    <td colspan="2"><strong>Description:</strong> When offering access to a downloadable version of the CV (e.g. PDF), it is necessary to verify that the download button operates correctly. Across platforms and browsers, it is necessary to assess accessibility, file validity, and consistent performance.
 </td>
   </tr>
   <tr>
@@ -2644,7 +2644,7 @@ At the end of each test case, I plan to:
     <td><strong>Feature:</strong> Text Spacing</td>
   </tr>
   <tr>
-    <td colspan="2"><strong>Description:</strong>  Evaluate whether spacing between lines, letters, and paragraphs follows accessibility and readability standards across all content. Confirm consistent application throughout all pages (e.g. About, Skills, Projects).
+    <td colspan="2"><strong>Description:</strong> Evaluate whether spacing between lines, letters, and paragraphs follows accessibility and readability standards across all content. Confirm consistent application throughout all pages (e.g. About, Skills, Projects).
 </td>
   </tr>
   <tr>
@@ -2680,7 +2680,7 @@ At the end of each test case, I plan to:
     <td><strong>Feature:</strong> Button Styles</td>
   </tr>
   <tr>
-    <td colspan="2"><strong>Description:</strong>  Examine whether all buttons are consistently styled across the website. Check visual clarity, alignment with the overall design theme, responsiveness, and visibility when hovered or focused.
+    <td colspan="2"><strong>Description:</strong> Examine whether all buttons are consistently styled across the website. Check visual clarity, alignment with the overall design theme, responsiveness, and visibility when hovered or focused.
 </td>
   </tr>
   <tr>
@@ -2726,7 +2726,7 @@ At the end of each test case, I plan to:
 </td>
   </tr>
   <tr>
-    <td colspan="2"><strong>Description:</strong>  Ensure that the website layout, typography, images, and navigation display correctly and consistently on desktop browsers at full HD resolution (1920x1080), without distortion, overflow, or visual inconsistency.
+    <td colspan="2"><strong>Description:</strong> Ensure that the website layout, typography, images, and navigation display correctly and consistently on desktop browsers at full HD resolution (1920x1080), without distortion, overflow, or visual inconsistency.
 </td>
   </tr>
   <tr>
@@ -2764,7 +2764,7 @@ At the end of each test case, I plan to:
 </td>
   </tr>
   <tr>
-    <td colspan="2"><strong>Description:</strong>  Check that the layout, navigation, images, and text adapt correctly to a standard tablet portrait resolution (768x1024). This includes correct stacking of columns, readable font sizes, and touch-friendly spacing.
+    <td colspan="2"><strong>Description:</strong> Check that the layout, navigation, images, and text adapt correctly to a standard tablet portrait resolution (768x1024). This includes correct stacking of columns, readable font sizes, and touch-friendly spacing.
 </td>
   </tr>
   <tr>
@@ -2802,7 +2802,7 @@ At the end of each test case, I plan to:
 </td>
   </tr>
   <tr>
-    <td colspan="2"><strong>Description:</strong>  Evaluate how the website adapts to smaller mobile screens, particularly the 375x667 viewport size used by many smartphones. This includes checking layout reflow, visibility of content, touch-target sizing, and functionality of navigation menus and interactive elements.
+    <td colspan="2"><strong>Description:</strong> Evaluate how the website adapts to smaller mobile screens, particularly the 375x667 viewport size used by many smartphones. This includes checking layout reflow, visibility of content, touch-target sizing, and functionality of navigation menus and interactive elements.
 </td>
   </tr>
   <tr>
@@ -2839,7 +2839,7 @@ At the end of each test case, I plan to:
 
 **Description:** Conformance with WCAG 2.1 standards, which emphasises features such as keyboard operability, screen reader support, adequate colour contrast, meaningful HTML semantics, ARIA properties, descriptive alternative text, and inclusive form controls is validated through accessibility testing.
 
-**Justification:**  In accordance with the UK Equality Act 2010 and WCAG 2.1 guidelines, ensuring accessibility is both an ethical and legal requirement. Accommodating users with visual, auditory, motor, and cognitive impairments, professionally built websites must be universally accessible. Course learning objectives related to usability, inclusiveness, and established standards in contemporary web development are fulfilled by demonstrating accessibility testing.
+**Justification:** In accordance with the UK Equality Act 2010 and WCAG 2.1 guidelines, ensuring accessibility is both an ethical and legal requirement. Accommodating users with visual, auditory, motor, and cognitive impairments, professionally built websites must be universally accessible. Course learning objectives related to usability, inclusiveness, and established standards in contemporary web development are fulfilled by demonstrating accessibility testing.
 
 <table>
   <tr>
@@ -2848,7 +2848,7 @@ At the end of each test case, I plan to:
 </td>
   </tr>
   <tr>
-    <td colspan="2"><strong>Description:</strong>  Ensure that all text and interface elements maintain a minimum contrast ratio of 4.5:1 against their background colours. This applies to headings, body text, buttons, form labels, and links.
+    <td colspan="2"><strong>Description:</strong> Ensure that all text and interface elements maintain a minimum contrast ratio of 4.5:1 against their background colours. This applies to headings, body text, buttons, form labels, and links.
 </td>
   </tr>
   <tr>
@@ -2884,7 +2884,7 @@ At the end of each test case, I plan to:
 </td>
   </tr>
   <tr>
-    <td colspan="2"><strong>Description:</strong>  Ensure users can navigate through all interactive elements (e.g. links, buttons, forms, image sliders) using the Tab, Shift+Tab, Enter, and Arrow keys, without requiring a mouse.
+    <td colspan="2"><strong>Description:</strong> Ensure users can navigate through all interactive elements (e.g. links, buttons, forms, image sliders) using the Tab, Shift+Tab, Enter, and Arrow keys, without requiring a mouse.
 
 </td>
   </tr>
@@ -2922,7 +2922,7 @@ At the end of each test case, I plan to:
 </td>
   </tr>
   <tr>
-    <td colspan="2"><strong>Description:</strong>  Verify that all content, headings, links, forms, image alt text, and navigation elements are correctly read aloud by popular screen readers (e.g. NVDA or VoiceOver), following a logical reading order and reflecting the intended structure of the page.
+    <td colspan="2"><strong>Description:</strong> Verify that all content, headings, links, forms, image alt text, and navigation elements are correctly read aloud by popular screen readers (e.g. NVDA or VoiceOver), following a logical reading order and reflecting the intended structure of the page.
 </td>
   </tr>
   <tr>
@@ -2964,7 +2964,7 @@ At the end of each test case, I plan to:
 </td>
   </tr>
   <tr>
-    <td colspan="2"><strong>Description:</strong>  Check that appropriate semantic HTML5 elements such as &lt;header&gt;, &lt;main&gt;, &lt;nav&gt;, &lt;section&gt;,&lt;article&gt;,and &lt;footer&gt; are used to structure the content. Verify that content hierarchy and meaning are conveyed clearly through correct use of headings and tags.
+    <td colspan="2"><strong>Description:</strong> Check that appropriate semantic HTML5 elements such as &lt;header&gt;, &lt;main&gt;, &lt;nav&gt;, &lt;section&gt;,&lt;article&gt;,and &lt;footer&gt; are used to structure the content. Verify that content hierarchy and meaning are conveyed clearly through correct use of headings and tags.
 </td>
   </tr>
   <tr>
@@ -3000,7 +3000,7 @@ At the end of each test case, I plan to:
 </td>
   </tr>
   <tr>
-    <td colspan="2"><strong>Description:</strong>  Check that all meaningful images include appropriate alt attributes describing their content or function. Ensure decorative images either have empty alt attributes (alt="") or are handled with appropriate roles.
+    <td colspan="2"><strong>Description:</strong> Check that all meaningful images include appropriate alt attributes describing their content or function. Ensure decorative images either have empty alt attributes (alt="") or are handled with appropriate roles.
 </td>
   </tr>
   <tr>
@@ -3036,12 +3036,12 @@ At the end of each test case, I plan to:
 </td>
   </tr>
   <tr>
-    <td colspan="2"><strong>Description:</strong>  Verify that ARIA attributes (such as aria-label, aria-describedby, role, aria-live) are correctly used on interactive or dynamic elements like forms, modals, alerts, and sliders. Confirm they provide additional context where native HTML elements alone are insufficient.
+    <td colspan="2"><strong>Description:</strong> Verify that ARIA attributes (such as aria-label, aria-describedby, role, aria-live) are correctly used on interactive or dynamic elements like forms, modals, alerts, and sliders. Confirm they provide additional context where native HTML elements alone are insufficient.
 
 </td>
   </tr>
   <tr>
-    <td colspan="2"><strong>Justification:</strong>  ARIA attributes are essential in improving accessibility for users relying on screen readers or other assistive technologies, especially where default semantic elements do not provide enough context. This supports WCAG 2.1 guidelines and enhances usability by reducing confusion and improving navigation for users with cognitive or visual impairments.
+    <td colspan="2"><strong>Justification:</strong> ARIA attributes are essential in improving accessibility for users relying on screen readers or other assistive technologies, especially where default semantic elements do not provide enough context. This supports WCAG 2.1 guidelines and enhances usability by reducing confusion and improving navigation for users with cognitive or visual impairments.
 </td>
   </tr>
   <tr>
@@ -3110,7 +3110,7 @@ At the end of each test case, I plan to:
 
 **Description:** Overall system resource usage, responsiveness of interface components, and assessing the loading times of web pages is what is involved when evaluating performance. Verifying the optimisation of resources such as images, style sheets, and scripts to guarantee a satisfactory user experience. To carry out these evaluations, tools such as Google Lighthouse, PageSpeed Insights, or GTmetrix may be utilised.
 
-**Justification:**  User satisfaction, lower bounce rates, and enhanced accessibility for users with slower internet connections can be improved with fast-loading websites. By ensuring that the site is efficient, scalable, and suitable for deployment, performance testing also aligns with best practices in web development and search engine optimisation. For this project, attention to quality assurance and preparedness for real-world usage scenarios is demonstrated by optimising performance.
+**Justification:** User satisfaction, lower bounce rates, and enhanced accessibility for users with slower internet connections can be improved with fast-loading websites. By ensuring that the site is efficient, scalable, and suitable for deployment, performance testing also aligns with best practices in web development and search engine optimisation. For this project, attention to quality assurance and preparedness for real-world usage scenarios is demonstrated by optimising performance.
 
 <table>
   <tr>
@@ -3119,7 +3119,7 @@ At the end of each test case, I plan to:
 </td>
   </tr>
   <tr>
-    <td colspan="2"><strong>Description:</strong>  Measure the time taken for the Home and Project pages to fully load, including all visible content, interactive elements, and media.
+    <td colspan="2"><strong>Description:</strong> Measure the time taken for the Home and Project pages to fully load, including all visible content, interactive elements, and media.
 </td>
   </tr>
   <tr>
@@ -3158,7 +3158,7 @@ At the end of each test case, I plan to:
 </td>
   </tr>
   <tr>
-    <td colspan="2"><strong>Description:</strong>  Verify that all images across the website are appropriately compressed and sized for fast loading without sacrificing visual quality. Formats like WebP or properly scaled JPEG/PNG should be used.
+    <td colspan="2"><strong>Description:</strong> Verify that all images across the website are appropriately compressed and sized for fast loading without sacrificing visual quality. Formats like WebP or properly scaled JPEG/PNG should be used.
 </td>
   </tr>
   <tr>
@@ -3222,5 +3222,57 @@ At the end of each test case, I plan to:
     <td colspan="2"><strong>Pass/Fail:</strong> </td>
   </tr>
 </table>
+
+### Regression Testing
+
+**Purpose:** Ensure that existing website features or functionalities are not adversely affected by recent modifications, updates, or bug resolutions.
+
+**Description:** Ensure retesting occurs after implementing changes such as introducing new content, updating styles, or resolving defects — previously operational components like forms, navigation, image sliders, and responsive layouts. Verification assists in confirming that existing functionality remains intact and that no faults have been introduced by updates.
+
+**Justification:** To maintain the overall reliability and stability of the website, regression testing is essential. It supports quality assurance, ensures user confidence in the interface, and aligns with professional development practices. For this portfolio site, a refined and reliable user experience will be reinforced, which is essential for prospective employers and users.
+
+<table>
+  <tr>
+    <td><strong>Test Case:</strong> TC028</td>
+    <td><strong>Feature:</strong> General functionality and UI consistency across the entire website after updates or changes.
+
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Description:</strong> Conduct a full walkthrough of all website pages to ensure that after implementing updates (e.g. new content, design changes, testimonials, or features), all previously working elements — including navigation, forms, typography, images, accessibility features, and responsiveness — continue to function correctly and display as intended.
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Justification:</strong> Regression testing ensures no existing functionality is broken during updates. It supports a stable user experience, safeguards accessibility and responsive design compliance, and meets the quality assurance standards outlined in the course brief.
+
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Steps:</strong><br>
+1. Navigate through all pages (Home, About, Skills, Work Experience, Projects, Bookings, etc.).<br>
+2. Check the navigation menu, footer links, and all buttons for correct redirection.<br>
+3. Submit the contact form and validate input errors and success messages.<br>
+4. Inspect image loading, alt text presence, and image slider functionality.<br>
+5. Confirm external links (e.g. CV download or project links) open correctly.<br>
+6. Re-test colour contrast, font rendering, and responsiveness using Chrome dev tools or Lighthouse.<br>
+7. Use keyboard-only navigation to check accessibility.<br>
+8. Run screen reader compatibility checks on key sections.<br>
+9. Validate that ARIA attributes and semantic HTML are still effective.<br>
+10. Run performance tools (e.g. Lighthouse) to assess site speed and accessibility.<br>
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Expected Result:</strong><br>
+- All site features, content, and design elements work as expected with no broken links, errors, or layout issues. The site remains responsive, accessible, and visually consistent across all devices and browsers.
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Actual Result:</strong> </td>
+  </tr>
+<tr>
+    <td colspan="2"><strong>Pass/Fail:</strong> </td>
+  </tr>
+</table>
+
 ---
 
