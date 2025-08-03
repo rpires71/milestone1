@@ -3198,7 +3198,7 @@ At the end of each test case, I plan to:
 </td>
   </tr>
   <tr>
-    <td colspan="2"><strong>Justification:</strong> O Clean, valid code enhances cross-browser compatibility, improves accessibility, and supports SEO. It also reduces the likelihood of rendering issues or broken functionality, and aligns with professional standards in web development.
+    <td colspan="2"><strong>Justification:</strong> Clean, valid code enhances cross-browser compatibility, improves accessibility, and supports SEO. It also reduces the likelihood of rendering issues or broken functionality, and aligns with professional standards in web development.
 </td>
   </tr>
   <tr>
