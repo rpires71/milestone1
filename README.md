@@ -3009,7 +3009,6 @@ At the end of each test case, I plan to:
   </tr>
   <tr>
     <td colspan="2"><strong>Steps:</strong><br>
-Steps:
 1. Inspect each image across the website using browser developer tools.<br>
 2. Confirm that all content-carrying images include a meaningful alt attribute.<br>
 3. Verify that purely decorative images include alt="" or are hidden from assistive technologies using aria-hidden="true".<br>
@@ -3047,7 +3046,6 @@ Steps:
   </tr>
   <tr>
     <td colspan="2"><strong>Steps:</strong><br>
-Steps:
 1. Identify dynamic or non-standard components (e.g. form validation messages, modal pop-ups, live regions).<br>
 2. Use browser developer tools to inspect elements for proper ARIA attributes.<br>
 3. Confirm that each element has correct and meaningful aria-label, aria-labelledby, or aria-describedby values.<br>
@@ -3084,7 +3082,6 @@ Steps:
   </tr>
   <tr>
     <td colspan="2"><strong>Steps:</strong><br>
-Steps:
 1. Load the website in a browser.<br>
 2. Press the Tab key upon page load to bring focus to the first interactive element.<br>
 3. Observe whether a visible "Skip to Content" link appears.<br>
