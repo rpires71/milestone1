@@ -136,12 +136,71 @@ header h3 {
   margin-bottom: 1rem; /* You can adjust this value if you want more or less space */
 }
 
+.tile {
+  font-size: 0.55rem; /* Shrinks all text inside the tile */
+}
+
+/* Carousel */
+.carousel-wrapper {
+  border: 3px solid var(--headings-footer-background); /* chocolate brown */
+  border-radius: 8px;
+  padding: 1rem;
+  background-color: var(--page-background); /* optional: makes the background clean */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: subtle elevation */
+  margin-bottom: 1.5rem;
+  
+}
+
+/* Ensure all carousel images are the same size */
+.carousel-inner img {
+  width: 100%;
+  height: 305px; /* Set desired height */
+  object-fit: cover; /* Ensures cropping/fitting while maintaining aspect ratio */
+  border-radius: 5px;
+}
+
+/* Main section*/
 main {
   background-color: var(--page-background);
 }
 
 main > section:first-of-type {
   margin-top: 2rem;
+}
+
+/* Footer section */
+
+footer{
+  background-color: var(--headings-footer-background);
+  color: var(--light-font-colour); /* ensure good contrast */
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+}
+
+.footer-social {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+  padding-top: 5px;
+}
+
+@media (max-width: 768px) {
+  .carousel-inner img {
+    height: 200px;
+  }
+}
+
+@media (max-width: 480px) {
+  .carousel-inner img {
+    height: 150px;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer-badge img {
+    max-width: 80px;
+  }
 }
 /* grid visualisation CSS for testing 
 
@@ -154,3 +213,26 @@ main > section:first-of-type {
     border: 2px solid white;
     background-color: lightgray;
 }*/
+
+/* Contacts section */
+#contact {
+    /* Handles responsivity without the need for a media query */
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#contact div {
+    padding: 15px;
+    text-align: center;
+    /* This will not wrap on screens of less than 400px wide.
+    Each div will expand to fill the available space on its row */
+    flex-basis: 200px;
+    flex-grow: 1;
+    /* Creates a grid of meetup time divs over the background image */
+    border: 2px solid var(--light-font-colour);
+}
+
+#contact h3 {
+    /* Override the heading colour set in general styles */
+    color: var(--light-font-colour); /* ensure good contrast */
+}
