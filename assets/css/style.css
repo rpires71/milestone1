@@ -6,6 +6,7 @@
     --secondary-typeface: "Open Sans", sans-serif;
     --body-text-colour: #3a1705; /* dark brown */
     --page-background: #F9F6F1; /* light beige */
+    --light-font-colour: #F9F6F1; /* light beige */
     --headings-footer-background: #3E2C23; /*Dark Chocolate Brown*/ 
     --highlights-call-to-action-elements: #CBA135; /* Gold Brown */
     --primary-accents-buttons: #B7986B; /*Hazel Brown*/
@@ -17,6 +18,7 @@ body{
     color: var(--body-text-colour);
 }
 
+
 h1, h2, h3, h4, h5, h6{
     font-family: var(--primary-typeface);
     color: var(--headings-footer-background);
@@ -26,6 +28,28 @@ h1, h2, h3, h4, h5, h6{
     color: var(--highlight-color);
 }
 
+/* Navbar */
+
+
+.custom-navbar{
+    background-color: var(--headings-footer-background);
+}
+
+.custom-navbar .nav-link,
+.custom-navbar .navbar-brand
+{
+    color: var(--light-font-colour);
+}
+
+.custom-navbar .nav-link:hover,
+.custom-navbar .nav-link.active,
+.custom-navbar .navbar-brand:hover{
+    color:var(--primary-accents-buttons);
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(249, 246, 241, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
 /* grid visualisation CSS for testing */
 
 .container,
