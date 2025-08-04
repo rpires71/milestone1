@@ -30,6 +30,11 @@ h1, h2, h3, h4, h5, h6{
 
 /* Navbar */
 
+.logo {
+    max-height: 40px;
+    height: auto;
+    width: auto;
+}
 
 .custom-navbar{
     background-color: var(--headings-footer-background);
