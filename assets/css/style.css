@@ -185,6 +185,48 @@ footer{
   padding-top: 5px;
 }
 
+.footer-tile {
+  background-color: var(--headings-footer-background); /* Optional: same as footer */
+  border: 2px solid var(--primary-accents-buttons); /* Hazel Brown border */
+  border-radius: 10px;
+  padding: 1rem;
+  margin: 0.5rem;
+  text-align: center;
+  flex-grow: 1;
+  flex-basis: 200px;
+  color: var(--light-font-colour);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: adds elevation */
+}
+
+.footer-title {
+  color: var(--light-font-colour); /* This should be #f9f6f1 */
+  font-size: 3rem; /* adjust size if needed */
+  margin-bottom: 1rem;
+}
+
+/* Contacts section */
+#contact {
+    /* Handles responsivity without the need for a media query */
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#contact div {
+    padding: 15px;
+    text-align: center;
+    /* This will not wrap on screens of less than 400px wide.
+    Each div will expand to fill the available space on its row */
+    flex-basis: 200px;
+    flex-grow: 1;
+    /* Creates a grid of meetup time divs over the background image */
+    border: 2px solid var(--light-font-colour);
+}
+
+#contact h3 {
+    /* Override the heading colour set in general styles */
+    color: var(--light-font-colour); /* ensure good contrast */
+}
+
 @media (max-width: 768px) {
   .carousel-inner img {
     height: 200px;
@@ -214,25 +256,3 @@ footer{
     background-color: lightgray;
 }*/
 
-/* Contacts section */
-#contact {
-    /* Handles responsivity without the need for a media query */
-    display: flex;
-    flex-wrap: wrap;
-}
-
-#contact div {
-    padding: 15px;
-    text-align: center;
-    /* This will not wrap on screens of less than 400px wide.
-    Each div will expand to fill the available space on its row */
-    flex-basis: 200px;
-    flex-grow: 1;
-    /* Creates a grid of meetup time divs over the background image */
-    border: 2px solid var(--light-font-colour);
-}
-
-#contact h3 {
-    /* Override the heading colour set in general styles */
-    color: var(--light-font-colour); /* ensure good contrast */
-}
