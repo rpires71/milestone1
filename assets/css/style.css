@@ -56,6 +56,11 @@ header {
   font-weight: 400;
 }
 
+.header-lead {
+  font-size: clamp(2rem, 3vw, 1.6rem);
+  font-weight: 400;
+}
+
 header.header-background {
   background-color: var(--primary-accents-buttons);
   color: var(--light-font-colour);
@@ -63,8 +68,9 @@ header.header-background {
   align-items: center;
   justify-content: center;
   width: 100%; /* Ensure full width */
-  min-height: 200px;
+  min-height: 300px;
 }
+
 
 header h1 {
   font-size: 4.5rem; /* increase main heading size */
@@ -74,6 +80,16 @@ header h1 {
 header h3 {
   font-size: 2.5rem; /* increase subheading size */
   font-weight: 400;
+}
+
+
+.header-intro {
+  max-width: 800px;
+  margin: 0 auto;
+  font-size: clamp(0.75rem, 1.5vw, 1.1rem);
+  font-weight: 400;
+  padding-top: 1rem;
+  text-align: justify;
 }
 /* Logo */
 
@@ -96,6 +112,11 @@ header h3 {
 }
 
 .logo-header {
+  margin-left: auto;
+  margin-right: auto;
+
+  
+  display: block;        /* Allows margin auto centering */
   margin-left: auto;
   margin-right: auto;
 }
@@ -135,10 +156,19 @@ header h3 {
   font-weight: normal;
   color: var(--body-text-colour);
   text-align: justify;
+
+
+
+  border: 2px solid var(--primary-accents-buttons); /* Hazel Brown border */
+
+  margin: 0.5rem;
+  flex-grow: 1;
+  flex-basis: 200px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: adds elevation */
 }
 
 .tile img {
-  margin-bottom: 1rem; /* You can adjust this value if you want more or less space */
+  margin-bottom: 0.75rem; /* You can adjust this value if you want more or less space */
 }
 
 .tile {
@@ -152,6 +182,7 @@ header h3 {
   line-height: 1.4;     /* optional: improves readability */
   margin-bottom: 0.5rem;
 }
+
 
 /* Carousel */
 .carousel-wrapper {
@@ -179,6 +210,62 @@ header h3 {
 main > section:first-of-type {
   margin-top: 1.5rem;
   margin-bottom: 1.5rem;
+}
+
+.section-icon {
+  width: 80px;           /* Adjust size as needed */
+  height: auto;          /* maintains aspect ratio */
+  display: block;        /* Allows margin auto centering */
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0.5rem; /* Adds space below the icon */
+}
+
+.main-illustration {
+  width: 100%;
+  max-width: 400px; /* or adjust as needed */
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main-tile {
+  background-color: var(
+    --page-background
+  ); /* Optional: same as footer */
+  border: 2px solid var(--headings-footer-background);
+  border-radius: 10px;
+  padding: 1rem;
+  margin: 0.5rem;
+  text-align: center;
+  flex-grow: 1;
+  flex-basis: 200px;
+  color: var(--body-text-colour);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: adds elevation */
+}
+
+/* About Me section */
+#about-me {
+  /* Handles responsivity without the need for a media query */
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#about-me div {
+  padding: 15px;
+  text-align: justify;
+  /* This will not wrap on screens of less than 400px wide.
+    Each div will expand to fill the available space on its row */
+  flex-basis: 200px;
+  flex-grow: 1;
+  /* Creates a grid of meetup time divs over the background image */
+  border: 2px solid var(--headings-footer-background);
+}
+
+#about-me h3 {
+  /* Override the heading colour set in general styles */
+  color: var(--body-text-colour); /* ensure good contrast */
 }
 
 /* Footer section */
