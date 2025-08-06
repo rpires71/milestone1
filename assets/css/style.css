@@ -183,6 +183,14 @@ header h3 {
   margin-bottom: 0.5rem;
 }
 
+/* Grid layout for the about-me tiles */
+.tile-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+
 
 /* Carousel */
 .carousel-wrapper {
@@ -221,6 +229,9 @@ main > section:first-of-type {
   margin-bottom: 0.5rem; /* Adds space below the icon */
 }
 
+
+
+
 .main-illustration {
   width: 100%;
   max-width: 400px; /* or adjust as needed */
@@ -245,7 +256,6 @@ main > section:first-of-type {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: adds elevation */
 }
 
-/* About Me section */
 #about-me {
   /* Handles responsivity without the need for a media query */
   display: flex;
@@ -375,6 +385,14 @@ footer {
 
   .logo-header {
     max-height: 100px;
+  }
+}
+
+
+/* Responsive fallback for small screens */
+@media (max-width: 768px) {
+  .tile-grid{
+    grid-template-columns: 1fr;
   }
 }
 /* grid visualisation CSS for testing 
