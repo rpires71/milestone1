@@ -16,6 +16,7 @@
 body {
   font-family: var(--secondary-typeface);
   color: var(--body-text-colour);
+  background-color: var(--page-background);
 }
 
 h1,
@@ -40,16 +41,19 @@ h6 {
 
 header {
   background-color: var(--primary-accents-buttons);
-  color: var(--light-font-colour); /* optional: improves contrast */
-  display: flex;
-  align-items: center; /* vertical centering */
-  justify-content: center; /* horizontal centering */
-  height: 250px; /* adjust height as needed */
-  text-align: left; /* centre text inside the block */
-  padding-top: 1rem; /* added */
-  padding-bottom: 1rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
+  color: var(--light-font-colour);
+  width: 100%;
+}
+
+/* Header text styling */
+.header-title {
+  font-size: clamp(5rem, 5vw, 3.5rem);
+  margin-bottom: 1rem;
+}
+
+.header-subtitle {
+  font-size: clamp(2.3rem, 3vw, 1.75rem);
+  font-weight: 400;
 }
 
 header.header-background {
@@ -58,8 +62,8 @@ header.header-background {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 250px;
   width: 100%; /* Ensure full width */
+  min-height: 200px;
 }
 
 header h1 {
@@ -77,14 +81,14 @@ header h3 {
 .logo-navbar {
   height: auto;
   width: auto;
-  max-height: 40px;
+  max-height: 30px;
 }
 
-/* Header-specific logo: slightly larger */
+/* Header logo */
 .logo-header {
+  max-height: clamp(100px, 20vw 250px);
   height: auto;
   width: auto;
-  max-height: 250px;
 }
 
 .logo-navbar {
@@ -100,6 +104,8 @@ header h3 {
 
 .custom-navbar {
   background-color: var(--headings-footer-background);
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 .custom-navbar .nav-link,
@@ -120,15 +126,14 @@ header h3 {
 /* Tiles*/
 
 .tile {
-  margin-bottom: 1.5rem;
-  font-weight: normal;
-  color: var(--body-text-colour);
-  background-color: transparent;
   border: 3px solid var(--headings-footer-background); /* Chocolate Brown border */
   border-radius: 8px;
   padding: 1rem;
   background-color: var(--page-background); /* Optional: adds contrast */
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: subtle elevation */
+  margin-bottom: 0.5rem;
+  font-weight: normal;
+  color: var(--body-text-colour);
   text-align: justify;
 }
 
@@ -137,7 +142,15 @@ header h3 {
 }
 
 .tile {
-  font-size: 0.55rem; /* Shrinks all text inside the tile */
+  font-size: clamp(0.5rem, 1.5vw, 0.9rem); /* Mobile-to-desktop scaling */
+}
+
+.tile h4,
+.tile h5 {
+  font-size: clamp(0.8rem, 1.5vw, 1.1rem);
+  font-weight: normal; /* optional: reduces heading boldness */
+  line-height: 1.4;     /* optional: improves readability */
+  margin-bottom: 0.5rem;
 }
 
 /* Carousel */
@@ -145,10 +158,11 @@ header h3 {
   border: 3px solid var(--headings-footer-background); /* chocolate brown */
   border-radius: 8px;
   padding: 1rem;
-  background-color: var(--page-background); /* optional: makes the background clean */
+  background-color: var(
+    --page-background
+  ); /* optional: makes the background clean */
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: subtle elevation */
-  margin-bottom: 1.5rem;
-  
+  margin-bottom: 0.5rem;
 }
 
 /* Ensure all carousel images are the same size */
@@ -160,17 +174,16 @@ header h3 {
 }
 
 /* Main section*/
-main {
-  background-color: var(--page-background);
-}
+
 
 main > section:first-of-type {
-  margin-top: 2rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
 }
 
 /* Footer section */
 
-footer{
+footer {
   background-color: var(--headings-footer-background);
   color: var(--light-font-colour); /* ensure good contrast */
   padding-top: 2rem;
@@ -186,7 +199,9 @@ footer{
 }
 
 .footer-tile {
-  background-color: var(--headings-footer-background); /* Optional: same as footer */
+  background-color: var(
+    --headings-footer-background
+  ); /* Optional: same as footer */
   border: 2px solid var(--primary-accents-buttons); /* Hazel Brown border */
   border-radius: 10px;
   padding: 1rem;
@@ -206,42 +221,73 @@ footer{
 
 /* Contacts section */
 #contact {
-    /* Handles responsivity without the need for a media query */
-    display: flex;
-    flex-wrap: wrap;
+  /* Handles responsivity without the need for a media query */
+  display: flex;
+  flex-wrap: wrap;
 }
 
 #contact div {
-    padding: 15px;
-    text-align: center;
-    /* This will not wrap on screens of less than 400px wide.
+  padding: 15px;
+  text-align: center;
+  /* This will not wrap on screens of less than 400px wide.
     Each div will expand to fill the available space on its row */
-    flex-basis: 200px;
-    flex-grow: 1;
-    /* Creates a grid of meetup time divs over the background image */
-    border: 2px solid var(--light-font-colour);
+  flex-basis: 200px;
+  flex-grow: 1;
+  /* Creates a grid of meetup time divs over the background image */
+  border: 2px solid var(--light-font-colour);
 }
 
 #contact h3 {
-    /* Override the heading colour set in general styles */
-    color: var(--light-font-colour); /* ensure good contrast */
+  /* Override the heading colour set in general styles */
+  color: var(--light-font-colour); /* ensure good contrast */
 }
 
 @media (max-width: 768px) {
   .carousel-inner img {
-    height: 200px;
+    height: 305px;
+    object-fit: cover;
   }
 }
 
 @media (max-width: 480px) {
   .carousel-inner img {
-    height: 150px;
+    height: 305px;
+    object-fit: cover;
   }
 }
 
 @media (max-width: 768px) {
   .footer-badge img {
     max-width: 80px;
+  }
+}
+
+/* Responsive adjustments */
+@media (max-width: 992px) {
+  .header-title {
+    font-size: 3rem;
+  }
+
+  .header-subtitle {
+    font-size: 1.4rem;
+  }
+
+  .logo-header {
+    max-height: 175px;
+  }
+}
+
+@media (max-width: 576px) {
+  .header-title {
+    font-size: 2.5rem;
+  }
+
+  .header-subtitle {
+    font-size: 1rem;
+  }
+
+  .logo-header {
+    max-height: 100px;
   }
 }
 /* grid visualisation CSS for testing 
@@ -255,4 +301,3 @@ footer{
     border: 2px solid white;
     background-color: lightgray;
 }*/
-
