@@ -320,5 +320,45 @@
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
+
+    <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const navLinks = document.querySelectorAll(".nav-link");
+      const skillsLink = document.getElementById("nav-skills");
+      const contactLink = document.getElementById("nav-contact");
+      const skillsSection = document.getElementById("skills");
+      const contactSection = document.getElementById("contact");
+
+      // Manual click handling
+      skillsLink.addEventListener("click", function () {
+        navLinks.forEach(link => link.classList.remove("active"));
+        skillsLink.classList.add("active");
+      });
+
+      contactLink.addEventListener("click", function () {
+        navLinks.forEach(link => link.classList.remove("active"));
+        contactLink.classList.add("active");
+      });
+
+      // Scroll tracking
+      window.addEventListener("scroll", function () {
+        const scrollY = window.scrollY;
+
+        const skillsTop = skillsSection.offsetTop - 100;
+        const skillsBottom = skillsTop + skillsSection.offsetHeight;
+
+        const contactTop = contactSection.offsetTop - 100;
+        const contactBottom = contactTop + contactSection.offsetHeight;
+
+        navLinks.forEach(link => link.classList.remove("active"));
+
+        if (scrollY >= contactTop && scrollY < contactBottom) {
+          contactLink.classList.add("active");
+        } else if (scrollY >= skillsTop && scrollY < skillsBottom) {
+          skillsLink.classList.add("active");
+        }
+      });
+    });
+  </script>
   </body>
 </html>
