@@ -38,7 +38,7 @@
             <a class="nav-link active" aria-current="page" href="work-experience.html">Work Experience</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="work-experience.html#skills">Skills</a>
+            <a class="nav-link" id="nav-skills" href="work-experience.html#skills">Skills</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="certifications.html">Certifications</a>
@@ -47,7 +47,7 @@
             <a class="nav-link" href="bookings.html">Bookings</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#contact" id="nav-contact">Contact</a>
+            <a class="nav-link" id="nav-contact" href="#contact">Contact</a>
           </li>
         </ul>
       </div>
@@ -366,45 +366,52 @@
     
 
 
-<script>
-  document.addEventListener("DOMContentLoaded", function () {
-    const navLinks = document.querySelectorAll(".nav-link");
-    const skillsLink = document.getElementById("nav-skills");
-    const contactLink = document.getElementById("nav-contact");
-    const skillsSection = document.getElementById("skills");
-    const contactSection = document.getElementById("contact");
+ <script>
+    document.addEventListener("DOMContentLoaded", function () {
+  const navLinks = document.querySelectorAll(".nav-link");
+  const skillsLink = document.getElementById("nav-skills");
+  const contactLink = document.getElementById("nav-contact");
+  const skillsSection = document.getElementById("skills");
+  const contactSection = document.getElementById("contact");
 
-    // Manual click handling
-    skillsLink.addEventListener("click", function () {
-      navLinks.forEach(link => link.classList.remove("active"));
-      skillsLink.classList.add("active");
-    });
-
-    contactLink.addEventListener("click", function () {
-      navLinks.forEach(link => link.classList.remove("active"));
-      contactLink.classList.add("active");
-    });
-
-    // Scroll tracking
-    window.addEventListener("scroll", function () {
-      const scrollY = window.scrollY;
-
-      const skillsTop = skillsSection.offsetTop - 100;
-      const skillsBottom = skillsTop + skillsSection.offsetHeight;
-
-      const contactTop = contactSection.offsetTop - 100;
-      const contactBottom = contactTop + contactSection.offsetHeight;
-
-      navLinks.forEach(link => link.classList.remove("active"));
-
-      if (scrollY >= contactTop && scrollY < contactBottom) {
-        contactLink.classList.add("active");
-      } else if (scrollY >= skillsTop && scrollY < skillsBottom) {
-        skillsLink.classList.add("active");
-      }
-    });
+  // Manual click handling
+  skillsLink.addEventListener("click", function (e) {
+    e.preventDefault();
+    navLinks.forEach(link => link.classList.remove("active"));
+    skillsLink.classList.add("active");
+    skillsSection.scrollIntoView({ behavior: 'smooth' });
   });
-</script>
+
+  contactLink.addEventListener("click", function (e) {
+    e.preventDefault();
+    navLinks.forEach(link => link.classList.remove("active"));
+    contactLink.classList.add("active");
+    contactSection.scrollIntoView({ behavior: 'smooth' });
+  });
+
+  // Scroll tracking
+  window.addEventListener("scroll", function () {
+    const scrollY = window.scrollY;
+    const windowHeight = window.innerHeight;
+    const documentHeight = document.documentElement.scrollHeight;
+
+    // Calculate positions
+    const skillsTop = skillsSection.offsetTop - 100;
+    const skillsBottom = skillsTop + skillsSection.offsetHeight;
+
+    // Contact section is near the bottom
+    const contactThreshold = documentHeight - windowHeight - 200;
+
+    navLinks.forEach(link => link.classList.remove("active"));
+
+    if (scrollY >= contactThreshold) {
+      contactLink.classList.add("active");
+    } else if (scrollY >= skillsTop && scrollY < skillsBottom) {
+      skillsLink.classList.add("active");
+    }
+  });
+});
+  </script>
 
 </body>
 

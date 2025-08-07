@@ -114,7 +114,7 @@ header h3 {
 
 /* Header logo */
 .logo-header {
-  max-height: clamp(100px, 20vw 250px);
+  max-height: clamp(100px, 20vw, 250px);
   height: auto;
   width: auto;
 }
@@ -160,6 +160,7 @@ header h3 {
 html {
   scroll-behavior: smooth;
 }
+
 
 /* Keep navbar glued to the top */
 .custom-navbar {
