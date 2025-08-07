@@ -148,6 +148,13 @@ html {
   scroll-behavior: smooth;
 }
 
+/* Keep navbar glued to the top */
+.custom-navbar {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
 /* Tiles*/
 
 .tile {
