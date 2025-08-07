@@ -38,7 +38,7 @@
             <a class="nav-link active" aria-current="page" href="work-experience.html">Work Experience</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" id="nav-skills" href="work-experience.html#skills">Skills</a>
+            <a class="nav-link" id="nav-skills" href="#skills">Skills</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="certifications.html">Certifications</a>
@@ -364,54 +364,35 @@
     crossorigin="anonymous"></script>
 
     
+<script>
+  // Handle the collapse behavior for internal links (like #skills, #contact)
+  document.querySelectorAll('a[href^="#"]').forEach((link) => {
+    link.addEventListener("click", function (e) {
+      const targetId = e.target.getAttribute("href").substring(1); // Extract section ID
+      const section = document.getElementById(targetId);
 
+      if (section) {
+        e.preventDefault(); // Prevent default anchor click behavior
 
- <script>
-    document.addEventListener("DOMContentLoaded", function () {
-  const navLinks = document.querySelectorAll(".nav-link");
-  const skillsLink = document.getElementById("nav-skills");
-  const contactLink = document.getElementById("nav-contact");
-  const skillsSection = document.getElementById("skills");
-  const contactSection = document.getElementById("contact");
+        // Smooth scroll to the section
+        const navbarHeight = document.querySelector(".navbar").offsetHeight;
+        window.scroll({
+          top: section.offsetTop - navbarHeight, // Adjust scroll position for navbar height
+          behavior: "smooth",
+        });
 
-  // Manual click handling
-  skillsLink.addEventListener("click", function (e) {
-    e.preventDefault();
-    navLinks.forEach(link => link.classList.remove("active"));
-    skillsLink.classList.add("active");
-    skillsSection.scrollIntoView({ behavior: 'smooth' });
+        // Collapse the navbar by simulating a click on the navbar toggler button
+        const navbarToggler = document.querySelector(".navbar-toggler");
+        if (navbarToggler && !navbarToggler.classList.contains("collapsed")) {
+          navbarToggler.click(); // Manually collapse the navbar
+        }
+      }
+    });
   });
+</script>
 
-  contactLink.addEventListener("click", function (e) {
-    e.preventDefault();
-    navLinks.forEach(link => link.classList.remove("active"));
-    contactLink.classList.add("active");
-    contactSection.scrollIntoView({ behavior: 'smooth' });
-  });
 
-  // Scroll tracking
-  window.addEventListener("scroll", function () {
-    const scrollY = window.scrollY;
-    const windowHeight = window.innerHeight;
-    const documentHeight = document.documentElement.scrollHeight;
-
-    // Calculate positions
-    const skillsTop = skillsSection.offsetTop - 100;
-    const skillsBottom = skillsTop + skillsSection.offsetHeight;
-
-    // Contact section is near the bottom
-    const contactThreshold = documentHeight - windowHeight - 200;
-
-    navLinks.forEach(link => link.classList.remove("active"));
-
-    if (scrollY >= contactThreshold) {
-      contactLink.classList.add("active");
-    } else if (scrollY >= skillsTop && scrollY < skillsBottom) {
-      skillsLink.classList.add("active");
-    }
-  });
-});
-  </script>
+ 
 
 </body>
 
