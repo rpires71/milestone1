@@ -257,16 +257,12 @@ main>section:first-of-type {
 }
 
 .section-icon {
-  width: 80px;
-  /* Adjust size as needed */
+  width: 120px; /* Or larger */
   height: auto;
-  /* maintains aspect ratio */
   display: block;
-  /* Allows margin auto centering */
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 0.5rem;
-  /* Adds space below the icon */
 }
 
 
