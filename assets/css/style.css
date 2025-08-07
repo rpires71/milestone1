@@ -1,15 +1,22 @@
 /* Google fonts import */
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:wght@400;600&display=swap");
+
 /* CSS Variables */
 :root {
   --primary-typeface: "Montserrat", sans-serif;
   --secondary-typeface: "Open Sans", sans-serif;
-  --body-text-colour: #3a1705; /* dark brown */
-  --page-background: #f9f6f1; /* light beige */
-  --light-font-colour: #f9f6f1; /* light beige */
-  --headings-footer-background: #3e2c23; /*Dark Chocolate Brown*/
-  --highlights-call-to-action-elements: #cba135; /* Gold Brown */
-  --primary-accents-buttons: #b7986b; /*Hazel Brown*/
+  --body-text-colour: #3a1705;
+  /* dark brown */
+  --page-background: #f9f6f1;
+  /* light beige */
+  --light-font-colour: #f9f6f1;
+  /* light beige */
+  --headings-footer-background: #3e2c23;
+  /*Dark Chocolate Brown*/
+  --highlights-call-to-action-elements: #cba135;
+  /* Gold Brown */
+  --primary-accents-buttons: #b7986b;
+  /*Hazel Brown*/
 }
 
 /* Global styles */
@@ -36,7 +43,8 @@ h6 {
 /* Header section features */
 
 .heading-content {
-  margin-top: 1.5rem; /* pushes content down */
+  margin-top: 1.5rem;
+  /* pushes content down */
 }
 
 header {
@@ -67,18 +75,21 @@ header.header-background {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 100%; /* Ensure full width */
+  width: 100%;
+  /* Ensure full width */
   min-height: 300px;
 }
 
 
 header h1 {
-  font-size: 4.5rem; /* increase main heading size */
+  font-size: 4.5rem;
+  /* increase main heading size */
   margin-bottom: 3rem;
 }
 
 header h3 {
-  font-size: 2.5rem; /* increase subheading size */
+  font-size: 2.5rem;
+  /* increase subheading size */
   font-weight: 400;
 }
 
@@ -91,6 +102,7 @@ header h3 {
   padding-top: 1rem;
   text-align: justify;
 }
+
 /* Logo */
 
 /* Navbar-specific logo: smaller */
@@ -115,8 +127,9 @@ header h3 {
   margin-left: auto;
   margin-right: auto;
 
-  
-  display: block;        /* Allows margin auto centering */
+
+  display: block;
+  /* Allows margin auto centering */
   margin-left: auto;
   margin-right: auto;
 }
@@ -158,39 +171,47 @@ html {
 /* Tiles*/
 
 .tile {
-  border: 3px solid var(--headings-footer-background); /* Chocolate Brown border */
+  border: 2px solid var(--primary-accents-buttons);
+  /* Hazel Brown border */
+
   border-radius: 8px;
   padding: 1rem;
-  background-color: var(--page-background); /* Optional: adds contrast */
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: subtle elevation */
+  background-color: var(--page-background);
+  /* Optional: adds contrast */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  /* Optional: subtle elevation */
   margin-bottom: 0.5rem;
+  flex-grow: 1;
+  flex-basis: 200px;
   font-weight: normal;
   color: var(--body-text-colour);
   text-align: justify;
 
+  font-size: clamp(0.5rem, 1.5vw, 0.9rem);
+  /* Mobile-to-desktop scaling */
 
 
-  border: 2px solid var(--primary-accents-buttons); /* Hazel Brown border */
 
   margin: 0.5rem;
-  flex-grow: 1;
-  flex-basis: 200px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: adds elevation */
+
+
+
 }
 
 .tile img {
-  margin-bottom: 0.75rem; /* You can adjust this value if you want more or less space */
+  margin-bottom: 0.75rem;
+  /* You can adjust this value if you want more or less space */
 }
 
-.tile {
-  font-size: clamp(0.5rem, 1.5vw, 0.9rem); /* Mobile-to-desktop scaling */
-}
+
 
 .tile h4,
 .tile h5 {
   font-size: clamp(0.8rem, 1.5vw, 1.1rem);
-  font-weight: normal; /* optional: reduces heading boldness */
-  line-height: 1.4;     /* optional: improves readability */
+  font-weight: normal;
+  /* optional: reduces heading boldness */
+  line-height: 1.4;
+  /* optional: improves readability */
   margin-bottom: 0.5rem;
 }
 
@@ -205,40 +226,47 @@ html {
 
 /* Carousel */
 .carousel-wrapper {
-  border: 3px solid var(--headings-footer-background); /* chocolate brown */
+  border: 2px solid var(--primary-accents-buttons);
+  /* chocolate brown */
   border-radius: 8px;
   padding: 1rem;
-  background-color: var(
-    --page-background
-  ); /* optional: makes the background clean */
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: subtle elevation */
+  background-color: var(--page-background);
+  /* optional: makes the background clean */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  /* Optional: subtle elevation */
   margin-bottom: 0.5rem;
 }
 
 /* Ensure all carousel images are the same size */
 .carousel-inner img {
   width: 100%;
-  height:100%;
-  height: 305px; /* Set desired height */
-  object-fit: cover; /* Ensures cropping/fitting while maintaining aspect ratio */
+  height: 100%;
+ 
+  /* Set desired height */
+  object-fit: cover;
+  /* Ensures cropping/fitting while maintaining aspect ratio */
   border-radius: 5px;
 }
 
 /* Main section*/
 
 
-main > section:first-of-type {
+main>section:first-of-type {
   margin-top: 1.5rem;
   margin-bottom: 1.5rem;
 }
 
 .section-icon {
-  width: 80px;           /* Adjust size as needed */
-  height: auto;          /* maintains aspect ratio */
-  display: block;        /* Allows margin auto centering */
+  width: 80px;
+  /* Adjust size as needed */
+  height: auto;
+  /* maintains aspect ratio */
+  display: block;
+  /* Allows margin auto centering */
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 0.5rem; /* Adds space below the icon */
+  margin-bottom: 0.5rem;
+  /* Adds space below the icon */
 }
 
 
@@ -246,7 +274,8 @@ main > section:first-of-type {
 
 .main-illustration {
   width: 100%;
-  max-width: 400px; /* or adjust as needed */
+  max-width: 400px;
+  /* or adjust as needed */
   height: auto;
   display: block;
   margin-left: auto;
@@ -254,9 +283,8 @@ main > section:first-of-type {
 }
 
 .main-tile {
-  background-color: var(
-    --page-background
-  ); /* Optional: same as footer */
+  background-color: var(--page-background);
+  /* Optional: same as footer */
   border: 2px solid var(--headings-footer-background);
   border-radius: 10px;
   padding: 1rem;
@@ -265,7 +293,8 @@ main > section:first-of-type {
   flex-grow: 1;
   flex-basis: 200px;
   color: var(--body-text-colour);
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: adds elevation */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  /* Optional: adds elevation */
 }
 
 #about-me {
@@ -274,27 +303,28 @@ main > section:first-of-type {
   flex-wrap: wrap;
 }
 
-#about-me div {
-  padding: 15px;
-  text-align: justify;
-  /* This will not wrap on screens of less than 400px wide.
-    Each div will expand to fill the available space on its row */
-  flex-basis: 200px;
-  flex-grow: 1;
-  /* Creates a grid of meetup time divs over the background image */
-  border: 2px solid var(--headings-footer-background);
+#about-me .tile{
+  border: 2px solid var(--primary-accents-buttons); /* Hazel Brown border */
 }
+
+
 
 #about-me h3 {
   /* Override the heading colour set in general styles */
-  color: var(--body-text-colour); /* ensure good contrast */
+  color: var(--body-text-colour);
+  /* ensure good contrast */
+}
+
+#skills {
+  scroll-margin-top: 100px; /* Adjust based on your navbar height */
 }
 
 /* Footer section */
 
 footer {
   background-color: var(--headings-footer-background);
-  color: var(--light-font-colour); /* ensure good contrast */
+  color: var(--light-font-colour);
+  /* ensure good contrast */
   padding-top: 2rem;
   padding-bottom: 1rem;
 }
@@ -308,10 +338,10 @@ footer {
 }
 
 .footer-tile {
-  background-color: var(
-    --headings-footer-background
-  ); /* Optional: same as footer */
-  border: 2px solid var(--primary-accents-buttons); /* Hazel Brown border */
+  background-color: var(--headings-footer-background);
+  /* Optional: same as footer */
+  border: 2px solid var(--primary-accents-buttons);
+  /* Hazel Brown border */
   border-radius: 10px;
   padding: 1rem;
   margin: 0.5rem;
@@ -319,12 +349,15 @@ footer {
   flex-grow: 1;
   flex-basis: 200px;
   color: var(--light-font-colour);
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: adds elevation */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  /* Optional: adds elevation */
 }
 
 .footer-title {
-  color: var(--light-font-colour); /* This should be #f9f6f1 */
-  font-size: 3rem; /* adjust size if needed */
+  color: var(--light-font-colour);
+  /* This should be #f9f6f1 */
+  font-size: 3rem;
+  /* adjust size if needed */
   margin-bottom: 1rem;
 }
 
@@ -348,8 +381,23 @@ footer {
 
 #contact h3 {
   /* Override the heading colour set in general styles */
-  color: var(--light-font-colour); /* ensure good contrast */
+  color: var(--light-font-colour);
+  /* ensure good contrast */
 }
+
+/* Buttons */
+
+.custom-submit-button {
+  background-color: var(--primary-accents-buttons);
+  border: none;
+  color: white;
+}
+
+.custom-submit-button:hover {
+  background-color: #a18558; /* Optional darker hover shade */
+  color: white;
+}
+
 
 @media (max-width: 768px) {
   .carousel-inner img {
@@ -403,10 +451,11 @@ footer {
 
 /* Responsive fallback for small screens */
 @media (max-width: 768px) {
-  .tile-grid{
+  .tile-grid {
     grid-template-columns: 1fr;
   }
 }
+
 /* grid visualisation CSS for testing 
 
 .container,
