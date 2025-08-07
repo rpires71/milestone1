@@ -35,7 +35,7 @@
             <a class="nav-link" href="about-me.html">About Me</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link"  href="work-experience.html">Work Experience</a>
+            <a class="nav-link" href="work-experience.html">Work Experience</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="work-experience.html#skills">Skills</a>
@@ -59,24 +59,19 @@
     <div class="container">
       <div class="row align-items-center">
         <div class="col-12 col-md-9 text-center">
-          <h3 class="header-lead"><strong>Bookings</strong></h3>
+          <h3 class="header-lead"><strong>Services and Bookings</strong></h3>
           <h6 class="header-intro">
-            With over 20 years of experience in education, I’ve taught
-            Computer Science, Creative iMedia, and IT across UK schools and
-            colleges, delivering KS3 to A-Level, BTEC, and Cambridge
-            Nationals. I’ve also worked as an IT support technician and .NET software developer, bringing industry
-            experience into the classroom.</h6>
-          <h6 class="lead header-intro">
-            In further education, I’ve taught Level 3 Computer Science and
-            Access to HE diplomas. Alongside teaching, I’ve managed IT
-            networks, supported curriculum development, and led initiatives
-            that promote digital literacy and innovation.
+            I offer a range of services including private tutoring in Computer Science, Maths, and IT from KS3 to
+            A-Level, as well as support for BTEC and Cambridge Technicals. I’m available for part-time or full-time
+            teaching positions, both in-person and online. I also build accessible, responsive websites tailored to
+            individual or business needs. Additionally, I provide consultancy in IT education, curriculum planning, and
+            digital transformation. You can reach me via the contact section or by completing the bookings form.
           </h6>
           </h6>
         </div>
         <!-- Header logo -->
         <div class="col-12 col-md-3 text-center text-md-end">
-          <img src="assets/images/work-experience-logo.png" alt="Roberto Pires Work Experience logo"
+          <img src="assets/images/bookings-logo.png" alt="Roberto Pires Bookings logo"
             class="logo logo-header img-fluid" />
         </div>
       </div>
@@ -86,75 +81,43 @@
   <!-- main element to hold all key sections of the home page. It is not part of the grid structure -->
   <!-- Footer / contact section -->
   <!-- mt-auto added to push footer to the bottom of the page -->
-  <main class="mt-auto">
-    <!-- Work Experience section -->
-    <section id="work-experience" class="container">
-      <div class="tile-grid">
-        <div class="tile">
-          <p>
-            <img src="assets/images/computer-science-teacher-logov2.png" alt="CS Teacher icon" class="section-icon" />
-          </p>
-          <h3 style="text-align: center">
-            <strong>Computer Science Teacher</strong>
-          </h3>
-          <h5>
-            At Abbey College Ramsey, I led Computer Science across KS3 to KS5, delivering GCSE, A-Level, and BTEC
-            courses while supporting CPD training. At St. Peter’s School, I taught Computing, Creative iMedia, BTEC IT,
-            and A-Level Computer Science, also managing KS3 resources and serving as a form tutor. At The College of
-            West Anglia, I lectured in Computer Science and Maths, coordinated Access to HE courses, and taught BTEC
-            Computing and Gaming. In Portugal, I taught IT and Computer Science across KS2–KS5, managed networks,
-            developed websites, and worked as a .NET programmer and graphic designer.
-          </h5>
-        </div>
-        <div class="tile">
-          <p>
-            <img src="assets/images/itcstutor-logo.png" alt="Tutor logo" class="section-icon" />
-          </p>
-          <h3 style="text-align: center"><strong>IT & Mathematics Tutor</strong></h3>
-          <h5>
-            As a dedicated tutor, I’ve helped students achieve success in GCSE Maths, Computer Science, and Cambridge
-            Nationals Creative
-            iMedia, as well as Level 3 Creative iMedia and BTEC IT. I tailor my teaching to suit each learner’s pace and
-            needs, breaking down complex topics into simple, engaging explanations. With a patient, supportive approach
-            and a deep understanding of the curriculum, I’ve guided many students to build confidence, improve grades,
-            and reach their academic goals across a range of qualifications. Whether working online or in person, I
-            create a focused, encouraging learning environment.
-          </h5>
-        </div>
-        <div class="tile">
-          <p>
-            <img src="assets/images/itSuppport-logo.png" alt="IT Support logo" class="section-icon" />
-          </p>
-          <h3 style="text-align: center">
-            <strong>IT Support Technician</strong>
-          </h3>
-          <h5>
-            I’ve worked as an IT Support Technician in both educational and professional environments, delivering
-            technical support for hardware, software, and network systems. My duties included troubleshooting issues,
-            configuring devices, and managing user accounts and school networks. I hold CompTIA A+ and ITF+
-            certifications and have completed Cisco network training, which strengthens my ability to manage secure,
-            reliable systems. I support users with clear communication and resolve issues efficiently to maintain smooth
-            IT operations.
-          </h5>
-        </div>
-        <div class="tile">
-          <p>
-            <img src="assets/images/programmer-logo.png" alt="Programmer logo" class="section-icon" />
-          </p>
-          <h3 style="text-align: center">
-            <strong>Software/Website Developer</strong>
-          </h3>
-          <h5>
-            I’m currently completing a Level 5 Diploma in Website Development, building skills in responsive design,
-            accessibility, and full-stack development. My programming background includes experience where I
-            developed applications using C#.NET, ADO.NET, Crystal Reports, and SQL Server. I have experience
-            creating structured, user-focused websites and coding in languages like HTML, CSS, PHP and JavaScript. With
-            a
-            strong foundation in software development and web technologies, I bring both academic knowledge and
-            practical experience to each project.
-          </h5>
-        </div>
-      </div>
+ <main class="flex-fill">
+    <section class="container py-4">
+      <form>
+        <fieldset class="border p-3">
+          <legend class="w-auto px-2">Booking Inquiry</legend>
+          <div class="row g-3">
+            <div class="col-md-6">
+              <label for="name" class="form-label">Name</label>
+              <input type="text" id="name" class="form-control" required />
+            </div>
+            <div class="col-md-6">
+              <label for="telephone" class="form-label">Telephone</label>
+              <input type="tel" id="telephone" class="form-control" />
+            </div>
+            <div class="col-md-6">
+              <label for="email" class="form-label">Email</label>
+              <input type="email" id="email" class="form-control" required />
+            </div>
+            <div class="col-md-6">
+              <label for="service" class="form-label">Type of Service</label>
+              <select id="service" class="form-select">
+                <option>Tutoring</option>
+                <option>Consulting</option>
+                <option>Web Development</option>
+                <option>Workshops</option>
+              </select>
+            </div>
+            <div class="col-12">
+              <label for="message" class="form-label">Message</label>
+              <textarea id="message" rows="5" class="form-control"></textarea>
+            </div>
+            <div class="col-12 text-center">
+              <button type="submit" class="btn btn-primary mt-3">Submit</button>
+            </div>
+          </div>
+        </fieldset>
+      </form>
     </section>
 
   </main>
@@ -252,48 +215,48 @@
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
     crossorigin="anonymous"></script>
 
-    
 
 
-<script>
-  document.addEventListener("DOMContentLoaded", function () {
-    const navLinks = document.querySelectorAll(".nav-link");
-    const skillsLink = document.getElementById("nav-skills");
-    const contactLink = document.getElementById("nav-contact");
-    const skillsSection = document.getElementById("skills");
-    const contactSection = document.getElementById("contact");
 
-    // Manual click handling
-    skillsLink.addEventListener("click", function () {
-      navLinks.forEach(link => link.classList.remove("active"));
-      skillsLink.classList.add("active");
-    });
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const navLinks = document.querySelectorAll(".nav-link");
+      const skillsLink = document.getElementById("nav-skills");
+      const contactLink = document.getElementById("nav-contact");
+      const skillsSection = document.getElementById("skills");
+      const contactSection = document.getElementById("contact");
 
-    contactLink.addEventListener("click", function () {
-      navLinks.forEach(link => link.classList.remove("active"));
-      contactLink.classList.add("active");
-    });
-
-    // Scroll tracking
-    window.addEventListener("scroll", function () {
-      const scrollY = window.scrollY;
-
-      const skillsTop = skillsSection.offsetTop - 100;
-      const skillsBottom = skillsTop + skillsSection.offsetHeight;
-
-      const contactTop = contactSection.offsetTop - 100;
-      const contactBottom = contactTop + contactSection.offsetHeight;
-
-      navLinks.forEach(link => link.classList.remove("active"));
-
-      if (scrollY >= contactTop && scrollY < contactBottom) {
-        contactLink.classList.add("active");
-      } else if (scrollY >= skillsTop && scrollY < skillsBottom) {
+      // Manual click handling
+      skillsLink.addEventListener("click", function () {
+        navLinks.forEach(link => link.classList.remove("active"));
         skillsLink.classList.add("active");
-      }
+      });
+
+      contactLink.addEventListener("click", function () {
+        navLinks.forEach(link => link.classList.remove("active"));
+        contactLink.classList.add("active");
+      });
+
+      // Scroll tracking
+      window.addEventListener("scroll", function () {
+        const scrollY = window.scrollY;
+
+        const skillsTop = skillsSection.offsetTop - 100;
+        const skillsBottom = skillsTop + skillsSection.offsetHeight;
+
+        const contactTop = contactSection.offsetTop - 100;
+        const contactBottom = contactTop + contactSection.offsetHeight;
+
+        navLinks.forEach(link => link.classList.remove("active"));
+
+        if (scrollY >= contactTop && scrollY < contactBottom) {
+          contactLink.classList.add("active");
+        } else if (scrollY >= skillsTop && scrollY < skillsBottom) {
+          skillsLink.classList.add("active");
+        }
+      });
     });
-  });
-</script>
+  </script>
 
 </body>
 
