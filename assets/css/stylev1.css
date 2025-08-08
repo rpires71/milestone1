@@ -43,7 +43,16 @@ h6 {
   color: var(--headings-footer-background);
 }
 
+.sub-heading-color {
+  color: var(--highlight-color);
+}
+
 /* Header section features */
+
+.heading-content {
+  margin-top: 1.5rem;
+  /* pushes content down */
+}
 
 header {
   background-color: var(--primary-accents-buttons);
@@ -291,6 +300,25 @@ main>section:first-of-type {
   margin-right: auto;
 }
 
+.main-tile {
+  background-color: var(--page-background);
+  /* Optional: same as footer */
+  border: 2px solid var(--headings-footer-background);
+  border-radius: 10px;
+  padding: 1rem;
+  margin: 0.5rem;
+  text-align: center;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  -ms-flex-preferred-size: 200px;
+      flex-basis: 200px;
+  color: var(--body-text-colour);
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  /* Optional: adds elevation */
+}
+
 #about-me {
   /* Handles responsivity without the need for a media query */
   display: -webkit-box;
@@ -324,6 +352,20 @@ footer {
   /* ensure good contrast */
   padding-top: 2rem;
   padding-bottom: 1rem;
+}
+
+.footer-social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  gap: 10px;
+  padding-top: 5px;
 }
 
 .footer-tile {
@@ -386,6 +428,17 @@ footer {
 
 /* Buttons */
 
+.custom-submit-button {
+  background-color: var(--primary-accents-buttons);
+  border: none;
+  color: white;
+}
+
+.custom-submit-button:hover {
+  background-color: #a18558; /* Optional darker hover shade */
+  color: white;
+}
+
 
 @media (max-width: 768px) {
   .carousel-inner img {
@@ -400,6 +453,12 @@ footer {
     height: 305px;
     -o-object-fit: cover;
        object-fit: cover;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer-badge img {
+    max-width: 80px;
   }
 }
 
