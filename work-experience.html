@@ -437,6 +437,152 @@
   });
 </script>
 
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  const nav = document.querySelector('.custom-navbar');
+  if (!nav) return;
+
+  const links = nav.querySelectorAll('.nav-link');
+  const contactLink = document.getElementById('nav-contact');
+  const originalActive = nav.querySelector('.nav-link.active'); // e.g., Home, About, etc.
+
+  function setActive(el) {
+    links.forEach(l => {
+      l.classList.remove('active');
+      l.removeAttribute('aria-current');
+    });
+    if (el) {
+      el.classList.add('active');
+      el.setAttribute('aria-current', 'page');
+    }
+  }
+
+  // Keep Contact highlighted when clicking it
+  if (contactLink) {
+    contactLink.addEventListener('click', () => setActive(contactLink));
+  }
+
+  // Observe the footer area; when visible, highlight Contact; otherwise, restore
+  const footerSection = document.querySelector('#contacts') || document.querySelector('#contact');
+  if (footerSection && contactLink) {
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          setActive(contactLink);
+        } else {
+          setActive(originalActive);
+        }
+      });
+    }, { threshold: 0.2 }); // 20% of footer visible triggers Contact
+    observer.observe(footerSection);
+  }
+
+  // Handle direct loads / back/forward with #contact
+  const updateFromHash = () => {
+    if (location.hash === '#contact' && contactLink) setActive(contactLink);
+    else setActive(originalActive);
+  };
+  window.addEventListener('hashchange', updateFromHash);
+  updateFromHash();
+});
+</script>
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  const nav = document.querySelector('.custom-navbar');
+  if (!nav) return;
+
+  const links = nav.querySelectorAll('.nav-link');
+  const contactLink = document.getElementById('nav-contact');
+  const skillsLink  = document.getElementById('nav-skills');
+  const originalActive = nav.querySelector('.nav-link.active'); // "Work Experience" on this page
+
+  function setActive(el) {
+    links.forEach(l => {
+      l.classList.remove('active');
+      l.removeAttribute('aria-current');
+    });
+    if (el) {
+      el.classList.add('active');
+      el.setAttribute('aria-current', 'page');
+    }
+  }
+
+  // State flags so observers don't "fight"
+  let isFooterVisible = false;
+  let isSkillsVisible = false;
+
+  // --- CONTACT / FOOTER OBSERVER ---
+  const footerSection = document.querySelector('#contacts') || document.querySelector('#contact');
+  if (footerSection && contactLink) {
+    const footerObserver = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        isFooterVisible = entry.isIntersecting;
+        if (isFooterVisible) {
+          setActive(contactLink);
+        } else {
+          // Footer not visible; prefer Skills if visible, else restore page tab
+          if (isSkillsVisible && skillsLink) setActive(skillsLink);
+          else setActive(originalActive);
+        }
+      });
+    }, { threshold: 0.2 });
+    footerObserver.observe(footerSection);
+  }
+
+  // --- SKILLS OBSERVER (two sections: #skills + the following section) ---
+  const skillsHero = document.getElementById('skills');
+  // The next <section> after #skills is the skills grid on this page
+  const skillsGrid = (function () {
+    if (!skillsHero) return null;
+    let s = skillsHero.nextElementSibling;
+    while (s && s.tagName !== 'SECTION') s = s.nextElementSibling;
+    return s || null;
+  })();
+
+  if (skillsLink && (skillsHero || skillsGrid)) {
+    const skillsObserver = new IntersectionObserver(entries => {
+      // If ANY observed skills section is sufficiently visible, treat as visible
+      const visibleNow = entries.some(e => e.isIntersecting);
+      isSkillsVisible = visibleNow;
+
+      if (!isFooterVisible) {
+        if (isSkillsVisible) setActive(skillsLink);
+        else setActive(originalActive);
+      }
+      // If footer is visible, footer observer already set Contact active (takes precedence)
+    }, {
+      // Make activation feel right with a sticky navbar:
+      // trigger when ~30% of a skills section is in view
+      threshold: 0.3,
+      // Nudge the top boundary down by the navbar height so activation happens at the right moment
+      rootMargin: `-${document.querySelector('.navbar')?.offsetHeight || 0}px 0px 0px 0px`
+    });
+
+    if (skillsHero) skillsObserver.observe(skillsHero);
+    if (skillsGrid) skillsObserver.observe(skillsGrid);
+  }
+
+  // Keep Skills highlighted if user clicks it
+  if (skillsLink) {
+    skillsLink.addEventListener('click', () => setActive(skillsLink));
+  }
+
+  // Handle direct loads / history with #skills or #contact
+  const updateFromHash = () => {
+    if (location.hash === '#contact' && contactLink) {
+      setActive(contactLink);
+    } else if (location.hash === '#skills' && skillsLink) {
+      setActive(skillsLink);
+    } else {
+      setActive(originalActive);
+    }
+  };
+  window.addEventListener('hashchange', updateFromHash);
+  updateFromHash();
+});
+</script>
+
 
  
 

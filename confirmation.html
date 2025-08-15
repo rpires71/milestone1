@@ -234,6 +234,55 @@
   });
 </script>
 
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  const nav = document.querySelector('.custom-navbar');
+  if (!nav) return;
+
+  const links = nav.querySelectorAll('.nav-link');
+  const contactLink = document.getElementById('nav-contact');
+  const originalActive = nav.querySelector('.nav-link.active'); // e.g., Home, About, etc.
+
+  function setActive(el) {
+    links.forEach(l => {
+      l.classList.remove('active');
+      l.removeAttribute('aria-current');
+    });
+    if (el) {
+      el.classList.add('active');
+      el.setAttribute('aria-current', 'page');
+    }
+  }
+
+  // Keep Contact highlighted when clicking it
+  if (contactLink) {
+    contactLink.addEventListener('click', () => setActive(contactLink));
+  }
+
+  // Observe the footer area; when visible, highlight Contact; otherwise, restore
+  const footerSection = document.querySelector('#contacts') || document.querySelector('#contact');
+  if (footerSection && contactLink) {
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          setActive(contactLink);
+        } else {
+          setActive(originalActive);
+        }
+      });
+    }, { threshold: 0.2 }); // 20% of footer visible triggers Contact
+    observer.observe(footerSection);
+  }
+
+  // Handle direct loads / back/forward with #contact
+  const updateFromHash = () => {
+    if (location.hash === '#contact' && contactLink) setActive(contactLink);
+    else setActive(originalActive);
+  };
+  window.addEventListener('hashchange', updateFromHash);
+  updateFromHash();
+});
+</script>
 
 </body>
 
