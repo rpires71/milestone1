@@ -384,6 +384,12 @@ footer {
   /* ensure good contrast */
 }
 
+a {
+  color: inherit;          /* Makes the link use the parent element's colour */
+  text-decoration: none;   /* Removes the underline */
+}
+
+
 /* Buttons */
 
 
