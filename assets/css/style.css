@@ -212,6 +212,14 @@ html {
   /* You can adjust this value if you want more or less space */
 }
 
+/* Keep the old look after switching to semantic tags in the intro tile */
+.tile .as-h4,
+.tile .as-h5 {
+  font-size: clamp(0.8rem, 1.5vw, 1.1rem);
+  font-weight: normal;
+  line-height: 1.4;
+  margin: 0 0 1rem 0; /* no extra top gap; same bottom spacing as before */
+}
 
 
 .tile h4,
