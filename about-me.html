@@ -93,23 +93,20 @@
         <div class="row align-items-center">
            <!-- On small viewports, text is centered for readability; Bootstrap handles stacking. -->
           <div class="col-12 col-md-9 text-center">
-            <!-- Pedagogical note on heading levels:
-                 Aim for a logical hierarchy (e.g., one <h1> per page, then <h2>, <h3>, …).
-                 Using <h3> and <h6> for visual size can confuse screen reader users; prefer CSS to style sizes. -->
-            <h3 class="header-lead"><strong>About Me</strong></h3>
-            <h6 class="header-lead">Educator | Technologist | IT Consultant</h6>
-            <h6 class="header-intro">
+            <h1 class="header-lead h1-as-lead"><strong>About Me</strong></h1>
+            <p class="header-lead">Educator | Technologist | IT Consultant</p>
+            <p class="header-intro">
               Hi, I'm <strong>Rob Pires</strong> - a qualified and experienced
               educator in Computer Science, Mathematics, and Creative iMedia.
               I'm also a dedicated lifelong learner, always exploring technology
               and creativity.
-            </h6>
-            <h6 class="lead header-intro">
+            </p>
+             <p class="lead header-intro">
               From classroom teaching to curriculum design, network
               administration, and web development, my mission is to empower
               learners and professionals alike through meaningful technology
               education and solutions.
-            </h6>
+             </p>
           </div>
            <!-- Decorative/brand image placed to the right on md+ screens; .img-fluid keeps it responsive.-->
           <div class="col-12 col-md-3 text-center text-md-end">
@@ -136,12 +133,10 @@
                   class="section-icon"
                 >
               </p>
-              <h3 style="text-align: center">
-                <strong>Professional Bio</strong>
-              </h3>
+             <h2 class="as-h3 text-center"><strong>Professional Bio</strong></h2>
+              
            
-              <h5>
-                <br>
+               <p class="as-h5 mt-3">
                 Fascinated by computers since engaging with my Commodore VIC-20
                 at age 11, I’ve developed strong skills in programming, web
                 development, hardware, CAD, networking, mathematics, and
@@ -149,7 +144,7 @@
                 experience, tech has always been my lifelong mission. I thrive
                 on transforming complex concepts into accessible, engaging
                 learning experiences.
-              </h5>
+               </p>
           </div>
           <div class="tile">
                 <p>
@@ -159,9 +154,8 @@
                   class="section-icon"
                 >
               </p>
-              <h3 style="text-align: center"><strong>Skills</strong></h3>
-              <p>
-                <br><br>
+             <h2 class="as-h3 text-center"><strong>Skills</strong></h2>
+            <p class="my-3">
                 <!-- Use of <br> for spacing is a visual hack; prefer Bootstrap spacing utilities (e.g., my-3) or CSS margins. -->
              
                 <img
@@ -179,11 +173,9 @@
                   class="section-icon"
                 >
               </p>
-              <h3 style="text-align: center">
-                <strong>Lifelong Learner</strong>
-              </h3>
-              <h5>
-                <br>
+              <h2 class="as-h3 text-center"><strong>Lifelong Learner</strong></h2>
+         
+              <p class="as-h5 mt-3">
                 Motivated by a strong commitment to lifelong learning, I’m
                 currently completing a Level 5 Diploma in Website Development
                 and pursuing CompTIA training to deepen my IT expertise. I
@@ -191,18 +183,14 @@
                 experience. This evolving journey fuels my ability to adapt,
                 innovate, and support others in the ever-changing digital
                 landscape.
-              </h5>
+              </p>
           </div>
 
         </div>
       </section>
      
     </main>
-<!-- Pedagogical follow-ups you might implement later:
-         1) Add a shared <footer id="contact"> so the "Contact" link works on all pages.
-         2) Replace inline styles and <br> spacers with Bootstrap utilities (e.g., class="text-center my-3").
-         3) Normalize heading levels (e.g., page <h1> in header, then <h2> section headings, <p> for body).
-         4) Add loading="lazy" and width/height to non-critical images for performance. -->
+
          
     <!-- Footer / contact section -->
     <!-- Footer is placed after main content; mt-auto pushes it to bottom if page is short. -->
@@ -210,8 +198,7 @@
       <!-- Contacts section groups contact methods and provides in-page anchor targets. -->
       <section id="contacts">
         <div class="col-12 text-center">
-          <!-- Keep only one <h1> per page ideally; using classed heading here for styling. -->
-          <h1 class="footer-title">My Contacts</h1>
+          <h2 class="footer-title">My Contacts</h2>
         </div>
         <!-- Inner wrapper with #contact to support the navbar "Contact" anchor link. -->
         <div id="contact">
@@ -243,7 +230,7 @@
             </p>
 
             <h3>Address</h3>
-            <br />
+            <br>
             <p>11 North Parade</p>
             <p>Holbeach, Spalding</p>
             <p>PE12 7AJ</p>
@@ -259,14 +246,14 @@
               />
             </p>
             <h3>Email</h3>
-            <br />
+            <br>
             <!-- Using a mailto: link improves usability. -->
             <p>
               <a href="mailto:roberto.pires@gmail.com"
                 >roberto.pires@gmail.com</a
               >
             </p>
-            <br />
+            <br>
 
             <p>
               <img
@@ -276,10 +263,10 @@
               />
             </p>
             <h3>Telephone</h3>
-            <br />
+            <br>
             <!-- tel: link makes it tappable on mobile devices. -->
             <p><a href="tel:+447773554800">+44 777 355 4800</a></p>
-            <br />
+            <br>
           </div>
           <div class="footer-tile">
             <p>
@@ -320,8 +307,8 @@
                 />Facebook
               </a>
             </p>
-            <br />
-            <br />
+            <br>
+            <br>
             <p>
               <a
                 href="https://www.instagram.com/pirescroberto/"

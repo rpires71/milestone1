@@ -97,6 +97,13 @@ header h3 {
   font-weight: 400;
 }
 
+/* Restore dark brown text in the About page header */
+.header-background .h1-as-lead,
+.header-background .header-lead,
+.header-background .header-intro {
+  color: var(--headings-footer-background);
+}
+
 
 .header-intro {
   max-width: 800px;
@@ -211,6 +218,23 @@ html {
   margin-bottom: 0.75rem;
   /* You can adjust this value if you want more or less space */
 }
+
+/* Make the new H1 in the About page header look like your old header line */
+.h1-as-lead {
+  font-size: clamp(2rem, 3vw, 1.6rem) !important;
+  font-weight: 400;
+  margin-bottom: 0;
+}
+
+/* Make the new H2s inside tiles look like your old H3s */
+.tile .as-h3 {
+  font-size: clamp(0.8rem, 1.5vw, 1.1rem);
+  font-weight: 700;
+  line-height: 1.4;
+  margin: 0 0 0.5rem 0;
+  color: var(--body-text-colour);
+}
+
 
 /* Keep the old look after switching to semantic tags in the intro tile */
 .tile .as-h4,
