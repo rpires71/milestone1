@@ -581,6 +581,51 @@ a {
   }
 }
 
+/* CV sections */
+/* CV buttons – match site palette */
+.btn-accent {
+  background-color: var(--primary-accents-buttons);
+  color: var(--light-font-colour);
+  border: 2px solid var(--primary-accents-buttons);
+}
+.btn-accent:hover,
+.btn-accent:focus {
+  background-color: transparent;
+  color: var(--headings-footer-background);
+  border-color: var(--primary-accents-buttons);
+}
+
+.btn-outline-accent {
+  background-color: transparent;
+  color: var(--headings-footer-background);
+  border: 2px solid var(--primary-accents-buttons);
+}
+.btn-outline-accent:hover,
+.btn-outline-accent:focus {
+  background-color: var(--primary-accents-buttons);
+  color: var(--light-font-colour);
+}
+
+/* Inline CV call-to-action spacing */
+.cv-cta {
+  gap: .5rem;
+}
+
+/* Make the navbar CV dropdown match your dark navbar */
+.custom-navbar .dropdown-menu {
+  background-color: var(--headings-footer-background);
+  border-color: var(--primary-accents-buttons);
+}
+.custom-navbar .dropdown-item {
+  color: var(--light-font-colour);
+}
+.custom-navbar .dropdown-item:hover,
+.custom-navbar .dropdown-item:focus {
+  background-color: var(--primary-accents-buttons);
+  color: var(--light-font-colour);
+}
+
+
 /* --------------------------------------------------------------------------
    Debug helpers (commented out)
    - Handy for visualising grid/container boundaries during development.
