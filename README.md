@@ -3320,7 +3320,25 @@ The following content documents the creation of the `milestone1` repository on G
 git add .           # (Note the space: add everything in the folder)
 git commit -m "descriptive message"
 git push
-  
+```
+### 3. Git identity setup (so commits show my name/email)
+
+```bash
+git config --global user.name "Roberto Pires"
+git config --global user.email "roberto.pires@gmail.com"
+git config --global init.defaultBranch main
+```
+### 4.	Local website verification during development (before deployment)
+
+- Used Live Server in VS Code (right-click index.html → Open with Live Server), or
+ran a quick local server via Python when needed:
+
+```bash
+ python -m http.server
+```
+- Then I opened http://localhost:8000 in the browser.
+
+
 ---
 
  
