@@ -226,6 +226,13 @@ html {
   margin-bottom: 0;
 }
 
+/* Make the page H1 look like your previous header <h3> */
+.h1-as-h3 {
+  font-size: 2.5rem;    /* matches your header h3 size */
+  font-weight: 400;
+  margin: 0;
+}
+
 /* Make the new H2s inside tiles look like your old H3s */
 .tile .as-h3 {
   font-size: clamp(0.8rem, 1.5vw, 1.1rem);
