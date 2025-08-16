@@ -3,30 +3,45 @@
 * PostCSS: v8.4.14,
 * Autoprefixer: v10.4.7
 * Browsers: last 4 version
+*
+* Pedagogical note:
+* - Vendor-prefixed properties (e.g., -webkit-, -ms-) next to the
+*   standard ones. Autoprefixer adds these to keep layout/features working on
+*   slightly older browsers while authoring only modern CSS.
 */
 
-/* Google fonts import */
+/* --------------------------------------------------------------------------
+   Google Fonts
+   - Imports two font families used across the site.
+   - Using @import in CSS is fine here because it’s a simple static site.
+   - In large apps, I'll prefer a <link> in HTML for better performance.
+--------------------------------------------------------------------------- */
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:wght@400;600&display=swap");
 
-/* CSS Variables */
+/* --------------------------------------------------------------------------
+   Design Tokens (CSS Variables)
+   - Centralized colour palette and typography choices.
+   - Benefits:
+     1) Consistency: change in one place cascades everywhere.
+     2) Theming: easy to swap schemes (e.g., dark mode).
+     3) Readability: names communicate intention.
+--------------------------------------------------------------------------- */
 :root {
   --primary-typeface: "Montserrat", sans-serif;
   --secondary-typeface: "Open Sans", sans-serif;
-  --body-text-colour: #3a1705;
-  /* dark brown */
-  --page-background: #f9f6f1;
-  /* light beige */
-  --light-font-colour: #f9f6f1;
-  /* light beige */
-  --headings-footer-background: #3e2c23;
-  /*Dark Chocolate Brown*/
-  --highlights-call-to-action-elements: #cba135;
-  /* Gold Brown */
-  --primary-accents-buttons: #b7986b;
-  /*Hazel Brown*/
+  --body-text-colour: #3a1705; /* Dark brown for body text; high readability on light background */
+  --page-background: #f9f6f1; /* Light beige page background */
+  --light-font-colour: #f9f6f1; /* Light text on dark blocks (e.g., footer) */
+  --headings-footer-background: #3e2c23; /* Dark chocolate brown for headings + footer bg */
+  --highlights-call-to-action-elements: #cba135; /* Accent: gold */
+  --primary-accents-buttons: #b7986b; /* Accent: hazel brown (buttons, header bg) */
 }
 
-/* Global styles */
+/* --------------------------------------------------------------------------
+   Global defaults
+   - Body uses secondary typeface for body copy and the main background colour.
+   - Headings use the primary typeface and a darker colour to create hierarchy.
+--------------------------------------------------------------------------- */
 body {
   font-family: var(--secondary-typeface);
   color: var(--body-text-colour);
@@ -43,7 +58,11 @@ h6 {
   color: var(--headings-footer-background);
 }
 
-/* Header section features */
+/* --------------------------------------------------------------------------
+   Header (Hero) styling
+   - The header is a full-width band with accent background and light text.
+   - Width 100% ensures it spans the viewport even if container widths vary.
+--------------------------------------------------------------------------- */
 
 header {
   background-color: var(--primary-accents-buttons);
@@ -51,7 +70,11 @@ header {
   width: 100%;
 }
 
-/* Header text styling */
+/* --------------------------------------------------------------------------
+   Heading scales in the header
+   - clamp(min, preferred, max) makes fluid typography that adapts to viewport.
+   - This avoids abrupt jumps at breakpoints and improves readability on all devices.
+--------------------------------------------------------------------------- */
 .header-title {
   font-size: clamp(5rem, 5vw, 3.5rem);
   margin-bottom: 1rem;
@@ -67,6 +90,11 @@ header {
   font-weight: 400;
 }
 
+/* --------------------------------------------------------------------------
+   Header layout container
+   - Uses flexbox to center content vertically/horizontally.
+   - min-height gives the hero room to breathe on short-content pages.
+--------------------------------------------------------------------------- */
 header.header-background {
   background-color: var(--primary-accents-buttons);
   color: var(--light-font-colour);
@@ -74,17 +102,17 @@ header.header-background {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   width: 100%;
   /* Ensure full width */
   min-height: 300px;
 }
 
-
+/* Larger headings when used inside header; visual design choice */
 header h1 {
   font-size: 4.5rem;
   /* increase main heading size */
@@ -97,13 +125,22 @@ header h3 {
   font-weight: 400;
 }
 
-/* Restore dark brown text in the About page header */
+/* --------------------------------------------------------------------------
+   About/Alt header colour override
+   - On some pages we want dark text inside the header band for contrast/accessibility;
+     these class hooks allow that without changing the structural HTML tags.
+--------------------------------------------------------------------------- */
 .header-background .h1-as-lead,
 .header-background .header-lead,
 .header-background .header-intro {
   color: var(--headings-footer-background);
 }
 
+/* --------------------------------------------------------------------------
+   Header intro paragraph
+   - Max width constrains line length for readability (~60–80 characters).
+   - text-align: justify = editorial style; optional per preference.
+--------------------------------------------------------------------------- */
 
 .header-intro {
   max-width: 800px;
@@ -114,7 +151,10 @@ header h3 {
   text-align: justify;
 }
 
-/* Logo */
+/* --------------------------------------------------------------------------
+   Logo sizing
+   - Keep raster/SVG logos responsive but capped so they don’t dominate the layout.
+--------------------------------------------------------------------------- */
 
 /* Navbar-specific logo: smaller */
 .logo-navbar {
@@ -138,14 +178,17 @@ header h3 {
   margin-left: auto;
   margin-right: auto;
 
-
   display: block;
   /* Allows margin auto centering */
   margin-left: auto;
   margin-right: auto;
 }
 
-/* Navbar */
+/* --------------------------------------------------------------------------
+   Navbar
+   - Custom colours to match the palette.
+   - overflow-x: hidden protects against accidental horizontal scroll on small screens.
+--------------------------------------------------------------------------- */
 
 .custom-navbar {
   background-color: var(--headings-footer-background);
@@ -164,23 +207,38 @@ header h3 {
   color: var(--primary-accents-buttons);
 }
 
+/* --------------------------------------------------------------------------
+   Burger icon colour
+   - Inline SVG data-URI is used to force a lighter icon colour that works with the dark navbar.
+--------------------------------------------------------------------------- */
 .navbar-toggler-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(249, 246, 241, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
 }
 
+/* --------------------------------------------------------------------------
+   Smooth scrolling for in-page anchors
+   - This is a progressive enhancement that animates jumps (#contact, #skills).
+--------------------------------------------------------------------------- */
 html {
   scroll-behavior: smooth;
 }
 
-
-/* Keep navbar glued to the top */
+/* --------------------------------------------------------------------------
+   Sticky Navbar
+   - position: sticky keeps the navbar visible when scrolling.
+   - z-index ensures it layers above content (e.g., images/carousels).
+--------------------------------------------------------------------------- */
 .custom-navbar {
   position: sticky;
   top: 0;
   z-index: 1000;
 }
 
-/* Tiles*/
+/* --------------------------------------------------------------------------
+   Content Tiles
+   - Card-like containers with border, subtle shadow, and responsive font sizing.
+   - text-align: justify gives a neat column look for longer copy.
+--------------------------------------------------------------------------- */
 
 .tile {
   border: 2px solid var(--primary-accents-buttons);
@@ -191,34 +249,36 @@ html {
   background-color: var(--page-background);
   /* Optional: adds contrast */
   -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-          box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   /* Optional: subtle elevation */
   margin-bottom: 0.5rem;
   -webkit-box-flex: 1;
-      -ms-flex-positive: 1;
-          flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
   -ms-flex-preferred-size: 200px;
-      flex-basis: 200px;
+  flex-basis: 200px;
   font-weight: normal;
   color: var(--body-text-colour);
   text-align: justify;
 
   font-size: clamp(0.5rem, 1.5vw, 0.9rem);
-  /* Mobile-to-desktop scaling */
-
-
+/* Scales body size across devices */
 
   margin: 0.5rem;
-
-
-
 }
 
+/* Space between icons and headings inside tiles */
 .tile img {
   margin-bottom: 0.75rem;
-  /* You can adjust this value if you want more or less space */
+  /* Adjust this value if you want more or less space */
 }
 
+/* --------------------------------------------------------------------------
+   Semantic-visual alignment helpers
+   - These classes can keep correct HTML semantics (H1/H2/paragraph)
+     while preserving the visual design previously used with H3/H5.
+   - This is important for accessibility/SEO without changing the look.
+--------------------------------------------------------------------------- */
 /* Make the new H1 in the About page header look like your old header line */
 .h1-as-lead {
   font-size: clamp(2rem, 3vw, 1.6rem) !important;
@@ -228,7 +288,7 @@ html {
 
 /* Make the page H1 look like your previous header <h3> */
 .h1-as-h3 {
-  font-size: 2.5rem;    /* matches your header h3 size */
+  font-size: 2.5rem; /* matches your header h3 size */
   font-weight: 400;
   margin: 0;
 }
@@ -242,7 +302,6 @@ html {
   color: var(--body-text-colour);
 }
 
-
 /* Keep the old look after switching to semantic tags in the intro tile */
 .tile .as-h4,
 .tile .as-h5 {
@@ -252,7 +311,7 @@ html {
   margin: 0 0 1rem 0; /* no extra top gap; same bottom spacing as before */
 }
 
-
+/* If actual <h4>/<h5> inside tiles used, ensure consistent sizing with the helpers */
 .tile h4,
 .tile h5 {
   font-size: clamp(0.8rem, 1.5vw, 1.1rem);
@@ -263,7 +322,11 @@ html {
   margin-bottom: 0.5rem;
 }
 
-/* Grid layout for the about-me tiles */
+/* --------------------------------------------------------------------------
+   Grid layout for tiles
+   - Uses CSS Grid for two equal columns with a 1rem gap.
+   - Media query below collapses to one column on small screens.
+--------------------------------------------------------------------------- */
 .tile-grid {
   display: -ms-grid;
   display: grid;
@@ -273,8 +336,10 @@ html {
   margin: 1.5rem 0;
 }
 
-
-/* Carousel */
+/* --------------------------------------------------------------------------
+   Carousel wrapper
+   - Styled container to match tile aesthetics.
+--------------------------------------------------------------------------- */
 .carousel-wrapper {
   border: 2px solid var(--primary-accents-buttons);
   /* chocolate brown */
@@ -283,33 +348,40 @@ html {
   background-color: var(--page-background);
   /* optional: makes the background clean */
   -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-          box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   /* Optional: subtle elevation */
   margin-bottom: 0.5rem;
 }
 
-/* Ensure all carousel images are the same size */
+/* --------------------------------------------------------------------------
+   Carousel images
+   - object-fit: cover ensures all slides share the same visible box size
+     without distortion (cropping edges if aspect ratios differ).
+--------------------------------------------------------------------------- */
 .carousel-inner img {
   width: 100%;
   height: 100%;
- 
-  /* Set desired height */
+
+   /* Set desired height (done in media queries for smaller screens) */
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   /* Ensures cropping/fitting while maintaining aspect ratio */
   border-radius: 5px;
 }
 
-/* Main section*/
+/* --------------------------------------------------------------------------
+   Section spacing / icons
+   - First main section gets comfortable top/bottom rhythm.
+   - .section-icon keeps SVG/PNG badges a consistent visual size.
+--------------------------------------------------------------------------- */
 
-
-main>section:first-of-type {
+main > section:first-of-type {
   margin-top: 1.5rem;
   margin-bottom: 1.5rem;
 }
 
 .section-icon {
-  width: 120px; /* Or larger */
+  width: 120px; /* Considered large enough to be recognizable but not overpowering */
   height: auto;
   display: block;
   margin-left: auto;
@@ -317,45 +389,53 @@ main>section:first-of-type {
   margin-bottom: 0.5rem;
 }
 
-
-
-
+/* Illustrations scale down responsively while keeping aspect ratio */
 .main-illustration {
   width: 100%;
-  max-width: 400px;
-  /* or adjust as needed */
+  max-width: 400px; /* Prevents overly wide images on large screens */
   height: auto;
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
 
+/* --------------------------------------------------------------------------
+   About-me layout
+   - Flex with wrap makes a responsive multi-column block without manual breakpoints.
+--------------------------------------------------------------------------- */
 #about-me {
   /* Handles responsivity without the need for a media query */
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
-#about-me .tile{
+#about-me .tile {
   border: 2px solid var(--primary-accents-buttons); /* Hazel Brown border */
 }
 
-
-
+/* Override heading colour inside about-me if needed for contrast */
 #about-me h3 {
-  /* Override the heading colour set in general styles */
   color: var(--body-text-colour);
   /* ensure good contrast */
 }
 
+/* --------------------------------------------------------------------------
+   Anchor offset for sticky headers
+   - When you scroll to #skills, this prevents the sticky navbar from covering
+     the top lines of content by adding a logical “scroll margin”.
+--------------------------------------------------------------------------- */
 #skills {
   scroll-margin-top: 100px; /* Adjust based on your navbar height */
 }
 
-/* Footer section */
+/* --------------------------------------------------------------------------
+   Footer
+   - Dark band with light text to create a strong visual end to the page.
+   - Padding provides breathing room for contact tiles.
+--------------------------------------------------------------------------- */
 
 footer {
   background-color: var(--headings-footer-background);
@@ -365,6 +445,7 @@ footer {
   padding-bottom: 1rem;
 }
 
+/* Footer contact tiles: mirror the card look, but in dark theme */
 .footer-tile {
   background-color: var(--headings-footer-background);
   /* Optional: same as footer */
@@ -375,16 +456,17 @@ footer {
   margin: 0.5rem;
   text-align: center;
   -webkit-box-flex: 1;
-      -ms-flex-positive: 1;
-          flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
   -ms-flex-preferred-size: 200px;
-      flex-basis: 200px;
+  flex-basis: 200px;
   color: var(--light-font-colour);
   -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-          box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   /* Optional: adds elevation */
 }
 
+/* Footer section heading: larger but still subordinate to page H1 */
 .footer-title {
   color: var(--light-font-colour);
   /* This should be #f9f6f1 */
@@ -393,50 +475,58 @@ footer {
   margin-bottom: 1rem;
 }
 
-/* Contacts section */
+/* --------------------------------------------------------------------------
+   Contact grid
+   - Flex + wrap lays out blocks responsively without extra media queries.
+   - A light border keeps structure visible on dark footer background.
+--------------------------------------------------------------------------- */
 #contact {
   /* Handles responsivity without the need for a media query */
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 #contact div {
   padding: 15px;
   text-align: center;
-  /* This will not wrap on screens of less than 400px wide.
-    Each div will expand to fill the available space on its row */
+ /* This will not wrap on screens < ~400px wide; each div expands to available space */
   -ms-flex-preferred-size: 200px;
-      flex-basis: 200px;
+  flex-basis: 200px;
   -webkit-box-flex: 1;
-      -ms-flex-positive: 1;
-          flex-grow: 1;
-  /* Creates a grid of meetup time divs over the background image */
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  /* Creates a grid-like layout of contact tiles */
   border: 2px solid var(--light-font-colour);
 }
 
+/* Ensure headings in dark footer remain high-contrast */
 #contact h3 {
-  /* Override the heading colour set in general styles */
   color: var(--light-font-colour);
-  /* ensure good contrast */
 }
 
+/* --------------------------------------------------------------------------
+   Link styling
+   - Inherit colour from parent to blend links within dark/light sections.
+   - Removing underline is a design choice; consider hover underline for affordance.
+--------------------------------------------------------------------------- */
 a {
-  color: inherit;          /* Makes the link use the parent element's colour */
-  text-decoration: none;   /* Removes the underline */
+  color: inherit; /* Makes the link use the parent element's colour */
+  text-decoration: none; /* Removes the underline */
 }
 
-
-/* Buttons */
-
+/* --------------------------------------------------------------------------
+   Media queries: image heights in carousels on narrow screens
+   - Fixing a height avoids layout jumps and keeps slides consistent.
+--------------------------------------------------------------------------- */
 
 @media (max-width: 768px) {
   .carousel-inner img {
     height: 305px;
     -o-object-fit: cover;
-       object-fit: cover;
+    object-fit: cover;
   }
 }
 
@@ -444,11 +534,14 @@ a {
   .carousel-inner img {
     height: 305px;
     -o-object-fit: cover;
-       object-fit: cover;
+    object-fit: cover;
   }
 }
 
-/* Responsive adjustments */
+/* --------------------------------------------------------------------------
+   Typography/logo tweaks at typical Bootstrap breakpoints
+   - Matches header typography and branding scale to device size.
+--------------------------------------------------------------------------- */
 @media (max-width: 992px) {
   .header-title {
     font-size: 3rem;
@@ -477,8 +570,10 @@ a {
   }
 }
 
-
-/* Responsive fallback for small screens */
+/* --------------------------------------------------------------------------
+   Grid fallback for small screens
+   - Collapse two-column tile grid to a single column for readability.
+--------------------------------------------------------------------------- */
 @media (max-width: 768px) {
   .tile-grid {
     -ms-grid-columns: 1fr;
@@ -486,7 +581,11 @@ a {
   }
 }
 
-/* grid visualisation CSS for testing 
+/* --------------------------------------------------------------------------
+   Debug helpers (commented out)
+   - Handy for visualising grid/container boundaries during development.
+   - Keep commented for production to avoid visual noise.
+---------------------------------------------------------------------------
 
 .container,
 .row {
