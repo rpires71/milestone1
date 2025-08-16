@@ -2711,7 +2711,7 @@ At the end of each test case, I plan to:
   </tr>
 </table>
 
-### Responsiveness Testing Testing
+### Responsiveness Testing
 
 **Purpose:** Correct adaptation across a range of device sizes and orientations (desktop, tablet, and mobile) of website layout, content, and interactive components is ensured.
 
@@ -3276,3 +3276,47 @@ At the end of each test case, I plan to:
 
 ---
 
+## Milestone 1: Project Setup with GitHub and Visual Studio Code
+
+The following content documents the creation of the milestone1 repository on GitHub and how Visual Studio Code (VS Code) for day-to-day development was configured.
+
+### 1. Creation of the `milestone1` repository on GitHub
+
+- **New repository:** On GitHub, click **New** (green button) → Repository name: `milestone1` (public).
+- **Initialise:** Tick **Add a README**.
+- **Add `.gitignore`:** No `.gitignore`.
+- **Add license:** No license.
+- **Create:** Click **Create repository** (green button).
+
+**Result:** GitHub hosted an empty repository with a README on the `main` branch.
+
+### 2. Connecting Visual Studio Code to the GitHub repository (using the VS Code integrated terminal)
+
+- Opened my working folder in VS Code (**File → Open Folder**) and created/opened a `milestone1` directory.
+
+- Opened **Terminal** (Command Prompt) and initialized Git:
+  ```bash
+  git init
+  
+- Added and committed initial content locally:
+ ```bash
+git add README.md
+git commit -m "initial commit"
+
+- Pointed the local repo at the GitHub remote and aligned the branch names:
+```bash
+git branch -M main
+git remote add origin https://github.com/rpires71/milestone1.git
+git push -u origin main
+
+- Verified the repository was connected: README.md appeared in the VS Code Explorer, and subsequent pushes went to GitHub successfully.
+*** Note: From then on, my task-to-task loop to publish changes was:
+
+```bash
+git add .           # (Note the space: this adds everything in the folder)
+git commit -m "descriptive message"
+git push
+
+---
+
+ 
