@@ -3494,57 +3494,6 @@ git branch -M main
 <tr>
     <td colspan="2"><strong>Observations and Improvements:</strong> 
       
-### What I Checked (Desktop View + Link Targets)
-
-**Menu items present on every page:**  
-- Home  
-- About Me  
-- Work Experience  
-- Skills  
-- Certifications  
-- Bookings  
-- Contact  
-- CV  
-*(Source: [rpires71.github.io](https://rpires71.github.io))*
-
-
-### Keyboard & Focus
-
-- **Tab Order:**  
-  Links are standard anchors, so they’re tabbable in logical order.
-
-- **Focus Visibility:**  
-  Relies on browser defaults. Recommend adding a clear outline for WCAG 2.4.7 compliance.  
-  Following code was added to style.css file:
-
-  ```css
-  a:focus-visible {
-    outline: 3px solid currentColor;
-    outline-offset: 3px;
-    text-decoration: underline;
-    border-radius: 6px;
-  }
-
-### Proof - Link Testing (W3C Link Checker)
-
-| Link Type      | Status in W3C Report  | Manual Check Result |
-|----------------|------------------------|----------------------|
-| tel:+447773554800 | N/A (scheme disabled) | Opens phone dialler correctly |
-| mailto:roberto.pires@gmail.com | N/A (scheme disabled) | Opens default email client correctly |
-| LinkedIn profile | Blocked by robots.txt | Link works in browser |
-| Facebook profile | Blocked by robots.txt | Link works in browser |
-| Instagram profile | Blocked by robots.txt | Link works in browser |
-
-**Conclusion:** All navigation and contact links function as intended. Automated link checker reported only expected exclusions due to URI scheme and robots.txt restrictions.
-
-
-**What your W3C results mean**
-- tel: and mailto: links → W3C link checker deliberately skips these for security reasons. It doesn’t mean they’re broken; it just means you need to test them manually (click them in the browser to confirm they open the dialler/email client).
-
-- LinkedIn, Facebook, Instagram → W3C could not check them because those sites’ robots.txt blocks automated crawlers. Again, this doesn’t mean they’re broken; you just need to confirm manually that the links load in the browser.
-
-**Above links were tested manually on Microsoft Edge, Mozilla Firefox, Safari & Google Chrome including W3C Link Checker.**
-
 
     </td>
   </tr>
