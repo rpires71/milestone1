@@ -3425,4 +3425,1106 @@ git branch -M main
 
 ---
 
+## Website Testing
+
+### Types of Tests Implemented
+
+| Testing Type         | Description                                                                 |
+|----------------------|-----------------------------------------------------------------------------|
+| Functional and Content Accuracy Testing   | Test forms, buttons, navigation, links, image rendering                     |
+| Usability Testing    | Ensure intuitive navigation and positive user experience                    |
+| Responsive Testing   | Verify content and layout on desktop, tablet, and mobile devices            |
+| Accessibility Testing| Use tools such as Lighthouse or WAVE to test keyboard navigation, alt text, and colour contrast |
+| Cross-Browser Testing| Edge, Safari, Firefox, and Chrome                                           |
+| Performance Testing  | Overall site speed and page load times                                      |
+| Security Testing     | Basic checks with form validation and input sanitisation                    |
+| Regression Testing   | Re-test after updates or changes                                            |
+
+
+### Test Cases
+
+**Functionality and Content Accuracy Testing**
+
+<table>
+  <tr>
+    <td><strong>Test Case:</strong> TC001</td>
+    <td><strong>Feature:</strong> Navigation Menu</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Description:</strong> When verifying the menu operation across all platforms, it is necessary to ensure each hyperlink directs to the appropriate page or section.</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Justification:</strong> To ensure a seamless user journey, avoid misunderstanding and uphold inclusivity, precise and adaptive navigation is required.</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Steps:</strong><br>1. Launch the homepage in all web browsers.<br>
+2. Select each navigation link (e.g. About Me, Skills, Work Experience, etc.).<br>
+3. Confirm that the appropriate page or section displays without issue.<br>
+4. Repeat on a tablet and smartphone.<br>
+5. Test keyboard accessibility using the Tab key to cycle through the navigation.<br>
+6. While using the keyboard, ensure visible focus highlights are present.<br>
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Expected Result:</strong><br>
+- All hyperlinks function correctly and lead users to the appropriate page/section.<br>
+- Navigation remains uniform across all pages.<br>
+- Responsive collapsible menu appears accurately when viewed on mobile and tablet formats.<br>
+- When navigating through all menu options, keyboard users can interact and observe visible focus outlines.<br>
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Actual Result:</strong> </td>
+  </tr>
+<tr>
+    <td colspan="2"><strong>Pass/Fail:</strong> </td>
+  </tr>
+</table>
+<table>
+  <tr>
+    <td><strong>Test Case:</strong> TC002</td>
+    <td><strong>Feature:</strong> Forms (e.g. Bookings)</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Description:</strong> Verify that user entries are accepted, validation activates correctly, error notifications are perceivable, and the form processes as expected when evaluating the booking/contact form.</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Justification:</strong> For user interaction and objective achievement, a fully operational and inclusive form is essential. Communication between the user and website owner is facilitated, WCAG accessibility guidelines are upheld (e.g. appropriate labelling, error display), and course criteria for interactivity, usability, and inclusive design are satisfied.
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Steps:</strong><br>
+1. Navigate to the Bookings page.<br>
+2. Submit the form with incomplete fields.<br>
+3. Ensure that error notifications appear and are clearly phrased and perceivable.<br>
+4. Enter incorrect data (e.g. invalid email format) and observe the validation behaviour.<br>
+5. Input valid entries in all fields.<br>
+6. Submit the form.<br>
+7. Verify a confirmation message or redirection occurs.<br>
+8. Confirm all fields and controls are navigable using keyboard input only.<br>
+9. To evaluate field labels and error notifications, use screen reader technology.<br>
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Expected Result:</strong><br>
+- Mandatory fields are enforced and clearly identified.<br>
+- Invalid entries trigger feedback that is visible and accessible via screen readers.<br>
+- A confirmation is provided upon successful submission of valid data.<br>
+- The form is fully navigable using both keyboard and screen reader tools.<br>
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Actual Result:</strong> </td>
+  </tr>
+<tr>
+    <td colspan="2"><strong>Pass/Fail:</strong> </td>
+  </tr>
+</table>
+<table>
+  <tr>
+    <td><strong>Test Case:</strong> TC003</td>
+    <td><strong>Feature:</strong> CV Download Button</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Description:</strong> When offering access to a downloadable version of the CV (e.g. PDF), it is necessary to verify that the download button operates correctly. Across platforms and browsers, it is necessary to assess accessibility, file validity, and consistent performance.
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Justification:</strong> To support the goals of employers and hiring professionals, align with user expectations for professional portfolios, and meet functional criteria, it is necessary to confirm that the CV can be reliably obtained. For optimal  presentation and inclusive user experience, it also demonstrates consideration for accessibility, ease of use, and responsive performance, fulfilling course outcomes for professional delivery and inclusive design.
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Steps:</strong><br>
+1. Access the section or page where the CV download button is placed.<br>
+2. Click the download button.<br>
+3. Verify that the correct file (e.g. CV.pdf) is retrieved.<br>
+4. Confirm the file is complete, legible, and correctly formatted by opening it.<br>
+5. On smartphone and tablet devices, repeat the test.<br>
+6. Using keyboard-only interaction and screen reader (confirm the button is labelled and announced accurately), repeat the test.<br>
+7. Using Chrome, Firefox, Safari, and Edge, verify the download function.<br>
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Expected Result:</strong><br>
+- The button is accessible and labelled clearly (e.g. "Download CV").<br>
+- No errors occur and the file downloads successfully.<br>
+- The downloaded document opens and displays correctly.<br>
+- Across devices and browsers, the button works consistently .<br>
+- Download is activated by users easily using keyboard and screen reader.<br>
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Actual Result:</strong> </td>
+  </tr>
+<tr>
+    <td colspan="2"><strong>Pass/Fail:</strong> </td>
+  </tr>
+</table>
+<table>
+  <tr>
+    <td><strong>Test Case:</strong> TC004</td>
+    <td><strong>Feature:</strong> External Links</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Description:</strong> To ensure external hyperlinks (e.g. links to LinkedIn, GitHub, certifications, or projects hosted externally) direct users to the appropriate third-party resources in a new browser tab or window are tested.
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Justification:</strong> Enhance credibility and provide proof of professional involvement (e.g. GitHub repositories, credentials) by ensuring external links operate correctly. Maintains positive user experience and follows recommended practices for usability when hyperlinks open in a separate tab. For consistent navigation and accessibility, user intent, human-centred design, and professional expectations are supported.
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Steps:</strong><br>
+1. Locate all external hyperlinks across the site (e.g. footer, header, contact area, project sections).<br>
+2. Select each external hyperlink.<br>
+3. Confirm the link opens the relevant external destination in a new tab.<br>
+4. Verify that the linked page loads successfully without errors (e.g. 404).<br>
+5. Check that target="_blank" and rel="noopener noreferrer" attributes are correctly implemented in the HTML markup.<br>
+6. Navigate to each hyperlink using keyboard-only interaction and activate it.<br>
+7. Use a screen reader to verify that the hyperlink is described clearly and appropriately (not labelled as “click here”).<br>
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Expected Result:</strong><br>
+- The correct page opens in a separate tab when selecting each external hyperlink.<br>
+- No instances of broken links or page errors occur.<br>
+- target="_blank" and rel="noopener noreferrer" attributes are applied to ensure security and retain user context.<br>
+- All hyperlinks are accessible via keyboard navigation and announced properly by screen readers.<br>
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Actual Result:</strong> </td>
+  </tr>
+<tr>
+    <td colspan="2"><strong>Pass/Fail:</strong> </td>
+  </tr>
+</table>
+<table>
+  <tr>
+    <td><strong>Test Case:</strong> TC005</td>
+    <td><strong>Feature:</strong> Footer Links</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Description:</strong> Ensure that all navigation and informational links located in the footer (e.g. internal page links, social media icons, contact links) function correctly, are labelled clearly, and follow accessibility standards.
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Justification:</strong> The footer serves as a secondary navigation hub and contributes to a consistent and user-friendly layout. Ensuring all footer links work as intended reinforces user trust, supports accessibility, and aligns with professional UX practices. This also demonstrates attention to detail and compliance with best practices in inclusive web design.
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Steps:</strong><br>
+1. Scroll to the footer on every page.<br>
+2. Click each internal link (e.g. "About", "Projects", "Bookings") to ensure it navigates to the correct section/page.<br>
+3. Click each external link or icon (e.g. LinkedIn, GitHub) to verify it opens the correct site in a new browser tab.<br>
+4. Hover over each link to check visual feedback (e.g. underline, colour change).<br>
+5. Use keyboard tabbing to focus each link and press Enter to activate it.<br>
+6. Use a screen reader to ensure links are announced meaningfully.<br>
+7. Inspect HTML to confirm appropriate ARIA labels or accessible link text is used.<br>
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Expected Result:</strong><br>
+- All internal links navigate correctly within the site.<br>
+- External links open in a new tab using target="_blank" and include rel="noopener noreferrer".<br>
+- Visual and keyboard focus indicators are present.<br>
+- All links are readable and correctly announced by screen readers.<br>
+- No broken or incorrect links appear.<br>
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Actual Result:</strong> </td>
+  </tr>
+<tr>
+    <td colspan="2"><strong>Pass/Fail:</strong> </td>
+  </tr>
+</table>
+<table>
+  <tr>
+    <td><strong>Test Case:</strong> TC006</td>
+    <td><strong>Feature:</strong> Image Slider on homepage</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Description:</strong> Evaluate the homepage image slider to ensure it functions correctly, transitions between slides smoothly, includes visible navigation controls, and adheres to accessibility standards (e.g. alt text, keyboard operability, readable content).
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Justification:</strong> The image slider is a visually engaging feature used to communicate key messages or showcase work. Its functionality and accessibility directly affect the first impression of users, especially those with visual or motor impairments. Ensuring a seamless, accessible slider enhances UX, supports WCAG 2.1 compliance, and reflects professional web development practices.
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Steps:</strong><br>
+1. Load the homepage and observe if the image slider initiates automatically.<br>
+2. Confirm slide transitions occur smoothly and within an appropriate time frame.<br>
+3. Click the left/right arrow navigation buttons to manually cycle through slides.<br>
+4. Use keyboard arrows (← → or Tab/Enter) to navigate between slides.<br>
+5. Inspect the presence of alt text for all images.<br>
+6. Use a screen reader to test whether images and associated text are announced appropriately.<br>
+7. Check the responsiveness of the slider on tablet and mobile devices.<br>
+8. Confirm that animations do not trigger motion sensitivity issues (e.g. flashing, fast transitions).<br>
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Expected Result:</strong><br>
+- Slider loads automatically with smooth transitions.<br>
+- Manual navigation works using buttons and keyboard input.<br>
+- All images include meaningful alt text.<br>
+- Slider content is accessible via screen readers.<br>
+- Design adapts properly across all screen sizes.<br>
+- Visual indicators are clear and non-disruptive.<br>
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Actual Result:</strong> </td>
+  </tr>
+<tr>
+    <td colspan="2"><strong>Pass/Fail:</strong> </td>
+  </tr>
+</table>
+<table>
+  <tr>
+    <td><strong>Test Case:</strong> TC007</td>
+    <td><strong>Feature:</strong> Live Chat (if used)</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Description:</strong> Test the availability, visibility, usability, and accessibility of the live chat widget across devices. Confirm that users can open the chat, send and receive messages, and navigate the interface using a keyboard and screen reader.
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Justification:</strong> Live chat provides immediate communication for visitors, which improves user support and responsiveness—especially valuable for prospective students, parents, and employers. Ensuring functional, accessible, and responsive live chat aligns with user-centred design principles, professional UX standards, and WCAG 2.1 compliance.
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Steps:</strong><br>
+1. Load the homepage and verify the live chat icon/widget appears (e.g., bottom right corner).<br>
+2. Click or tap the chat icon to open the chat interface.<br>
+3. Enter a test message and click send.<br>
+4. A confirmation message is delivered and a response (automated or manual) is displayed.<br>
+5. Navigate the chat using keyboard keys (Tab, Shift+Tab, Enter, Esc).<br>
+6. Use screen reader software to test label announcements, focus order, and message feedback.<br>
+7. Resize browser window or test on mobile/tablet to check responsive behaviour.<br>
+8. Refresh the page and confirm expected session behaviour (reset or persistent).<br>
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Expected Result:</strong><br>
+- The chat icon is visible and accessible across all screen sizes.<br>
+- Messages can be sent and responses are displayed.<br>
+- Widget is operable via keyboard and screen reader.<br>
+- Responsive layout adapts smoothly to mobile and tablet views.<br>
+- No errors or accessibility barriers present.<br>
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Actual Result:</strong> </td>
+  </tr>
+<tr>
+    <td colspan="2"><strong>Pass/Fail:</strong> </td>
+  </tr>
+</table>
+<table>
+  <tr>
+    <td><strong>Test Case:</strong> TC008</td>
+    <td><strong>Feature:</strong> Content accuracy - All pages</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Description:</strong> Verify that written content on each page (e.g. Homepage, About Me, Work Experience, Projects, Bookings) is grammatically correct, relevant, and free from typographical errors. Ensure consistency of tone, spelling (UK English), dates, and professional terminology.
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Justification:</strong> Accurate and professionally presented content builds trust, supports user comprehension, and enhances the credibility of the website. It also reflects the standards expected in educational and technical sectors, fulfilling user goals and aligning with course requirements related to clarity, quality assurance, and professional presentation.
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Steps:</strong><br>
+1. Open each page of the website: Homepage, About Me, Skills, Work Experience, Certifications, Projects, Conferences/Workshops, Bookings.<br>
+2. Read all headings, paragraphs, and list items to check for grammar, spelling, punctuation, and tone.<br>
+3. Confirm correct UK spelling (e.g. “optimise” instead of “optimize”).<br>
+4. Validate consistency of names, job titles, dates, and qualifications.<br>
+5. Check that terminology is relevant to the audience (e.g. “book a session” for students vs. “request a call” for recruiters).<br>
+6. Use a grammar checking tool (e.g. Grammarly, Hemingway Editor) for final proofreading.<br>
+7. Repeat tests on desktop and mobile view to check for content cut-offs or rendering issues.<br>
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Expected Result:</strong><br>
+- No spelling or grammatical errors present.<br>
+- Content is relevant, consistent, and professionally worded.<br>
+- Tone remains clear and appropriate across all pages.<br>
+- All content displays correctly on desktop, tablet, and mobile screens.<br>
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Actual Result:</strong> </td>
+  </tr>
+<tr>
+    <td colspan="2"><strong>Pass/Fail:</strong> </td>
+  </tr>
+</table>
+<table>
+  <tr>
+    <td><strong>Test Case:</strong> TC009</td>
+    <td><strong>Feature:</strong> Content accuracy - Link Titles</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Description:</strong> Verify that all hyperlinks across the site have clear, descriptive titles or visible text that accurately reflects the destination or function of the link (e.g. "View Projects", "Download CV" instead of "Click Here").
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Justification:</strong> Descriptive link titles improve user navigation, accessibility for screen reader users, and SEO performance. This supports WCAG 2.1 Success Criterion 2.4.4 (Link Purpose), and ensures the site meets usability and clarity standards. It also helps users quickly identify what each link does, preventing confusion and enhancing trust.
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Steps:</strong><br>
+1. Navigate to all pages of the site (Homepage, About Me, Work Experience, Projects, etc.).<br>
+2. Locate all text-based and image-based links.<br>
+3. Confirm that the visible link text is meaningful and contextually descriptive.<br>
+4. Hover over links to review the title attribute (if used) for relevance.<br>
+5. Check for consistency in link phrases across the site.<br>
+6. Use a screen reader (or simulator) to ensure links make sense when read aloud independently.<br>
+7. Test links on mobile and desktop to ensure accessibility and responsiveness.<br>
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Expected Result:</strong><br>
+- All links use descriptive, relevant text.<br>
+- No vague terms like "Click here" or "More info" without context.<br>
+- Link titles support screen reader users.<br>
+- Links are consistent, clear, and function as expected across all devices<br>
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Actual Result:</strong> </td>
+  </tr>
+<tr>
+    <td colspan="2"><strong>Pass/Fail:</strong> </td>
+  </tr>
+</table>
+
+**Usability and Typography Testing**
+
+<table>
+  <tr>
+    <td><strong>Test Case:</strong> TC010</td>
+    <td><strong>Feature:</strong> Visual consistency</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Description:</strong> Verify that layout structure, colour palette, typography, spacing, and UI components (e.g. buttons, headings, links) remain uniform across all pages including Homepage, About, Projects, Bookings, and others.
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Justification:</strong> Consistent design improves user experience by reinforcing brand identity, reducing cognitive load, and supporting navigation familiarity. It meets professional standards of user interface design and contributes to accessibility, usability, and aesthetic quality.
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Steps:</strong><br>
+1. Open each main page of the website (Homepage, About, Skills, Work Experience, Projects, Certifications, Conferences, Bookings).<br>
+2. Compare layout alignment, margins, padding, and spacing between components.<br>
+3. Confirm consistent use of colours for headings, text, links, and backgrounds.<br>
+4. Check that the same heading styles and font sizes are applied throughout.<br>
+5. Ensure buttons and interactive elements are styled identically across pages.<br>
+6. Verify the same navigation bar and footer appear on all pages with consistent styling.<br>
+7. Check for consistent icon usage, image style, and component borders.<br>
+8. Test on desktop, tablet, and mobile to ensure consistency remains across breakpoints.<br>
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Expected Result:</strong><br>
+- The website displays a cohesive, uniform design throughout all pages and devices, reinforcing clarity, professionalism, and usability.
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Actual Result:</strong> </td>
+  </tr>
+<tr>
+    <td colspan="2"><strong>Pass/Fail:</strong> </td>
+  </tr>
+</table>
+  <table>
+  <tr>
+    <td><strong>Test Case:</strong> TC011</td>
+    <td><strong>Feature:</strong> Font Readability</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Description:</strong> Evaluate whether the selected fonts (e.g. Montserrat for headings and Open Sans for body text) are legible and accessible across different devices, screen sizes, and lighting conditions. Verify adequate size, spacing, and contrast.
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Justification:</strong> Readable typography is essential for accessibility, especially for users with dyslexia, low vision, or cognitive impairments. It also enhances usability and aligns with WCAG 2.1 guidelines on minimum text size and contrast. Ensures the content is understandable for all users, including students, parents, and recruiters.
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Steps:</strong><br>
+1. View the website on desktop, tablet, and mobile screens.<br>
+2. Check that the body font size is at least 16px using rem/em units.<br>
+3. Confirm adequate line spacing and paragraph spacing (1.5x or more).<br>
+4. Inspect text contrast against background using a contrast checker tool (e.g. WebAIM).<br>
+5. Review font choices in both light and dark mode (if applicable).<br>
+6. Ensure headings are distinguishable from body text by size and weight.<br>
+7. Test zooming in (up to 200%) and verify text remains legible without breaking layout.<br>
+8. Ask a peer or user with different accessibility needs for feedback.<br>
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Expected Result:</strong><br>
+- All text remains clear, easy to read, and accessible across all viewports and conditions without causing strain or requiring adjustment.
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Actual Result:</strong> </td>
+  </tr>
+<tr>
+    <td colspan="2"><strong>Pass/Fail:</strong> </td>
+  </tr>
+</table>
+  <table>
+  <tr>
+    <td><strong>Test Case:</strong> TC012</td>
+    <td><strong>Feature:</strong> Visual Hierarchy</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Description:</strong> Assess whether headings, subheadings, body text, buttons, and key elements are structured and styled to guide the user’s attention logically through each page. Confirm the use of font weights, sizes, spacing, and positioning to indicate importance.
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Justification:</strong> A clear visual hierarchy helps users quickly understand the structure of content and navigate intuitively—especially important for users scanning CVs, project summaries, or booking forms. It enhances usability, supports accessibility (WCAG 2.1 Success Criterion 1.3.1), and strengthens the professional tone of the site.
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Steps:</strong><br>
+1. Navigate through each page (Home, About, Skills, Projects, etc.).<br>
+2. Identify H1, H2, H3 tags and verify correct semantic use and consistent styling.<br>
+3. Confirm that headings are more prominent than body text (by size, weight, or spacing).<br>
+4. Ensure call-to-action buttons and links stand out with contrast or position.<br>
+5. Review alignment and grouping of elements (e.g. form fields, card layouts, sections).<br>
+6. Test on multiple devices to verify hierarchy is maintained on different screen sizes.<br>
+7. Check that no content is visually competing unnecessarily for attention.<br>
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Expected Result:</strong><br>
+- Users can easily distinguish headings from subheadings and body text, identify interactive elements, and scan pages without confusion. The layout supports intuitive reading and interaction flow.
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Actual Result:</strong> </td>
+  </tr>
+<tr>
+    <td colspan="2"><strong>Pass/Fail:</strong> </td>
+  </tr>
+</table>
+<table>
+  <tr>
+    <td><strong>Test Case:</strong> TC013</td>
+    <td><strong>Feature:</strong> Text Spacing</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Description:</strong> Evaluate whether spacing between lines, letters, and paragraphs follows accessibility and readability standards across all content. Confirm consistent application throughout all pages (e.g. About, Skills, Projects).
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Justification:</strong> Proper text spacing improves legibility, reduces cognitive load, and supports users with visual or reading difficulties (e.g. dyslexia). It contributes to a cleaner layout, professional tone, and aligns with WCAG 2.1 Success Criterion 1.4.12 (Text Spacing).
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Steps:</strong><br>
+1. Open each main page (Home, About, Skills, Projects, Bookings, etc.).<br>
+2. Check that line spacing (line height) is at least 1.5 times the font size.<br>
+3. Verify paragraph spacing is at least 2.0 times the line height.<br>
+4. Confirm letter spacing is not too tight or too wide (especially in headings and buttons).<br>
+5. Ensure consistency in spacing across all page sections and devices.<br>
+6. Test increased text spacing using browser accessibility settings or a custom CSS snippet.<br>
+7. Validate that no text overlaps, is cut off, or becomes illegible when spacing is increased.<br>
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Expected Result:</strong><br>
+- All text remains legible and visually balanced. Increased spacing does not break the layout or affect readability. The site meets accessibility standards and provides a comfortable reading experience.
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Actual Result:</strong> </td>
+  </tr>
+<tr>
+    <td colspan="2"><strong>Pass/Fail:</strong> </td>
+  </tr>
+</table>
+<table>
+  <tr>
+    <td><strong>Test Case:</strong> TC014</td>
+    <td><strong>Feature:</strong> Button Styles</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Description:</strong> Examine whether all buttons are consistently styled across the website. Check visual clarity, alignment with the overall design theme, responsiveness, and visibility when hovered or focused.
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Justification:</strong> Consistent and accessible button styling ensures intuitive interaction and helps users distinguish interactive elements from static content. Visual states (hover, focus) are vital for usability and accessibility, especially for keyboard users. This supports WCAG 2.1 Success Criterion 2.4.7 (Focus Visible) and enhances the user experience.
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Steps:</strong><br>
+1. Navigate to all pages containing buttons (e.g. Bookings, Projects, Home).<br>
+2. Verify buttons use a consistent colour scheme, shape, font size, and padding.<br>
+3. Hover over each button to check for colour/visual change on mouse interaction.<br>
+4. Use the Tab key to test keyboard focus visibility for all buttons.<br>
+5. Confirm contrast between button text and background meets accessibility standards (at least 4.5:1).<br>
+6. Test button responsiveness on various screen sizes (mobile, tablet, desktop).<br>
+7. Ensure all buttons are functional and styled appropriately even when disabled.<br>
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Expected Result:</strong><br>
+- All buttons are visually distinct, responsive to interaction, consistently styled, and accessible via keyboard navigation. Focus and hover states are clearly visible and improve usability without disrupting layout.
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Actual Result:</strong> </td>
+  </tr>
+<tr>
+    <td colspan="2"><strong>Pass/Fail:</strong> </td>
+  </tr>
+</table>
+
+**Responsiveness Testing**
+
+<table>
+  <tr>
+    <td><strong>Test Case:</strong> TC015</td>
+    <td><strong>Feature:</strong> Desktop (Chrome, Firefox, Edge). Desktop (1920x1080)
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Description:</strong> Ensure that the website layout, typography, images, and navigation display correctly and consistently on desktop browsers at full HD resolution (1920x1080), without distortion, overflow, or visual inconsistency.
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Justification:</strong> Full HD displays remain standard for many desktop and laptop users. Verifying responsive behaviour at this resolution ensures the site delivers a polished and professional user experience, regardless of browser choice. It also demonstrates compliance with cross-browser and responsive design requirements.
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Steps:</strong><br>
+1. Open the website in Chrome at 1920x1080 resolution.<br>
+2. Repeat using Firefox and Microsoft Edge at the same resolution.<br>
+3. Navigate through each page (Home, About Me, Projects, etc.).<br>
+4. Check layout consistency, image scaling, button placement, font alignment, and interactive elements.<br>
+5. Confirm no horizontal scrollbars appear.<br>
+6. Ensure all elements are legible and spaced appropriately.<br>
+7. Repeat after resizing the window slightly to test fluid responsiveness.<br>
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Expected Result:</strong><br>
+- All elements adjust appropriately to screen size. No content overlaps or breaks layout. Site displays consistently across all tested desktop browsers at 1920x1080.
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Actual Result:</strong> </td>
+  </tr>
+<tr>
+    <td colspan="2"><strong>Pass/Fail:</strong> </td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td><strong>Test Case:</strong> TC016</td>
+    <td><strong>Feature:</strong> Tablet (iPad, Android)Tablet (768x1024)
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Description:</strong> Check that the layout, navigation, images, and text adapt correctly to a standard tablet portrait resolution (768x1024). This includes correct stacking of columns, readable font sizes, and touch-friendly spacing.
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Justification:</strong> Tablets are widely used for browsing educational and portfolio websites. Ensuring responsive behaviour at this resolution improves accessibility and usability for key audiences (e.g., parents, students, employers). It demonstrates adherence to mobile-first, responsive web design best practices.
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Steps:</strong><br>
+1. Open the website using browser developer tools or a responsive testing tool set to 768x1024 (portrait).<br>
+2. Check the display in both iPad and Android simulation modes.<br>
+3. Navigate through all pages: Home, About Me, Skills, Work Experience, etc.<br>
+4. Verify that the layout stacks correctly (e.g., columns become single-column).<br>
+5. Confirm that text is legible and buttons/links are large enough for touch input.<br>
+6. Ensure all elements remain visible without horizontal scrolling.<br>
+7. Test embedded media, sliders, and forms for correct scaling and interaction.<br>
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Expected Result:</strong><br>
+- The website displays cleanly on tablet devices with no broken layouts. All interactive components are accessible and touch-friendly. Content remains fully visible and legible without zoom or scroll issues.
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Actual Result:</strong> </td>
+  </tr>
+<tr>
+    <td colspan="2"><strong>Pass/Fail:</strong> </td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td><strong>Test Case:</strong> TC017</td>
+    <td><strong>Feature:</strong>  Mobile (iOS, Android)Mobile (375x667)
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Description:</strong> Evaluate how the website adapts to smaller mobile screens, particularly the 375x667 viewport size used by many smartphones. This includes checking layout reflow, visibility of content, touch-target sizing, and functionality of navigation menus and interactive elements.
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Justification:</strong> A significant portion of users access websites via smartphones. Testing at this resolution ensures optimal readability, functionality, and usability on mobile. This supports WCAG 2.1 accessibility standards and aligns with mobile-first design principles expected at a professional level.
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Steps:</strong><br>
+1. Open the website using developer tools or a responsive testing tool (e.g. Chrome DevTools, Responsively.app) at 375x667.<br>
+2. Check each page (Home, About Me, Skills, Work Experience, etc.) for proper layout adjustment.<br>
+3. Verify hamburger menu (if implemented) functions correctly and allows navigation.<br>
+4. Ensure that all text remains legible, buttons are touch-friendly, and forms are easy to interact with.<br>
+5. Test image scaling and slider functionality on small screens.<br>
+6. Confirm that there is no horizontal scrolling and that all important information is visible.<br>
+7. Check that tap targets have appropriate spacing to avoid misclicks.<br>
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Expected Result:</strong><br>
+- The website is fully functional and visually coherent on mobile devices. Navigation is smooth, content is clearly visible and readable, and interactive elements work as expected without any layout or usability issues.
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Actual Result:</strong> </td>
+  </tr>
+<tr>
+    <td colspan="2"><strong>Pass/Fail:</strong> </td>
+  </tr>
+</table>
+
+**Accessibility Testing**
+
+<table>
+  <tr>
+    <td><strong>Test Case:</strong> TC018</td>
+    <td><strong>Feature:</strong> Colour contrast
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Description:</strong> Ensure that all text and interface elements maintain a minimum contrast ratio of 4.5:1 against their background colours. This applies to headings, body text, buttons, form labels, and links.
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Justification:</strong> Adequate colour contrast is essential for users with low vision or colour vision deficiency. It is a requirement of WCAG 2.1 Success Criterion 1.4.3 (Contrast – Minimum) and demonstrates inclusive design. Maintaining proper contrast enhances readability, usability, and user satisfaction across all devices and lighting environments.
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Steps:</strong><br>
+1. Open the website on a desktop browser.<br>
+2. Use the WebAIM Contrast Checker or Chrome DevTools → Lighthouse → Accessibility audit.<br>
+3. Inspect all text elements, buttons, and links across all pages (e.g. Homepage, Bookings, Projects).<br>
+4. Ensure each item has a contrast ratio of at least 4.5:1.<br>
+5. Record any elements failing the check and note suggested improvements.<br>
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Expected Result:</strong><br>
+- All text and interactive elements meet or exceed the required 4.5:1 contrast ratio for compliance and optimal legibility.
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Actual Result:</strong> </td>
+  </tr>
+<tr>
+    <td colspan="2"><strong>Pass/Fail:</strong> </td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td><strong>Test Case:</strong> TC019</td>
+    <td><strong>Feature:</strong> Keyboard navigation
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Description:</strong> Ensure users can navigate through all interactive elements (e.g. links, buttons, forms, image sliders) using the Tab, Shift+Tab, Enter, and Arrow keys, without requiring a mouse.
+
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Justification:</strong> Many users with motor impairments or those using assistive technologies rely solely on the keyboard for navigation. This test supports WCAG 2.1 Success Criterion 2.1.1 (Keyboard Accessible) and ensures that the site is operable for a wider audience. It also demonstrates commitment to accessibility best practices.
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Steps:</strong><br>
+1. Load the website in a desktop browser (e.g. Chrome or Firefox).<br>
+2. Without using a mouse, press the Tab key to navigate through focusable elements on the page.<br>
+3. Use Shift + Tab to navigate backwards.<br>
+4. Press Enter to activate buttons and links, and Arrow keys where applicable (e.g. sliders).<br>
+5. Verify that the focus indicator is clearly visible on each element.<br>
+6. Repeat the process for all major pages (Homepage, Bookings, About, etc.).<br>
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Expected Result:</strong><br>
+- All focusable elements can be accessed and activated using only the keyboard, and visual focus indicators are clearly visible.
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Actual Result:</strong> </td>
+  </tr>
+<tr>
+    <td colspan="2"><strong>Pass/Fail:</strong> </td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td><strong>Test Case:</strong> TC020</td>
+    <td><strong>Feature:</strong> Screen reader compatibility
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Description:</strong> Verify that all content, headings, links, forms, image alt text, and navigation elements are correctly read aloud by popular screen readers (e.g. NVDA or VoiceOver), following a logical reading order and reflecting the intended structure of the page.
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Justification:</strong> This ensures compliance with WCAG 2.1 accessibility guidelines, particularly Success Criterion 1.3.1 (Info and Relationships) and 4.1.2 (Name, Role, Value). It is vital for supporting users who are blind or visually impaired and rely on screen readers to understand and navigate website content. Testing this also demonstrates inclusive design practice and commitment to meeting the needs of all users.
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Steps:</strong><br>
+1. Open the website in a browser supported by the screen reader (e.g. Chrome with NVDA on Windows, Safari with VoiceOver on macOS).<br>
+2. Activate the screen reader.<br>
+3. Navigate through the site using screen reader keyboard shortcuts (e.g. heading navigation, tab, arrow keys).<br>
+4. Listen to ensure that:<br>
+- All headings are read in the correct order (e.g. H1 before H2).<br>
+- Links and buttons are clearly described (including purpose).<br>
+- Form fields are labelled appropriately (e.g. via label or aria-label).<br>
+- Image alt text is meaningful or skipped if decorative.<br>
+- Dynamic components (e.g. sliders or alerts) announce changes where necessary.<br>
+5. Repeat for multiple pages of the site.<br>
+
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Expected Result:</strong><br>
+- The screen reader reads content in a logical, meaningful order. All interface components are described correctly, and no important information is missed or misread.
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Actual Result:</strong> </td>
+  </tr>
+<tr>
+    <td colspan="2"><strong>Pass/Fail:</strong> </td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td><strong>Test Case:</strong> TC021</td>
+    <td><strong>Feature:</strong> Semantic HTML
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Description:</strong> Check that appropriate semantic HTML5 elements such as &lt;header&gt;, &lt;main&gt;, &lt;nav&gt;, &lt;section&gt;,&lt;article&gt;,and &lt;footer&gt; are used to structure the content. Verify that content hierarchy and meaning are conveyed clearly through correct use of headings and tags.
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Justification:</strong> Semantic HTML enhances accessibility by helping assistive technologies understand the layout and importance of content. It also improves SEO and aligns with WCAG 2.1 Success Criterion 1.3.1 (Info and Relationships). Ensuring semantic structure supports a professional standard in modern web development.
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Steps:</strong><br>
+1. Open the browser's developer tools (e.g. Chrome DevTools).<br>
+2. Inspect each page to confirm the presence and correct usage of semantic tags (&lt;header&gt;, &lt;main&gt;, &lt;nav&gt;, &lt;section&gt;, &lt;footer&gt;, etc.).<br>
+3. Check heading order (H1 to H6) to ensure it follows a logical and nested structure.<br>
+4. Ensure ARIA roles are not used to replace semantics unnecessarily (e.g. <div role="main"> when <main> could be used).<br>
+5. Validate HTML using the W3C Markup Validator to identify structural or nesting errors.<br>
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Expected Result:</strong><br>
+- The site uses semantic HTML tags appropriately and consistently. Headings are properly ordered, and screen readers can interpret page regions effectively. No structural or semantic HTML errors are reported by the validator.
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Actual Result:</strong> </td>
+  </tr>
+<tr>
+    <td colspan="2"><strong>Pass/Fail:</strong> </td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td><strong>Test Case:</strong> TC022</td>
+    <td><strong>Feature:</strong> Alt Text on Images
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Description:</strong> Check that all meaningful images include appropriate alt attributes describing their content or function. Ensure decorative images either have empty alt attributes (alt="") or are handled with appropriate roles.
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Justification:</strong> Providing descriptive alt text is essential for users who rely on screen readers. It ensures compliance with WCAG 2.1 Success Criterion 1.1.1 (Non-text Content) and supports accessibility for users with visual impairments. It also improves SEO and overall content quality.
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Steps:</strong><br>
+1. Inspect each image across the website using browser developer tools.<br>
+2. Confirm that all content-carrying images include a meaningful alt attribute.<br>
+3. Verify that purely decorative images include alt="" or are hidden from assistive technologies using aria-hidden="true".<br>
+4. Use a screen reader (e.g. NVDA or VoiceOver) to test whether the alt descriptions are read appropriately.<br>
+5. Validate image accessibility using tools such as the WAVE tool or Google Lighthouse.<br>
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Expected Result:</strong><br>
+- All images have suitable alt attributes. Content images provide accurate and helpful descriptions, and decorative images do not interfere with screen reader output.
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Actual Result:</strong> </td>
+  </tr>
+<tr>
+    <td colspan="2"><strong>Pass/Fail:</strong> </td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td><strong>Test Case:</strong> TC023</td>
+    <td><strong>Feature:</strong> ARIA Attributes
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Description:</strong> Verify that ARIA attributes (such as aria-label, aria-describedby, role, aria-live) are correctly used on interactive or dynamic elements like forms, modals, alerts, and sliders. Confirm they provide additional context where native HTML elements alone are insufficient.
+
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Justification:</strong> ARIA attributes are essential in improving accessibility for users relying on screen readers or other assistive technologies, especially where default semantic elements do not provide enough context. This supports WCAG 2.1 guidelines and enhances usability by reducing confusion and improving navigation for users with cognitive or visual impairments.
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Steps:</strong><br>
+1. Identify dynamic or non-standard components (e.g. form validation messages, modal pop-ups, live regions).<br>
+2. Use browser developer tools to inspect elements for proper ARIA attributes.<br>
+3. Confirm that each element has correct and meaningful aria-label, aria-labelledby, or aria-describedby values.<br>
+4. Use a screen reader (e.g. NVDA, VoiceOver) to test how the elements are announced.<br>
+5. Run automated checks using tools such as axe DevTools or WAVE to detect missing or incorrect ARIA usage.<br>
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Expected Result:</strong><br>
+- ARIA attributes are applied correctly, enhancing screen reader output and improving the accessibility of complex or interactive components. There are no redundant or conflicting ARIA attributes.
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Actual Result:</strong> </td>
+  </tr>
+<tr>
+    <td colspan="2"><strong>Pass/Fail:</strong> </td>
+  </tr>
+</table>
+<table>
+  <tr>
+    <td><strong>Test Case:</strong> TC024</td>
+    <td><strong>Feature:</strong> Skip to Content
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Description:</strong> Verify the presence and functionality of a "Skip to Content" link that allows users using a keyboard or screen reader to bypass repetitive navigation and jump directly to the main content area.
+
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Justification:</strong> This feature significantly improves accessibility for users with visual or motor impairments by reducing the number of keystrokes required to access core content. It aligns with WCAG 2.1 Success Criterion 2.4.1 (Bypass Blocks) and enhances the usability of the site for all users relying on assistive technologies or keyboard navigation.
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Steps:</strong><br>
+1. Load the website in a browser.<br>
+2. Press the Tab key upon page load to bring focus to the first interactive element.<br>
+3. Observe whether a visible "Skip to Content" link appears.<br>
+4. Press Enter when the link is focused.<br>
+5. Confirm the page scrolls/focuses directly to the main content (<main> tag).<br>
+6. Optionally, test with a screen reader to ensure the link is announced clearly and navigates as expected.<br>
+
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Expected Result:</strong><br>
+- The "Skip to Content" link appears as the first focusable item, is accessible via keyboard, and correctly navigates to the main content area when activated.
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Actual Result:</strong> </td>
+  </tr>
+<tr>
+    <td colspan="2"><strong>Pass/Fail:</strong> </td>
+  </tr>
+</table>
+
+**Performance Testing**
+
+<table>
+  <tr>
+    <td><strong>Test Case:</strong> TC025</td>
+    <td><strong>Feature:</strong> Load time (home/project)
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Description:</strong> Measure the time taken for the Home and Project pages to fully load, including all visible content, interactive elements, and media.
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Justification:</strong> Fast load times enhance user satisfaction and reduce bounce rates. Ensuring these key pages load within 2–3 seconds aligns with performance best practices and supports a smooth user experience on all devices.
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Steps:</strong><br>
+1. Open the Home page using Chrome and record the time taken for full page load using developer tools or Lighthouse.<br>
+2. Repeat the process for the Project page.<br>
+3. Perform the same tests using a mobile simulation or physical mobile device.<br>
+4. Use Google PageSpeed Insights or GTmetrix to generate a performance report for each page.<br>
+5. Review suggestions for improving load time and document any performance issues.<br>
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Expected Result:</strong><br>
+- Both the Home and Project pages should load fully in under 3 seconds on standard broadband and 4G mobile connections.<br>
+- All visual elements (e.g. headers, text, images, image sliders) and interactive components (buttons, links) should render without delay or visual glitches.<br>
+- Performance score from Google Lighthouse or PageSpeed Insights should be above 85% for both desktop and mobile views.<br>
+- No critical issues such as render-blocking scripts, oversized images, or excessive unused CSS should be reported.<br>
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Actual Result:</strong> </td>
+  </tr>
+<tr>
+    <td colspan="2"><strong>Pass/Fail:</strong> </td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td><strong>Test Case:</strong> TC026</td>
+    <td><strong>Feature:</strong> Optimised images
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Description:</strong> Verify that all images across the website are appropriately compressed and sized for fast loading without sacrificing visual quality. Formats like WebP or properly scaled JPEG/PNG should be used.
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Justification:</strong> Optimised images reduce page load time and bandwidth usage, contributing to better performance scores and an improved user experience—especially for users on slower connections. It also supports accessibility and SEO best practices.
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Steps:</strong><br>
+1. Open website pages containing multiple images (e.g. homepage, projects, about).<br>
+2. Use browser developer tools to inspect image file sizes and formats.<br>
+3. Run performance tests using tools like Google Lighthouse or PageSpeed Insights.<br>
+4. Confirm images load correctly and maintain visual quality across devices.<br>
+5. Ensure no oversized or uncompressed image files are present.<br>
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Expected Result:</strong><br>
+- All images should load quickly, appear sharp, and be under appropriate file size limits (generally <500KB per image). No unnecessary large images or format warnings should be flagged in performance testing tools.
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Actual Result:</strong> </td>
+  </tr>
+<tr>
+    <td colspan="2"><strong>Pass/Fail:</strong> </td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td><strong>Test Case:</strong> TC027</td>
+    <td><strong>Feature:</strong> Code validation
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Description:</strong> Validate the HTML and CSS code used across all pages of the website using tools such as the W3C Markup Validation Service and CSS Validation Service to check for syntax errors, deprecated tags, and semantic accuracy.
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Justification:</strong> Clean, valid code enhances cross-browser compatibility, improves accessibility, and supports SEO. It also reduces the likelihood of rendering issues or broken functionality, and aligns with professional standards in web development.
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Steps:</strong><br>
+1. Open the W3C HTML Validator and paste or upload the HTML for each page (e.g. Home, About, Projects, Bookings).<br>
+2. Repeat the process using the W3C CSS Validator for your stylesheets.<br>
+3. Review the results for any warnings or errors.<br>
+4. Correct any issues flagged by the validators.<br>
+5. Re-test after making adjustments.<br>
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Expected Result:</strong><br>
+- All pages should pass validation without critical errors. Minor warnings (if any) should not impact performance or accessibility. The codebase should reflect best practices, be clean, and semantically structured.
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Actual Result:</strong> </td>
+  </tr>
+<tr>
+    <td colspan="2"><strong>Pass/Fail:</strong> </td>
+  </tr>
+</table>
+
+**Regression Testing**
+
+<table>
+  <tr>
+    <td><strong>Test Case:</strong> TC028</td>
+    <td><strong>Feature:</strong> General functionality and UI consistency across the entire website after updates or changes.
+
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Description:</strong> Conduct a full walkthrough of all website pages to ensure that after implementing updates (e.g. new content, design changes, testimonials, or features), all previously working elements — including navigation, forms, typography, images, accessibility features, and responsiveness — continue to function correctly and display as intended.
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Justification:</strong> Regression testing ensures no existing functionality is broken during updates. It supports a stable user experience, safeguards accessibility and responsive design compliance, and meets the quality assurance standards outlined in the course brief.
+
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Steps:</strong><br>
+1. Navigate through all pages (Home, About, Skills, Work Experience, Projects, Bookings, etc.).<br>
+2. Check the navigation menu, footer links, and all buttons for correct redirection.<br>
+3. Submit the contact form and validate input errors and success messages.<br>
+4. Inspect image loading, alt text presence, and image slider functionality.<br>
+5. Confirm external links (e.g. CV download or project links) open correctly.<br>
+6. Re-test colour contrast, font rendering, and responsiveness using Chrome dev tools or Lighthouse.<br>
+7. Use keyboard-only navigation to check accessibility.<br>
+8. Run screen reader compatibility checks on key sections.<br>
+9. Validate that ARIA attributes and semantic HTML are still effective.<br>
+10. Run performance tools (e.g. Lighthouse) to assess site speed and accessibility.<br>
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Expected Result:</strong><br>
+- All site features, content, and design elements work as expected with no broken links, errors, or layout issues. The site remains responsive, accessible, and visually consistent across all devices and browsers.
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Actual Result:</strong> </td>
+  </tr>
+<tr>
+    <td colspan="2"><strong>Pass/Fail:</strong> </td>
+  </tr>
+</table>
+
+---
+
  
