@@ -3626,15 +3626,15 @@ git branch -M main
 - Labels are correctly paired (<label for> + id) → fields are announced properly.
 - No aria-describedby/inline error text; validation feedback may not be read reliably by SR users.
 
-## Fix 1: Submit actual data + mark required fields
+### Fix 1: Submit actual data + mark required fields
 - **Add name and required (and a placeholder option) so values are sent and users must choose a service:**
 - **Proof: Test Case TC002 improvement - Submit actual data + mark required fields**
 
-## Fix 2: Accessible inline error messages
+### Fix 2: Accessible inline error messages
 - **Add small, tied messages and announce them; keep browser validation**
 - **Proof: Test Case TC002 improvement - Accessible inline error messages & Test Case TC002 improvement - Accessible inline error messages v2/v3**
 
-## Re-test checklist (to close TC002 as PASS)
+### Re-test checklist (to close TC002 as PASS)
 - Submitting empty form highlights Name, Email, Service with clear messages that are read by screen readers.
 - Entering an invalid email shows/announces the message; valid email removes it.
 - With all valid fields, you’re redirected to the confirmation page.
@@ -3704,11 +3704,11 @@ git branch -M main
   - Change visible text to **“Download CV (PDF)”** (improves clarity for all users).
   - Ensure that all links have: **target="_blank" and rel="noopener noreferrer" (security/context)** and **an aria-label="Download CV (PDF) – opens in a new tab" for SR users (if you keep the visible label as “CV”).**
 
-## Fix 1: Change visible text to **“Download CV (PDF)”**
+### Fix 1: Change visible text to **“Download CV (PDF)”**
 - **Change visible text to **“Download CV (PDF)”** (improves clarity for all users).**
 - **Proof: Test Case TC003 improvement - Change visible text to “Download CV (PDF)”**
 
-## Verification 1: Change visible text to **“Download CV (PDF)”**
+### Verification 1: Verify appropriate target and aria-label**
 - **Ensure that all links have: target="_blank" and rel="noopener noreferrer" (security/context) and an aria-label="View CV as PDF – opens in a new tab" for SR users**
 - **Proof: Test Case TC003 improvement - All links have appropriate target and aria-label**
       </td>
@@ -3747,11 +3747,49 @@ git branch -M main
 </td>
   </tr>
   <tr>
-    <td colspan="2"><strong>Actual Result:</strong> </td>
+    <td colspan="2"><strong>Actual Result:</strong><br>
+
+### External links discovered
+- LinkedIn → https://www.linkedin.com/in/roberto-pires-a81b4716/ (linked from footer/social on all pages).
+- Facebook → https://www.facebook.com/pires.carlos.roberto/ (linked from footer/social on all pages).
+- Instagram → https://www.instagram.com/pirescroberto/ (linked from footer/social on all pages).
+
+**Note:** 
+- No GitHub or certification-provider outbound links are present. The “Download CV (PDF)” link opens an on-site PDF (internal), not an external domain.
+
+**Expected vs Actual**
+- Open in separate tab: Verified this is working as expected.
+- No broken links: No evidence of broken URLs.
+- Security attributes (target + rel): Target confirmed in code but not rel.
+- Keyboard & SR-friendly: Meets expectations (descriptive labels; standard anchors).
+- External social links are present site-wide and point to specific profile URLs.
+- Accessibility of link text is good.
+    </td>
   </tr>
 <tr>
-    <td colspan="2"><strong>Pass/Fail:</strong> </td>
+    <td colspan="2"><strong>Pass/Fail:</strong> 
+      <p><strong>Partial Pass (1st Test)</strong></p>
+      <p><strong>Pass (2nd Test - Suggestion check/improvements)</strong></p>
+    </td>
   </tr>
+   <tr>
+    <td colspan="2"><strong>Observations and Improvements:</strong>
+      
+  - **Pass for presence of external links and accessible labeling.**
+  - **Needs verification for “opens in new tab” and rel="noopener noreferrer". Mark Pass once you (a) confirm links open in a new tab in a regular browser and (b) verify the attributes are present in your HTML.**
+  - **Suggestions**
+  - Ensure all external anchors use target="_blank" rel="noopener noreferrer".
+  - Optionally add aria-label for extra clarity (e.g., aria-label="Open Roberto Pires LinkedIn profile in a new tab").
+
+### Verification 1: Ensure all external links have appropriate target and rel**
+- **Ensure that all external links have: target="_blank" and rel="noopener noreferrer"**
+- **Proof: Test Case TC004 improvement - All links have appropriate target and rel**
+
+### Fix 1: Improve aria-labels for extra clarity**
+- **Ensure that all external links have improved aria-labels for extra clarity**
+- **Proof: Test Case TC004 improvement - Improved aria-labels for extra clarity**
+      </td>
+   </tr>
 </table>
 <table>
   <tr>
