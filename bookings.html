@@ -190,39 +190,44 @@
           -->
           <div class="row g-3">
             <!-- Label + control pairing via for="id" improves accessibility -->
+            <!-- Name -->
             <div class="col-md-6">
-              <label for="name" class="form-label">Name</label>
+              <label for="name" class="form-label">Name *</label>
               <!--
                 type="text" for free-form input
                 required forces client-side validation before submit
                 TIP (for real submissions): add name="name" so its value is sent in the query string
               -->
-              <input type="text" id="name" class="form-control" required>
+              <input type="text" id="name" class="form-control" required autocomplete="name">
             </div>
+            <!-- Telephone (optional) -->
             <div class="col-md-6">
               <label for="telephone" class="form-label">Telephone</label>
                <!-- type="tel" helps mobile keyboards; pattern can be added for stricter validation -->
-              <input type="tel" id="telephone" class="form-control">
+              <input type="tel" id="telephone" name="telephone" class="form-control" autocomplete="tel">
             </div>
+              <!-- Email -->
             <div class="col-md-6">
-              <label for="email" class="form-label">Email</label>
+              <label for="email" class="form-label">Email *</label>
               <!-- type="email" enables built-in validation and mobile email keyboards -->
-              <input type="email" id="email" class="form-control" required>
+              <input type="email" id="email" name="email" class="form-control" required autocomplete="email">
             </div>
+            <!-- Type of Service -->
             <div class="col-md-6">
-              <label for="service" class="form-label">Type of Service</label>
+              <label for="service" class="form-label">Type of Service *</label>
                <!-- Select menu for predefined categories (easier to analyse consistently than free text) -->
-              <select id="service" class="form-select">
-                <option>Tutoring</option>
-                <option>Consulting</option>
-                <option>Web Development</option>
-                <option>Workshops</option>
+              <select id="service" name="service" class="form-select" required>
+                <option value="tutoring">Tutoring</option>
+                <option value="consulting">Consulting</option>
+                <option value="web-dev">Web Development</option>
+                <option value="workshops">Workshops</option>
               </select>
             </div>
+            <!-- Message -->
             <div class="col-12">
               <label for="message" class="form-label">Message</label>
               <!-- Multi-line text input for additional details -->
-              <textarea id="message" rows="5" class="form-control"></textarea>
+              <textarea id="message" name="message" rows="5" class="form-control"></textarea>
             </div>
             <!-- Submit button centered using Bootstrap’s text utilities -->
             <div class="col-12 text-center">
