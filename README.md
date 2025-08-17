@@ -3824,12 +3824,58 @@ git branch -M main
 - No broken or incorrect links appear.<br>
 </td>
   </tr>
-  <tr>
-    <td colspan="2"><strong>Actual Result:</strong> </td>
+   <tr>
+    <td colspan="2"><strong>Actual Result:</strong><br>
+
+### Footer structure & links found
+**On all pages, the footer contains:**
+- Internal navigation links: Home, About, Work Experience, Certifications, Bookings.
+- External links (icons): LinkedIn, Facebook, Instagram. (No GitHub present.)
+- Contact info: Direct mailto: email and a href tag to telephone numner.
+- Plain text “Copyright © 2024 Roberto Pires”.
+- Screen reader labelling — Link text is descriptive (e.g., “LinkedIn”, “About”).
+- Social icons rely on <i> font-awesome glyphs.
+- Aria-label is applied, and screen reader will announce “link” with context.
+
+**Expected vs Actual**
+- Internal links — N/A.
+- External links are well-formed and have been confirmed for target="_blank" + rel="noopener noreferrer".
+- Visual/keyboard focus — Works as expected.
+- **Screen reader announcement — Text links fine, but icon-only social links need ARIA labels.**
+- Broken/incorrect links — None found.
+- **Hover feedback: Not a feature; site CSS removes underlines by default. For clear affordance, add an underline (or color shift with sufficient contrast) on :hover and :focus-visible in the footer.**
+- **Keyboard tabbing & focus: Footer links are standard <a> elements - tabbable/activatable with Tab/Enter. Add/keep a strong visible focus indicator (site already uses :focus-visible elsewhere; extend it to footer links).**
+    </td>
   </tr>
 <tr>
-    <td colspan="2"><strong>Pass/Fail:</strong> </td>
+    <td colspan="2"><strong>Pass/Fail:</strong> 
+      <p><strong>Partial Pass (1st Test)</strong></p>
+      <p><strong>Pass (2nd Test - Suggestion check/improvements)</strong></p>
+    </td>
   </tr>
+     <tr>
+    <td colspan="2"><strong>Observations and Improvements:</strong>
+      
+  - **Pass: Internal links, consistent footer, hover/keyboard feedback.**
+  - **Needs improvement: Accessibility of social icons (add ARIA labels), hover feedback and keyboard tabbing focus.**
+  - **Suggestions**
+  - Aria-label adds descriptive labels for icon-only links so screen readers announce them meaningfully.
+  - Add an underline (or color shift with sufficient contrast) on :hover and :focus-visible in the footer.
+  - Add/keep a strong visible focus indicator (site already uses :focus-visible elsewhere; extend it to footer links).
+
+### Fix 1: Add descriptive labels for icon-only links**
+- **Add descriptive labels for icon-only links so screen readers announce them meaningfully**
+- **Proof: Test Case TC005 improvement - Add descriptive labels for icon-only links**
+
+### Fix 2: Add Hover and focus affordance (footer links)**
+- **Add an underline on :hover and :focus-visible in the footer.**
+- **Proof: Test Case TC005 improvement - Hover and focus affordance (footer links)**
+
+### Fix 3: Add descriptive labels for icon-only links**
+- **Add descriptive labels for icon-only links so screen readers announce them meaningfully (Correction)**
+- **Proof: Test Case TC005 improvement - Add security attributes to all external links and Icon a11y tidy-up**
+      </td>
+   </tr>
 </table>
 <table>
   <tr>
