@@ -3474,10 +3474,55 @@ git branch -M main
 </td>
   </tr>
   <tr>
-    <td colspan="2"><strong>Actual Result:</strong> </td>
+    <td colspan="2"><strong>Actual Result:</strong> 
+- All links route correctly; “Skills” deep link works; “Contact” scrolls to footer on every page.
+- Navbar collapses/expands correctly at mobile widths.
+- Keyboard navigation traverses items with visible focus.
+- No broken links reported by W3C Link Checker.
+- Lighthouse returns acceptable scores.
+    </td>
+    
   </tr>
 <tr>
-    <td colspan="2"><strong>Pass/Fail:</strong> </td>
+    <td colspan="2"><strong>Pass/Fail:</strong>
+      <p><strong>Pass</strong></p> 
+    </td>
+  </tr>
+<tr>
+    <td colspan="2"><strong>Observations and Improvements:</strong> 
+      ### What I Checked (Desktop View + Link Targets)
+
+**Menu items present on every page:**  
+- Home  
+- About Me  
+- Work Experience  
+- Skills  
+- Certifications  
+- Bookings  
+- Contact  
+- CV  
+*(Source: [rpires71.github.io](https://rpires71.github.io))*
+
+
+### Keyboard & Focus
+
+- **Tab Order:**  
+  Links are standard anchors, so they’re tabbable in logical order.
+
+- **Focus Visibility:**  
+  Relies on browser defaults. Recommend adding a clear outline for WCAG 2.4.7 compliance.  
+  Following code was added to style.css file:
+
+  ```css
+  a:focus-visible {
+    outline: 3px solid currentColor;
+    outline-offset: 3px;
+    text-decoration: underline;
+    border-radius: 6px;
+  }
+  ```
+
+    </td>
   </tr>
 </table>
 <table>
