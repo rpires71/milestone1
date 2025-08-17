@@ -3475,11 +3475,14 @@ git branch -M main
   </tr>
   <tr>
     <td colspan="2"><strong>Actual Result:</strong> 
-- All links route correctly; “Skills” deep link works; “Contact” scrolls to footer on every page.
-- Navbar collapses/expands correctly at mobile widths.
-- Keyboard navigation traverses items with visible focus.
-- No broken links reported by W3C Link Checker.
-- Lighthouse returns acceptable scores.
+      
+**Using Microsoft Edge/Mozilla Firefox/Google Chrome browswers and testing on desktop/mobile/tablet devices**
+- All links route correctly; “Skills” deep link works; “Contact” scrolls to footer on every page.<br>
+- Navbar collapses/expands correctly at mobile widths.<br>
+- Keyboard navigation traverses items with visible focus.<br>
+- No broken links reported by W3C Link Checker.<br>
+- Lighthouse returns acceptable scores.<br>
+  
     </td>
     
   </tr>
@@ -3490,7 +3493,8 @@ git branch -M main
   </tr>
 <tr>
     <td colspan="2"><strong>Observations and Improvements:</strong> 
-      ### What I Checked (Desktop View + Link Targets)
+      
+### What I Checked (Desktop View + Link Targets)
 
 **Menu items present on every page:**  
 - Home  
