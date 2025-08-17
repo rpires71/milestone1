@@ -180,7 +180,7 @@
           NOTE: To actually send field values, each input/select/textarea should have a "name" attribute.
           Without "name", the control's value is NOT included in the query string.
       -->
-     <form action="confirmation.html" method="GET">
+     <form action="confirmation.html" method="GET" novalidate>
   <div class="tile">
     <!-- Section heading: H2 keeps a logical outline under the page H1; .as-h3 preserves your visual style -->
     <h2 class="as-h3 text-center mb-4"><strong>Booking Inquiry</strong></h2>
@@ -198,7 +198,8 @@
                 required forces client-side validation before submit
                 TIP (for real submissions): add name="name" so its value is sent in the query string
               -->
-              <input type="text" id="name" class="form-control" required autocomplete="name">
+              <input type="text" id="name" class="form-control" required autocomplete="name" aria-describedby="name-err">
+              <p id="name-err" class="err" role="alert" hidden>Enter your full name.</p>
             </div>
             <!-- Telephone (optional) -->
             <div class="col-md-6">
@@ -206,14 +207,14 @@
                <!-- type="tel" helps mobile keyboards; pattern can be added for stricter validation -->
               <input type="tel" id="telephone" name="telephone" class="form-control" autocomplete="tel">
             </div>
-              <!-- Email -->
+              <!-- Email (required) -->
             <div class="col-md-6">
               <label for="email" class="form-label">Email *</label>
               <!-- type="email" enables built-in validation and mobile email keyboards -->
               <input type="email" id="email" name="email" class="form-control" required autocomplete="email" aria-describedby="email-err">
               <p id="email-err" class="err" role="alert" hidden>Enter a valid email address.</p>
             </div>
-            <!-- Type of Service -->
+            <!-- Type of Service (required) -->
             <div class="col-md-6">
               <label for="service" class="form-label">Type of Service *</label>
                <!-- Select menu for predefined categories (easier to analyse consistently than free text) -->
@@ -225,10 +226,8 @@
                 <option value="workshops">Workshops</option>
               </select>
               <p id="service-err" class="err" role="alert" hidden>Please choose a service.</p>
-              <p id="form-status" role="status" aria-live="polite" class="sr-only"></p>
-
             </div>
-            <!-- Message -->
+            <!-- Message (optional) -->
             <div class="col-12">
               <label for="message" class="form-label">Message</label>
               <!-- Multi-line text input for additional details -->
@@ -241,6 +240,8 @@
             </div>
           </div>
   </div>
+  <!-- Form-level status (SR summary) -->
+   <p id="form-status" role="status" aria-live="polite" class="sr-only"></p>
       </form>
     </section>
 

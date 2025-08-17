@@ -41,6 +41,7 @@
   /* Accent: gold */
   --primary-accents-buttons: #b7986b;
   /* Accent: hazel brown (buttons, header bg) */
+  --error-colour: #7a1f0f; /* high-contrast, matches this palette */
 }
 
 /* --------------------------------------------------------------------------
@@ -682,7 +683,19 @@ a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible
   outline: 3px solid currentColor; outline-offset: 3px; border-radius: 6px;
 }
 
-/* Errors */
+/* Error color uses your palette variable */
 .err { margin:.25rem 0 0; color:#b00020; }
 .invalid .form-control, .invalid .form-select, .invalid textarea { border:2px solid #b00020; }
+
+/* Keep your strong keyboard focus */
+:where(a,button,input,select,textarea):focus-visible {
+  outline: 3px solid currentColor;
+  outline-offset: 3px;
+  border-radius: 6px;
+}
+
+/* Screen-reader-only helper */
 .sr-only { position:absolute; left:-9999px; }
+
+/* Make sure hidden errors don't take space and aren't read */
+.err[hidden] { display:none !important; }
