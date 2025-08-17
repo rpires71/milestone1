@@ -3536,6 +3536,7 @@ git branch -M main
 
 **Conclusion:** All navigation and contact links function as intended. Automated link checker reported only expected exclusions due to URI scheme and robots.txt restrictions.
 
+<img width="398" height="290" alt="image" src="https://github.com/user-attachments/assets/0ce75462-8576-4ecd-99cc-b7dddf8d53bd" />
 
 **What your W3C results mean**
 - tel: and mailto: links → W3C link checker deliberately skips these for security reasons. It doesn’t mean they’re broken; it just means you need to test them manually (click them in the browser to confirm they open the dialler/email client).
