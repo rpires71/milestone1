@@ -488,6 +488,15 @@ footer {
   margin-bottom: 1rem;
 }
 
+ /* --------------------------------------------------------------------------
+Hover & focus affordance for footer links (improvement Test TC005):  
+WCAG 2.4.7 Focus Visible (Level AA) — keyboard focus must be visible on links. 
+---------------------------------------------------------------------------*/
+footer a:hover,
+footer a:focus-visible {
+  text-decoration: underline;
+}
+
 /* --------------------------------------------------------------------------
    Contact grid
    - Flex + wrap lays out blocks responsively without extra media queries.
