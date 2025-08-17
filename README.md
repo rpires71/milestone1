@@ -3338,7 +3338,71 @@ ran a quick local server via Python when needed:
 ```
 - Then I opened http://localhost:8000 in the browser.
 
+### 5.	Obstacles I encountered & how I solved them
 
+**Error message 1: “No upstream branch” error on first push**
+**Symptom:**
+```bash
+fatal: The current branch master has no upstream branch.
+```
+- **Cause:** My local branch wasn’t linked to any branch on the remote.
+**Fix (option 1): Set the upstream explicitly:**
+```bash
+ 	git push --set-upstream origin master
+```
+- **After this,** `git push/git pull` **works without extra arguments.**
+**Fix (option 2 – align with GitHub’s default main): Rename the local branch first, then set upstream:**
+```bash
+git branch -M main
+git push -u origin main
+```
+**Error message 2: Mismatch between `master` and `main`**
+**Symptom: I had commits on `master` but the GitHub repo defaulted to `main`, or vice-versa.**
+**Fix: Standardise on `main`, push it, and remove the old remote branch:**
+```bash
+git branch -m master main
+git push -u origin main
+git push origin --delete master
+```
+- **(Then, in GitHub → Settings → Branches, ensure Default branch = main.)**
+  
+**Error message 3:  Remote already had a README (divergent histories)**
+**Symptom: Push rejected or instructions suggesting I pull first.**
+- **Cause: I created a README on GitHub and also made a first local commit, so histories didn’t match.**
+**Fix (when required): Pull and merge unrelated histories, then push:**
+```bash
+git pull origin main --allow-unrelated-histories
+git push
+```
+**Verification of working fixes: “Did my push actually reach GitHub?”**
+**Checks I used from the terminal:**
+```bash
+git status                      REM working tree clean?
+git log --oneline               REM local history
+git fetch
+git log origin/main --oneline   REM remote history
+git rev-parse HEAD
+git rev-parse origin/main       REM compare SHAs; if equal, push succeeded
+git remote -v                   REM confirm the remote URL
+```
+- **If using `git log` fullscreen, I exited with Q.**
+
+### 6.	Why I used the terminal
+- **I deliberately used VS Code’s integrated terminal (Command Prompt) to show CLI proficiency and keep a simple, reproducible workflow on any Windows machine—no extensions required for Git tasks.**
+
+**Final state after Milestone 1**
+- **A GitHub repo (`milestone1`) with `main` as the default branch.**
+- **A local VS Code project linked to that repo via `origin`.**
+
+**A repeatable commit/push loop:**
+```bash
+git add .
+git commit -m "message"
+git push
+```
+
+- **A reliable way to preview locally (Live Server or `python -m http.server`) before deploying.**
+- **Clear procedures to diagnose push issues and to fix branch/remote mismatches when they occur.**
 ---
 
  
