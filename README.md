@@ -3586,13 +3586,17 @@ git branch -M main
   <tr>
     <td colspan="2"><strong>Actual Result:</strong> </td><br>
 - Mandatory fields enforced: Partially — Name & Email enforced; Type of Service isn’t. Required fields aren’t visually marked (e.g., “*”).<br>
+- <strong>Fixed:</strong> Mandatory fields: Clearly indicated — Name *, Email *, and Type of Service * with a “Select a service…” placeholder.<br>
 - Invalid entries trigger accessible feedback: Partially — native bubbles only; no SR-friendly inline errors.<br>
+- <strong>Fixed:</strong> Validation cues: Inline error strings are present in the DOM (e.g., “Enter a valid email address.”, “Please choose a service.”), indicating client-side validation hooks.<br>
 - Confirmation on success: Yes — redirects to confirmation.html with a clear message.<br>
 - Keyboard & SR operability: Keyboard OK; SR labeling for fields is OK; error announcement needs improvement.<br>
+- <strong>Fixed:</strong> Validation cues: Inline error strings are present in the DOM (e.g., “Enter a valid email address.”, “Please choose a service.”), indicating client-side validation hooks.
   </tr>
 <tr>
     <td colspan="2"><strong>Pass/Fail:</strong>
-      <p><strong>Partial Fail</strong></p> 
+      <p><strong>Partial Fail(1st Test)</strong></p> 
+      <p><strong>Pass (After improvements - 2nd and 3rd Test)</strong></p> 
     </td>
   </tr>
   <tr>
@@ -3624,6 +3628,18 @@ git branch -M main
 
 ## Fix 1: Submit actual data + mark required fields
 **Add name and required (and a placeholder option) so values are sent and users must choose a service:**
+**Proof: Test Case TC002 improvement - Submit actual data + mark required fields**
+
+## Fix 2: Accessible inline error messages
+**Add small, tied messages and announce them; keep browser validation**
+**Proof: Test Case TC002 improvement - Accessible inline error messages & Test Case TC002 improvement - Accessible inline error messages v2**
+
+## Re-test checklist (to close TC002 as PASS)
+- Submitting empty form highlights Name, Email, Service with clear messages that are read by screen readers.
+- Entering an invalid email shows/announces the message; valid email removes it.
+- With all valid fields, you’re redirected to the confirmation page.
+- Tab order is logical; a visible focus outline appears on each control.
+- Using NVDA/VoiceOver: labels are announced; errors use role="alert"; the form-level role="status" announces status text.
 
 </td>
 </tr>
