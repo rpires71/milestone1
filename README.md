@@ -3403,6 +3403,26 @@ git push
 
 - **A reliable way to preview locally (Live Server or `python -m http.server`) before deploying.**
 - **Clear procedures to diagnose push issues and to fix branch/remote mismatches when they occur.**
+
+### Justification  
+
+To ensure that my workflow was consistent, effective, and aligned with professional standards, as well as to comply with the assignment requirements, GitHub and Visual Studio Code were deliberately selected for use in the **Milestone 1** project.  
+
+Enabling secure storage of my project files and comprehensive visibility of my development history, I established a **centralised version control environment** which commenced with the creation of a remote repository on GitHub. A fundamental industry-standard practice for both collaborative and independent development projects, ensuring that every modification was documented with auditable commit messages, GitHub was initialised locally and connected to the remote.  
+
+To demonstrate proficiency with the Git **command line interface (CLI)**, I opted to use the VS Code integrated terminal instead of graphical extensions. The workflow can be replicated in any professional context with a reduced dependency on plugins, while this approach is also transferable to other environments (*Linux, macOS, Windows*). Furthermore, my technical experience was enhanced by deepening my understanding of the underlying Git commands provided by the CLI.  
+
+To my profile, ensuring all commits were attributed as accurately as possible, which justified the inclusion of identity configuration (`git config`). While potential employers and collaborators can clearly verify authorship on GitHub, accountability and professional branding practices are upheld.  
+
+Ensuring issues could be identified and resolved before deployment, previewing the website locally through **Live Server** and `python -m http.server` was a standard practice. Broken links, layout inconsistencies, or accessibility issues being published were rectified, ensuring the project was safeguarded. Changes are validated in a staging environment before release when testing locally, which also reflects a professional development workflow.  
+
+The obstacles I encountered—such as **mismatched branches** (`master` vs `main`), **missing upstream configurations**, and **divergent histories**—were opportunities to build resilience and problem-solving skills. For example, the *“no upstream branch”* error required me to investigate how local branches are linked to remote tracking branches. By learning to use commands such as:  
+
+```bash
+git push -u origin main
+git branch -M main
+```
+
 ---
 
  
