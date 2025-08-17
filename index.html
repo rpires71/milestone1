@@ -180,6 +180,12 @@
 
   <!-- Footer / contact section -->
   <!-- Footer is placed after main content; mt-auto pushes it to bottom if page is short. -->
+   <!--
+    FOOTER:
+    - mt-auto keeps the footer at the bottom on short pages.
+    - The #contact wrapper below is the anchor target the navbar links to.
+    - Headings in the footer use H2/H3 to maintain a logical outline beneath the page H1.
+  -->
   <footer class="mt-auto">
     <!-- Contacts section groups contact methods and provides in-page anchor targets. -->
     <section id="contacts">
@@ -235,31 +241,40 @@
         </div>
         <div class="footer-tile">
           <p>
-            <img src="assets/icons/message-circle.svg" alt="Phone icon" class="footer-icon me-2" />
+            <img src="assets/icons/message-circle.svg" alt="Social Media icon" class="footer-icon me-2" />
           </p>
           <h3>Social Media</h3>
           <br />
           <!-- External links open in new tabs; rel attributes mitigate tab-nabbing. -->
-          <p>
-            <a href="https://www.linkedin.com/in/roberto-pires-a81b4716/" target="_blank" aria-label="LinkedIn">
-              <img src="assets/icons/linkedin.svg" alt="LinkedIn icon" class="social-icon me-2" />LinkedIn
-            </a>
-          </p>
-          <br />
-          <br />
-          <p>
-            <a href="https://www.facebook.com/pires.carlos.roberto" target="_blank" aria-label="Facebook">
-              <img src="assets/icons/facebook.svg" alt="Facebook icon" class="social-icon me-2" />Facebook
-            </a>
-          </p>
-          <br />
-          <br />
-          <p>
-            <a href="https://www.instagram.com/pirescroberto/" target="_blank" aria-label="Instagram">
-              <img src="assets/icons/instagram.svg" alt="Instagram icon" class="social-icon" />
-              Instagram
-            </a>
-          </p>
+         <p>
+  <a href="https://www.linkedin.com/in/roberto-pires-a81b4716/"
+     target="_blank"
+     rel="noopener noreferrer"
+     aria-label="LinkedIn">
+    <img src="assets/icons/linkedin.svg" alt="Linkedin icon" aria-hidden="true" class="social-icon me-2">
+    <span>LinkedIn</span>
+  </a>
+</p>
+<br>
+<p>
+  <a href="https://www.facebook.com/pires.carlos.roberto"
+     target="_blank"
+     rel="noopener noreferrer"
+     aria-label="Facebook">
+    <img src="assets/icons/facebook.svg" alt="Facebook icon" aria-hidden="true" class="social-icon me-2">
+    <span>Facebook</span>
+  </a>
+</p>
+<br>
+<p>
+  <a href="https://www.instagram.com/pirescroberto/"
+     target="_blank"
+     rel="noopener noreferrer"
+     aria-label="Instagram">
+    <img src="assets/icons/instagram.svg" alt="Instagram icon" aria-hidden="true" class="social-icon">
+    <span>Instagram</span>
+  </a>
+</p>
         </div>
       </div>
     </section>

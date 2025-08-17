@@ -166,163 +166,115 @@
   </main>
 
 
-  <!--
-      FOOTER:
-      - Placed after main content for logical reading order.
-      - mt-auto pushes it to the bottom on short pages (sticky footer pattern).
-      - The “Contacts” section has its own heading. Because the page already has
-        one H1, we use H2 here to keep a correct outline depth.
-    -->
-    <footer class="mt-auto">
-      <!-- Contacts section -->
-      <section id="contacts">
-        <div class="col-12 text-center">
-          <!-- H2 keeps heading levels logical across the document -->
-          <h2 class="footer-title">My Contacts</h2>
+  <!-- Footer / contact section -->
+  <!-- Footer is placed after main content; mt-auto pushes it to bottom if page is short. -->
+   <!--
+    FOOTER:
+    - mt-auto keeps the footer at the bottom on short pages.
+    - The #contact wrapper below is the anchor target the navbar links to.
+    - Headings in the footer use H2/H3 to maintain a logical outline beneath the page H1.
+  -->
+  <footer class="mt-auto">
+    <!-- Contacts section groups contact methods and provides in-page anchor targets. -->
+    <section id="contacts">
+      <div class="col-12 text-center">
+        <!-- Keep only one <h1> per page ideally; using classed heading here for styling. -->
+        <h2 class="footer-title">My Contacts</h2>
+      </div>
+      <!-- Inner wrapper with #contact to support the navbar "Contact" anchor link. -->
+      <div id="contact">
+        <!-- Each tile presents one contact modality. -->
+        <div class="footer-tile">
+          <p>
+            <img src="assets/icons/award.svg" alt="Badge icon" class="footer-icon me-2" />
+          </p>
+          <h3>Badge</h3>
+          <br />
+          <!-- WebP helps performance; ensure fallback if targeting very old browsers. -->
+          <img src="assets/images/badgev2.webp" alt="Roberto Pires badge" class="img-fluid" />
         </div>
-          <!--
-          #contact is used by the navbar "Contact" anchor and by an
-          IntersectionObserver (see script) to highlight the Contact tab
-          while the footer is visible.
-        -->
-        <div id="contact">
-          <!--
-            Each tile presents one contact modality.
-            Icons have descriptive alt text for non-visual users.
-          -->
-          <div class="footer-tile">
-            <p>
-              <img
-                src="assets/icons/award.svg"
-                alt="Badge icon"
-                class="footer-icon me-2"
-              >
-            </p>
-            <h3>Badge</h3>
+        <div class="footer-tile">
+          <p>
+            <img src="assets/icons/map-pin.svg" alt="Google Maps icon" class="footer-icon me-2" />
+          </p>
+
+          <h3>Address</h3>
+          <br />
+          <p>11 North Parade</p>
+          <p>Holbeach, Spalding</p>
+          <p>PE12 7AJ</p>
+          <p>Lincolnshire</p>
+          <p>United Kingdom</p>
+        </div>
+        <div class="footer-tile">
+          <p>
+            <img src="assets/icons/send.svg" alt="Email icon" class="footer-icon me-2" />
+          </p>
+          <h3>Email</h3>
+          <br />
+          <!-- Using a mailto: link improves usability. -->
+          <p>
+            <a href="mailto:roberto.pires@gmail.com">roberto.pires@gmail.com</a>
+          </p>
+          <br />
+
+          <p>
+            <img src="assets/icons/phone.svg" alt="Phone icon" class="footer-icon me-2" />
+          </p>
+          <h3>Telephone</h3>
+          <br />
+          <!-- tel: link makes it tappable on mobile devices. -->
+          <p><a href="tel:+447773554800">+44 777 355 4800</a></p>
+          <br />
+        </div>
+        <div class="footer-tile">
+          <p>
+            <img src="assets/icons/message-circle.svg" alt="Social Media icon" class="footer-icon me-2" />
+          </p>
+          <h3>Social Media</h3>
+          <br />
+          <!-- External links open in new tabs; rel attributes mitigate tab-nabbing. -->
+         <p>
+  <a href="https://www.linkedin.com/in/roberto-pires-a81b4716/"
+     target="_blank"
+     rel="noopener noreferrer"
+     aria-label="LinkedIn">
+    <img src="assets/icons/linkedin.svg" alt="Linkedin icon" aria-hidden="true" class="social-icon me-2">
+    <span>LinkedIn</span>
+  </a>
+</p>
 <br>
-<!-- WebP for performance; .img-fluid keeps image responsive -->
-            <img
-              src="assets/images/badgev2.webp"
-              alt="Roberto Pires badge"
-              class="img-fluid"
-            >
-          </div>
-          <div class="footer-tile">
-            <p>
-              <img
-                src="assets/icons/map-pin.svg"
-                alt="Google Maps icon"
-                class="footer-icon me-2"
-              >
-            </p>
-            <h3>Address</h3>
-            <br>
-             <!-- Address is broken into lines for readability -->
-            <p>11 North Parade</p>
-            <p>Holbeach, Spalding</p>
-              <p>PE12 7AJ</p>
-            <p>Lincolnshire</p> 
-              <p>United Kingdom</p>
-          </div>
-          <div class="footer-tile">
-            <p>
-              <img
-                src="assets/icons/send.svg"
-                alt="Email icon"
-                class="footer-icon me-2"
-              >
-            </p>
-            <h3>Email</h3>
-           <br>
-           <!-- Using a mailto: link improves usability. -->
-            <a href="mailto:roberto.pires@gmail.com"
-                >roberto.pires@gmail.com</a
-              >
-            <br>
-        
-            <p>
-              <img
-                src="assets/icons/phone.svg"
-                alt="Phone icon"
-                class="footer-icon me-2"
-              >
-            </p>
-            <h3>Telephone</h3>
-          <br>
-             <!-- tel: link makes it tappable on mobile devices. -->
-            <p><a href="tel:+447773554800">+44 777 355 4800</a></p>
-            <br>
-          </div>
-          <div class="footer-tile">
-            <p>
-              <img
-                src="assets/icons/message-circle.svg"
-                alt="Phone icon"
-                class="footer-icon me-2"
-            >
-            </p>
-            <h3>Social Media</h3>
-            <br>
-            <!--
-              External links open in a new tab; aria-label gives an explicit
-              name for screen readers beyond the icon file name.
-            -->
-            <p>
-              <a
-                href="https://www.linkedin.com/in/roberto-pires-a81b4716/"
-                target="_blank"
-                aria-label="LinkedIn"
-              >
-                <img
-                  src="assets/icons/linkedin.svg"
-                  alt="LinkedIn icon"
-                  class="social-icon me-2"
-                >LinkedIn
-              </a>
-            </p>
-            <br>
-            <br>
-            <p>
-              <a
-                href="https://www.facebook.com/pires.carlos.roberto"
-                target="_blank"
-                aria-label="Facebook"
-              >
-                <img
-                  src="assets/icons/facebook.svg"
-                  alt="Facebook icon"
-                  class="social-icon me-2"
-                >Facebook
-              </a>
-            </p>
-            <br>
-            <br>
-            <p>
-              <a
-                href="https://www.instagram.com/pirescroberto/"
-                target="_blank"
-                aria-label="Instagram"
-              >
-                <img
-                  src="assets/icons/instagram.svg"
-                  alt="Instagram icon"
-                  class="social-icon"
-                > Instagram
-              </a>
-            </p>
-          </div>
-        </div>
-      </section>
-       <!-- Small print fits the footer’s purpose and visual hierarchy -->
-      <div class="container">
-        <!-- Copyright -->
-        <div class="row">
-          <div class="col-12 text-center copyright-text mt-3">
-            <small>&copy; 2025 Roberto Pires. All Rights Reserved.</small>
-          </div>
+<p>
+  <a href="https://www.facebook.com/pires.carlos.roberto"
+     target="_blank"
+     rel="noopener noreferrer"
+     aria-label="Facebook">
+    <img src="assets/icons/facebook.svg" alt="Facebook icon" aria-hidden="true" class="social-icon me-2">
+    <span>Facebook</span>
+  </a>
+</p>
+<br>
+<p>
+  <a href="https://www.instagram.com/pirescroberto/"
+     target="_blank"
+     rel="noopener noreferrer"
+     aria-label="Instagram">
+    <img src="assets/icons/instagram.svg" alt="Instagram icon" aria-hidden="true" class="social-icon">
+    <span>Instagram</span>
+  </a>
+</p>
         </div>
       </div>
-    </footer>
+    </section>
+    <div class="container">
+      <!-- Copyright text; <small> indicates side information. -->
+      <div class="row">
+        <div class="col-12 text-center copyright-text mt-3">
+          <small>&copy; 2025 Roberto Pires. All Rights Reserved.</small>
+        </div>
+      </div>
+    </div>
+  </footer>
 
    <!--
       Bootstrap JS bundle (includes Popper for dropdowns/tooltips).
