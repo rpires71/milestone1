@@ -3545,7 +3545,6 @@ git branch -M main
 
 **Above links were tested manually on Microsoft Edge, Mozilla Firefox, Safari & Google Chrome including W3C Link Checker.**
 
-  ```
 
     </td>
   </tr>
