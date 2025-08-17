@@ -3584,12 +3584,54 @@ git branch -M main
 </td>
   </tr>
   <tr>
-    <td colspan="2"><strong>Actual Result:</strong> </td>
+    <td colspan="2"><strong>Actual Result:</strong> </td><br>
+- Mandatory fields enforced: Partially — Name & Email enforced; Type of Service isn’t. Required fields aren’t visually marked (e.g., “*”).<br>
+- Invalid entries trigger accessible feedback: Partially — native bubbles only; no SR-friendly inline errors.<br>
+- Confirmation on success: Yes — redirects to confirmation.html with a clear message.<br>
+- Keyboard & SR operability: Keyboard OK; SR labeling for fields is OK; error announcement needs improvement.<br>
   </tr>
 <tr>
-    <td colspan="2"><strong>Pass/Fail:</strong> </td>
+    <td colspan="2"><strong>Pass/Fail:</strong>
+      <p><strong>Partial Fail</strong></p> 
+    </td>
   </tr>
+  <tr>
+    <td colspan="2"><strong>Observations and Improvements:</strong>
+
+**Navigate to Bookings page**
+- Page loads; form shows Name, Telephone, Email, Type of Service, Message, Submit.
+  
+**Submit with incomplete fields**
+- Built-in HTML validation fires for Name and Email (both required).
+- Type of Service is required, so users can submit with choosing one.
+- Telephone and Message are optional.
+  
+**Invalid data (email)**
+- **type="email"** triggers the browser’s native error bubble for invalid format.
+- There are no inline error messages or ARIA live regions; errors rely on browser UI only (less consistent for screen readers).
+
+**Valid entries + submit → confirmation**
+- On success, the form redirects to **confirmation.html** (clear thank-you message + “Return to Homepage” button).
+- **Important:** none of the form controls have a name attribute, so no user data is submitted (GET query will be empty). This is fine for a demo redirect, but no data will be captured by any backend/endpoint.
+
+**Keyboard-only navigation**
+- All fields and the button are focusable in logical order.
+- Focus visibility appears to rely on browser defaults (acceptable but could be clearer with a site-wide :focus-visible style).
+
+**Screen reader checks**
+- Labels are correctly paired (<label for> + id) → fields are announced properly.
+- No aria-describedby/inline error text; validation feedback may not be read reliably by SR users.
+
+## Fix 1: Submit actual data + mark required fields
+**Add name and required (and a placeholder option) so values are sent and users must choose a service:**
+
+</td>
+</tr>
+
 </table>
+
+---
+
 <table>
   <tr>
     <td><strong>Test Case:</strong> TC003</td>
