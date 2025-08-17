@@ -210,18 +210,23 @@
             <div class="col-md-6">
               <label for="email" class="form-label">Email *</label>
               <!-- type="email" enables built-in validation and mobile email keyboards -->
-              <input type="email" id="email" name="email" class="form-control" required autocomplete="email">
+              <input type="email" id="email" name="email" class="form-control" required autocomplete="email" aria-describedby="email-err">
+              <p id="email-err" class="err" role="alert" hidden>Enter a valid email address.</p>
             </div>
             <!-- Type of Service -->
             <div class="col-md-6">
               <label for="service" class="form-label">Type of Service *</label>
                <!-- Select menu for predefined categories (easier to analyse consistently than free text) -->
-              <select id="service" name="service" class="form-select" required>
+              <select id="service" name="service" class="form-select" required aria-describedby="service-err">
+                <option value="" selected disabled hidden>Select a service…</option>
                 <option value="tutoring">Tutoring</option>
                 <option value="consulting">Consulting</option>
                 <option value="web-dev">Web Development</option>
                 <option value="workshops">Workshops</option>
               </select>
+              <p id="service-err" class="err" role="alert" hidden>Please choose a service.</p>
+              <p id="form-status" role="status" aria-live="polite" class="sr-only"></p>
+
             </div>
             <!-- Message -->
             <div class="col-12">

@@ -672,3 +672,17 @@ Focus Visibility (improvement Test TC001):
     border-radius: 6px;
   }
  
+
+  /* --------------------------------------------------------------------------
+Form Accessible inline error messages (improvement Test TC002):  
+Add small, tied messages and announce them; keep browser validation for WCAG 2.4.7 compliance
+---------------------------------------------------------------------------*/
+  /* Strong keyboard focus */
+a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible, textarea:focus-visible {
+  outline: 3px solid currentColor; outline-offset: 3px; border-radius: 6px;
+}
+
+/* Errors */
+.err { margin:.25rem 0 0; color:#b00020; }
+.invalid .form-control, .invalid .form-select, .invalid textarea { border:2px solid #b00020; }
+.sr-only { position:absolute; left:-9999px; }
