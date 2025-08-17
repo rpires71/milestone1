@@ -645,7 +645,7 @@ a {
 }
 
 /* --------------------------------------------------------------------------
-   Debug helpers (commented out)
+   Debug helpers (commented out - used only at the beginning of project)
    - Handy for visualising grid/container boundaries during development.
    - Keep commented for production to avoid visual noise.
 ---------------------------------------------------------------------------
