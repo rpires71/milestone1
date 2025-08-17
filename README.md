@@ -3632,7 +3632,7 @@ git branch -M main
 
 ## Fix 2: Accessible inline error messages
 - **Add small, tied messages and announce them; keep browser validation**
-- **Proof: Test Case TC002 improvement - Accessible inline error messages & Test Case TC002 improvement - Accessible inline error messages v2**
+- **Proof: Test Case TC002 improvement - Accessible inline error messages & Test Case TC002 improvement - Accessible inline error messages v2/v3**
 
 ## Re-test checklist (to close TC002 as PASS)
 - Submitting empty form highlights Name, Email, Service with clear messages that are read by screen readers.
@@ -3682,11 +3682,37 @@ git branch -M main
 </td>
   </tr>
   <tr>
-    <td colspan="2"><strong>Actual Result:</strong> </td>
+    <td colspan="2"><strong>Actual Result:</strong><br>
+- Control found on all page menus: “CV” link present in the main navigation on all pages.<br>
+- File retrieval & open: Clicking the link opens assets/docs/Roberto_Pires_CV.pdf in a new tab; the PDF loads correctly (6 pages, readable).<br>
+- Keyboard operability: As a standard <a> in the navbar, it is focusable via Tab and activates with Enter (expected native behavior).<br>
+- Label clarity (visible text): Visible label is “CV.” It works, but “Download CV (PDF)” would be clearer for users and screen readers.<br>
+- Cross-page consistency: The same nav item is available for all pages and links to the same PDF.<br>
+    </td>
   </tr>
 <tr>
-    <td colspan="2"><strong>Pass/Fail:</strong> </td>
+    <td colspan="2"><strong>Pass/Fail:</strong>
+      <p><strong>Pass (1st Test)</strong></p>
+      <p><strong>Pass (2nd Test - Suggestion check/improvements)</strong></p>
+    </td>
   </tr>
+   <tr>
+    <td colspan="2"><strong>Observations and Improvements:</strong>
+      
+  - **The control is discoverable, keyboard-activatable, and successfully opens the correct, legible PDF in a new tab on the live site for all pages.**
+  - **Suggestions (nice-to-have)**
+  - Change visible text to **“Download CV (PDF)”** (improves clarity for all users).
+  - Ensure that all links have: **target="_blank" and rel="noopener noreferrer" (security/context)** and **an aria-label="Download CV (PDF) – opens in a new tab" for SR users (if you keep the visible label as “CV”).**
+
+## Fix 1: Change visible text to **“Download CV (PDF)”**
+- **Change visible text to **“Download CV (PDF)”** (improves clarity for all users).**
+- **Proof: Test Case TC003 improvement - Change visible text to “Download CV (PDF)”**
+
+## Verification 1: Change visible text to **“Download CV (PDF)”**
+- **Ensure that all links have: target="_blank" and rel="noopener noreferrer" (security/context) and an aria-label="View CV as PDF – opens in a new tab" for SR users**
+- **Proof: Test Case TC003 improvement - All links have appropriate target and aria-label**
+      </td>
+   </tr>
 </table>
 <table>
   <tr>
