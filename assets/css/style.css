@@ -662,7 +662,7 @@ a {
 /* --------------------------------------------------------------------------
 Focus Visibility (improvement Test TC001):  
   Relies on browser defaults. Recommend adding a clear outline for WCAG 2.4.7 compliance.  
-  Following code was added to style.css file: (Testing)
+  Following code was added to style.css file:
 ---------------------------------------------------------------------------*/
 
   a:focus-visible {
