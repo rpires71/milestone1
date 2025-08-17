@@ -3627,12 +3627,12 @@ git branch -M main
 - No aria-describedby/inline error text; validation feedback may not be read reliably by SR users.
 
 ## Fix 1: Submit actual data + mark required fields
-**Add name and required (and a placeholder option) so values are sent and users must choose a service:**
-**Proof: Test Case TC002 improvement - Submit actual data + mark required fields**
+- **Add name and required (and a placeholder option) so values are sent and users must choose a service:**
+- **Proof: Test Case TC002 improvement - Submit actual data + mark required fields**
 
 ## Fix 2: Accessible inline error messages
-**Add small, tied messages and announce them; keep browser validation**
-**Proof: Test Case TC002 improvement - Accessible inline error messages & Test Case TC002 improvement - Accessible inline error messages v2**
+- **Add small, tied messages and announce them; keep browser validation**
+- **Proof: Test Case TC002 improvement - Accessible inline error messages & Test Case TC002 improvement - Accessible inline error messages v2**
 
 ## Re-test checklist (to close TC002 as PASS)
 - Submitting empty form highlights Name, Email, Service with clear messages that are read by screen readers.
