@@ -650,8 +650,8 @@ Respect reduced motion (improvement Test TC006):
 /* CV sections */
 /* CV buttons – match site palette */
 .btn-accent {
-  background-color: var(--primary-accents-buttons);
-  color: var(--light-font-colour);
+  background-color: var(--primary-accents-buttons);/* #b7986b - Improvement Test TC011*/
+  color: var(--headings-footer-background); /* #3e2c23 (dark - Improvement Test TC011 */
   border: 2px solid var(--primary-accents-buttons);
 }
 
