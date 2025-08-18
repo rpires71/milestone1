@@ -4783,11 +4783,28 @@ git branch -M main
 </td>
   </tr>
   <tr>
-    <td colspan="2"><strong>Actual Result:</strong> </td>
+    <td colspan="2"><strong>Actual Result:</strong>
+    
+  **Pages reviewed: Home, About Me, Work Experience & Skills, Certifications, Bookings, Confirmation.**
+  - **Structure & reading order:** Each page begins with a clear H1 and proceeds with logical H2 sections; navigation and footer are consistent, supporting landmark navigation.
+  - **Links & buttons:** Visible link text is descriptive (e.g., “Download CV (PDF)”, “LinkedIn”, “Facebook”, “Instagram”); buttons/controls are standard elements announced with proper names/roles.
+  - **Forms:** Labels are correctly associated; required fields are indicated. Inline errors are exposed near fields and (by code) tied via aria-describedby and role="alert"; a polite status region is present for form-level feedback.
+  - **Images:** Content images include meaningful alt (e.g., carousel slides, badges/icons). Decorative usage is minimal and doesn’t interfere with output.
+  - **Dynamic components:** Carousel provides keyboard-operable Previous/Next controls and labeled indicators; slides have descriptive alt. For best SR feedback, optional enhancement is to announce slide changes from a focused control (e.g., aria-live="polite").
+    </td>
   </tr>
 <tr>
-    <td colspan="2"><strong>Pass/Fail:</strong> </td>
+    <td colspan="2"><strong>Pass/Fail:</strong> 
+      <p><strong>Pass (1st Test)</strong></p>
+    </td>
   </tr>
+  <tr>
+    <td colspan="2"><strong>Observations and Improvements:</strong><br>
+      
+  ### PASS
+  **Meets the intent of WCAG 2.1 SC 1.3.1 (Info and Relationships) and SC 4.1.2 (Name, Role, Value). Optional future hardening: add a live region for carousel slide change announcements when controls are focused.**
+      </td>
+   </tr>
 </table>
 
 <table>
