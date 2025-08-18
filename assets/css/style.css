@@ -53,6 +53,7 @@ body {
   font-family: var(--secondary-typeface);
   color: var(--body-text-colour);
   background-color: var(--page-background);
+  font-size: 16px; line-height: 1.6; /* Improvement Test TC011 - Raise minimum text sizes & line-height*/
 }
 
 h1,
@@ -65,6 +66,9 @@ h6 {
   color: var(--headings-footer-background);
 }
 
+/* Improvement Test TC011 - Raise minimum text sizes & line-height*/
+/* Utility for paragraph rhythm if needed */
+p { margin-block: 0 1rem; }
 /* --------------------------------------------------------------------------
    Header (Hero) styling
    - The header is a full-width band with accent background and light text.
@@ -156,6 +160,9 @@ header h3 {
   font-weight: 400;
   padding-top: 1rem;
   text-align: justify;
+  /* Improvement Test TC011 - Raise minimum text sizes & line-height*/
+  /* Header intro: keep fluid but never below 1rem; cap ≈18px */
+  font-size: clamp(1rem, 1.5vw, 1.125rem);
 }
 
 /* --------------------------------------------------------------------------
@@ -276,8 +283,8 @@ html {
   font-weight: normal;
   color: var(--body-text-colour);
   text-align: justify;
-
-  font-size: clamp(0.5rem, 1.5vw, 0.9rem);
+/* Improvement Test TC011 - Raise minimum text sizes & line-height*/
+  font-size: clamp(1rem, 1.5vw, 1.125rem)
   /* Scales body size across devices */
 
   margin: 0.5rem;
