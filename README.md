@@ -4843,8 +4843,6 @@ git branch -M main
   - **Sectioning & headings:** Clear hierarchy observed—one H1 per page (e.g., Home: “Portfolio Website”, About: “About Me”, Work Experience: “Work Experience”, Certifications: “Certifications”, Bookings: “Services and Bookings”), Confirmation: “Confirmation”, followed by H2 section headings (e.g., “Professional Bio”, “Skills”, “Booking Inquiry”, “My Contacts”).
   - **Media semantics:** The homepage carousel uses images with captions; figures/alt text describe content, supporting non-visual users.
   - **Forms & ARIA:** Form fields are labelled; inline errors/status messaging are provided with ARIA where needed (e.g., aria-describedby, role="status"/"alert"). No unnecessary ARIA replacing native semantics detected.
-
-  
     </td>
   </tr>
 <tr>
@@ -5010,11 +5008,41 @@ git branch -M main
 </td>
   </tr>
   <tr>
-    <td colspan="2"><strong>Actual Result:</strong> </td>
+    <td colspan="2"><strong>Actual Result:</strong> 
+      
+  **Pages reviewed: Home, About Me, Work Experience & Skills, Certifications, Bookings, Confirmation.**
+  - **No visible “Skip to content” link appears as the first focusable element on page load on the reviewed pages. I also don’t see markup for a skip link targeting <main>**
+
+  ### 2nd Test results after Fix 1
+  **Pages reviewed: Home, About Me, Work Experience & Skills, Certifications, Bookings, Confirmation.**
+  - A “Skip to content” link is implemented as the first focusable element and targets the page’s <main> region (visible on first Tab, activates with Enter).
+  - Focus moves to <main> without being hidden by the sticky navbar (offset handled), and a visible focus outline is shown.
+  - Behaviour is consistent on Home, About Me, Work Experience & Skills, Certifications, and Bookings pages.
+  - Meets intent of WCAG 2.1 – SC 2.4.1 (Bypass Blocks).
+
+  </td>
+  <tr>
+    <td colspan="2"><strong>Pass/Fail:</strong> 
+      <p><strong>Fail (1st Test)</strong></p>
+      <p><strong>Pass (2nd Test - Suggestion check/improvements)</strong></p>
+    </td>
   </tr>
-<tr>
-    <td colspan="2"><strong>Pass/Fail:</strong> </td>
-  </tr>
+  <tr>
+    <td colspan="2"><strong>Observations and Improvements:</strong>
+
+   - **No visible “Skip to content” link appears as the first focusable element on page load on the reviewed pages. I also don’t see markup for a skip link targeting <main>**
+  - **Suggestions**
+  - Fix (minimal, accessible pattern).
+  
+
+### Fix 1: Visible “Skip to content” link appears as the first focusable element on page load on the reviewed pages.**
+- **Fix (minimal, accessible pattern).**
+- **Proof: Test Case TC024 - Skip to content section added to all pages and additional CSS.**
+
+  ### PASS (2nd attempt after Fix 1)
+  **A visible “Skip to content” link appears as the first focusable element, activates with Enter, and programmatically moves focus to the page’s <main> region (not obscured by the sticky navbar). The link is announced clearly by assistive tech and behaves consistently across pages—meeting WCAG 2.1 SC 2.4.1 (Bypass Blocks).**
+      </td>
+   </tr>
 </table>
 
 **Performance Testing**
