@@ -4844,9 +4844,7 @@ git branch -M main
   - **Media semantics:** The homepage carousel uses images with captions; figures/alt text describe content, supporting non-visual users.
   - **Forms & ARIA:** Form fields are labelled; inline errors/status messaging are provided with ARIA where needed (e.g., aria-describedby, role="status"/"alert"). No unnecessary ARIA replacing native semantics detected.
 
-  **Minor recommendations**
-  - Ensure every page keeps exactly one H1, with subsequent sections as H2/H3 as needed (current structure appears consistent).
-  - As a final check for your submission, run the W3C HTML & CSS validators and address any non-critical warnings (none visible from the rendered output).
+  
     </td>
   </tr>
 <tr>
@@ -4859,6 +4857,10 @@ git branch -M main
       
   ### PASS
   **The site uses semantic HTML5 elements appropriately, presents a logical heading hierarchy, and avoids misusing ARIA—meeting the intent of WCAG 2.1 SC 1.3.1 (Info and Relationships).**
+  
+  **Minor recommendations**
+  - Ensure every page keeps exactly one H1, with subsequent sections as H2/H3 as needed (current structure appears consistent).
+  - As a final check for your submission, run the W3C HTML & CSS validators and address any non-critical warnings (none visible from the rendered output).
       </td>
    </tr>
 </table>
@@ -4892,11 +4894,34 @@ git branch -M main
 </td>
   </tr>
   <tr>
-    <td colspan="2"><strong>Actual Result:</strong> </td>
+    <td colspan="2"><strong>Actual Result:</strong>
+      
+  **Pages reviewed: Home, About Me, Work Experience & Skills, Certifications, Bookings, Confirmation.**
+  - **Meaningful images have alt text:** Logo and content images expose descriptive alts (e.g., “Roberto Pires logo”, carousel/work images, badges).
+  - **Carousel slides:** Each slide includes meaningful alternative text/captions, so screen readers get context beyond “image”.
+  - **Icons in footer/sections:** Icons (badge, map, email, phone, social) currently include alt text such as “Badge icon”, “Google Maps icon”, etc. This is acceptable, though for purely decorative icons adjacent to clear headings/link text, using alt="" (and optionally aria-hidden="true") avoids redundant announcements.
+    </td>
   </tr>
 <tr>
-    <td colspan="2"><strong>Pass/Fail:</strong> </td>
+    <td colspan="2"><strong>Pass/Fail:</strong> 
+      <p><strong>Pass (1st Test)</strong></p>
+    </td>
   </tr>
+  <tr>
+    <td colspan="2"><strong>Observations and Improvements:</strong><br>
+      
+  ### PASS
+  **All reviewed images expose appropriate alt text; decorative icons can be safely set to alt="" for the most streamlined screen reader experience.**
+  
+  **Minor recommendations**
+  - For purely decorative icons that sit next to clear text (e.g., “LinkedIn”, “Email”), change to alt="" (and optionally aria-hidden="true") so screen readers don’t read the word “icon” twice.
+  - Keep descriptive alts for content-bearing images; if an image needs longer context, keep your <figcaption> pattern.
+
+### Fix 1: Decorative icons that sit next to clear text change to alt="".**
+- **Code adjustments in all footer sections**
+- **Proof: Test Case TC022 improvement - Decorative icons improvements - change alt.**
+      </td>
+   </tr>
 </table>
 
 <table>
