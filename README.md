@@ -4001,11 +4001,20 @@ git branch -M main
 </td>
   </tr>
   <tr>
-    <td colspan="2"><strong>Actual Result:</strong> </td>
+    <td colspan="2"><strong>Actual Result:</strong> 
+    - No live-chat widget or launcher is present on the homepage (or other pages checked: About, Work Experience, Certifications, Bookings). There’s no visible chat icon in the corners and no chat UI in the DOM.
+    - Live chat not implemented; therefore the steps cannot be executed.
+    </td>
   </tr>
 <tr>
-    <td colspan="2"><strong>Pass/Fail:</strong> </td>
+    <td colspan="2"><strong>Pass/Fail:</strong> 
+      <p><strong>Not Applicable (Feature not present).</strong></p>
+    </td>
   </tr>
+   <tr>
+    <td colspan="2"><strong>Observations and Improvements:</strong>
+      </td>
+   </tr>
 </table>
 <table>
   <tr>
