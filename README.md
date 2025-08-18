@@ -4002,7 +4002,7 @@ git branch -M main
   </tr>
   <tr>
     <td colspan="2"><strong>Actual Result:</strong> 
-    - No live-chat widget or launcher is present on the homepage (or other pages checked: About, Work Experience, Certifications, Bookings). There’s no visible chat icon in the corners and no chat UI in the DOM.
+    - No live-chat widget or launcher is present on the homepage (or other pages checked: About, Work Experience, Certifications, Bookings, Confirmation). There’s no visible chat icon in the corners and no chat UI in the DOM.
     - Live chat not implemented; therefore the steps cannot be executed.
     </td>
   </tr>
@@ -4051,7 +4051,7 @@ git branch -M main
   <tr>
     <td colspan="2"><strong>Actual Result:</strong><br>
       
-  - **Pages reviewed:** Home, About Me, Work Experience & Skills, Certifications, Bookings. (No separate Projects or Conferences/Workshops pages found.)
+  - **Pages reviewed:** Home, About Me, Work Experience & Skills, Certifications, Bookings, Confirmation. (No separate Projects or Conferences/Workshops pages found.)
   - Tone is professional and consistent; content is relevant to educators/recruiters.
   - UK spelling used correctly (e.g., specialise, recognised, virtualisation).
   - Dates/qualifications read clearly (e.g., “In November 2024, CompTIA A+ 1101/1102”).
@@ -4193,7 +4193,7 @@ git branch -M main
   <tr>
     <td colspan="2"><strong>Actual Result:</strong><br>
       
-  - **Pages reviewed:** Home, About Me, Work Experience & Skills, Certifications, Bookings.
+  - **Pages reviewed:** Home, About Me, Work Experience & Skills, Certifications, Bookings, Confirmation.
   - **Global header & footer:** Same dark navbar, menu items, and contact-style footer on every page (consistent layout and landmarks).
   - **Colour palette & typography:** Headings/body copy present with a uniform brown-and-gold palette and the same heading hierarchy across pages (hero heading + section headings).
   - **Spacing & modules:** Repeated “tile/card” styling and consistent spacing around sections (e.g., contact tiles, skills/experience blocks).
@@ -4265,7 +4265,7 @@ git branch -M main
   <tr>
     <td colspan="2"><strong>Actual Result:</strong>
       
-- **Pages reviewed:** Home, About Me, Work Experience & Skills, Certifications, Bookings. Content renders and headings/body text are present as expected.
+- **Pages reviewed:** Home, About Me, Work Experience & Skills, Certifications, Bookings, Confirmation. Content renders and headings/body text are present as expected.
 - **Typeface & hierarchy:** Headings (Montserrat) are clearly larger/heavier than body (Open Sans). Good visual separation.
 - **Base size:** Default body text appears around the browser default (≈16px), which is fine. However, some sections use smaller, clamped sizes (from your shared CSS) that can drop below 16px on small screens (e.g., .header-intro min 0.75rem; .tile text capped at 0.9rem with a minimum 0.5rem). That’s too small for comfortable reading.
 - **Line spacing:** Several blocks use line-height: 1.4; others fall back to the browser’s “normal” (≈1.2). The test calls for ~1.5×—some sections don’t meet this consistently.
@@ -4300,7 +4300,6 @@ git branch -M main
 
 ### Verification 1: Keep focus & readability cues **
 - **Already have strong focus styles. Nothing to change.**
-
       </td>
    </tr>
 </table>
@@ -4334,11 +4333,33 @@ git branch -M main
 </td>
   </tr>
   <tr>
-    <td colspan="2"><strong>Actual Result:</strong> </td>
+    <td colspan="2"><strong>Actual Result:</strong>
+      
+  - **Pages reviewed:** Home, About Me, Work Experience & Skills, Certifications, Bookings, Confirmation.
+  - **Clear heading structure per page:**
+  - Home uses a top heading then section headings (e.g., “Welcome to My Portfolio”).
+  - About/Work Experience/Certifications/Bookings each start with an H1-style page title followed by logical H2 sections (e.g., “Professional Bio”, “Computer Science Teacher”, “CompTIA A+”, “Booking Inquiry”).
+  - **Headings vs body text are visually distinct** (larger/heavier headings, lighter body copy), so pages scan well.
+  - **Grouping & alignment:** Repeated “tile/card” sections keep related content together (skills blocks, certification items, contact tiles), supporting quick scanning.
+  - **Primary actions stand out where present.** The Bookings form “Submit” control is visually distinct from body text and nearby labels.
+  - **Imagery supports hierarchy.** The homepage carousel sits beside/under intro copy; section icons/logos precede headings, reinforcing section starts.
+  - **Consistency across pages:** Same navbar, footer, palette, and spacing patterns maintain a predictable reading flow.
+
+  
+    </td>
   </tr>
 <tr>
-    <td colspan="2"><strong>Pass/Fail:</strong> </td>
+    <td colspan="2"><strong>Pass/Fail:</strong> 
+      <p><strong>Pass (1st Test)</strong></p>
+    </td>
   </tr>
+  <tr>
+    <td colspan="2"><strong>Observations and Improvements:</strong><br>
+      
+  ### PASS
+  **The site shows a consistent, logical hierarchy: page titles → section headings → well-grouped content, with clearly distinguished interactive elements and consistent patterns that aid scanning and comprehension across pages.**
+      </td>
+   </tr>
 </table>
 <table>
   <tr>
