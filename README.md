@@ -4191,11 +4191,48 @@ git branch -M main
 </td>
   </tr>
   <tr>
-    <td colspan="2"><strong>Actual Result:</strong> </td>
+    <td colspan="2"><strong>Actual Result:</strong><br>
+      
+  - **Pages reviewed:** Home, About Me, Work Experience & Skills, Certifications, Bookings.
+  - **Global header & footer:** Same dark navbar, menu items, and contact-style footer on every page (consistent layout and landmarks).
+  - **Colour palette & typography:** Headings/body copy present with a uniform brown-and-gold palette and the same heading hierarchy across pages (hero heading + section headings).
+  - **Spacing & modules:** Repeated “tile/card” styling and consistent spacing around sections (e.g., contact tiles, skills/experience blocks).
+  - **Buttons/links:** Buttons follow the same accent style (e.g., Bookings “Submit” matches the accent), nav links are consistent in wording and placement. (Minor: one button uses inline color—consider a shared .btn-accent class everywhere.)
+  - **Icons & imagery:** Reused iconography set and image treatment across pages (contact/social icons; section logos).
+  - **Responsive intent:** Layout patterns appear consistent; carousel and grids imply responsive behavior, inlcuding tablet/mobile verification.
+
+### Recommendations to keep it rock-solid
+
+- Extract all button colours into the existing .btn-accent / .btn-outline-accent classes (avoid inline styles) so every button gets identical hover/focus states site-wide.
+- Ensure footer/nav link hover/focus affordances are consistent (underline on :hover and :focus-visible).
+    </td>
   </tr>
 <tr>
-    <td colspan="2"><strong>Pass/Fail:</strong> </td>
+    <td colspan="2"><strong>Pass/Fail:</strong> 
+      <p><strong>Pass (1st Test - with minor recommendations)</strong></p>
+      <p><strong>Pass (2nd Test - Recommendation improvements)</strong></p>
+    </td>
   </tr>
+  <tr>
+    <td colspan="2"><strong>Observations and Improvements:</strong>
+      
+  - **Pass: Visual consistency across the site**
+  - **Recommendations:Extract all button colours for identical hover/focus and ensure footer/nav link hover/affordances are consistent (underline on :hover and :focus-visible).**
+  - **Suggestions**
+  - Extract all button colours into the existing .btn-accent / .btn-outline-accent classes (avoid inline styles) so every button gets identical hover/focus states site-wide.
+  - Ensure footer/nav link hover/focus affordances are consistent (underline on :hover and :focus-visible).
+  
+
+### Fix 1: Extract button colours into your existing classes**
+- **Code adjustments in style.css**
+- **Proof: Test Case TC010 improvements & Test Case TC010 improvements v2**
+
+### Fix 2: Ensure footer/nav link hover/focus affordances are consistent **
+- **Ensure footer/nav link hover/focus affordances are consistent** (underline on :hover and :focus-visible).
+- **Proof: Test Case TC010 improvements & Test Case TC010 improvements v2**
+
+      </td>
+   </tr>
 </table>
   <table>
   <tr>
