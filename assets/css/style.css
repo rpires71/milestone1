@@ -379,6 +379,19 @@ html {
 }
 
 /* --------------------------------------------------------------------------
+Visible keyboard focus on the controls (improvement Test TC006):  
+  WCAG 2.2 – SC 2.4.7 “Focus Visible” (Level AA). Adds a visible focus indicator for keyboard users on the carousel controls.
+  CSS file already uses a global :focus-visible; add an explicit rule for clarity.
+---------------------------------------------------------------------------*/
+.carousel-control-prev:focus-visible,
+.carousel-control-next:focus-visible,
+.carousel-indicators [data-bs-target]:focus-visible {
+  outline: 3px solid currentColor;
+  outline-offset: 3px;
+  border-radius: 6px;
+}
+
+/* --------------------------------------------------------------------------
    Section spacing / icons
    - First main section gets comfortable top/bottom rhythm.
    - .section-icon keeps SVG/PNG badges a consistent visual size.
