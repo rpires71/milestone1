@@ -4669,11 +4669,28 @@ git branch -M main
 </td>
   </tr>
   <tr>
-    <td colspan="2"><strong>Actual Result:</strong> </td>
+    <td colspan="2"><strong>Actual Result:</strong>
+      
+  **Pages reviewed:** Home, About Me, Work Experience & Skills, Certifications (buttons/controls also considered).
+  - **Body & headings:** Dark brown text on the light background shows strong contrast—comfortably above 4.5:1.
+  - **Navbar/footer:** Light text on the dark bar also reads with high contrast.
+  - **Buttons/CTAs:** With the updated styling (dark text on the hazel-brown accent), the button text meets the 4.5:1 minimum for normal-size text.
+  - **Focus indicators**: The :focus-visible outline uses the current text color, which maintains ≥3:1 against adjacent colors in both light and dark sections.
+  - **Caveat (design token):** The gold highlight (#cba135) should not be used for small text on the light background—it’s <4.5:1 there—but is fine on the dark header/footer background. I'll keep it for borders/icons or use it as text only on dark surfaces.
+    </td>
   </tr>
 <tr>
-    <td colspan="2"><strong>Pass/Fail:</strong> </td>
+    <td colspan="2"><strong>Pass/Fail:</strong> 
+      <p><strong>Pass (1st Test)</strong></p>
+    </td>
   </tr>
+  <tr>
+    <td colspan="2"><strong>Observations and Improvements:</strong><br>
+      
+  ### PASS
+  **Main copy, headings, navigation, and the revised button styling meet WCAG 2.1 SC 1.4.3 (Contrast – Minimum). Retain dark text on the accent button and avoid gold text on light backgrounds to keep compliance.**
+      </td>
+   </tr>
 </table>
 
 <table>
