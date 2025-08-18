@@ -49,6 +49,8 @@
 -->
 
 <body class="d-flex flex-column min-vh-100">
+   <!-- Improvement TC024 - Skip to content link -->
+  <a class="skip-link" href="#main">Skip to content</a>
   <!--
     NAVIGATION LANDMARK (<nav>):
     - Screen readers can jump to this region
@@ -152,7 +154,8 @@
     - Semantic container for the unique content of this page
     - .flex-fill lets main expand, keeping the sticky-footer pattern intact
   -->
-  <main class="flex-fill">
+  <!-- Improvement TC024 - Skip to content link -->
+  <main id="main" tabindex="-1" class="flex-fill">
     <section class="container py-4">
       <!--
         FORM:

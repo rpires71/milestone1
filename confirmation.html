@@ -50,6 +50,8 @@
   -->
 
 <body class="d-flex flex-column min-vh-100">
+   <!-- Improvement TC024 - Skip to content link -->
+  <a class="skip-link" href="#main">Skip to content</a>
   <!--
       <nav> is a landmark element: screen readers can jump straight here.
       .navbar-expand-lg: menu collapses below the "large" breakpoint.
@@ -117,7 +119,8 @@
       .flex-fill lets main grow to take available vertical space between
       the fixed header and the auto-pushed footer.
     -->
-  <main class="flex-fill">
+<!-- Improvement TC024 - Skip to content link -->
+  <main id="main" tabindex="-1" class="flex-fill">
     <!--
         A single section with centered content to confirm the form submission.
         We use a true H1 here for document structure, but style it to visually

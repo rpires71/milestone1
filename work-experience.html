@@ -46,6 +46,8 @@
 -->
 
 <body class="d-flex flex-column min-vh-100">
+   <!-- Improvement TC024 - Skip to content link -->
+  <a class="skip-link" href="#main">Skip to content</a>
   <!--
     NAVIGATION LANDMARK:
     <nav> is a semantic region that assistive technologies can jump to.
@@ -148,7 +150,8 @@
     MAIN landmark contains the unique content of this page (helps keyboard and screen reader users).
     mt-auto here simply keeps spacing consistent with the sticky footer pattern.
   -->
-  <main class="mt-auto">
+    <!-- Improvement TC024 - Skip to content link -->
+  <main id="main" tabindex="-1" class="mt-auto">
     <!--
       “Work Experience” grid:
       Inside each tile, the section title is H2 (one level below the page H1).

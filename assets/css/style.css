@@ -413,10 +413,14 @@ Visible keyboard focus on the controls (improvement Test TC006):
    - .section-icon keeps SVG/PNG badges a consistent visual size.
 --------------------------------------------------------------------------- */
 
+
 main > section:first-of-type {
   margin-top: 1.5rem;
   margin-bottom: 1.5rem;
 }
+
+/*  Improvement TC024 - Skip to content link */
+#main { scroll-margin-top: 100px; } /* match navbar height */
 
 .section-icon {
   width: 120px;
@@ -645,6 +649,27 @@ Respect reduced motion (improvement Test TC006):
     -ms-grid-columns: 1fr;
     grid-template-columns: 1fr;
   }
+}
+
+/*  Improvement TC024 - Skip to content link */
+/* Placed after Bootstrap so it wins*/
+.skip-link {
+  position: absolute;
+  left: -9999px;
+  top: 0;
+  background: var(--headings-footer-background);
+  color: var(--light-font-colour);
+  padding: 0.5rem 0.75rem;
+  border-radius: 6px;
+  z-index: 1100; /* above sticky navbar */
+}
+
+.skip-link:focus,
+.skip-link:focus-visible {
+  left: 0.5rem;
+  top: 0.5rem;
+  outline: 3px solid currentColor;
+  outline-offset: 3px;
 }
 
 /* CV sections */

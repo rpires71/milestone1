@@ -52,6 +52,8 @@
 -->
 
 <body class="d-flex flex-column min-vh-100">
+   <!-- Improvement TC024 - Skip to content link -->
+  <a class="skip-link" href="#main">Skip to content</a>
   <!--
     NAVIGATION LANDMARK:
     <nav> is a semantic region that assistive tech can jump to.
@@ -151,7 +153,9 @@
     MAIN contains the unique content of this page (improves keyboard and screen reader navigation).
     mt-auto on the <main> is not required thanks to the body layout; it’s used here to keep spacing consistent.
   -->
-  <main class="mt-auto">
+  <!-- Improvement TC024 - Skip to content link -->
+  <main id="main" tabindex="-1" class="mt-auto">
+
     <!--
       Certifications section:
       Uses a CSS grid (.tile-grid) of “tiles”. Inside each tile, the section title

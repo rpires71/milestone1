@@ -25,6 +25,8 @@
        In that pattern, the *footer* typically gets `mt-auto` to push itself to the bottom. -->
 
 <body class="d-flex flex-column min-vh-100">
+  <!-- Improvement TC024 - Skip to content link -->
+  <a class="skip-link" href="#main">Skip to content</a>
   <!-- Navigation landmark helps assistive tech jump directly to site navigation. -->
   <nav class="navbar navbar-expand-lg custom-navbar">
     <div class="container">
@@ -107,7 +109,8 @@
   </header>
 
   <!-- MAIN contains the unique content of the page (improves keyboard and screen reader navigation). -->
-  <main class="mt-auto">
+   <!-- Improvement TC024 - Skip to content link -->
+  <main id="main" tabindex="-1" class="mt-auto">
     <!-- Use <section> to group related content with its own heading; container limits line length for readability. -->
     <section class="container">
       <div id="about-me">
