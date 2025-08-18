@@ -576,6 +576,19 @@ a {
 }
 
 /* --------------------------------------------------------------------------
+Respect reduced motion (improvement Test TC006):  
+---------------------------------------------------------------------------*/
+@media (prefers-reduced-motion: reduce) {
+  .carousel, .carousel * {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+
+/* --------------------------------------------------------------------------
    Typography/logo tweaks at typical Bootstrap breakpoints
    - Matches header typography and branding scale to device size.
 --------------------------------------------------------------------------- */
