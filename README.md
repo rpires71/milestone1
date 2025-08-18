@@ -4263,11 +4263,46 @@ git branch -M main
 </td>
   </tr>
   <tr>
-    <td colspan="2"><strong>Actual Result:</strong> </td>
+    <td colspan="2"><strong>Actual Result:</strong>
+      
+- **Pages reviewed:** Home, About Me, Work Experience & Skills, Certifications, Bookings. Content renders and headings/body text are present as expected.
+- **Typeface & hierarchy:** Headings (Montserrat) are clearly larger/heavier than body (Open Sans). Good visual separation.
+- **Base size:** Default body text appears around the browser default (≈16px), which is fine. However, some sections use smaller, clamped sizes (from your shared CSS) that can drop below 16px on small screens (e.g., .header-intro min 0.75rem; .tile text capped at 0.9rem with a minimum 0.5rem). That’s too small for comfortable reading.
+- **Line spacing:** Several blocks use line-height: 1.4; others fall back to the browser’s “normal” (≈1.2). The test calls for ~1.5×—some sections don’t meet this consistently.
+- **Contrast:** Body copy #3a1705 on #f9f6f1 is excellent (well above 4.5:1). Button text #f9f6f1 on the accent background #b7986b is around ~3:1, which is below 4.5:1 for normal-size text (fails WCAG 1.4.3 for small text).
+- **Zoom:** Structure should hold at 200%, but with the small cap on tile/body sizes, some text may still feel tight; increase minimums.
+- **Dark mode:** Not applicable (no dark theme).
+    </td>
   </tr>
 <tr>
-    <td colspan="2"><strong>Pass/Fail:</strong> </td>
+    <td colspan="2"><strong>Pass/Fail:</strong> 
+      <p><strong>Partial Fail (1st Test -due to small text in some components and sub-4.5:1 contrast on button text)</strong></p>
+      <p><strong>Pass (2nd Test - Suggestion check/improvements)</strong></p>
+    </td>
   </tr>
+  <tr>
+    <td colspan="2"><strong>Observations and Improvements:</strong><br>
+      
+  - **Partial Fail: small text in some components and sub-4.5:1 contrast on button texte**
+  - **Needs improvment: Raise minimum text sizes & line-height, Fix button text contrast, Keep focus & readability cues**
+  - **Suggestions**
+  - Raise minimum text sizes & line-height.
+  - Fix button text contrast (≥4.5:1).
+  - Keep focus & readability cues.
+
+### Fix 1: Raise minimum text sizes & line-height.**
+- **Code adjustments in style.css**
+- **Proof: Test Case TC011 improvement - Raise minimum text sizes & line-height**
+
+### Fix 2: Fix button text contrast (≥4.5:1) **
+- **Dark text on the accent button** (keeps your brand color).
+- **Proof: Test Case TC011 improvement - Fix button text contrast (≥4.5:1)**
+
+### Verification 1: Keep focus & readability cues **
+- **Already have strong focus styles. Nothing to change.**
+
+      </td>
+   </tr>
 </table>
   <table>
   <tr>
