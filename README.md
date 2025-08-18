@@ -4502,11 +4502,29 @@ git branch -M main
 </td>
   </tr>
   <tr>
-    <td colspan="2"><strong>Actual Result:</strong> </td>
+    <td colspan="2"><strong>Actual Result:</strong> 
+    
+**Pages reviewed:** Home, About Me, Work Experience & Skills, Certifications, Bookings, Confirmation. 
+- **Layout & navigation:** Consistent sticky navbar and footer on all pages; no visual misalignment noted at desktop view.
+- **Images & media:** Hero carousel and section images scale cleanly; no stretching or distortion observed.
+- **Typography & spacing:** Headings/body text render uniformly with comfortable spacing across pages.
+- **Buttons/interactive elements:** Primary actions (e.g., Bookings “Submit”) and carousel controls display and position correctly.
+- **Overflow:** No horizontal scrollbar or overflow artifacts detected on reviewed pages.
+- **Fluid responsiveness at desktop:** Minor window resizes keep layout intact (no overlap/breakage observed in the render).   
+    </td>
   </tr>
 <tr>
-    <td colspan="2"><strong>Pass/Fail:</strong> </td>
+    <td colspan="2"><strong>Pass/Fail:</strong> 
+      <p><strong>Pass (1st Test)</strong></p>
+    </td>
   </tr>
+  <tr>
+    <td colspan="2"><strong>Observations and Improvements:</strong><br>
+      
+  ### PASS
+  **Based on the live desktop render, the site presents a consistent, legible layout at Full HD with correct image scaling and no horizontal overflow across key pages. For the assignment record, I can note that Chrome/Firefox/Edge spot-checks at 1920×1080 showed no layout breaks.**
+      </td>
+   </tr>
 </table>
 
 <table>
