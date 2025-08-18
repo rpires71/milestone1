@@ -4214,14 +4214,13 @@ git branch -M main
     </td>
   </tr>
   <tr>
-    <td colspan="2"><strong>Observations and Improvements:</strong>
+    <td colspan="2"><strong>Observations and Improvements:</strong><br>
       
   - **Pass: Visual consistency across the site**
   - **Recommendations:Extract all button colours for identical hover/focus and ensure footer/nav link hover/affordances are consistent (underline on :hover and :focus-visible).**
   - **Suggestions**
   - Extract all button colours into the existing .btn-accent / .btn-outline-accent classes (avoid inline styles) so every button gets identical hover/focus states site-wide.
   - Ensure footer/nav link hover/focus affordances are consistent (underline on :hover and :focus-visible).
-  
 
 ### Fix 1: Extract button colours into your existing classes**
 - **Code adjustments in style.css**
@@ -4230,7 +4229,6 @@ git branch -M main
 ### Fix 2: Ensure footer/nav link hover/focus affordances are consistent **
 - **Ensure footer/nav link hover/focus affordances are consistent** (underline on :hover and :focus-visible).
 - **Proof: Test Case TC010 improvements & Test Case TC010 improvements v2**
-
       </td>
    </tr>
 </table>
