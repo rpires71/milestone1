@@ -214,6 +214,15 @@ header h3 {
   color: var(--primary-accents-buttons);
 }
 
+/* NAVBAR links: underline on hover/focus-visible + keep your existing colour change (TC010 Fix) */
+.custom-navbar .nav-link:hover,
+.custom-navbar .nav-link:focus-visible {
+  text-decoration: underline;
+  text-underline-offset: 0.15em;
+  text-decoration-thickness: 2px;
+}
+
+
 /* --------------------------------------------------------------------------
    Burger icon colour
    - Inline SVG data-URI is used to force a lighter icon colour that works with the dark navbar.
@@ -659,7 +668,9 @@ Respect reduced motion (improvement Test TC006):
 }
 
 
-/* Accessible keyboard focus ring (keeps your global :focus-visible too) (TC010 fix)*/
+/* Accessible keyboard focus ring (keeps your global :focus-visible too) (Improvement Test TC010 )
+Underline gives an immediate, familiar visual cue (hover/mouse + keyboard).
+Outline ensures a high-contrast focus indicator that meets WCAG 2.4.7 / 1.4.11.*/
 .btn-accent:focus-visible {
   outline: 3px solid currentColor;
   outline-offset: 3px;
@@ -672,7 +683,10 @@ Respect reduced motion (improvement Test TC006):
   border-radius: 6px;
 }
 
-/* Disabled state parity (TC010 fix)*/
+/* Disabled state parity (Improvement Test TC010 )
+Underline gives an immediate, familiar visual cue (hover/mouse + keyboard).
+Outline ensures a high-contrast focus indicator that meets WCAG 2.4.7 / 1.4.11.*/
+
 .btn-accent:disabled,
 .btn-outline-accent:disabled {
   opacity: .6;
