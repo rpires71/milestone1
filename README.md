@@ -4836,11 +4836,31 @@ git branch -M main
 </td>
   </tr>
   <tr>
-    <td colspan="2"><strong>Actual Result:</strong> </td>
+    <td colspan="2"><strong>Actual Result:</strong>
+      
+  **Pages reviewed: Home, About Me, Work Experience & Skills, Certifications, Bookings, Confirmation.**
+  - **Landmarks in use:** Each page uses semantic regions—<nav> (primary navigation), page <header>, <main> for unique content sections, and a site <footer> with contacts.
+  - **Sectioning & headings:** Clear hierarchy observed—one H1 per page (e.g., Home: “Portfolio Website”, About: “About Me”, Work Experience: “Work Experience”, Certifications: “Certifications”, Bookings: “Services and Bookings”), Confirmation: “Confirmation”, followed by H2 section headings (e.g., “Professional Bio”, “Skills”, “Booking Inquiry”, “My Contacts”).
+  - **Media semantics:** The homepage carousel uses images with captions; figures/alt text describe content, supporting non-visual users.
+  - **Forms & ARIA:** Form fields are labelled; inline errors/status messaging are provided with ARIA where needed (e.g., aria-describedby, role="status"/"alert"). No unnecessary ARIA replacing native semantics detected.
+
+  **Minor recommendations**
+  - Ensure every page keeps exactly one H1, with subsequent sections as H2/H3 as needed (current structure appears consistent).
+  - As a final check for your submission, run the W3C HTML & CSS validators and address any non-critical warnings (none visible from the rendered output).
+    </td>
   </tr>
 <tr>
-    <td colspan="2"><strong>Pass/Fail:</strong> </td>
+    <td colspan="2"><strong>Pass/Fail:</strong> 
+      <p><strong>Pass (1st Test)</strong></p>
+    </td>
   </tr>
+  <tr>
+    <td colspan="2"><strong>Observations and Improvements:</strong><br>
+      
+  ### PASS
+  **The site uses semantic HTML5 elements appropriately, presents a logical heading hierarchy, and avoids misusing ARIA—meeting the intent of WCAG 2.1 SC 1.3.1 (Info and Relationships).**
+      </td>
+   </tr>
 </table>
 
 <table>
