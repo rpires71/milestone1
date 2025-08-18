@@ -658,6 +658,27 @@ Respect reduced motion (improvement Test TC006):
   color: var(--light-font-colour);
 }
 
+
+/* Accessible keyboard focus ring (keeps your global :focus-visible too) (TC010 fix)*/
+.btn-accent:focus-visible {
+  outline: 3px solid currentColor;
+  outline-offset: 3px;
+  border-radius: 6px;
+}
+
+.btn-outline-accent:focus-visible {
+  outline: 3px solid currentColor;
+  outline-offset: 3px;
+  border-radius: 6px;
+}
+
+/* Disabled state parity (TC010 fix)*/
+.btn-accent:disabled,
+.btn-outline-accent:disabled {
+  opacity: .6;
+  cursor: not-allowed;
+  box-shadow: none;
+}
 /* Inline CV call-to-action spacing */
 .cv-cta {
   gap: 0.5rem;
