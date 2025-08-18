@@ -4558,11 +4558,28 @@ git branch -M main
 </td>
   </tr>
   <tr>
-    <td colspan="2"><strong>Actual Result:</strong> </td>
+    <td colspan="2"><strong>Actual Result:</strong>
+      
+  **Pages reviewed:** Home, About Me, Work Experience & Skills, Certifications, Bookings, Confirmation.
+  - **Responsive nav:** Uses a Bootstrap-style collapsing navbar (.navbar-expand-lg), so at 768px the menu presents a hamburger toggler; links remain reachable.
+  - **Layout stacking:** Content sections and card/tile blocks display in stacked, single-column patterns typical for tablet portrait; no distortion seen on section imagery.
+  - **Carousel & images:** Home carousel images scale to container width without stretching; indicators/prev-next are visible.
+  - **Legibility & touch targets:** Body text remains comfortably readable; primary buttons/links appear large enough for touch interaction (standard Bootstrap sizing).
+  - **Overflow:** No horizontal scrollbar/overflow observed on reviewed pages.
+</td>
   </tr>
 <tr>
-    <td colspan="2"><strong>Pass/Fail:</strong> </td>
+    <td colspan="2"><strong>Pass/Fail:</strong> 
+      <p><strong>Pass (1st Test)</strong></p>
+    </td>
   </tr>
+  <tr>
+    <td colspan="2"><strong>Observations and Improvements:</strong><br>
+      
+  ### PASS
+  **At 768×1024 (tablet portrait) the layout stacks cleanly, the navbar collapses correctly, text and buttons are touch-friendly, carousel/forms scale properly, and there’s no horizontal scrolling or overflow.**
+      </td>
+   </tr>
 </table>
 
 <table>
