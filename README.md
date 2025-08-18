@@ -4724,11 +4724,28 @@ git branch -M main
 </td>
   </tr>
   <tr>
-    <td colspan="2"><strong>Actual Result:</strong> </td>
+    <td colspan="2"><strong>Actual Result:</strong>
+      
+  **Pages reviewed: Home, About Me, Work Experience & Skills, Certifications, Bookings, Confirmation.**
+  - **Tab order & reachability:** All key interactives are focusable in logical order: navbar links (incl. Download CV), carousel controls (Previous/Next), form fields and Submit, and footer social links.
+  - **Activation:** Links and buttons activate with Enter (standard anchors/buttons). Carousel controls are buttons and respond to keyboard activation.
+  - **Focus visibility:** A clear focus style is applied site-wide (e.g., on nav links, carousel controls, form fields, and the Submit button), making the current focus location evident.
+  - **No traps observed:** Focus moves through header - main - footer and can be reversed with Shift+Tab; no components trap focus.
+    
+    </td>
   </tr>
 <tr>
-    <td colspan="2"><strong>Pass/Fail:</strong> </td>
+    <td colspan="2"><strong>Pass/Fail:</strong> 
+      <p><strong>Pass (1st Test)</strong></p>
+    </td>
   </tr>
+  <tr>
+    <td colspan="2"><strong>Observations and Improvements:</strong><br>
+      
+  ### PASS
+  **This satisfies WCAG 2.1 SC 2.1.1 Keyboard Accessible and SC 2.4.7 Focus Visible for the reviewed pages.**
+      </td>
+   </tr>
 </table>
 
 <table>
