@@ -4917,7 +4917,7 @@ git branch -M main
   - For purely decorative icons that sit next to clear text (e.g., “LinkedIn”, “Email”), change to alt="" (and optionally aria-hidden="true") so screen readers don’t read the word “icon” twice.
   - Keep descriptive alts for content-bearing images; if an image needs longer context, keep your <figcaption> pattern.
 
-### Fix 1: Decorative icons that sit next to clear text change to alt="".**
+### Fix 1: Decorative icons that sit next to clear text change to alt="".
 - **Code adjustments in all footer sections**
 - **Proof: Test Case TC022 improvement - Decorative icons improvements - change alt.**
       </td>
@@ -4954,11 +4954,29 @@ git branch -M main
 </td>
   </tr>
   <tr>
-    <td colspan="2"><strong>Actual Result:</strong> </td>
+    <td colspan="2"><strong>Actual Result:</strong> 
+      
+  **Pages reviewed: Home, About Me, Work Experience & Skills, Certifications, Bookings, Confirmation.**
+  - **Navigation (navbar/toggler):** Uses accessible Bootstrap pattern with aria-controls, aria-expanded, and an explicit toggle aria-label. (Confirmed by behavior/pattern on Home.)
+  - **Carousel (Home):** Indicators and controls expose names (e.g., “Previous/Next”), and slides are presented with meaningful alt/captions; indicators include labels like “Slide 1…3”. This satisfies Name/Role/Value; optional live announcements can be added.
+  - **Forms (Bookings):** Labels are correctly associated; required fields marked.
+  - **Forms (Bookings):** Inline helper/error text appears near fields (e.g., “Enter a valid email address.”, “Please choose a service.”) and is wired via aria-describedby with inline messages using role="alert" (hidden until needed).
+  - **Forms (Bookings):** A polite form-level status region (role="status") is present for non-blocking updates.
+  - **Links & icons:** Social links include explicit names (visible link text and/or aria-label), so icons need no additional ARIA beyond being decorative.
+  - **No ARIA misuse noted:** Native semantics are used first; ARIA augments where needed (forms, carousel). No redundant/conflicting attributes observed in the live views.
+  </td>
+  <tr>
+    <td colspan="2"><strong>Pass/Fail:</strong> 
+      <p><strong>Pass (1st Test)</strong></p>
+    </td>
   </tr>
-<tr>
-    <td colspan="2"><strong>Pass/Fail:</strong> </td>
-  </tr>
+  <tr>
+    <td colspan="2"><strong>Observations and Improvements:</strong>
+      
+  ### PASS
+  **ARIA is applied only where needed and correctly: the navbar toggler exposes aria-controls/aria-expanded with a clear label; the carousel controls/indicators are named; form fields are labelled and their inline messages are tied with aria-describedby and announced via role="alert", with a form-level role="status" for non-blocking updates. No redundant or conflicting ARIA observed; native semantics are used first.**
+      </td>
+   </tr>
 </table>
 <table>
   <tr>
