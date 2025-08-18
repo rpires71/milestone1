@@ -3834,7 +3834,7 @@ git branch -M main
 - Contact info: Direct mailto: email and a href tag to telephone numner.
 - Plain text “Copyright © 2024 Roberto Pires”.
 - Screen reader labelling — Link text is descriptive (e.g., “LinkedIn”, “About”).
-- Social icons rely on <i> font-awesome glyphs.
+- Social icons rely on i tag font-awesome glyphs.
 - Aria-label is applied, and screen reader will announce “link” with context.
 
 **Expected vs Actual**
@@ -3913,11 +3913,58 @@ git branch -M main
 </td>
   </tr>
   <tr>
-    <td colspan="2"><strong>Actual Result:</strong> </td>
+    <td colspan="2"><strong>Actual Result:</strong>
+      
+- **Auto-start:** Not enabled → <div class="carousel slide"> has no data-bs-ride="carousel". So it doesn’t auto-play. Not intended to play automatically due to assignment criteria grading.
+- **Manual navigation:** Present (indicators + Prev/Next buttons) and OK.
+- **Keyboard operability:** Buttons are real <button>s → tabbable/Enter-activatable. Arrow-key navigation works in Bootstrap when the carousel itself has focus; the buttons cover the core use case.
+- **Alt text:** Present but generic (“Computer workspace image 1/2/3”). Include better text in <figcaption> but it’s visually hidden and not programmatically tied to the image.
+- **ARIA on controls: aria-controls="hero-slider" references no element id (your carousel id is carouselExampleIndicators). Either fix to that id or remove aria-controls (Bootstrap doesn’t require it).**
+- **Indicators:** Good (aria-label="Slide N"; active has aria-current="true").
+- **Responsiveness:** CSS handles image sizing with object-fit: cover and mobile heights via media queries—good.
+- **Reduced motion / flashing:** No flashing; transitions likely mild. No explicit reduced-motion override yet.
+    </td>
   </tr>
 <tr>
-    <td colspan="2"><strong>Pass/Fail:</strong> </td>
+    <td colspan="2"><strong>Pass/Fail:</strong> 
+      <p><strong>Partial Pass (1st Test)</strong></p>
+      <p><strong>Pass (2nd Test - Suggestion check/improvements)</strong></p>
+    </td>
   </tr>
+  <tr>
+    <td colspan="2"><strong>Observations and Improvements:</strong>
+      
+  - **Pass: Internal links, consistent footer, hover/keyboard feedback.**
+  - **Needs improvement: Fails auto-start (not required) and alt text quality; minor ARIA mismatch.**
+  - **Suggestions**
+  - Note: If needed, enable sensible auto-play (and pause on hover/focus).
+  - Fix ARIA on the control buttons.
+  - Make the image description programmatic (better than generic alt).
+  - Visible keyboard focus on the controls.
+  - Respect reduced motion.
+  - (Optional) Allow touch swipes explicitly (Bootstrap default is true)
+
+### Fix 1: Fix ARIA on the control buttons**
+- **Remove aria-controls**
+- **Proof: Test Case TC006 improvement - Accessible slider markup (ARIA pattern) and Fix ARIA on the control buttons**
+
+### Fix 2: Make the image description programmatic (better than generic alt)**
+- **Give each <figcaption> an id and reference it from the <img> via aria-describedby. Keep a concise alt too.**
+- **Proof: Test Case TC006 improvement - Make the image description programmatic (better than generic alt)**
+
+### Fix 3: Visible keyboard focus on the controls**
+- **Already use a global :focus-visible; add an explicit rule for clarity.**
+- **Proof: Test Case TC006 improvement - Visible keyboard focus on the controls**
+
+### Fix 4: Respect reduced motion**
+- **Respect reduced motion - media query.**
+- **Proof: Test Case TC006 improvement - Respect reduced motion**
+
+### Fix 5: (Optional) Allow touch swipes explicitly (Bootstrap default is true)**
+- **(Optional) Allow touch swipes explicitly for mobile devices**
+- **Proof: Test Case TC006 improvement - (Optional) Allow touch swipes explicitly (Bootstrap default is true)**
+      </td>
+   </tr>
 </table>
 <table>
   <tr>
