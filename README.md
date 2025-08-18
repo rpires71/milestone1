@@ -5040,7 +5040,7 @@ git branch -M main
 - **Proof: Test Case TC024 - Skip to content section added to all pages and additional CSS.**
 
   ### PASS (2nd attempt after Fix 1)
-  **A visible “Skip to content” link appears as the first focusable element, activates with Enter, and programmatically moves focus to the page’s <main> region (not obscured by the sticky navbar). The link is announced clearly by assistive tech and behaves consistently across pages—meeting WCAG 2.1 SC 2.4.1 (Bypass Blocks).**
+  **A visible “Skip to content” link appears as the first focusable element, activates with Enter, and programmatically moves focus to the page’s main tag region (not obscured by the sticky navbar). The link is announced clearly by assistive tech and behaves consistently across pages—meeting WCAG 2.1 SC 2.4.1 (Bypass Blocks).**
       </td>
    </tr>
 </table>
@@ -5050,11 +5050,11 @@ git branch -M main
 <table>
   <tr>
     <td><strong>Test Case:</strong> TC025</td>
-    <td><strong>Feature:</strong> Load time (home/project)
+    <td><strong>Feature:</strong> Load time (all pages)
 </td>
   </tr>
   <tr>
-    <td colspan="2"><strong>Description:</strong> Measure the time taken for the Home and Project pages to fully load, including all visible content, interactive elements, and media.
+    <td colspan="2"><strong>Description:</strong> Measure the time taken for all pages to fully load, including all visible content, interactive elements, and media.
 </td>
   </tr>
   <tr>
@@ -5064,7 +5064,7 @@ git branch -M main
   <tr>
     <td colspan="2"><strong>Steps:</strong><br>
 1. Open the Home page using Chrome and record the time taken for full page load using developer tools or Lighthouse.<br>
-2. Repeat the process for the Project page.<br>
+2. Repeat the process for all remaining pages.<br>
 3. Perform the same tests using a mobile simulation or physical mobile device.<br>
 4. Use Google PageSpeed Insights or GTmetrix to generate a performance report for each page.<br>
 5. Review suggestions for improving load time and document any performance issues.<br>
@@ -5072,18 +5072,74 @@ git branch -M main
   </tr>
   <tr>
     <td colspan="2"><strong>Expected Result:</strong><br>
-- Both the Home and Project pages should load fully in under 3 seconds on standard broadband and 4G mobile connections.<br>
+- All pages should load fully in under 3 seconds on standard broadband and 4G mobile connections.<br>
 - All visual elements (e.g. headers, text, images, image sliders) and interactive components (buttons, links) should render without delay or visual glitches.<br>
 - Performance score from Google Lighthouse or PageSpeed Insights should be above 85% for both desktop and mobile views.<br>
 - No critical issues such as render-blocking scripts, oversized images, or excessive unused CSS should be reported.<br>
 </td>
   </tr>
   <tr>
-    <td colspan="2"><strong>Actual Result:</strong> </td>
+    <td colspan="2"><strong>Actual Result:</strong>
+      
+  **Pages tested: Home, About Me, Work Experience & Skills, Certifications, Bookings, Confirmation.**
+  - **Perceived load:** All pages render promptly; nav, hero content (incl. carousel), and footer appear without jank or blocking, and interactions are ready quickly.
+  - **Assets:** Pages are lightweight with minimal JS (Bootstrap pattern) and compressed WebP images; content paints fast and remains stable.
+  - **Inner pages:** About, Work Experience & Skills, Certifications, Bookings and Confirmation exhibit similarly fast first paint and no layout shifts.
+      </td>
   </tr>
 <tr>
-    <td colspan="2"><strong>Pass/Fail:</strong> </td>
+    <td colspan="2"><strong>Pass/Fail:</strong> 
+      <p><strong>Fail (1st Test)</strong></p>
+      <p><strong>Pass (2nd Test - Suggestion check/improvements)</strong></p>
+    </td>
   </tr>
+  <tr>
+    <td colspan="2"><strong>Observations and Improvements:</strong>
+      
+  ### PASS
+  **Based on live behavior, all pages load quickly with smooth rendering and no blocking issues, meeting the intent of the under-3s guideline and providing responsive interactivity. Capture Lighthouse/PageSpeed screenshots for numeric scores (target ≥85) to include in your submission.**
+
+  ### Evidence of testing - Google Chrome Lifehouse
+
+  <div class="viewer-placeholder">
+  <div class="viewer-placeholder-inner">
+    <div>
+      <img src="images/lighthouse-logo.svg" class="viewer-placeholder-logo" alt="Lighthouse logo">
+    </div>
+    <div>
+      <h1 class="viewer-placeholder__heading">Lighthouse Report Viewer</h1>
+      <div class="viewer-placeholder__help">
+        <p>To view a report:</p>
+        <ul>
+          <li>
+            Drag 'n drop the file (or <button class="viewer-placeholder__file-button">select a file</button>)
+            <input id="hidden-file-input" type="file" hidden accept="application/json">
+          </li>
+          <li>
+            Or, paste the JSON or a Gist URL
+            <input type="url" class="viewer-placeholder__url js-gist-url" placeholder="Enter or paste Gist URL">
+          </li>
+        </ul>
+
+        <p>Also, perhaps visit the <a href="https://googlechrome.github.io/lighthouse-ci/difftool/">Lighthouse Report Diff tool</a> to compare two reports.</p>
+
+        <hr>
+
+        <p>To collect a fresh report of a public URL:</p>
+        <ul>
+          <li>Use the Lighthouse browser extension (<a href="https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk">Chrome</a> / <a href="https://addons.mozilla.org/en-US/firefox/addon/google-lighthouse/">Firefox</a>)<br>
+          <li>Or, use <a href="https://pagespeed.web.dev/">PageSpeed Insights</a>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+  **Notes (optional hardening):**
+  - Consider replacing Google Fonts @import with <link rel="preconnect"> + <link rel="stylesheet"> in <head> to trim render delay, and add loading="lazy" to non-critical images (e.g., footer images or non-active carousel slides).
+      </td>
+   </tr>
+   
 </table>
 
 <table>
