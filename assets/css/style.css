@@ -501,7 +501,7 @@ footer {
   margin-bottom: 1rem;
 }
 
- /* --------------------------------------------------------------------------
+/* --------------------------------------------------------------------------
 Hover & focus affordance for footer links (improvement Test TC005):  
 WCAG 2.4.7 Focus Visible (Level AA) — keyboard focus must be visible on links. 
 ---------------------------------------------------------------------------*/
@@ -579,14 +579,14 @@ a {
 Respect reduced motion (improvement Test TC006):  
 ---------------------------------------------------------------------------*/
 @media (prefers-reduced-motion: reduce) {
-  .carousel, .carousel * {
+  .carousel,
+  .carousel * {
     animation-duration: 0.001ms !important;
     animation-iteration-count: 1 !important;
     transition-duration: 0.001ms !important;
     scroll-behavior: auto !important;
   }
 }
-
 
 /* --------------------------------------------------------------------------
    Typography/logo tweaks at typical Bootstrap breakpoints
@@ -701,36 +701,53 @@ Focus Visibility (improvement Test TC001):
   Following code was added to style.css file:
 ---------------------------------------------------------------------------*/
 
-  a:focus-visible {
-    outline: 3px solid currentColor;
-    outline-offset: 3px;
-    text-decoration: underline;
-    border-radius: 6px;
-  }
- 
+a:focus-visible {
+  outline: 3px solid currentColor;
+  outline-offset: 3px;
+  text-decoration: underline;
+  border-radius: 6px;
+}
 
-  /* --------------------------------------------------------------------------
+/* --------------------------------------------------------------------------
 Form Accessible inline error messages (improvement Test TC002):  
 Add small, tied messages and announce them; keep browser validation for WCAG 2.4.7 compliance
 ---------------------------------------------------------------------------*/
-  /* Strong keyboard focus */
-a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible, textarea:focus-visible {
-  outline: 3px solid currentColor; outline-offset: 3px; border-radius: 6px;
+/* Strong keyboard focus */
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible {
+  outline: 3px solid currentColor;
+  outline-offset: 3px;
+  border-radius: 6px;
 }
 
 /* Error color uses your palette variable */
-.err { margin:.25rem 0 0; color:#b00020; }
-.invalid .form-control, .invalid .form-select, .invalid textarea { border:2px solid #b00020; }
+.err {
+  margin: 0.25rem 0 0;
+  color: #b00020;
+}
+.invalid .form-control,
+.invalid .form-select,
+.invalid textarea {
+  border: 2px solid #b00020;
+}
 
 /* Keep your strong keyboard focus */
-:where(a,button,input,select,textarea):focus-visible {
+:where(a, button, input, select, textarea):focus-visible {
   outline: 3px solid currentColor;
   outline-offset: 3px;
   border-radius: 6px;
 }
 
 /* Screen-reader-only helper */
-.sr-only { position:absolute; left:-9999px; }
+.sr-only {
+  position: absolute;
+  left: -9999px;
+}
 
 /* Make sure hidden errors don't take space and aren't read */
-.err[hidden] { display:none !important; }
+.err[hidden] {
+  display: none !important;
+}
