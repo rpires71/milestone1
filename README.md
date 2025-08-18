@@ -4049,11 +4049,60 @@ git branch -M main
 </td>
   </tr>
   <tr>
-    <td colspan="2"><strong>Actual Result:</strong> </td>
+    <td colspan="2"><strong>Actual Result:</strong><br>
+      
+  - **Pages reviewed:** Home, About Me, Work Experience & Skills, Certifications, Bookings. (No separate Projects or Conferences/Workshops pages found.)
+  - Tone is professional and consistent; content is relevant to educators/recruiters.
+  - UK spelling used correctly (e.g., specialise, recognised, virtualisation).
+  - Dates/qualifications read clearly (e.g., “In November 2024, CompTIA A+ 1101/1102”).
+  - Pages render cleanly at desktop view; no obvious truncation.
+  
+  ### Issues to fix
+  
+  - **Typo in page <title>:** “Worke Experience & Skills | Roberto Pires”. Should be “Work Experience & Skills”.
+  - **A-level capitalisation inconsistent:** Home: “A-level Computer Science” & Work Experience: “A-Level…”. Standardise (recommend A-level throughout).
+  - **Icon labels casing (visible image labels):** “BSC Hons CS icon” → BSc & “CISCO CCNA icon” → Cisco.
+  - **A few sentences could be tightened (style, not correctness):** e.g., “includes experience where I developed…” → “includes developing applications…”. 
+    </td>
   </tr>
 <tr>
-    <td colspan="2"><strong>Pass/Fail:</strong> </td>
+    <td colspan="2"><strong>Pass/Fail:</strong> 
+      <p><strong>Partial Pass (1st Test)</strong></p>
+      <p><strong>Pass (2nd Test - Suggestion check/improvements)</strong></p>
+    </td>
   </tr>
+  <tr>
+    <td colspan="2"><strong>Observations and Improvements:</strong>
+      
+  - **Pass: Professional tone,Correct use of UK spelling,Dates/qualifications read clearly & Pages render clearly**
+  - **Needs improvement: Typos, Capitalisation inconsistencies, Icon labels casing & Sentence tightning.**
+  - **Suggestions**
+  - **In work-experience.html:** Correct title tag with Work Experience & Skills | Roberto Pires.
+  - **In work-experience.html:** Change “A-Level” → “A-level” in body text.
+  - **In certifications.html (icon alt/labels):** “BSC Hons CS icon” → “BSc Hons CS icon”; “CISCO CCNA icon” → “Cisco CCNA icon”.
+  - **Optional style tweak (Work Experience > Software/Website Developer section):**
+“My programming background includes experience where I developed applications…” →
+“My programming background includes developing applications…”.
+
+### Fix 1: Typos**
+- **Typo in page <title>:** “Worke Experience & Skills | Roberto Pires” is now “Work Experience & Skills”
+- **Proof: Test Case TC008 improvements**
+
+### Fix 2: Capitalisation inconsistencies**
+- **A-level capitalisation inconsistent:** Home: “A-level Computer Science” & Work Experience: “A-Level…”. Standardise (recommend A-level throughout).
+- **Proof: Test Case TC008 improvements**
+
+### Acceptance note: Icon labels casing (visible image labels)**
+- **Icon labels casing (visible image labels):** “BSC Hons CS icon” → BSc & “CISCO CCNA icon” → Cisco.
+- **Justification: Organisation icons are by default with casing. No modifications required.**
+
+### Fix 3: Sentence tightning**
+- **Optional style tweak (Work Experience > Software/Website Developer section):**
+“My programming background includes experience where I developed applications…” →
+“My programming background includes developing applications…”.
+- **Proof: Test Case TC008 improvements**
+      </td>
+   </tr>
 </table>
 <table>
   <tr>
