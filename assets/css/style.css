@@ -454,11 +454,16 @@ main > section:first-of-type {
   display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
+  gap: 1rem;                 /* <-- the missing spacing */
+  align-items: stretch;      /* equal-height feel */
 }
 
 #about-me .tile {
   border: 2px solid var(--primary-accents-buttons);
   /* Hazel Brown border */
+  margin: 0;                 /* remove old margin if you had one */
+  flex: 1 1 280px;           /* responsive width target */
+  box-sizing: border-box;
 }
 
 /* Override heading colour inside about-me if needed for contrast */
