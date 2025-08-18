@@ -4137,10 +4137,24 @@ git branch -M main
 </td>
   </tr>
   <tr>
-    <td colspan="2"><strong>Actual Result:</strong> </td>
+    <td colspan="2"><strong>Actual Result:</strong><br>
+      
+- **Navigation links:** Clear and descriptive — “Home”, “About Me”, “Work Experience”, “Skills”, “Certifications”, “Bookings”, “Contact”, and “Download CV (PDF)”.
+- **Logo link:** The navbar logo links to Home; the image has descriptive alt text (good for image-as-link semantics).
+- **In-page anchor:** “Skills” points to the skills section (anchor on the Work Experience page), and the label is meaningful in context.
+- **Footer social links:** Labeled as “LinkedIn”, “Facebook”, “Instagram” — clear, no “click here” patterns.
+- **No vague link text found:** I didn’t see any “Click here”, “More”, or unclear calls to action on the pages
+
+## Minor notes (nice-to-have)
+
+- External links open in new tabs and have appending ARIA notes (e.g., aria-label="LinkedIn (opens in new tab)") purely for clarity.
+- Title attributes are optional; focus on visible text staying descriptive (already good).
+    </td>
   </tr>
 <tr>
-    <td colspan="2"><strong>Pass/Fail:</strong> </td>
+    <td colspan="2"><strong>Pass/Fail:</strong> 
+      <p><strong>Pass (1st Test)</strong></p>
+    </td>
   </tr>
 </table>
 
