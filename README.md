@@ -4613,11 +4613,29 @@ git branch -M main
 </td>
   </tr>
   <tr>
-    <td colspan="2"><strong>Actual Result:</strong> </td>
+    <td colspan="2"><strong>Actual Result:</strong>
+      
+  **Pages reviewed:** Home, About Me, Work Experience & Skills, Certifications, Bookings, Confirmation.
+  - **Navigation:** The navbar collapses to a mobile menu with a toggler at small widths (Bootstrap pattern in use); links remain available.
+  - **Layout reflow:** Sections and tile/card blocks stack into a single column on small screens; no overflow elements noted.
+  - **Text & touch targets:** Body copy remains readable and primary actions (e.g., Submit on Bookings) are comfortably tappable.
+  - **Images & slider:** Home carousel images scale to container width; indicators/prev–next controls remain visible on small viewports.
+  - **Forms:** Booking form fields display cleanly and are easy to interact with on mobile.
+  - **No horizontal scrolling:** No horizontal scrollbars observed on reviewed pages.
+    </td>
   </tr>
 <tr>
-    <td colspan="2"><strong>Pass/Fail:</strong> </td>
+    <td colspan="2"><strong>Pass/Fail:</strong> 
+      <p><strong>Pass (1st Test)</strong></p>
+    </td>
   </tr>
+  <tr>
+    <td colspan="2"><strong>Observations and Improvements:</strong><br>
+      
+  ### PASS
+  **At 375×667 the site stays legible and touch-friendly; the collapsed nav, stacked content, responsive images/carousel, and mobile-form layout all behave as expected without horizontal scrolling.**
+      </td>
+   </tr>
 </table>
 
 **Accessibility Testing**
