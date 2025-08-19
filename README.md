@@ -5142,7 +5142,7 @@ git branch -M main
 </td>
     </tr>
      <tr>
-       <td><strong>about-me.html test</strong></td><td>
+       <td><strong>about-me.html test</strong></td><td><img width="399" height="308" alt="image" src="https://github.com/user-attachments/assets/834385f4-12eb-4964-8ede-013cdd218cc2" />
 </td>
     </tr>
     <tr>
