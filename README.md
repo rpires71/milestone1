@@ -5151,7 +5151,8 @@ git branch -M main
 </td>
     </tr>
   <tr>
-       <td><strong>work-experience.html#skills test</strong></td><td>
+       <td><strong>work-experience.html#skills test</strong></td><td><img width="398" height="250" alt="image" src="https://github.com/user-attachments/assets/a090f505-2495-4a83-a541-c70e4091f205" />
+
 </td>
     </tr>
     <tr>
