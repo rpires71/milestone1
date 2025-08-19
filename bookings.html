@@ -433,7 +433,13 @@
     });
   </script>
  <!-- After Test TC024 I noticed that the bookings form was submitting to the confirmation page without data in the fields.
-       Adjustments to the code have been made below adding the id booking-form and script to prevent sending empty forms successfully.-->
+       Adjustments to the code have been made below adding the id booking-form and script to prevent sending empty forms successfully.
+       Implementation follows the HTML5 Constraint Validation API and WAI-ARIA practices as documented by MDN and W3C (see references). 
+       MDN Web Docs (2025) Client-side form validation (Constraint Validation API overview, checkValidity, reportValidity, noValidate, formNoValidate, aria-describedby). 
+       Available at: https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Forms/Form_validation (Accessed: 19 August 2025).
+       W3C WAI (2024) Understanding Success Criterion 3.3.1: Error Identification. Available at: https://www.w3.org/WAI/WCAG22/Understanding/error-identification (Accessed: 19 August 2025).
+       -->
+
 <script>
 document.addEventListener('DOMContentLoaded', () => {
   const form = document.getElementById('booking-form');
