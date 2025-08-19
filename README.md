@@ -5089,8 +5089,7 @@ git branch -M main
   </tr>
 <tr>
     <td colspan="2"><strong>Pass/Fail:</strong> 
-      <p><strong>Fail (1st Test)</strong></p>
-      <p><strong>Pass (2nd Test - Suggestion check/improvements)</strong></p>
+      <p><strong>Pass (1st Test)</strong></p>
     </td>
   </tr>
   <tr>
@@ -5099,41 +5098,20 @@ git branch -M main
   ### PASS
   **Based on live behavior, all pages load quickly with smooth rendering and no blocking issues, meeting the intent of the under-3s guideline and providing responsive interactivity. Capture Lighthouse/PageSpeed screenshots for numeric scores (target ≥85) to include in your submission.**
 
-  ### Evidence of testing - Google Chrome Lifehouse
-
-  <div class="viewer-placeholder">
-  <div class="viewer-placeholder-inner">
-    <div>
-      <img src="images/lighthouse-logo.svg" class="viewer-placeholder-logo" alt="Lighthouse logo">
-    </div>
-    <div>
-      <h1 class="viewer-placeholder__heading">Lighthouse Report Viewer</h1>
-      <div class="viewer-placeholder__help">
-        <p>To view a report:</p>
-        <ul>
-          <li>
-            Drag 'n drop the file (or <button class="viewer-placeholder__file-button">select a file</button>)
-            <input id="hidden-file-input" type="file" hidden accept="application/json">
-          </li>
-          <li>
-            Or, paste the JSON or a Gist URL
-            <input type="url" class="viewer-placeholder__url js-gist-url" placeholder="Enter or paste Gist URL">
-          </li>
-        </ul>
-
-        <p>Also, perhaps visit the <a href="https://googlechrome.github.io/lighthouse-ci/difftool/">Lighthouse Report Diff tool</a> to compare two reports.</p>
-
-        <hr>
-
-        <p>To collect a fresh report of a public URL:</p>
-        <ul>
-          <li>Use the Lighthouse browser extension (<a href="https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk">Chrome</a> / <a href="https://addons.mozilla.org/en-US/firefox/addon/google-lighthouse/">Firefox</a>)<br>
-          <li>Or, use <a href="https://pagespeed.web.dev/">PageSpeed Insights</a>
-        </ul>
-      </div>
-    </div>
-  </div>
-</div>
+ 
+  <table>
+    <tr>
+       <td><strong>Evidence of testing - Google Chrome Lifehouse (Desktop)</strong></td><td><img width="399" height="216" alt="image" src="https://github.com/user-attachments/assets/a951f1ab-1563-49cd-99dd-b7525a4a8a9c" /></td>
+    </tr>
+    <tr>
+       <td><strong>index.html test</strong></td><td><img width="401" height="306" alt="image" src="https://github.com/user-attachments/assets/db1b0928-1264-485e-8f95-50fb999a1b41" /></td>
+    </tr>
+     <tr>
+       <td><strong>about-me.html.html test</strong></td><td><img width="401" height="313" alt="image" src="https://github.com/user-attachments/assets/5d47663d-864c-497d-b63a-8603d817b84c" />
+</td>
+    </tr>
+  </table>
+  
 
   **Notes (optional hardening):**
   - Consider replacing Google Fonts @import with <link rel="preconnect"> + <link rel="stylesheet"> in <head> to trim render delay, and add loading="lazy" to non-critical images (e.g., footer images or non-active carousel slides).
