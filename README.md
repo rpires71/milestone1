@@ -5098,11 +5098,22 @@ git branch -M main
   ### PASS
   **Based on live behavior, all pages load quickly with smooth rendering and no blocking issues, meeting the intent of the under-3s guideline and providing responsive interactivity. Capture Lighthouse/PageSpeed screenshots for numeric scores (target ≥85) to include in your submission.**
 
-  ### Evidence of testing - Google Chrome Lifehouse (Desktop)
-  <img width="399" height="216" alt="image" src="https://github.com/user-attachments/assets/a951f1ab-1563-49cd-99dd-b7525a4a8a9c" />
+ 
+  <table>
+    <tr>
+       <td>### Evidence of testing - Google Chrome Lifehouse (Desktop)</td><td><img width="399" height="216" alt="image" src="https://github.com/user-attachments/assets/a951f1ab-1563-49cd-99dd-b7525a4a8a9c" /></td>
+    </tr>
+    <tr>
+       <td>**Index.html test**</td><td><img width="401" height="306" alt="image" src="https://github.com/user-attachments/assets/db1b0928-1264-485e-8f95-50fb999a1b41" /></td>
+    </tr>
+    <tr>
+      
+    </tr>
+  </table>
+  
 
-  **Index.html test - https://rpires71.github.io/milestone1/certifications.html**
-  <img width="401" height="306" alt="image" src="https://github.com/user-attachments/assets/db1b0928-1264-485e-8f95-50fb999a1b41" />
+  
+  
 
 
 
