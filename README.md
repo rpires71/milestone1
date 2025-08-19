@@ -5114,7 +5114,8 @@ git branch -M main
        <td><strong>work-experience.html test</strong></td><td><img width="400" height="305" alt="image" src="https://github.com/user-attachments/assets/32e36fa2-9354-4df5-8ea5-5a547a08d962" /></td>
     </tr>
   <tr>
-       <td><strong>work-experience.html#skills test</strong></td><td><img width="398" height="310" alt="image" src="https://github.com/user-attachments/assets/1a3ee042-21eb-45b7-ac4f-76bed146b1f8" />
+       <td><strong>work-experience.html#skills test</strong></td><td><img width="372" height="247" alt="image" src="https://github.com/user-attachments/assets/0814326c-db7c-4fa7-bb0a-beb285be6746" />
+
 </td>
     </tr>
     <tr>
