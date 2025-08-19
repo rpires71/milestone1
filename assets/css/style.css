@@ -284,7 +284,7 @@ html {
   color: var(--body-text-colour);
   text-align: justify;
 /* Improvement Test TC011 - Raise minimum text sizes & line-height*/
-  font-size: clamp(1rem, 1.5vw, 1.125rem)
+  font-size: clamp(1rem, 1.5vw, 1.125rem);
   /* Scales body size across devices */
 
   margin: 0.5rem;
@@ -686,7 +686,6 @@ Respect reduced motion (improvement Test TC006):
     grid-template-columns: repeat(4, 1fr);  /* 4 columns */
   }
 }
-
 
 /*  Improvement TC024 - Skip to content link */
 /* Placed after Bootstrap so it wins*/
