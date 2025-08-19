@@ -5128,7 +5128,6 @@ git branch -M main
     </tr>
     <tr>
        <td><strong>confirmation.html test</strong></td><td><img width="403" height="311" alt="image" src="https://github.com/user-attachments/assets/52a4f0f3-074f-4d3e-b6db-94dbfd8123f9" />
-
 </td>
     </tr>
   </table>
@@ -5165,9 +5164,7 @@ git branch -M main
 </td>
     </tr>
     <tr>
-       <td><strong>confirmation.html test</strong></td><img width="401" height="307" alt="image" src="https://github.com/user-attachments/assets/3b652bfb-e9ba-45c1-9766-08bf81c0ec19" />
-<td>
-</td>
+       <td><strong>confirmation.html test</strong></td><img width="401" height="307" alt="image" src="https://github.com/user-attachments/assets/3b652bfb-e9ba-45c1-9766-08bf81c0ec19" /></td>
     </tr>
   </table>
 
@@ -5175,7 +5172,6 @@ git branch -M main
   - Consider replacing Google Fonts @import with <link rel="preconnect"> + <link rel="stylesheet"> in <head> to trim render delay, and add loading="lazy" to non-critical images (e.g., footer images or non-active carousel slides).
       </td>
    </tr>
-   
 </table>
 
 <table>
