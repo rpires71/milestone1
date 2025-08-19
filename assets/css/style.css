@@ -496,6 +496,8 @@ footer {
   padding-bottom: 1rem;
 }
 
+/*  Improvement for footer section to adapt better to tablets.*/
+
 /* Footer contact tiles: mirror the card look, but in dark theme */
 .footer-tile {
   background-color: var(--headings-footer-background);
@@ -515,7 +517,13 @@ footer {
   -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   /* Optional: adds elevation */
+  /* Improvement for mobile and tablets: Footer tiles: responsive grid */
+  height: 100%;                          /* nice equal-height feel */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
 }
+
 
 /* Footer section heading: larger but still subordinate to page H1 */
 .footer-title {
@@ -540,13 +548,21 @@ footer a:focus-visible {
    - Flex + wrap lays out blocks responsively without extra media queries.
    - A light border keeps structure visible on dark footer background.
 --------------------------------------------------------------------------- */
+  /* No longer used due to being replaced by code below.
+  Handles responsivity without the need for a media query 
 #contact {
-  /* Handles responsivity without the need for a media query */
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
+}*/
+
+/* Improvement for mobile and tablets: Footer tiles: responsive grid */
+#contact {
+  display: grid;
+  grid-template-columns: 1fr;          /* mobile: 1 column */
+  gap: 1rem;                            /* even spacing both ways */
 }
 
 #contact div {
@@ -653,6 +669,21 @@ Respect reduced motion (improvement Test TC006):
   .tile-grid {
     -ms-grid-columns: 1fr;
     grid-template-columns: 1fr;
+  }
+}
+
+/*  Improvement for footer section to adapt better to tablets.*/
+/* tablet */
+@media (min-width: 768px) {
+  #contact {
+    grid-template-columns: repeat(2, 1fr);  /* 2 columns */
+  }
+}
+
+/* laptop/desktop */
+@media (min-width: 992px) {
+  #contact {
+    grid-template-columns: repeat(4, 1fr);  /* 4 columns */
   }
 }
 
