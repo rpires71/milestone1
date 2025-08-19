@@ -5106,17 +5106,7 @@ git branch -M main
     <tr>
        <td>**Index.html test**</td><td><img width="401" height="306" alt="image" src="https://github.com/user-attachments/assets/db1b0928-1264-485e-8f95-50fb999a1b41" /></td>
     </tr>
-    <tr>
-      
-    </tr>
   </table>
-  
-
-  
-  
-
-
-
   
 
   **Notes (optional hardening):**
