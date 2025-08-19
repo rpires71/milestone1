@@ -5101,10 +5101,10 @@ git branch -M main
  
   <table>
     <tr>
-       <td>### Evidence of testing - Google Chrome Lifehouse (Desktop)</td><td><img width="399" height="216" alt="image" src="https://github.com/user-attachments/assets/a951f1ab-1563-49cd-99dd-b7525a4a8a9c" /></td>
+       <td><strong>Evidence of testing - Google Chrome Lifehouse (Desktop)</strong></td><td><img width="399" height="216" alt="image" src="https://github.com/user-attachments/assets/a951f1ab-1563-49cd-99dd-b7525a4a8a9c" /></td>
     </tr>
     <tr>
-       <td>**Index.html test**</td><td><img width="401" height="306" alt="image" src="https://github.com/user-attachments/assets/db1b0928-1264-485e-8f95-50fb999a1b41" /></td>
+       <td><strong>Index.html test</strong></td><td><img width="401" height="306" alt="image" src="https://github.com/user-attachments/assets/db1b0928-1264-485e-8f95-50fb999a1b41" /></td>
     </tr>
   </table>
   
