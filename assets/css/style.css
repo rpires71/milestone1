@@ -670,23 +670,6 @@ Respect reduced motion (improvement Test TC006):
     -ms-grid-columns: 1fr;
     grid-template-columns: 1fr;
   }
-}
-
-/*  Improvement for footer section to adapt better to tablets.*/
-/* tablet */
-@media (min-width: 768px) {
-  #contact {
-    grid-template-columns: repeat(2, 1fr);  /* 2 columns */
-  }
-}
-
-/* laptop/desktop */
-@media (min-width: 992px) {
-  #contact {
-    grid-template-columns: repeat(4, 1fr);  /* 4 columns */
-  }
-}
-
 
 /*  Improvement TC024 - Skip to content link */
 /* Placed after Bootstrap so it wins*/
