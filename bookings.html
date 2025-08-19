@@ -164,7 +164,10 @@
           NOTE: To actually send field values, each input/select/textarea should have a "name" attribute.
           Without "name", the control's value is NOT included in the query string.
       -->
-      <form action="confirmation.html" method="GET" novalidate>
+
+      <!-- After Test TC024 I noticed that the bookings form was submitting to the confirmation page without data in the fields.
+       Adjustments to the code have been made below adding the id booking-form and script to prevent sending empty forms successfully.-->
+      <form id="booking-form" action="confirmation.html" method="GET" novalidate>
         <div class="tile">
           <!-- Section heading: H2 keeps a logical outline under the page H1; .as-h3 preserves your visual style -->
           <h2 class="as-h3 text-center mb-4"><strong>Booking Inquiry</strong></h2>
@@ -205,7 +208,7 @@
               <label for="service" class="form-label">Type of Service *</label>
               <!-- Select menu for predefined categories (easier to analyse consistently than free text) -->
               <select id="service" name="service" class="form-select" required aria-describedby="service-err">
-                <option value="" selected disabled hidden>Select a service…</option>
+                <option value="" selected disabled hidden>Select a service.</option>
                 <option value="tutoring">Tutoring</option>
                 <option value="consulting">Consulting</option>
                 <option value="web-dev">Web Development</option>
@@ -429,6 +432,46 @@
       updateFromHash();
     });
   </script>
+ <!-- After Test TC024 I noticed that the bookings form was submitting to the confirmation page without data in the fields.
+       Adjustments to the code have been made below adding the id booking-form and script to prevent sending empty forms successfully.-->
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  const form = document.getElementById('booking-form');
+  if (!form) return;
+
+  form.addEventListener('submit', (e) => {
+    // Trigger native constraint validation
+    if (!form.checkValidity()) {
+      e.preventDefault();             // block navigation to confirmation.html
+      form.reportValidity();          // show built-in messages
+      // Optional: show your inline messages
+      form.querySelectorAll('.err').forEach(p => p.hidden = true);
+      form.querySelectorAll(':invalid').forEach(el => {
+        const id = el.getAttribute('aria-describedby');
+        if (id) {
+          const msg = document.getElementById(id);
+          if (msg) msg.hidden = false;
+        }
+      });
+      // Focus the first invalid control
+      const firstInvalid = form.querySelector(':invalid');
+      if (firstInvalid) firstInvalid.focus();
+    }
+  });
+
+  // Live hide/show inline messages as user fixes inputs
+  form.querySelectorAll('input, select, textarea').forEach(el => {
+    el.addEventListener('input', () => {
+      const id = el.getAttribute('aria-describedby');
+      if (id) {
+        const msg = document.getElementById(id);
+        if (msg) msg.hidden = el.checkValidity();
+      }
+    });
+  });
+});
+</script>
+
 
 </body>
 
