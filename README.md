@@ -5165,7 +5165,8 @@ git branch -M main
 </td>
     </tr>
     <tr>
-       <td><strong>confirmation.html test</strong></td><td>
+       <td><strong>confirmation.html test</strong></td><img width="401" height="307" alt="image" src="https://github.com/user-attachments/assets/3b652bfb-e9ba-45c1-9766-08bf81c0ec19" />
+<td>
 </td>
     </tr>
   </table>
