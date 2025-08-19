@@ -5121,6 +5121,11 @@ git branch -M main
        <td><strong>certifications.html test</strong></td><td><img width="399" height="308" alt="image" src="https://github.com/user-attachments/assets/488099b3-1efb-4a12-9b20-1cb600c1a7ad"/>
 </td>
     </tr>
+    <tr>
+       <td><strong>bookings.html test</strong></td><td><img width="371" height="307" alt="image" src="https://github.com/user-attachments/assets/e33e8d58-0a11-496a-a60b-3b42bc5b2d84" />
+
+</td>
+    </tr>
   </table>
   
 
