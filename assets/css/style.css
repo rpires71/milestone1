@@ -687,6 +687,10 @@ Respect reduced motion (improvement Test TC006):
   }
 }
 
+<<<<<<<<< Temporary merge branch 1
+=========
+
+>>>>>>>>> Temporary merge branch 2
 /*  Improvement TC024 - Skip to content link */
 /* Placed after Bootstrap so it wins*/
 .skip-link {
