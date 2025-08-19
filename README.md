@@ -5096,7 +5096,7 @@ git branch -M main
     <td colspan="2"><strong>Observations and Improvements:</strong>
       
   ### PASS
-  **Based on live behavior, all pages load quickly with smooth rendering and no blocking issues, meeting the intent of the under-3s guideline and providing responsive interactivity. Capture Lighthouse/PageSpeed screenshots for numeric scores (target ≥85) to include in your submission.**
+  **Based on live behavior, all pages load quickly with smooth rendering and no blocking issues, meeting the intent of the under-3s guideline and providing responsive interactivity. Capture Lighthouse/PageSpeed screenshots for numeric scores (target ≥85).**
 
  
   <table>
