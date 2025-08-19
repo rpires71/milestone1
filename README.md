@@ -5123,6 +5123,10 @@ git branch -M main
     </tr>
     <tr>
        <td><strong>bookings.html test</strong></td><td><img width="371" height="307" alt="image" src="https://github.com/user-attachments/assets/e33e8d58-0a11-496a-a60b-3b42bc5b2d84" />
+</td>
+    </tr>
+    <tr>
+       <td><strong>confirmation.html test</strong></td><td><img width="403" height="311" alt="image" src="https://github.com/user-attachments/assets/52a4f0f3-074f-4d3e-b6db-94dbfd8123f9" />
 
 </td>
     </tr>
