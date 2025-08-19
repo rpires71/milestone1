@@ -5131,7 +5131,40 @@ git branch -M main
 </td>
     </tr>
   </table>
-  
+
+  <table>
+    <tr>
+       <td><strong>Evidence of testing - Google Chrome Lifehouse (Mobile)</strong></td><td><img width="403" height="219" alt="image" src="https://github.com/user-attachments/assets/f2a2852d-5719-4975-b947-87598848cc78" />
+</td>
+    </tr>
+    <tr>
+       <td><strong>index.html test</strong></td><td><img width="401" height="310" alt="image" src="https://github.com/user-attachments/assets/e285d236-f5aa-4694-965f-411a639292db" />
+</td>
+    </tr>
+     <tr>
+       <td><strong>about-me.html test</strong></td><td>
+</td>
+    </tr>
+    <tr>
+       <td><strong>work-experience.html test</strong></td><td></td>
+    </tr>
+  <tr>
+       <td><strong>work-experience.html#skills test</strong></td><td>
+</td>
+    </tr>
+    <tr>
+       <td><strong>certifications.html test</strong></td><td>
+</td>
+    </tr>
+    <tr>
+       <td><strong>bookings.html test</strong></td><td>
+</td>
+    </tr>
+    <tr>
+       <td><strong>confirmation.html test</strong></td><td>
+</td>
+    </tr>
+  </table>
 
   **Notes (optional hardening):**
   - Consider replacing Google Fonts @import with <link rel="preconnect"> + <link rel="stylesheet"> in <head> to trim render delay, and add loading="lazy" to non-critical images (e.g., footer images or non-active carousel slides).
