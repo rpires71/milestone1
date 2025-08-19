@@ -5104,7 +5104,11 @@ git branch -M main
        <td><strong>Evidence of testing - Google Chrome Lifehouse (Desktop)</strong></td><td><img width="399" height="216" alt="image" src="https://github.com/user-attachments/assets/a951f1ab-1563-49cd-99dd-b7525a4a8a9c" /></td>
     </tr>
     <tr>
-       <td><strong>Index.html test</strong></td><td><img width="401" height="306" alt="image" src="https://github.com/user-attachments/assets/db1b0928-1264-485e-8f95-50fb999a1b41" /></td>
+       <td><strong>index.html test</strong></td><td><img width="401" height="306" alt="image" src="https://github.com/user-attachments/assets/db1b0928-1264-485e-8f95-50fb999a1b41" /></td>
+    </tr>
+     <tr>
+       <td><strong>about-me.html.html test</strong></td><td><img width="401" height="313" alt="image" src="https://github.com/user-attachments/assets/5d47663d-864c-497d-b63a-8603d817b84c" />
+</td>
     </tr>
   </table>
   
