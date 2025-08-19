@@ -5115,7 +5115,6 @@ git branch -M main
     </tr>
   <tr>
        <td><strong>work-experience.html#skills test</strong></td><td><img width="372" height="247" alt="image" src="https://github.com/user-attachments/assets/0814326c-db7c-4fa7-bb0a-beb285be6746" />
-
 </td>
     </tr>
     <tr>
@@ -5131,7 +5130,6 @@ git branch -M main
 </td>
     </tr>
   </table>
-
   <table>
     <tr>
        <td><strong>Evidence of testing - Google Chrome Lifehouse (Mobile)</strong></td><td><img width="403" height="219" alt="image" src="https://github.com/user-attachments/assets/f2a2852d-5719-4975-b947-87598848cc78" />
@@ -5147,12 +5145,10 @@ git branch -M main
     </tr>
     <tr>
        <td><strong>work-experience.html test</strong></td><td><img width="399" height="308" alt="image" src="https://github.com/user-attachments/assets/6ee809ef-b66f-46cb-8f30-d3cc983ef595" />
-
 </td>
     </tr>
   <tr>
        <td><strong>work-experience.html#skills test</strong></td><td><img width="398" height="250" alt="image" src="https://github.com/user-attachments/assets/a090f505-2495-4a83-a541-c70e4091f205" />
-
 </td>
     </tr>
     <tr>
@@ -5164,7 +5160,7 @@ git branch -M main
 </td>
     </tr>
     <tr>
-       <td><strong>confirmation.html test</strong></td><img width="401" height="307" alt="image" src="https://github.com/user-attachments/assets/3b652bfb-e9ba-45c1-9766-08bf81c0ec19" /></td>
+       <td><strong>confirmation.html test</strong></td><td><img width="401" height="307" alt="image" src="https://github.com/user-attachments/assets/3b652bfb-e9ba-45c1-9766-08bf81c0ec19" /></td>
     </tr>
   </table>
 
