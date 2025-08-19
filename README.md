@@ -5157,11 +5157,11 @@ git branch -M main
 </td>
     </tr>
     <tr>
-       <td><strong>certifications.html test</strong></td><td>
+       <td><strong>certifications.html test</strong></td><td><img width="402" height="310" alt="image" src="https://github.com/user-attachments/assets/169bce4e-55a7-47c8-a7de-2cd2ee9b596b" />
 </td>
     </tr>
     <tr>
-       <td><strong>bookings.html test</strong></td><td>
+       <td><strong>bookings.html test</strong></td><td><img width="401" height="312" alt="image" src="https://github.com/user-attachments/assets/f2831bbf-9ef2-43bb-b732-d48c6de272a3" />
 </td>
     </tr>
     <tr>
