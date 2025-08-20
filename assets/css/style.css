@@ -42,6 +42,9 @@
   --primary-accents-buttons: #b7986b;
   /* Accent: hazel brown (buttons, header bg) */
   --error-colour: #7a1f0f; /* high-contrast, matches this palette */
+   /* Picked for high contrast on the light page bg (#f9f6f1) */
+  --focus-border: var(--headings-footer-background);        /* #3e2c23 */
+  --focus-ring: rgba(62, 44, 35, 0.35);                     /* soft outer glow */
 }
 
 /* --------------------------------------------------------------------------
@@ -640,6 +643,11 @@ Add small, tied messages and announce them; keep browser validation for WCAG 2.4
   border-radius: 6px;
 }
 
+/* Align your global focus-visible ring with the same brand color */
+:where(input, select, textarea):focus-visible {
+  outline-color: var(--focus-border);
+}
+
 /* Error color uses your palette variable */
 .err {
   margin: .25rem 0 0;
@@ -649,6 +657,23 @@ Add small, tied messages and announce them; keep browser validation for WCAG 2.4
 .invalid .form-control,
 .invalid .form-select,
 .invalid textarea { border: 2px solid var(--error-colour); }
+
+/* Inputs, selects, textareas (overrides Bootstrap’s blue) */
+.form-control:focus,
+.form-select:focus,
+textarea:focus {
+  border-color: var(--focus-border) !important;
+  /* keep a visible ring that’s ≥2px thick overall */
+  box-shadow: 0 0 0 0.25rem var(--focus-ring) !important;
+  outline: 0; /* we’ll set outline color via :focus-visible below */
+}
+
+/* Optional: add a subtle background tint to further help CVD users */
+.form-control:focus,
+.form-select:focus,
+textarea:focus {
+  background-color: #fff; /* keep content contrast; remove if you already force white */
+}
 
 
 /* Screen-reader-only helper */
@@ -683,6 +708,17 @@ Add small, tied messages and announce them; keep browser validation for WCAG 2.4
   .logo-header    { max-height: 100px; }
 }
 
+/* High Contrast Mode support (Windows) */
+@media (forced-colors: active) {
+  .form-control:focus,
+  .form-select:focus,
+  textarea:focus {
+    outline: 2px solid SelectedItem;
+    outline-offset: 2px;
+    box-shadow: none;
+    border-color: SelectedItem;
+  }
+}
 /* --------------------------------------------------------------------------
    (Optional) Debug helpers (keep commented in production)
 ---------------------------------------------------------------------------
