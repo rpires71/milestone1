@@ -348,13 +348,35 @@ Using both these browsers throughout the project ensured that the website was th
 
 ---
 
+## Wireframes
+
+Before the stage of focusing on design details or styling, a **wireframe** is a stripped-down visual representation of a digital interface, web page, or app that concentrates primarily on the structural layout.
+
+Wireframes are regarded as the **project blueprint**, outlining the placement of key elements, content hierarchy, and navigation flow. Visual representations are typically in grayscale or black and white to maintain focus on usability and user experience (UX) without the distractions of colours, typography, or imagery.
+
+To enable stakeholders to reach consensus on functionality and structure before the stage of refined design and implementation, wireframes represent an essential step in the **pre-production phase** of design and development.
+
+Showcasing wireframes in my portfolio project is a recognised professional practice which emphasises a systematic, user-focused process. Wireframes serve as the initial conceptual blueprint stage of the project before coding and visual styling begin. During the design and development phase of a project, wireframes are a crucial element which fulfils several significant functions such as:
+
+### Design Rationale and Planning
+
+The following wireframes illustrate strategic usability, content hierarchy, and layout. This evidence helps me break down my project into logical steps so I can plan effectively and make decisions that place user needs and objectives as the priority. The presentation of these wireframes highlights the thought process behind the work rather than the final outcome, which reflects an understanding of the importance of planning through an iterative design approach.
+
+
+### UX Awareness
+
+The importance of demonstrating an understanding of user experience (UX) principles ensures clarity for employers and clients. Wireframes prioritise flow and functionality before the final visual product, which means I can collaborate effectively with stakeholders at the conceptual stage to refine ideas and minimise time-consuming revisions. This reinforces my commitment to creating a technically robust, intuitive, and user-friendly solution for this project.
+
+---
+
 ## Portfolio Wireframes
-The wireframes below cover the seven planned pages. Each page shows **desktop**, **tablet**, and **mobile** views. Click to expand a section.
+The wireframes presented here correspond to the seven pages planned for inclusion in this portfolio website. Each page is shown in three versions: desktop, tablet, and mobile.
 
 ---
 
 ### Homepage
-This page welcomes visitors, sets the professional tone, and routes users to key sections.
+
+This page is intended to provide a welcoming introduction to the website, establishing my professional brand as a Computer Science and IT educator. It will feature my name, tagline, and an overview of what is available on the site. The goal is to create a strong initial impression and guide visitors to explore further via the main menu.
 
 <details>
 <summary><strong>View wireframes (Desktop / Tablet / Mobile)</strong></summary>
@@ -372,7 +394,8 @@ This page welcomes visitors, sets the professional tone, and routes users to key
 ---
 
 ### About Me
-Introduces my background, values, and teaching/IT profile in an approachable, professional style.
+
+The About Me page’s purpose is to present a design that remains approachable and professional while conveying personality and expertise. It will showcase my professional biography, my lifelong dedication to learning, and a summary of my skills. This page will also provide visitors with an understanding of who I am, my background, and my ethos as an educator and IT professional.
 
 <details>
 <summary><strong>View wireframes (Desktop / Tablet / Mobile)</strong></summary>
@@ -390,7 +413,8 @@ Introduces my background, values, and teaching/IT profile in an approachable, pr
 ---
 
 ### Work Experience
-Tile layout summarising roles, achievements, and responsibilities across education and IT.
+
+By using an easy-to-digest tile layout, this page will showcase my career history. Each section highlights my roles, achievements, and responsibilities across development, IT support, tutoring, and teaching. It also demonstrates my versatility and experience in different contexts.
 
 <details>
 <summary><strong>View wireframes (Desktop / Tablet / Mobile)</strong></summary>
@@ -408,7 +432,8 @@ Tile layout summarising roles, achievements, and responsibilities across educati
 ---
 
 ### Skills
-Groups competencies (teaching, coding/dev, languages, PM, IT support) for quick scanning.
+
+This page presents the grouping of key competencies into distinct categories such as teaching, coding and development, languages, project management, and IT support. Again, I have chosen to use a tile-based layout to enable viewers to quickly identify my areas of expertise and the value I can offer.
 
 <details>
 <summary><strong>View wireframes (Desktop / Tablet / Mobile)</strong></summary>
@@ -426,7 +451,8 @@ Groups competencies (teaching, coding/dev, languages, PM, IT support) for quick 
 ---
 
 ### Conferences and Workshops
-Showcases CPD: workshops, conferences, and training that reinforce ongoing professional growth.
+
+This page highlights my commitment to professional development by showcasing relevant workshops, conferences, and training I have attended. It demonstrates my engagement with industry best practices and continuous improvement, reinforcing my professional credibility.
 
 <details>
 <summary><strong>View wireframes (Desktop / Tablet / Mobile)</strong></summary>
@@ -444,7 +470,8 @@ Showcases CPD: workshops, conferences, and training that reinforce ongoing profe
 ---
 
 ### Certifications
-Presents formal qualifications and certifications in a clear, visual tile layout.
+
+This page lists my formal qualifications and certifications, including CompTIA credentials, PGCE, Graphic Design, and others. The certifications are presented visually in tiles with concise descriptions, highlighting my technical and teaching expertise in a structured manner.
 
 <details>
 <summary><strong>View wireframes (Desktop / Tablet / Mobile)</strong></summary>
@@ -462,7 +489,8 @@ Presents formal qualifications and certifications in a clear, visual tile layout
 ---
 
 ### Bookings
-Simple, accessible form for enquiries from clients, schools, or students.
+
+The Bookings page enables potential clients, schools, or students to contact me and request my services. It includes a clean, straightforward form for inquiries and provides an accessible and professional way for visitors to engage with me directly.
 
 <details>
 <summary><strong>View wireframes (Desktop / Tablet / Mobile)</strong></summary>
