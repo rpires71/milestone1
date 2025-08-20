@@ -5479,6 +5479,27 @@ git branch -M main
     </a>
   </p>
 </details>
+<h3>style.css — Validator screenshots</h3>
+<details open>
+  <summary><strong>First check</strong></summary>
+  <p>
+    <a href="https://github.com/user-attachments/assets/b7323d57-040d-436a-85ed-87d2e8e31fde">
+      <img src="https://github.com/user-attachments/assets/b7323d57-040d-436a-85ed-87d2e8e31fde" 
+           alt="index.html — validator first check (full screenshot)"
+           width="900" loading="lazy">
+    </a>
+  </p>
+</details>
+<details>
+  <summary><strong>Second check</strong></summary>
+  <p>
+    <a href="https://github.com/user-attachments/assets/c0c69dd5-f068-4150-a42b-c16519b4c879">
+      <img src="https://github.com/user-attachments/assets/c0c69dd5-f068-4150-a42b-c16519b4c879"
+           alt="index.html — validator second check (summary)"
+           width="900" loading="lazy">
+    </a>
+  </p>
+</details>
 <h3>confirmation.html — Validator screenshots</h3>
 <details open>
   <summary><strong>First check</strong></summary>
