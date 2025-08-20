@@ -5373,15 +5373,29 @@ git branch -M main
   **Updated validation reports have been added to /docs/validation/.**
 
   **PROOF EVIDENCE**
-  <table>
-    <tr> <strong>index.html</strong></tr>
-    <tr><strong>First check</strong></tr>
-    <tr><img width="1722" height="3258" alt="image" src="https://github.com/user-attachments/assets/c08f6146-b73d-4839-9aa7-3bc96df963d6" />
-</tr>
-    <tr><strong>Second check</strong></tr>
-  <tr><img width="1722" height="830" alt="image" src="https://github.com/user-attachments/assets/18313e57-2511-4700-b3a9-a5e84eeed85c" />
-</tr>
-</table>
+<h3>index.html — Validator screenshots</h3>
+
+<details open>
+  <summary><strong>First check</strong></summary>
+  <p>
+    <a href="https://github.com/user-attachments/assets/c08f6146-b73d-4839-9aa7-3bc96df963d6">
+      <img src="https://github.com/user-attachments/assets/c08f6146-b73d-4839-9aa7-3bc96df963d6"
+           alt="index.html — validator first check (full screenshot)"
+           width="900" loading="lazy">
+    </a>
+  </p>
+</details>
+
+<details>
+  <summary><strong>Second check</strong></summary>
+  <p>
+    <a href="https://github.com/user-attachments/assets/18313e57-2511-4700-b3a9-a5e84eeed85c">
+      <img src="https://github.com/user-attachments/assets/18313e57-2511-4700-b3a9-a5e84eeed85c"
+           alt="index.html — validator second check (summary)"
+           width="900" loading="lazy">
+    </a>
+  </p>
+</details>
 
 **Regression Testing**
 
