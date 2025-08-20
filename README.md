@@ -5458,7 +5458,27 @@ git branch -M main
     </a>
   </p>
 </details>
-
+<h3>bookings.html — Validator screenshots</h3>
+<details open>
+  <summary><strong>First check</strong></summary>
+  <p>
+    <a href="https://github.com/user-attachments/assets/a29fffd0-3982-4b9d-b79d-ae50e6ac3c0b" >
+      <img src="https://github.com/user-attachments/assets/a29fffd0-3982-4b9d-b79d-ae50e6ac3c0b" 
+           alt="index.html — validator first check (full screenshot)"
+           width="900" loading="lazy">
+    </a>
+  </p>
+</details>
+<details>
+  <summary><strong>Second check</strong></summary>
+  <p>
+    <a href="https://github.com/user-attachments/assets/abcf1ff8-1854-4310-9aa3-b86d21658294">
+      <img src="https://github.com/user-attachments/assets/abcf1ff8-1854-4310-9aa3-b86d21658294"
+           alt="index.html — validator second check (summary)"
+           width="900" loading="lazy">
+    </a>
+  </p>
+</details>
 ## Regression Testing
 
 <table>
