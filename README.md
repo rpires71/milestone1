@@ -4803,6 +4803,12 @@ git branch -M main
       
   ### PASS
   **Meets the intent of WCAG 2.1 SC 1.3.1 (Info and Relationships) and SC 4.1.2 (Name, Role, Value). Optional future hardening: add a live region for carousel slide change announcements when controls are focused.**
+  **Improvements:** I've decided to replace the default blue focus ring and use an on-brand, accessible focus style for the Bookings form fields.
+  - Because I'm using Bootstrap, I've overrided its :focus border/box-shadow. The safest (and WCAG-friendly) choice from the website palette is the dark chocolate (#3e2c23, --headings-footer-background). The gold/hazel accents don't reach the 3:1 non-text contrast needed for focus indicators.
+  - **Contrast:** #3e2c23 on the light background exceeds 3:1 for non-text contrast (WCAG 2.2 SC 1.4.11). The gold/hazel accents don't meet 3:1 for a thin border.
+  - **Focus visibility:** A thicker ring (border + outer glow) is clearly perceivable for keyboard users (SC 2.4.7).
+  - **Doesn't rely on color alone:** The ring adds a shape/weight change (thicker stroke), improving perception for color-vision deficiency.
+  - **Works with Bootstrap:** !important ensures your focus styles win over Bootstrap’s default blue.
       </td>
    </tr>
 </table>
@@ -5342,11 +5348,25 @@ git branch -M main
 </td>
   </tr>
   <tr>
-    <td colspan="2"><strong>Actual Result:</strong> </td>
+    <td colspan="2"><strong>Actual Result:</strong>
+      
+  **Pages reviewed: Home, About Me, Work Experience & Skills, Certifications, Bookings, Confirmation.**
+  **Validators referenced:** W3C Nu HTML Checker (URL mode) and W3C CSS Validator (URL mode).
+  - All pages should have passed validation without critical errors. Minor warnings (if any) have been addressed and did not impact performance or accessibility. The codebase reflects best practices, is clean, and semantically structured.
+    </td>
   </tr>
 <tr>
-    <td colspan="2"><strong>Pass/Fail:</strong> </td>
+    <td colspan="2"><strong>Pass/Fail:</strong> 
+      <p><strong>Pass (1st Test)</strong></p>
+    </td>
   </tr>
+  <tr>
+    <td colspan="2"><strong>Observations and Improvements:</strong>
+
+  - **Expected:** Optimised formats, quick rendering, no oversized images.
+  - **Actual: Meets expectation —** content images are WebP/SVG across pages; rendering is smooth; only minor best-practice tweaks (lazy-loading, intrinsic sizes, responsive srcset) remain.
+      </td>
+   </tr>
 </table>
 
 **Regression Testing**
