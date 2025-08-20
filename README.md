@@ -5315,6 +5315,7 @@ git branch -M main
 
   - **Expected:** Optimised formats, quick rendering, no oversized images.
   - **Actual: Meets expectation —** content images are WebP/SVG across pages; rendering is smooth; only minor best-practice tweaks (lazy-loading, intrinsic sizes, responsive srcset) remain.
+  **Updated reports have been added to /docs.**
       </td>
    </tr>
 </table>
@@ -5353,6 +5354,7 @@ git branch -M main
   **Pages reviewed: Home, About Me, Work Experience & Skills, Certifications, Bookings, Confirmation.**
   **Validators referenced:** W3C Nu HTML Checker (URL mode) and W3C CSS Validator (URL mode).
   - All pages should have passed validation without critical errors. Minor warnings (if any) have been addressed and did not impact performance or accessibility. The codebase reflects best practices, is clean, and semantically structured.
+  - Validator reports saved in /docs show no critical HTML or CSS errors across all pages (index.html, about-me.html, work-experience.html, certifications.html, bookings.html, confirmation.html) and style.css. Remaining items are non-blocking warnings related to Autoprefixer vendor rules, data-URI usage for the navbar toggler icon, and visually-hidden captions used for accessibility.
     </td>
   </tr>
 <tr>
@@ -5363,8 +5365,11 @@ git branch -M main
   <tr>
     <td colspan="2"><strong>Observations and Improvements:</strong>
 
-  - **Expected:** Optimised formats, quick rendering, no oversized images.
-  - **Actual: Meets expectation —** content images are WebP/SVG across pages; rendering is smooth; only minor best-practice tweaks (lazy-loading, intrinsic sizes, responsive srcset) remain.
+  **All validator-reported errors and warnings were addressed across the HTML pages and style.css. Key actions:**
+  - **HTML:** corrected issues flagged by the W3C validator (e.g., minor attribute/structure problems), re-checked forms and anchors, and revalidated—now no critical errors.
+  - **CSS (style.css):** consolidated duplicate/overlapping rules, moved colours to CSS variables, unified focus styles, and removed redundant declarations while keeping Autoprefixer vendor prefixes. Revalidated with no errors (only expected vendor-prefix notes).
+
+  **Updated validation reports have been added to /docs/validation/.**
       </td>
    </tr>
 </table>
