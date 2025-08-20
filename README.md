@@ -1,3 +1,18 @@
+<details>
+<summary><strong>Table of contents</strong></summary>
+
+- [Project Overview](#overview)
+- [Pages](#pages)
+  - [Home](#home)
+  - [About Me](#about-me)
+  - [Work Experience & Skills](#work-experience--skills)
+  - [Certifications](#certifications)
+  - [Bookings](#bookings)
+- [Accessibility & Testing](#accessibility--testing)
+- [How to run locally](#how-to-run-locally)
+- [Credits](#credits)
+</details>
+
 # Milestone Project 1
 Development Milestone Project 1 - User Centric Frontend
 
