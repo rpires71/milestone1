@@ -5374,7 +5374,6 @@ git branch -M main
 
   ### PROOF EVIDENCE
 <h3>index.html — Validator screenshots</h3>
-
 <details open>
   <summary><strong>First check</strong></summary>
   <p>
@@ -5385,7 +5384,6 @@ git branch -M main
     </a>
   </p>
 </details>
-
 <details>
   <summary><strong>Second check</strong></summary>
   <p>
@@ -5396,9 +5394,7 @@ git branch -M main
     </a>
   </p>
 </details>
-
 <h3>about-me.html — Validator screenshots</h3>
-
 <details open>
   <summary><strong>First check</strong></summary>
   <p>
@@ -5409,7 +5405,6 @@ git branch -M main
     </a>
   </p>
 </details>
-
 <details>
   <summary><strong>Second check</strong></summary>
   <p>
@@ -5420,9 +5415,7 @@ git branch -M main
     </a>
   </p>
 </details>
-
 <h3>work-experience.html — Validator screenshots</h3>
-
 <details open>
   <summary><strong>First check</strong></summary>
   <p>
@@ -5434,7 +5427,6 @@ git branch -M main
     
   </p>
 </details>
-
 <details>
   <summary><strong>Second check</strong></summary>
   <p>
@@ -5445,6 +5437,28 @@ git branch -M main
     </a>
   </p>
 </details>
+<h3>certifications.html — Validator screenshots</h3>
+<details open>
+  <summary><strong>First check</strong></summary>
+  <p>
+    <a href="https://github.com/user-attachments/assets/58f0bf20-938c-4090-9ce5-44322bb562c6" >
+      <img src="https://github.com/user-attachments/assets/58f0bf20-938c-4090-9ce5-44322bb562c6" 
+           alt="index.html — validator first check (full screenshot)"
+           width="900" loading="lazy">
+    </a>
+  </p>
+</details>
+<details>
+  <summary><strong>Second check</strong></summary>
+  <p>
+    <a href="https://github.com/user-attachments/assets/c672cda7-d5df-4e3e-91d8-4e2cd65b141c">
+      <img src="https://github.com/user-attachments/assets/c672cda7-d5df-4e3e-91d8-4e2cd65b141c"
+           alt="index.html — validator second check (summary)"
+           width="900" loading="lazy">
+    </a>
+  </p>
+</details>
+
 ## Regression Testing
 
 <table>
