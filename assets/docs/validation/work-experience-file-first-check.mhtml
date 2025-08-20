@@ -1,0 +1,1218 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: https://validator.w3.org/nu/?doc=https%3A%2F%2Frpires71.github.io%2Fmilestone1%2Fwork-experience.html
+Subject: Showing results for https://rpires71.github.io/milestone1/work-experience.html - Nu Html Checker
+Date: Wed, 20 Aug 2025 02:43:10 +0000
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--C7GML1cKI3W17jQdz9oasZCdyP76G1XdO0JkOioVaL----"
+
+
+------MultipartBoundary--C7GML1cKI3W17jQdz9oasZCdyP76G1XdO0JkOioVaL----
+Content-Type: text/html
+Content-ID: <frame-D0192BC405A5233B17157158D5E9592C@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://validator.w3.org/nu/?doc=https%3A%2F%2Frpires71.github.io%2Fmilestone1%2Fwork-experience.html
+
+<!DOCTYPE html><html lang=3D"en"><head><meta http-equiv=3D"Content-Type" co=
+ntent=3D"text/html; charset=3DUTF-8"><link rel=3D"stylesheet" type=3D"text/=
+css" href=3D"cid:css-d012e13b-9ce4-4a7b-b154-c79b8ec55271@mhtml.blink" /><l=
+ink href=3D"https://validator.w3.org/nu/icon.png" rel=3D"icon"><link href=
+=3D"https://validator.w3.org/nu/style.css" rel=3D"stylesheet"><title>Showin=
+g results for https://rpires71.github.io/milestone1/work-experience.html - =
+Nu Html Checker</title><meta name=3D"viewport" content=3D"width=3Ddevice-wi=
+dth, initial-scale=3D1"></head><body><div id=3D"banner"><h1 id=3D"title"><a=
+ href=3D"https://validator.w3.org/nu/"><span>Nu Html Checker</span></a></h1=
+></div><p class=3D"disclaimer">This tool is an ongoing experiment in better=
+ HTML checking, and its behavior remains subject to change</p><h2 id=3D"top=
+">Showing results for https://rpires71.github.io/milestone1/work-experience=
+.html</h2><form method=3D"get" enctype=3D""><fieldset><legend>Checker Input=
+</legend><p class=3D"checkboxes">Show <span class=3D"checkboxgroup"><label =
+title=3D"Display the markup source of the input document." for=3D"showsourc=
+e"><input type=3D"checkbox" name=3D"showsource" id=3D"showsource" value=3D"=
+yes">source</label><label title=3D"Display an outline of the input document=
+." for=3D"showoutline"><input type=3D"checkbox" name=3D"showoutline" id=3D"=
+showoutline" value=3D"yes">outline</label><label title=3D"Display a report =
+about the textual alternatives for images." for=3D"showimagereport"><input =
+type=3D"checkbox" name=3D"showimagereport" id=3D"showimagereport" value=3D"=
+yes">image report</label></span><input id=3D"show_options" type=3D"button" =
+value=3D"Options=E2=80=A6"><span class=3D"extraoptions hidden"><span class=
+=3D"checkboxgroup"><label title=3D"Check the content of all responses, incl=
+uding (non-200) error responses"><input type=3D"checkbox" name=3D"checkerro=
+rpages" id=3D"checkerrorpages" value=3D"yes">check error pages</label></spa=
+n><label id=3D"user-agent-label" title=3D"Specify the user-agent string to =
+send in the document request">User-Agent <input name=3D"useragent" list=3D"=
+useragents" value=3D"Validator.nu/LV https://validator.w3.org/services" dis=
+abled=3D""></label><label id=3D"accept-language-label" title=3D"Specify the=
+ accept-language header to send in the document request">Accept-Language <i=
+nput id=3D"acceptlanguage" name=3D"acceptlanguage" disabled=3D""></label><d=
+atalist id=3D"useragents"><option value=3D"Mozilla/5.0 (Linux; Android 4.4.=
+2; en-us; SC-04E Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Versi=
+on/1.5 Chrome/28.0.1500.94 Mobile Safari/537.36" label=3D"Android"></option=
+><option value=3D"Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, l=
+ike Gecko) Chrome/41.0.2228.0 Safari/537.36" label=3D"Chrome"></option><opt=
+ion value=3D"Mozilla/5.0 (Windows NT 6.3; rv:36.0) Gecko/20100101 Firefox/3=
+6.0" label=3D"Firefox"></option><option value=3D"Mozilla/5.0 (Windows NT 6.=
+3; Trident/7.0; rv:11.0) like Gecko" label=3D"Internet Explorer"></option><=
+option value=3D"Mozilla/5.0 (iPhone; CPU iPhone OS 6_0 like Mac OS X) Apple=
+WebKit/536.26 (KHTML, like Gecko) Version/6.0 Mobile/10A5376e Safari/8536.2=
+5" label=3D"iPhone/iOS Safari"></option><option value=3D"Mozilla/5.0 (Windo=
+ws NT 6.3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safar=
+i/537.36 OPR/28.0.1750.48" label=3D"Opera"></option><option value=3D"Mozill=
+a/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/600.4.10 (KHTML, like=
+ Gecko) Version/8.0.4 Safari/600.4.10" label=3D"Safari"></option><option va=
+lue=3D"Validator.nu/LV" label=3D"default"></option></datalist></span></p><d=
+iv id=3D"inputregion"><label id=3D"inputlabel">Check by<select id=3D"docsel=
+ect"><option value=3D"">address</option><option value=3D"file">file upload<=
+/option><option value=3D"textarea">text input</option></select></label><inp=
+ut type=3D"url" name=3D"doc" id=3D"doc" pattern=3D"(?:(?:https?://.+)|(?:da=
+ta:.+))?" title=3D"Absolute URL (http, https or data only) of the document =
+to be checked." value=3D"https://rpires71.github.io/milestone1/work-experie=
+nce.html" aria-labelledby=3D"docselect" required=3D"" placeholder=3D"Enter =
+the URL for an HTML, CSS, or SVG document"></div><p><input value=3D"Check" =
+type=3D"submit" id=3D"submit"></p></fieldset></form><section id=3D"filters"=
+ class=3D"unexpanded"><div class=3D"message_filtering">Use the Message Filt=
+ering button below to hide/show particular messages, and to see total count=
+s of errors and warnings.</div><h2><button class=3D"message_filtering" tabi=
+ndex=3D"0">Message Filtering</button></h2><fieldset class=3D"hidden"><legen=
+d>Info messages (39) =C2=B7 <a href=3D"https://validator.w3.org/nu/?doc=3Dh=
+ttps%3A%2F%2Frpires71.github.io%2Fmilestone1%2Fwork-experience.html" class=
+=3D"hide">Hide all info messages</a> =C2=B7 <a href=3D"https://validator.w3=
+.org/nu/?doc=3Dhttps%3A%2F%2Frpires71.github.io%2Fmilestone1%2Fwork-experie=
+nce.html" class=3D"show">Show all info messages</a></legend><ol><li><label>=
+<input type=3D"checkbox"><span>Trailing slash on void elements has no effec=
+t and interacts badly with unquoted attribute values.</span> (39)</label></=
+li></ol></fieldset></section><div id=3D"results"><ol class=3D""><li class=
+=3D"info" id=3D"vnuId0"><p><strong>Info</strong>: <span>Trailing slash on v=
+oid elements <a href=3D"https://github.com/validator/validator/wiki/Markup-=
+%C2%BB-Void-elements#trailing-slashes-in-void-element-start-tags-do-not-mar=
+k-the-start-tags-as-self-closing" title=3D"Trailing slashes in void-element=
+ start tags do not mark the start tags as self-closing">has no effect</a> a=
+nd <a href=3D"https://github.com/validator/validator/wiki/Markup-%C2%BB-Voi=
+d-elements#trailing-slashes-directly-preceded-by-unquoted-attribute-values"=
+ title=3D"Trailing slashes directly preceded by unquoted attribute values">=
+interacts badly with unquoted attribute values</a>.</span></p><p class=3D"l=
+ocation">From line <span class=3D"first-line">11</span>, column <span class=
+=3D"first-col">5</span>; to line <span class=3D"last-line">11</span>, colum=
+n <span class=3D"last-col">28</span></p><p class=3D"extract"><code>  --&gt;=
+<span class=3D"lf" title=3D"Line break">=E2=86=A9</span>    <b>&lt;meta cha=
+rset=3D"UTF-8" /&gt;</b><span class=3D"lf" title=3D"Line break">=E2=86=A9</=
+span>    &lt;</code></p></li><li class=3D"info" id=3D"vnuId1"><p><strong>In=
+fo</strong>: <span>Trailing slash on void elements <a href=3D"https://githu=
+b.com/validator/validator/wiki/Markup-%C2%BB-Void-elements#trailing-slashes=
+-in-void-element-start-tags-do-not-mark-the-start-tags-as-self-closing" tit=
+le=3D"Trailing slashes in void-element start tags do not mark the start tag=
+s as self-closing">has no effect</a> and <a href=3D"https://github.com/vali=
+dator/validator/wiki/Markup-%C2%BB-Void-elements#trailing-slashes-directly-=
+preceded-by-unquoted-attribute-values" title=3D"Trailing slashes directly p=
+receded by unquoted attribute values">interacts badly with unquoted attribu=
+te values</a>.</span></p><p class=3D"location">From line <span class=3D"fir=
+st-line">16</span>, column <span class=3D"first-col">5</span>; to line <spa=
+n class=3D"last-line">16</span>, column <span class=3D"last-col">76</span><=
+/p><p class=3D"extract"><code>  --&gt;<span class=3D"lf" title=3D"Line brea=
+k">=E2=86=A9</span>    <b>&lt;meta name=3D"viewport" content=3D"width=3Ddev=
+ice-width, initial-scale=3D1.0" /&gt;</b><span class=3D"lf" title=3D"Line b=
+reak">=E2=86=A9</span>    &lt;</code></p></li><li class=3D"info" id=3D"vnuI=
+d2"><p><strong>Info</strong>: <span>Trailing slash on void elements <a href=
+=3D"https://github.com/validator/validator/wiki/Markup-%C2%BB-Void-elements=
+#trailing-slashes-in-void-element-start-tags-do-not-mark-the-start-tags-as-=
+self-closing" title=3D"Trailing slashes in void-element start tags do not m=
+ark the start tags as self-closing">has no effect</a> and <a href=3D"https:=
+//github.com/validator/validator/wiki/Markup-%C2%BB-Void-elements#trailing-=
+slashes-directly-preceded-by-unquoted-attribute-values" title=3D"Trailing s=
+lashes directly preceded by unquoted attribute values">interacts badly with=
+ unquoted attribute values</a>.</span></p><p class=3D"location">From line <=
+span class=3D"first-line">24</span>, column <span class=3D"first-col">5</sp=
+an>; to line <span class=3D"last-line">28</span>, column <span class=3D"las=
+t-col">6</span></p><p class=3D"extract"><code>o --&gt;<span class=3D"lf" ti=
+tle=3D"Line break">=E2=86=A9</span>    <b>&lt;link<span class=3D"lf" title=
+=3D"Line break">=E2=86=A9</span>      rel=3D"apple-touch-icon"<span class=
+=3D"lf" title=3D"Line break">=E2=86=A9</span>      sizes=3D"180x180"<span c=
+lass=3D"lf" title=3D"Line break">=E2=86=A9</span>      href=3D"assets/image=
+s/apple-touch-icon.png"<span class=3D"lf" title=3D"Line break">=E2=86=A9</s=
+pan>    /&gt;</b><span class=3D"lf" title=3D"Line break">=E2=86=A9</span>  =
+  &lt;</code></p></li><li class=3D"info" id=3D"vnuId3"><p><strong>Info</str=
+ong>: <span>Trailing slash on void elements <a href=3D"https://github.com/v=
+alidator/validator/wiki/Markup-%C2%BB-Void-elements#trailing-slashes-in-voi=
+d-element-start-tags-do-not-mark-the-start-tags-as-self-closing" title=3D"T=
+railing slashes in void-element start tags do not mark the start tags as se=
+lf-closing">has no effect</a> and <a href=3D"https://github.com/validator/v=
+alidator/wiki/Markup-%C2%BB-Void-elements#trailing-slashes-directly-precede=
+d-by-unquoted-attribute-values" title=3D"Trailing slashes directly preceded=
+ by unquoted attribute values">interacts badly with unquoted attribute valu=
+es</a>.</span></p><p class=3D"location">From line <span class=3D"first-line=
+">29</span>, column <span class=3D"first-col">5</span>; to line <span class=
+=3D"last-line">34</span>, column <span class=3D"last-col">6</span></p><p cl=
+ass=3D"extract"><code>   /&gt;<span class=3D"lf" title=3D"Line break">=E2=
+=86=A9</span>    <b>&lt;link<span class=3D"lf" title=3D"Line break">=E2=86=
+=A9</span>      rel=3D"icon"<span class=3D"lf" title=3D"Line break">=E2=86=
+=A9</span>      type=3D"image/png"<span class=3D"lf" title=3D"Line break">=
+=E2=86=A9</span>      sizes=3D"32x32"<span class=3D"lf" title=3D"Line break=
+">=E2=86=A9</span>      href=3D"assets/images/favicon-32x32.png"<span class=
+=3D"lf" title=3D"Line break">=E2=86=A9</span>    /&gt;</b><span class=3D"lf=
+" title=3D"Line break">=E2=86=A9</span>    &lt;</code></p></li><li class=3D=
+"info" id=3D"vnuId4"><p><strong>Info</strong>: <span>Trailing slash on void=
+ elements <a href=3D"https://github.com/validator/validator/wiki/Markup-%C2=
+%BB-Void-elements#trailing-slashes-in-void-element-start-tags-do-not-mark-t=
+he-start-tags-as-self-closing" title=3D"Trailing slashes in void-element st=
+art tags do not mark the start tags as self-closing">has no effect</a> and =
+<a href=3D"https://github.com/validator/validator/wiki/Markup-%C2%BB-Void-e=
+lements#trailing-slashes-directly-preceded-by-unquoted-attribute-values" ti=
+tle=3D"Trailing slashes directly preceded by unquoted attribute values">int=
+eracts badly with unquoted attribute values</a>.</span></p><p class=3D"loca=
+tion">From line <span class=3D"first-line">35</span>, column <span class=3D=
+"first-col">5</span>; to line <span class=3D"last-line">40</span>, column <=
+span class=3D"last-col">6</span></p><p class=3D"extract"><code>   /&gt;<spa=
+n class=3D"lf" title=3D"Line break">=E2=86=A9</span>    <b>&lt;link<span cl=
+ass=3D"lf" title=3D"Line break">=E2=86=A9</span>      rel=3D"icon"<span cla=
+ss=3D"lf" title=3D"Line break">=E2=86=A9</span>      type=3D"image/png"<spa=
+n class=3D"lf" title=3D"Line break">=E2=86=A9</span>      sizes=3D"16x16"<s=
+pan class=3D"lf" title=3D"Line break">=E2=86=A9</span>      href=3D"assets/=
+images/favicon-16x16.png"<span class=3D"lf" title=3D"Line break">=E2=86=A9<=
+/span>    /&gt;</b><span class=3D"lf" title=3D"Line break">=E2=86=A9</span>=
+    &lt;</code></p></li><li class=3D"info" id=3D"vnuId5"><p><strong>Info</s=
+trong>: <span>Trailing slash on void elements <a href=3D"https://github.com=
+/validator/validator/wiki/Markup-%C2%BB-Void-elements#trailing-slashes-in-v=
+oid-element-start-tags-do-not-mark-the-start-tags-as-self-closing" title=3D=
+"Trailing slashes in void-element start tags do not mark the start tags as =
+self-closing">has no effect</a> and <a href=3D"https://github.com/validator=
+/validator/wiki/Markup-%C2%BB-Void-elements#trailing-slashes-directly-prece=
+ded-by-unquoted-attribute-values" title=3D"Trailing slashes directly preced=
+ed by unquoted attribute values">interacts badly with unquoted attribute va=
+lues</a>.</span></p><p class=3D"location">From line <span class=3D"first-li=
+ne">46</span>, column <span class=3D"first-col">5</span>; to line <span cla=
+ss=3D"last-line">51</span>, column <span class=3D"last-col">6</span></p><p =
+class=3D"extract"><code>  --&gt;<span class=3D"lf" title=3D"Line break">=E2=
+=86=A9</span>    <b>&lt;link<span class=3D"lf" title=3D"Line break">=E2=86=
+=A9</span>      href=3D"https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/c=
+ss/bootstrap.min.css"<span class=3D"lf" title=3D"Line break">=E2=86=A9</spa=
+n>      rel=3D"stylesheet"<span class=3D"lf" title=3D"Line break">=E2=86=A9=
+</span>      integrity=3D"sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT=
+2bRjXh0JMhjY6hW+ALEwIH"<span class=3D"lf" title=3D"Line break">=E2=86=A9</s=
+pan>      crossorigin=3D"anonymous"<span class=3D"lf" title=3D"Line break">=
+=E2=86=A9</span>    /&gt;</b><span class=3D"lf" title=3D"Line break">=E2=86=
+=A9</span>    &lt;</code></p></li><li class=3D"info" id=3D"vnuId6"><p><stro=
+ng>Info</strong>: <span>Trailing slash on void elements <a href=3D"https://=
+github.com/validator/validator/wiki/Markup-%C2%BB-Void-elements#trailing-sl=
+ashes-in-void-element-start-tags-do-not-mark-the-start-tags-as-self-closing=
+" title=3D"Trailing slashes in void-element start tags do not mark the star=
+t tags as self-closing">has no effect</a> and <a href=3D"https://github.com=
+/validator/validator/wiki/Markup-%C2%BB-Void-elements#trailing-slashes-dire=
+ctly-preceded-by-unquoted-attribute-values" title=3D"Trailing slashes direc=
+tly preceded by unquoted attribute values">interacts badly with unquoted at=
+tribute values</a>.</span></p><p class=3D"location">From line <span class=
+=3D"first-line">56</span>, column <span class=3D"first-col">5</span>; to li=
+ne <span class=3D"last-line">56</span>, column <span class=3D"last-col">57<=
+/span></p><p class=3D"extract"><code>  --&gt;<span class=3D"lf" title=3D"Li=
+ne break">=E2=86=A9</span>    <b>&lt;link rel=3D"stylesheet" href=3D"assets=
+/css/style.css" /&gt;</b><span class=3D"lf" title=3D"Line break">=E2=86=A9<=
+/span>    &lt;</code></p></li><li class=3D"info" id=3D"vnuId7"><p><strong>I=
+nfo</strong>: <span>Trailing slash on void elements <a href=3D"https://gith=
+ub.com/validator/validator/wiki/Markup-%C2%BB-Void-elements#trailing-slashe=
+s-in-void-element-start-tags-do-not-mark-the-start-tags-as-self-closing" ti=
+tle=3D"Trailing slashes in void-element start tags do not mark the start ta=
+gs as self-closing">has no effect</a> and <a href=3D"https://github.com/val=
+idator/validator/wiki/Markup-%C2%BB-Void-elements#trailing-slashes-directly=
+-preceded-by-unquoted-attribute-values" title=3D"Trailing slashes directly =
+preceded by unquoted attribute values">interacts badly with unquoted attrib=
+ute values</a>.</span></p><p class=3D"location">From line <span class=3D"fi=
+rst-line">57</span>, column <span class=3D"first-col">5</span>; to line <sp=
+an class=3D"last-line">60</span>, column <span class=3D"last-col">6</span><=
+/p><p class=3D"extract"><code>s" /&gt;<span class=3D"lf" title=3D"Line brea=
+k">=E2=86=A9</span>    <b>&lt;meta<span class=3D"lf" title=3D"Line break">=
+=E2=86=A9</span>      name=3D"description"<span class=3D"lf" title=3D"Line =
+break">=E2=86=A9</span>      content=3D"Roberto Pires' teaching and industr=
+y experience: Computer Science teacher (KS3-KS5, BTEC, Cambridge Nationals)=
+, IT &amp; Maths tutor, IT support technician, and software/web developer."=
+<span class=3D"lf" title=3D"Line break">=E2=86=A9</span>    /&gt;</b><span =
+class=3D"lf" title=3D"Line break">=E2=86=A9</span>  &lt;/h</code></p></li><=
+li class=3D"info" id=3D"vnuId8"><p><strong>Info</strong>: <span>Trailing sl=
+ash on void elements <a href=3D"https://github.com/validator/validator/wiki=
+/Markup-%C2%BB-Void-elements#trailing-slashes-in-void-element-start-tags-do=
+-not-mark-the-start-tags-as-self-closing" title=3D"Trailing slashes in void=
+-element start tags do not mark the start tags as self-closing">has no effe=
+ct</a> and <a href=3D"https://github.com/validator/validator/wiki/Markup-%C=
+2%BB-Void-elements#trailing-slashes-directly-preceded-by-unquoted-attribute=
+-values" title=3D"Trailing slashes directly preceded by unquoted attribute =
+values">interacts badly with unquoted attribute values</a>.</span></p><p cl=
+ass=3D"location">From line <span class=3D"first-line">81</span>, column <sp=
+an class=3D"first-col">11</span>; to line <span class=3D"last-line">85</spa=
+n>, column <span class=3D"last-col">12</span></p><p class=3D"extract"><code=
+>          <b>&lt;img<span class=3D"lf" title=3D"Line break">=E2=86=A9</spa=
+n>            src=3D"assets/images/logodbg2.webp"<span class=3D"lf" title=
+=3D"Line break">=E2=86=A9</span>            alt=3D"Roberto Pires logo"<span=
+ class=3D"lf" title=3D"Line break">=E2=86=A9</span>            class=3D"log=
+o logo-navbar"<span class=3D"lf" title=3D"Line break">=E2=86=A9</span>     =
+     /&gt;</b><span class=3D"lf" title=3D"Line break">=E2=86=A9</span>     =
+</code></p></li><li class=3D"info" id=3D"vnuId9"><p><strong>Info</strong>: =
+<span>Trailing slash on void elements <a href=3D"https://github.com/validat=
+or/validator/wiki/Markup-%C2%BB-Void-elements#trailing-slashes-in-void-elem=
+ent-start-tags-do-not-mark-the-start-tags-as-self-closing" title=3D"Trailin=
+g slashes in void-element start tags do not mark the start tags as self-clo=
+sing">has no effect</a> and <a href=3D"https://github.com/validator/validat=
+or/wiki/Markup-%C2%BB-Void-elements#trailing-slashes-directly-preceded-by-u=
+nquoted-attribute-values" title=3D"Trailing slashes directly preceded by un=
+quoted attribute values">interacts badly with unquoted attribute values</a>=
+.</span></p><p class=3D"location">From line <span class=3D"first-line">189<=
+/span>, column <span class=3D"first-col">13</span>; to line <span class=3D"=
+last-line">196</span>, column <span class=3D"last-col">14</span></p><p clas=
+s=3D"extract"><code>          <b>&lt;img<span class=3D"lf" title=3D"Line br=
+eak">=E2=86=A9</span>              src=3D"assets/images/work-experience-log=
+o2.webp"<span class=3D"lf" title=3D"Line break">=E2=86=A9</span>           =
+   alt=3D"Roberto Pires Work Experience logo"<span class=3D"lf" title=3D"Li=
+ne break">=E2=86=A9</span>              width=3D"320" <span class=3D"lf" ti=
+tle=3D"Line break">=E2=86=A9</span>              height=3D"180"<span class=
+=3D"lf" title=3D"Line break">=E2=86=A9</span>              class=3D"logo lo=
+go-header img-fluid"<span class=3D"lf" title=3D"Line break">=E2=86=A9</span=
+>              decoding=3D"async" loading=3D"eager"<span class=3D"lf" title=
+=3D"Line break">=E2=86=A9</span>            /&gt;</b><span class=3D"lf" tit=
+le=3D"Line break">=E2=86=A9</span>     </code></p></li><li class=3D"info" i=
+d=3D"vnuId10"><p><strong>Info</strong>: <span>Trailing slash on void elemen=
+ts <a href=3D"https://github.com/validator/validator/wiki/Markup-%C2%BB-Voi=
+d-elements#trailing-slashes-in-void-element-start-tags-do-not-mark-the-star=
+t-tags-as-self-closing" title=3D"Trailing slashes in void-element start tag=
+s do not mark the start tags as self-closing">has no effect</a> and <a href=
+=3D"https://github.com/validator/validator/wiki/Markup-%C2%BB-Void-elements=
+#trailing-slashes-directly-preceded-by-unquoted-attribute-values" title=3D"=
+Trailing slashes directly preceded by unquoted attribute values">interacts =
+badly with unquoted attribute values</a>.</span></p><p class=3D"location">F=
+rom line <span class=3D"first-line">218</span>, column <span class=3D"first=
+-col">15</span>; to line <span class=3D"last-line">222</span>, column <span=
+ class=3D"last-col">16</span></p><p class=3D"extract"><code>          <b>&l=
+t;img<span class=3D"lf" title=3D"Line break">=E2=86=A9</span>              =
+  src=3D"assets/images/computer-science-teacher-logov3.webp"<span class=3D"=
+lf" title=3D"Line break">=E2=86=A9</span>                alt=3D"CS Teacher =
+icon"<span class=3D"lf" title=3D"Line break">=E2=86=A9</span>              =
+  class=3D"section-icon"<span class=3D"lf" title=3D"Line break">=E2=86=A9</=
+span>              /&gt;</b><span class=3D"lf" title=3D"Line break">=E2=86=
+=A9</span>     </code></p></li><li class=3D"info" id=3D"vnuId11"><p><strong=
+>Info</strong>: <span>Trailing slash on void elements <a href=3D"https://gi=
+thub.com/validator/validator/wiki/Markup-%C2%BB-Void-elements#trailing-slas=
+hes-in-void-element-start-tags-do-not-mark-the-start-tags-as-self-closing" =
+title=3D"Trailing slashes in void-element start tags do not mark the start =
+tags as self-closing">has no effect</a> and <a href=3D"https://github.com/v=
+alidator/validator/wiki/Markup-%C2%BB-Void-elements#trailing-slashes-direct=
+ly-preceded-by-unquoted-attribute-values" title=3D"Trailing slashes directl=
+y preceded by unquoted attribute values">interacts badly with unquoted attr=
+ibute values</a>.</span></p><p class=3D"location">From line <span class=3D"=
+first-line">242</span>, column <span class=3D"first-col">15</span>; to line=
+ <span class=3D"last-line">246</span>, column <span class=3D"last-col">16</=
+span></p><p class=3D"extract"><code>          <b>&lt;img<span class=3D"lf" =
+title=3D"Line break">=E2=86=A9</span>                src=3D"assets/images/i=
+tcstutor-logo2.webp"<span class=3D"lf" title=3D"Line break">=E2=86=A9</span=
+>                alt=3D"Tutor logo"<span class=3D"lf" title=3D"Line break">=
+=E2=86=A9</span>                class=3D"section-icon"<span class=3D"lf" ti=
+tle=3D"Line break">=E2=86=A9</span>              /&gt;</b><span class=3D"lf=
+" title=3D"Line break">=E2=86=A9</span>     </code></p></li><li class=3D"in=
+fo" id=3D"vnuId12"><p><strong>Info</strong>: <span>Trailing slash on void e=
+lements <a href=3D"https://github.com/validator/validator/wiki/Markup-%C2%B=
+B-Void-elements#trailing-slashes-in-void-element-start-tags-do-not-mark-the=
+-start-tags-as-self-closing" title=3D"Trailing slashes in void-element star=
+t tags do not mark the start tags as self-closing">has no effect</a> and <a=
+ href=3D"https://github.com/validator/validator/wiki/Markup-%C2%BB-Void-ele=
+ments#trailing-slashes-directly-preceded-by-unquoted-attribute-values" titl=
+e=3D"Trailing slashes directly preceded by unquoted attribute values">inter=
+acts badly with unquoted attribute values</a>.</span></p><p class=3D"locati=
+on">From line <span class=3D"first-line">266</span>, column <span class=3D"=
+first-col">15</span>; to line <span class=3D"last-line">270</span>, column =
+<span class=3D"last-col">16</span></p><p class=3D"extract"><code>          =
+<b>&lt;img<span class=3D"lf" title=3D"Line break">=E2=86=A9</span>         =
+       src=3D"assets/images/itSupport2-logo.webp"<span class=3D"lf" title=
+=3D"Line break">=E2=86=A9</span>                alt=3D"IT Support logo"<spa=
+n class=3D"lf" title=3D"Line break">=E2=86=A9</span>                class=
+=3D"section-icon"<span class=3D"lf" title=3D"Line break">=E2=86=A9</span>  =
+            /&gt;</b><span class=3D"lf" title=3D"Line break">=E2=86=A9</spa=
+n>     </code></p></li><li class=3D"info" id=3D"vnuId13"><p><strong>Info</s=
+trong>: <span>Trailing slash on void elements <a href=3D"https://github.com=
+/validator/validator/wiki/Markup-%C2%BB-Void-elements#trailing-slashes-in-v=
+oid-element-start-tags-do-not-mark-the-start-tags-as-self-closing" title=3D=
+"Trailing slashes in void-element start tags do not mark the start tags as =
+self-closing">has no effect</a> and <a href=3D"https://github.com/validator=
+/validator/wiki/Markup-%C2%BB-Void-elements#trailing-slashes-directly-prece=
+ded-by-unquoted-attribute-values" title=3D"Trailing slashes directly preced=
+ed by unquoted attribute values">interacts badly with unquoted attribute va=
+lues</a>.</span></p><p class=3D"location">From line <span class=3D"first-li=
+ne">289</span>, column <span class=3D"first-col">15</span>; to line <span c=
+lass=3D"last-line">293</span>, column <span class=3D"last-col">16</span></p=
+><p class=3D"extract"><code>          <b>&lt;img<span class=3D"lf" title=3D=
+"Line break">=E2=86=A9</span>                src=3D"assets/images/programme=
+r-logo2.webp"<span class=3D"lf" title=3D"Line break">=E2=86=A9</span>      =
+          alt=3D"Programmer logo"<span class=3D"lf" title=3D"Line break">=
+=E2=86=A9</span>                class=3D"section-icon"<span class=3D"lf" ti=
+tle=3D"Line break">=E2=86=A9</span>              /&gt;</b><span class=3D"lf=
+" title=3D"Line break">=E2=86=A9</span>     </code></p></li><li class=3D"in=
+fo" id=3D"vnuId14"><p><strong>Info</strong>: <span>Trailing slash on void e=
+lements <a href=3D"https://github.com/validator/validator/wiki/Markup-%C2%B=
+B-Void-elements#trailing-slashes-in-void-element-start-tags-do-not-mark-the=
+-start-tags-as-self-closing" title=3D"Trailing slashes in void-element star=
+t tags do not mark the start tags as self-closing">has no effect</a> and <a=
+ href=3D"https://github.com/validator/validator/wiki/Markup-%C2%BB-Void-ele=
+ments#trailing-slashes-directly-preceded-by-unquoted-attribute-values" titl=
+e=3D"Trailing slashes directly preceded by unquoted attribute values">inter=
+acts badly with unquoted attribute values</a>.</span></p><p class=3D"locati=
+on">From line <span class=3D"first-line">341</span>, column <span class=3D"=
+first-col">15</span>; to line <span class=3D"last-line">345</span>, column =
+<span class=3D"last-col">16</span></p><p class=3D"extract"><code>          =
+<b>&lt;img<span class=3D"lf" title=3D"Line break">=E2=86=A9</span>         =
+       src=3D"assets/images/skills-logo2.webp"<span class=3D"lf" title=3D"L=
+ine break">=E2=86=A9</span>                alt=3D"Skills section logo"<span=
+ class=3D"lf" title=3D"Line break">=E2=86=A9</span>                class=3D=
+"logo logo-header img-fluid"<span class=3D"lf" title=3D"Line break">=E2=86=
+=A9</span>              /&gt;</b><span class=3D"lf" title=3D"Line break">=
+=E2=86=A9</span>     </code></p></li><li class=3D"info" id=3D"vnuId15"><p><=
+strong>Info</strong>: <span>Trailing slash on void elements <a href=3D"http=
+s://github.com/validator/validator/wiki/Markup-%C2%BB-Void-elements#trailin=
+g-slashes-in-void-element-start-tags-do-not-mark-the-start-tags-as-self-clo=
+sing" title=3D"Trailing slashes in void-element start tags do not mark the =
+start tags as self-closing">has no effect</a> and <a href=3D"https://github=
+.com/validator/validator/wiki/Markup-%C2%BB-Void-elements#trailing-slashes-=
+directly-preceded-by-unquoted-attribute-values" title=3D"Trailing slashes d=
+irectly preceded by unquoted attribute values">interacts badly with unquote=
+d attribute values</a>.</span></p><p class=3D"location">From line <span cla=
+ss=3D"first-line">359</span>, column <span class=3D"first-col">15</span>; t=
+o line <span class=3D"last-line">363</span>, column <span class=3D"last-col=
+">16</span></p><p class=3D"extract"><code>          <b>&lt;img<span class=
+=3D"lf" title=3D"Line break">=E2=86=A9</span>                src=3D"assets/=
+images/computer-science-teacher-logov3.webp"<span class=3D"lf" title=3D"Lin=
+e break">=E2=86=A9</span>                alt=3D"Teaching icon"<span class=
+=3D"lf" title=3D"Line break">=E2=86=A9</span>                class=3D"secti=
+on-icon"<span class=3D"lf" title=3D"Line break">=E2=86=A9</span>           =
+   /&gt;</b><span class=3D"lf" title=3D"Line break">=E2=86=A9</span>     </=
+code></p></li><li class=3D"info" id=3D"vnuId16"><p><strong>Info</strong>: <=
+span>Trailing slash on void elements <a href=3D"https://github.com/validato=
+r/validator/wiki/Markup-%C2%BB-Void-elements#trailing-slashes-in-void-eleme=
+nt-start-tags-do-not-mark-the-start-tags-as-self-closing" title=3D"Trailing=
+ slashes in void-element start tags do not mark the start tags as self-clos=
+ing">has no effect</a> and <a href=3D"https://github.com/validator/validato=
+r/wiki/Markup-%C2%BB-Void-elements#trailing-slashes-directly-preceded-by-un=
+quoted-attribute-values" title=3D"Trailing slashes directly preceded by unq=
+uoted attribute values">interacts badly with unquoted attribute values</a>.=
+</span></p><p class=3D"location">From line <span class=3D"first-line">383</=
+span>, column <span class=3D"first-col">15</span>; to line <span class=3D"l=
+ast-line">387</span>, column <span class=3D"last-col">16</span></p><p class=
+=3D"extract"><code>          <b>&lt;img<span class=3D"lf" title=3D"Line bre=
+ak">=E2=86=A9</span>                src=3D"assets/images/programmer-logo2.w=
+ebp"<span class=3D"lf" title=3D"Line break">=E2=86=A9</span>               =
+ alt=3D"Coding icon"<span class=3D"lf" title=3D"Line break">=E2=86=A9</span=
+>                class=3D"section-icon"<span class=3D"lf" title=3D"Line bre=
+ak">=E2=86=A9</span>              /&gt;</b><span class=3D"lf" title=3D"Line=
+ break">=E2=86=A9</span>     </code></p></li><li class=3D"info" id=3D"vnuId=
+17"><p><strong>Info</strong>: <span>Trailing slash on void elements <a href=
+=3D"https://github.com/validator/validator/wiki/Markup-%C2%BB-Void-elements=
+#trailing-slashes-in-void-element-start-tags-do-not-mark-the-start-tags-as-=
+self-closing" title=3D"Trailing slashes in void-element start tags do not m=
+ark the start tags as self-closing">has no effect</a> and <a href=3D"https:=
+//github.com/validator/validator/wiki/Markup-%C2%BB-Void-elements#trailing-=
+slashes-directly-preceded-by-unquoted-attribute-values" title=3D"Trailing s=
+lashes directly preceded by unquoted attribute values">interacts badly with=
+ unquoted attribute values</a>.</span></p><p class=3D"location">From line <=
+span class=3D"first-line">407</span>, column <span class=3D"first-col">15</=
+span>; to line <span class=3D"last-line">411</span>, column <span class=3D"=
+last-col">16</span></p><p class=3D"extract"><code>          <b>&lt;img<span=
+ class=3D"lf" title=3D"Line break">=E2=86=A9</span>                src=3D"a=
+ssets/images/networks-logo2.webp"<span class=3D"lf" title=3D"Line break">=
+=E2=86=A9</span>                alt=3D"Networking icon"<span class=3D"lf" t=
+itle=3D"Line break">=E2=86=A9</span>                class=3D"section-icon"<=
+span class=3D"lf" title=3D"Line break">=E2=86=A9</span>              /&gt;<=
+/b><span class=3D"lf" title=3D"Line break">=E2=86=A9</span>     </code></p>=
+</li><li class=3D"info" id=3D"vnuId18"><p><strong>Info</strong>: <span>Trai=
+ling slash on void elements <a href=3D"https://github.com/validator/validat=
+or/wiki/Markup-%C2%BB-Void-elements#trailing-slashes-in-void-element-start-=
+tags-do-not-mark-the-start-tags-as-self-closing" title=3D"Trailing slashes =
+in void-element start tags do not mark the start tags as self-closing">has =
+no effect</a> and <a href=3D"https://github.com/validator/validator/wiki/Ma=
+rkup-%C2%BB-Void-elements#trailing-slashes-directly-preceded-by-unquoted-at=
+tribute-values" title=3D"Trailing slashes directly preceded by unquoted att=
+ribute values">interacts badly with unquoted attribute values</a>.</span></=
+p><p class=3D"location">From line <span class=3D"first-line">431</span>, co=
+lumn <span class=3D"first-col">15</span>; to line <span class=3D"last-line"=
+>435</span>, column <span class=3D"last-col">16</span></p><p class=3D"extra=
+ct"><code>          <b>&lt;img<span class=3D"lf" title=3D"Line break">=E2=
+=86=A9</span>                src=3D"assets/images/graphic-design-logo2.webp=
+"<span class=3D"lf" title=3D"Line break">=E2=86=A9</span>                al=
+t=3D"Graphic Design icon"<span class=3D"lf" title=3D"Line break">=E2=86=A9<=
+/span>                class=3D"section-icon"<span class=3D"lf" title=3D"Lin=
+e break">=E2=86=A9</span>              /&gt;</b><span class=3D"lf" title=3D=
+"Line break">=E2=86=A9</span>     </code></p></li><li class=3D"info" id=3D"=
+vnuId19"><p><strong>Info</strong>: <span>Trailing slash on void elements <a=
+ href=3D"https://github.com/validator/validator/wiki/Markup-%C2%BB-Void-ele=
+ments#trailing-slashes-in-void-element-start-tags-do-not-mark-the-start-tag=
+s-as-self-closing" title=3D"Trailing slashes in void-element start tags do =
+not mark the start tags as self-closing">has no effect</a> and <a href=3D"h=
+ttps://github.com/validator/validator/wiki/Markup-%C2%BB-Void-elements#trai=
+ling-slashes-directly-preceded-by-unquoted-attribute-values" title=3D"Trail=
+ing slashes directly preceded by unquoted attribute values">interacts badly=
+ with unquoted attribute values</a>.</span></p><p class=3D"location">From l=
+ine <span class=3D"first-line">452</span>, column <span class=3D"first-col"=
+>15</span>; to line <span class=3D"last-line">456</span>, column <span clas=
+s=3D"last-col">16</span></p><p class=3D"extract"><code>          <b>&lt;img=
+<span class=3D"lf" title=3D"Line break">=E2=86=A9</span>                src=
+=3D"assets/images/project-management-logo2.webp"<span class=3D"lf" title=3D=
+"Line break">=E2=86=A9</span>                alt=3D"Project Management icon=
+"<span class=3D"lf" title=3D"Line break">=E2=86=A9</span>                cl=
+ass=3D"section-icon"<span class=3D"lf" title=3D"Line break">=E2=86=A9</span=
+>              /&gt;</b><span class=3D"lf" title=3D"Line break">=E2=86=A9</=
+span>     </code></p></li><li class=3D"info" id=3D"vnuId20"><p><strong>Info=
+</strong>: <span>Trailing slash on void elements <a href=3D"https://github.=
+com/validator/validator/wiki/Markup-%C2%BB-Void-elements#trailing-slashes-i=
+n-void-element-start-tags-do-not-mark-the-start-tags-as-self-closing" title=
+=3D"Trailing slashes in void-element start tags do not mark the start tags =
+as self-closing">has no effect</a> and <a href=3D"https://github.com/valida=
+tor/validator/wiki/Markup-%C2%BB-Void-elements#trailing-slashes-directly-pr=
+eceded-by-unquoted-attribute-values" title=3D"Trailing slashes directly pre=
+ceded by unquoted attribute values">interacts badly with unquoted attribute=
+ values</a>.</span></p><p class=3D"location">From line <span class=3D"first=
+-line">475</span>, column <span class=3D"first-col">15</span>; to line <spa=
+n class=3D"last-line">479</span>, column <span class=3D"last-col">16</span>=
+</p><p class=3D"extract"><code>          <b>&lt;img<span class=3D"lf" title=
+=3D"Line break">=E2=86=A9</span>                src=3D"assets/images/langua=
+ges-logo2.webp"<span class=3D"lf" title=3D"Line break">=E2=86=A9</span>    =
+            alt=3D"Languages icon"<span class=3D"lf" title=3D"Line break">=
+=E2=86=A9</span>                class=3D"section-icon"<span class=3D"lf" ti=
+tle=3D"Line break">=E2=86=A9</span>              /&gt;</b><span class=3D"lf=
+" title=3D"Line break">=E2=86=A9</span>     </code></p></li><li class=3D"in=
+fo" id=3D"vnuId21"><p><strong>Info</strong>: <span>Trailing slash on void e=
+lements <a href=3D"https://github.com/validator/validator/wiki/Markup-%C2%B=
+B-Void-elements#trailing-slashes-in-void-element-start-tags-do-not-mark-the=
+-start-tags-as-self-closing" title=3D"Trailing slashes in void-element star=
+t tags do not mark the start tags as self-closing">has no effect</a> and <a=
+ href=3D"https://github.com/validator/validator/wiki/Markup-%C2%BB-Void-ele=
+ments#trailing-slashes-directly-preceded-by-unquoted-attribute-values" titl=
+e=3D"Trailing slashes directly preceded by unquoted attribute values">inter=
+acts badly with unquoted attribute values</a>.</span></p><p class=3D"locati=
+on">From line <span class=3D"first-line">517</span>, column <span class=3D"=
+first-col">15</span>; to line <span class=3D"last-line">521</span>, column =
+<span class=3D"last-col">16</span></p><p class=3D"extract"><code>          =
+<b>&lt;img<span class=3D"lf" title=3D"Line break">=E2=86=A9</span>         =
+       src=3D"assets/icons/award.svg"<span class=3D"lf" title=3D"Line break=
+">=E2=86=A9</span>                alt=3D""<span class=3D"lf" title=3D"Line =
+break">=E2=86=A9</span>                class=3D"footer-icon me-2"<span clas=
+s=3D"lf" title=3D"Line break">=E2=86=A9</span>              /&gt;</b><span =
+class=3D"lf" title=3D"Line break">=E2=86=A9</span>     </code></p></li><li =
+class=3D"info" id=3D"vnuId22"><p><strong>Info</strong>: <span>Trailing slas=
+h on void elements <a href=3D"https://github.com/validator/validator/wiki/M=
+arkup-%C2%BB-Void-elements#trailing-slashes-in-void-element-start-tags-do-n=
+ot-mark-the-start-tags-as-self-closing" title=3D"Trailing slashes in void-e=
+lement start tags do not mark the start tags as self-closing">has no effect=
+</a> and <a href=3D"https://github.com/validator/validator/wiki/Markup-%C2%=
+BB-Void-elements#trailing-slashes-directly-preceded-by-unquoted-attribute-v=
+alues" title=3D"Trailing slashes directly preceded by unquoted attribute va=
+lues">interacts badly with unquoted attribute values</a>.</span></p><p clas=
+s=3D"location">From line <span class=3D"first-line">524</span>, column <spa=
+n class=3D"first-col">13</span>; to line <span class=3D"last-line">524</spa=
+n>, column <span class=3D"last-col">18</span></p><p class=3D"extract"><code=
+>          <b>&lt;br /&gt;</b><span class=3D"lf" title=3D"Line break">=E2=
+=86=A9</span>     </code></p></li><li class=3D"info" id=3D"vnuId23"><p><str=
+ong>Info</strong>: <span>Trailing slash on void elements <a href=3D"https:/=
+/github.com/validator/validator/wiki/Markup-%C2%BB-Void-elements#trailing-s=
+lashes-in-void-element-start-tags-do-not-mark-the-start-tags-as-self-closin=
+g" title=3D"Trailing slashes in void-element start tags do not mark the sta=
+rt tags as self-closing">has no effect</a> and <a href=3D"https://github.co=
+m/validator/validator/wiki/Markup-%C2%BB-Void-elements#trailing-slashes-dir=
+ectly-preceded-by-unquoted-attribute-values" title=3D"Trailing slashes dire=
+ctly preceded by unquoted attribute values">interacts badly with unquoted a=
+ttribute values</a>.</span></p><p class=3D"location">From line <span class=
+=3D"first-line">526</span>, column <span class=3D"first-col">13</span>; to =
+line <span class=3D"last-line">530</span>, column <span class=3D"last-col">=
+14</span></p><p class=3D"extract"><code>          <b>&lt;img<span class=3D"=
+lf" title=3D"Line break">=E2=86=A9</span>              src=3D"assets/images=
+/badgev2.webp"<span class=3D"lf" title=3D"Line break">=E2=86=A9</span>     =
+         alt=3D"Roberto Pires badge"<span class=3D"lf" title=3D"Line break"=
+>=E2=86=A9</span>              class=3D"img-fluid"<span class=3D"lf" title=
+=3D"Line break">=E2=86=A9</span>            /&gt;</b><span class=3D"lf" tit=
+le=3D"Line break">=E2=86=A9</span>     </code></p></li><li class=3D"info" i=
+d=3D"vnuId24"><p><strong>Info</strong>: <span>Trailing slash on void elemen=
+ts <a href=3D"https://github.com/validator/validator/wiki/Markup-%C2%BB-Voi=
+d-elements#trailing-slashes-in-void-element-start-tags-do-not-mark-the-star=
+t-tags-as-self-closing" title=3D"Trailing slashes in void-element start tag=
+s do not mark the start tags as self-closing">has no effect</a> and <a href=
+=3D"https://github.com/validator/validator/wiki/Markup-%C2%BB-Void-elements=
+#trailing-slashes-directly-preceded-by-unquoted-attribute-values" title=3D"=
+Trailing slashes directly preceded by unquoted attribute values">interacts =
+badly with unquoted attribute values</a>.</span></p><p class=3D"location">F=
+rom line <span class=3D"first-line">534</span>, column <span class=3D"first=
+-col">15</span>; to line <span class=3D"last-line">538</span>, column <span=
+ class=3D"last-col">16</span></p><p class=3D"extract"><code>          <b>&l=
+t;img<span class=3D"lf" title=3D"Line break">=E2=86=A9</span>              =
+  src=3D"assets/icons/map-pin.svg"<span class=3D"lf" title=3D"Line break">=
+=E2=86=A9</span>                alt=3D""<span class=3D"lf" title=3D"Line br=
+eak">=E2=86=A9</span>                class=3D"footer-icon me-2"<span class=
+=3D"lf" title=3D"Line break">=E2=86=A9</span>              /&gt;</b><span c=
+lass=3D"lf" title=3D"Line break">=E2=86=A9</span>     </code></p></li><li c=
+lass=3D"info" id=3D"vnuId25"><p><strong>Info</strong>: <span>Trailing slash=
+ on void elements <a href=3D"https://github.com/validator/validator/wiki/Ma=
+rkup-%C2%BB-Void-elements#trailing-slashes-in-void-element-start-tags-do-no=
+t-mark-the-start-tags-as-self-closing" title=3D"Trailing slashes in void-el=
+ement start tags do not mark the start tags as self-closing">has no effect<=
+/a> and <a href=3D"https://github.com/validator/validator/wiki/Markup-%C2%B=
+B-Void-elements#trailing-slashes-directly-preceded-by-unquoted-attribute-va=
+lues" title=3D"Trailing slashes directly preceded by unquoted attribute val=
+ues">interacts badly with unquoted attribute values</a>.</span></p><p class=
+=3D"location">From line <span class=3D"first-line">542</span>, column <span=
+ class=3D"first-col">13</span>; to line <span class=3D"last-line">542</span=
+>, column <span class=3D"last-col">18</span></p><p class=3D"extract"><code>=
+          <b>&lt;br /&gt;</b><span class=3D"lf" title=3D"Line break">=E2=86=
+=A9</span>     </code></p></li><li class=3D"info" id=3D"vnuId26"><p><strong=
+>Info</strong>: <span>Trailing slash on void elements <a href=3D"https://gi=
+thub.com/validator/validator/wiki/Markup-%C2%BB-Void-elements#trailing-slas=
+hes-in-void-element-start-tags-do-not-mark-the-start-tags-as-self-closing" =
+title=3D"Trailing slashes in void-element start tags do not mark the start =
+tags as self-closing">has no effect</a> and <a href=3D"https://github.com/v=
+alidator/validator/wiki/Markup-%C2%BB-Void-elements#trailing-slashes-direct=
+ly-preceded-by-unquoted-attribute-values" title=3D"Trailing slashes directl=
+y preceded by unquoted attribute values">interacts badly with unquoted attr=
+ibute values</a>.</span></p><p class=3D"location">From line <span class=3D"=
+first-line">551</span>, column <span class=3D"first-col">15</span>; to line=
+ <span class=3D"last-line">555</span>, column <span class=3D"last-col">16</=
+span></p><p class=3D"extract"><code>          <b>&lt;img<span class=3D"lf" =
+title=3D"Line break">=E2=86=A9</span>                src=3D"assets/icons/se=
+nd.svg"<span class=3D"lf" title=3D"Line break">=E2=86=A9</span>            =
+    alt=3D""<span class=3D"lf" title=3D"Line break">=E2=86=A9</span>       =
+         class=3D"footer-icon me-2"<span class=3D"lf" title=3D"Line break">=
+=E2=86=A9</span>              /&gt;</b><span class=3D"lf" title=3D"Line bre=
+ak">=E2=86=A9</span>     </code></p></li><li class=3D"info" id=3D"vnuId27">=
+<p><strong>Info</strong>: <span>Trailing slash on void elements <a href=3D"=
+https://github.com/validator/validator/wiki/Markup-%C2%BB-Void-elements#tra=
+iling-slashes-in-void-element-start-tags-do-not-mark-the-start-tags-as-self=
+-closing" title=3D"Trailing slashes in void-element start tags do not mark =
+the start tags as self-closing">has no effect</a> and <a href=3D"https://gi=
+thub.com/validator/validator/wiki/Markup-%C2%BB-Void-elements#trailing-slas=
+hes-directly-preceded-by-unquoted-attribute-values" title=3D"Trailing slash=
+es directly preceded by unquoted attribute values">interacts badly with unq=
+uoted attribute values</a>.</span></p><p class=3D"location">From line <span=
+ class=3D"first-line">558</span>, column <span class=3D"first-col">13</span=
+>; to line <span class=3D"last-line">558</span>, column <span class=3D"last=
+-col">18</span></p><p class=3D"extract"><code>          <b>&lt;br /&gt;</b>=
+<span class=3D"lf" title=3D"Line break">=E2=86=A9</span>     </code></p></l=
+i><li class=3D"info" id=3D"vnuId28"><p><strong>Info</strong>: <span>Trailin=
+g slash on void elements <a href=3D"https://github.com/validator/validator/=
+wiki/Markup-%C2%BB-Void-elements#trailing-slashes-in-void-element-start-tag=
+s-do-not-mark-the-start-tags-as-self-closing" title=3D"Trailing slashes in =
+void-element start tags do not mark the start tags as self-closing">has no =
+effect</a> and <a href=3D"https://github.com/validator/validator/wiki/Marku=
+p-%C2%BB-Void-elements#trailing-slashes-directly-preceded-by-unquoted-attri=
+bute-values" title=3D"Trailing slashes directly preceded by unquoted attrib=
+ute values">interacts badly with unquoted attribute values</a>.</span></p><=
+p class=3D"location">From line <span class=3D"first-line">565</span>, colum=
+n <span class=3D"first-col">13</span>; to line <span class=3D"last-line">56=
+5</span>, column <span class=3D"last-col">18</span></p><p class=3D"extract"=
+><code>          <b>&lt;br /&gt;</b><span class=3D"lf" title=3D"Line break"=
+>=E2=86=A9</span><span class=3D"lf" title=3D"Line break">=E2=86=A9</span>  =
+  </code></p></li><li class=3D"info" id=3D"vnuId29"><p><strong>Info</strong=
+>: <span>Trailing slash on void elements <a href=3D"https://github.com/vali=
+dator/validator/wiki/Markup-%C2%BB-Void-elements#trailing-slashes-in-void-e=
+lement-start-tags-do-not-mark-the-start-tags-as-self-closing" title=3D"Trai=
+ling slashes in void-element start tags do not mark the start tags as self-=
+closing">has no effect</a> and <a href=3D"https://github.com/validator/vali=
+dator/wiki/Markup-%C2%BB-Void-elements#trailing-slashes-directly-preceded-b=
+y-unquoted-attribute-values" title=3D"Trailing slashes directly preceded by=
+ unquoted attribute values">interacts badly with unquoted attribute values<=
+/a>.</span></p><p class=3D"location">From line <span class=3D"first-line">5=
+68</span>, column <span class=3D"first-col">15</span>; to line <span class=
+=3D"last-line">572</span>, column <span class=3D"last-col">16</span></p><p =
+class=3D"extract"><code>          <b>&lt;img<span class=3D"lf" title=3D"Lin=
+e break">=E2=86=A9</span>                src=3D"assets/icons/phone.svg"<spa=
+n class=3D"lf" title=3D"Line break">=E2=86=A9</span>                alt=3D"=
+"<span class=3D"lf" title=3D"Line break">=E2=86=A9</span>                cl=
+ass=3D"footer-icon me-2"<span class=3D"lf" title=3D"Line break">=E2=86=A9</=
+span>              /&gt;</b><span class=3D"lf" title=3D"Line break">=E2=86=
+=A9</span>     </code></p></li><li class=3D"info" id=3D"vnuId30"><p><strong=
+>Info</strong>: <span>Trailing slash on void elements <a href=3D"https://gi=
+thub.com/validator/validator/wiki/Markup-%C2%BB-Void-elements#trailing-slas=
+hes-in-void-element-start-tags-do-not-mark-the-start-tags-as-self-closing" =
+title=3D"Trailing slashes in void-element start tags do not mark the start =
+tags as self-closing">has no effect</a> and <a href=3D"https://github.com/v=
+alidator/validator/wiki/Markup-%C2%BB-Void-elements#trailing-slashes-direct=
+ly-preceded-by-unquoted-attribute-values" title=3D"Trailing slashes directl=
+y preceded by unquoted attribute values">interacts badly with unquoted attr=
+ibute values</a>.</span></p><p class=3D"location">From line <span class=3D"=
+first-line">575</span>, column <span class=3D"first-col">13</span>; to line=
+ <span class=3D"last-line">575</span>, column <span class=3D"last-col">18</=
+span></p><p class=3D"extract"><code>          <b>&lt;br /&gt;</b><span clas=
+s=3D"lf" title=3D"Line break">=E2=86=A9</span>     </code></p></li><li clas=
+s=3D"info" id=3D"vnuId31"><p><strong>Info</strong>: <span>Trailing slash on=
+ void elements <a href=3D"https://github.com/validator/validator/wiki/Marku=
+p-%C2%BB-Void-elements#trailing-slashes-in-void-element-start-tags-do-not-m=
+ark-the-start-tags-as-self-closing" title=3D"Trailing slashes in void-eleme=
+nt start tags do not mark the start tags as self-closing">has no effect</a>=
+ and <a href=3D"https://github.com/validator/validator/wiki/Markup-%C2%BB-V=
+oid-elements#trailing-slashes-directly-preceded-by-unquoted-attribute-value=
+s" title=3D"Trailing slashes directly preceded by unquoted attribute values=
+">interacts badly with unquoted attribute values</a>.</span></p><p class=3D=
+"location">From line <span class=3D"first-line">578</span>, column <span cl=
+ass=3D"first-col">13</span>; to line <span class=3D"last-line">578</span>, =
+column <span class=3D"last-col">18</span></p><p class=3D"extract"><code>   =
+       <b>&lt;br /&gt;</b><span class=3D"lf" title=3D"Line break">=E2=86=A9=
+</span>     </code></p></li><li class=3D"info" id=3D"vnuId32"><p><strong>In=
+fo</strong>: <span>Trailing slash on void elements <a href=3D"https://githu=
+b.com/validator/validator/wiki/Markup-%C2%BB-Void-elements#trailing-slashes=
+-in-void-element-start-tags-do-not-mark-the-start-tags-as-self-closing" tit=
+le=3D"Trailing slashes in void-element start tags do not mark the start tag=
+s as self-closing">has no effect</a> and <a href=3D"https://github.com/vali=
+dator/validator/wiki/Markup-%C2%BB-Void-elements#trailing-slashes-directly-=
+preceded-by-unquoted-attribute-values" title=3D"Trailing slashes directly p=
+receded by unquoted attribute values">interacts badly with unquoted attribu=
+te values</a>.</span></p><p class=3D"location">From line <span class=3D"fir=
+st-line">582</span>, column <span class=3D"first-col">15</span>; to line <s=
+pan class=3D"last-line">586</span>, column <span class=3D"last-col">16</spa=
+n></p><p class=3D"extract"><code>          <b>&lt;img<span class=3D"lf" tit=
+le=3D"Line break">=E2=86=A9</span>                src=3D"assets/icons/messa=
+ge-circle.svg"<span class=3D"lf" title=3D"Line break">=E2=86=A9</span>     =
+           alt=3D""<span class=3D"lf" title=3D"Line break">=E2=86=A9</span>=
+                class=3D"footer-icon me-2"<span class=3D"lf" title=3D"Line =
+break">=E2=86=A9</span>              /&gt;</b><span class=3D"lf" title=3D"L=
+ine break">=E2=86=A9</span>     </code></p></li><li class=3D"info" id=3D"vn=
+uId33"><p><strong>Info</strong>: <span>Trailing slash on void elements <a h=
+ref=3D"https://github.com/validator/validator/wiki/Markup-%C2%BB-Void-eleme=
+nts#trailing-slashes-in-void-element-start-tags-do-not-mark-the-start-tags-=
+as-self-closing" title=3D"Trailing slashes in void-element start tags do no=
+t mark the start tags as self-closing">has no effect</a> and <a href=3D"htt=
+ps://github.com/validator/validator/wiki/Markup-%C2%BB-Void-elements#traili=
+ng-slashes-directly-preceded-by-unquoted-attribute-values" title=3D"Trailin=
+g slashes directly preceded by unquoted attribute values">interacts badly w=
+ith unquoted attribute values</a>.</span></p><p class=3D"location">From lin=
+e <span class=3D"first-line">589</span>, column <span class=3D"first-col">1=
+3</span>; to line <span class=3D"last-line">589</span>, column <span class=
+=3D"last-col">18</span></p><p class=3D"extract"><code>          <b>&lt;br /=
+&gt;</b><span class=3D"lf" title=3D"Line break">=E2=86=A9</span>     </code=
+></p></li><li class=3D"info" id=3D"vnuId34"><p><strong>Info</strong>: <span=
+>Trailing slash on void elements <a href=3D"https://github.com/validator/va=
+lidator/wiki/Markup-%C2%BB-Void-elements#trailing-slashes-in-void-element-s=
+tart-tags-do-not-mark-the-start-tags-as-self-closing" title=3D"Trailing sla=
+shes in void-element start tags do not mark the start tags as self-closing"=
+>has no effect</a> and <a href=3D"https://github.com/validator/validator/wi=
+ki/Markup-%C2%BB-Void-elements#trailing-slashes-directly-preceded-by-unquot=
+ed-attribute-values" title=3D"Trailing slashes directly preceded by unquote=
+d attribute values">interacts badly with unquoted attribute values</a>.</sp=
+an></p><p class=3D"location">From line <span class=3D"first-line">598</span=
+>, column <span class=3D"first-col">17</span>; to line <span class=3D"last-=
+line">603</span>, column <span class=3D"last-col">18</span></p><p class=3D"=
+extract"><code>          <b>&lt;img<span class=3D"lf" title=3D"Line break">=
+=E2=86=A9</span>                  src=3D"assets/icons/linkedin.svg"<span cl=
+ass=3D"lf" title=3D"Line break">=E2=86=A9</span>                  alt=3D""<=
+span class=3D"lf" title=3D"Line break">=E2=86=A9</span>                  ar=
+ia-hidden=3D"true"<span class=3D"lf" title=3D"Line break">=E2=86=A9</span> =
+                 class=3D"social-icon me-2"<span class=3D"lf" title=3D"Line=
+ break">=E2=86=A9</span>                /&gt;</b><span class=3D"lf" title=
+=3D"Line break">=E2=86=A9</span>     </code></p></li><li class=3D"info" id=
+=3D"vnuId35"><p><strong>Info</strong>: <span>Trailing slash on void element=
+s <a href=3D"https://github.com/validator/validator/wiki/Markup-%C2%BB-Void=
+-elements#trailing-slashes-in-void-element-start-tags-do-not-mark-the-start=
+-tags-as-self-closing" title=3D"Trailing slashes in void-element start tags=
+ do not mark the start tags as self-closing">has no effect</a> and <a href=
+=3D"https://github.com/validator/validator/wiki/Markup-%C2%BB-Void-elements=
+#trailing-slashes-directly-preceded-by-unquoted-attribute-values" title=3D"=
+Trailing slashes directly preceded by unquoted attribute values">interacts =
+badly with unquoted attribute values</a>.</span></p><p class=3D"location">F=
+rom line <span class=3D"first-line">607</span>, column <span class=3D"first=
+-col">13</span>; to line <span class=3D"last-line">607</span>, column <span=
+ class=3D"last-col">18</span></p><p class=3D"extract"><code>          <b>&l=
+t;br /&gt;</b><span class=3D"lf" title=3D"Line break">=E2=86=A9</span>     =
+</code></p></li><li class=3D"info" id=3D"vnuId36"><p><strong>Info</strong>:=
+ <span>Trailing slash on void elements <a href=3D"https://github.com/valida=
+tor/validator/wiki/Markup-%C2%BB-Void-elements#trailing-slashes-in-void-ele=
+ment-start-tags-do-not-mark-the-start-tags-as-self-closing" title=3D"Traili=
+ng slashes in void-element start tags do not mark the start tags as self-cl=
+osing">has no effect</a> and <a href=3D"https://github.com/validator/valida=
+tor/wiki/Markup-%C2%BB-Void-elements#trailing-slashes-directly-preceded-by-=
+unquoted-attribute-values" title=3D"Trailing slashes directly preceded by u=
+nquoted attribute values">interacts badly with unquoted attribute values</a=
+>.</span></p><p class=3D"location">From line <span class=3D"first-line">615=
+</span>, column <span class=3D"first-col">17</span>; to line <span class=3D=
+"last-line">620</span>, column <span class=3D"last-col">18</span></p><p cla=
+ss=3D"extract"><code>          <b>&lt;img<span class=3D"lf" title=3D"Line b=
+reak">=E2=86=A9</span>                  src=3D"assets/icons/facebook.svg"<s=
+pan class=3D"lf" title=3D"Line break">=E2=86=A9</span>                  alt=
+=3D""<span class=3D"lf" title=3D"Line break">=E2=86=A9</span>              =
+    aria-hidden=3D"true"<span class=3D"lf" title=3D"Line break">=E2=86=A9</=
+span>                  class=3D"social-icon me-2"<span class=3D"lf" title=
+=3D"Line break">=E2=86=A9</span>                /&gt;</b><span class=3D"lf"=
+ title=3D"Line break">=E2=86=A9</span>     </code></p></li><li class=3D"inf=
+o" id=3D"vnuId37"><p><strong>Info</strong>: <span>Trailing slash on void el=
+ements <a href=3D"https://github.com/validator/validator/wiki/Markup-%C2%BB=
+-Void-elements#trailing-slashes-in-void-element-start-tags-do-not-mark-the-=
+start-tags-as-self-closing" title=3D"Trailing slashes in void-element start=
+ tags do not mark the start tags as self-closing">has no effect</a> and <a =
+href=3D"https://github.com/validator/validator/wiki/Markup-%C2%BB-Void-elem=
+ents#trailing-slashes-directly-preceded-by-unquoted-attribute-values" title=
+=3D"Trailing slashes directly preceded by unquoted attribute values">intera=
+cts badly with unquoted attribute values</a>.</span></p><p class=3D"locatio=
+n">From line <span class=3D"first-line">624</span>, column <span class=3D"f=
+irst-col">13</span>; to line <span class=3D"last-line">624</span>, column <=
+span class=3D"last-col">18</span></p><p class=3D"extract"><code>          <=
+b>&lt;br /&gt;</b><span class=3D"lf" title=3D"Line break">=E2=86=A9</span> =
+    </code></p></li><li class=3D"info" id=3D"vnuId38"><p><strong>Info</stro=
+ng>: <span>Trailing slash on void elements <a href=3D"https://github.com/va=
+lidator/validator/wiki/Markup-%C2%BB-Void-elements#trailing-slashes-in-void=
+-element-start-tags-do-not-mark-the-start-tags-as-self-closing" title=3D"Tr=
+ailing slashes in void-element start tags do not mark the start tags as sel=
+f-closing">has no effect</a> and <a href=3D"https://github.com/validator/va=
+lidator/wiki/Markup-%C2%BB-Void-elements#trailing-slashes-directly-preceded=
+-by-unquoted-attribute-values" title=3D"Trailing slashes directly preceded =
+by unquoted attribute values">interacts badly with unquoted attribute value=
+s</a>.</span></p><p class=3D"location">From line <span class=3D"first-line"=
+>632</span>, column <span class=3D"first-col">17</span>; to line <span clas=
+s=3D"last-line">637</span>, column <span class=3D"last-col">18</span></p><p=
+ class=3D"extract"><code>          <b>&lt;img<span class=3D"lf" title=3D"Li=
+ne break">=E2=86=A9</span>                  src=3D"assets/icons/instagram.s=
+vg"<span class=3D"lf" title=3D"Line break">=E2=86=A9</span>                =
+  alt=3D""<span class=3D"lf" title=3D"Line break">=E2=86=A9</span>         =
+         aria-hidden=3D"true"<span class=3D"lf" title=3D"Line break">=E2=86=
+=A9</span>                  class=3D"social-icon"<span class=3D"lf" title=
+=3D"Line break">=E2=86=A9</span>                /&gt;</b><span class=3D"lf"=
+ title=3D"Line break">=E2=86=A9</span>     </code></p></li></ol><p class=3D=
+"success">Document checking completed. No errors or warnings to show.</p><d=
+iv class=3D"details"><p class=3D"msgschema">Used the schema for HTML + SVG =
+1.1 + MathML 3.0 + RDFa 1.1.</p><p class=3D"msgmediatype">Used the HTML par=
+ser. Externally specified character encoding was utf-8.</p></div><p class=
+=3D"stats">Total execution time 37 milliseconds.</p></div><hr><div id=3D"ab=
+out"><p><a href=3D"https://validator.w3.org/nu/about.html">About this check=
+er</a> =E2=80=A2 <a href=3D"https://validator.w3.org/nu/about.html#issues">=
+Report an issue</a> =E2=80=A2 <span class=3D"version">Version: 25.8.15</spa=
+n></p></div></body></html>
+------MultipartBoundary--C7GML1cKI3W17jQdz9oasZCdyP76G1XdO0JkOioVaL----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://validator.w3.org/nu/style.css
+
+@charset "utf-8";
+
+html, body, h1, #banner, #banner a { margin: 0px; padding: 0px; border: 0px=
+; font-weight: 400; font-style: normal; font-size: 100%; font-family: sans-=
+serif; vertical-align: baseline; background-color: rgb(255, 255, 255); colo=
+r: rgb(31, 33, 38); line-height: 1; text-align: left; }
+
+a img { border: 0px; }
+
+abbr[title], acronym[title], span[title], strong[title] { border-bottom: th=
+in dotted; cursor: help; }
+
+acronym:hover, abbr:hover { cursor: help; }
+
+body { padding-bottom: 6em; }
+
+h3 { font-family: sans-serif; color: rgb(102, 153, 0); background-color: rg=
+b(255, 255, 255); font-size: 1.1em; border-bottom: 1px dotted rgb(170, 170,=
+ 119); text-decoration: none; margin-top: 1em; margin-bottom: 1em; }
+
+textarea { width: 95.5%; }
+
+label { font-size: 0.9em; padding-left: 0.2em; padding-right: 0.2em; }
+
+#csslabel { font-size: 11px; margin-left: 4px; }
+
+#title { font-family: "Myriad Web", "Myriad Pro", "Gill Sans", Helvetica, A=
+rial, sans-serif; background-color: rgb(54, 93, 149); color: rgb(253, 253, =
+253); font-size: 1.6em; padding: 0.43em; border-radius: 6px; }
+
+#title a, #title a img { background-color: rgb(54, 93, 149); }
+
+#title a:link, #title a:hover, #title a:visited, #title a:active { text-dec=
+oration: none; color: rgb(253, 253, 253) !important; }
+
+#title img { vertical-align: middle; margin-right: 0.7em; }
+
+#banner { margin: 1.5em 2em; }
+
+fieldset { background-color: rgb(234, 235, 238); }
+
+legend { font-size: 1.1em; padding: 1em 0px 0.23em; }
+
+legend a:link, legend a:visited, legend a:hover, legend a:active { text-dec=
+oration: none; }
+
+div, p, li, h2 { font-family: sans-serif; }
+
+h2 { font-size: 16px; }
+
+#top { margin-left: 3%; }
+
+th, td { padding-top: 1px; padding-bottom: 1px; margin: 0px; }
+
+hr { margin-left: 3%; margin-right: 3%; }
+
+#banner { margin-left: 3%; margin-right: 3%; margin-bottom: 18px; }
+
+#results, #about { font-size: 14px; margin-top: 50px; padding-left: 3%; mar=
+gin-right: 3%; }
+
+#about { margin-bottom: 12px; }
+
+p.disclaimer { font: caption; margin-left: 3%; margin-right: 3%; color: rgb=
+(116, 116, 116); }
+
+.alert { color: rgb(0, 0, 0); background-color: rgb(255, 255, 0); }
+
+body { font-family: sans-serif; font-size: inherit; margin: 0px; }
+
+form { font: caption; background-color: rgb(255, 255, 255); margin-bottom: =
+0.5em; padding: 0px 3%; vertical-align: inherit; }
+
+legend { font: inherit; vertical-align: inherit; padding: 0px; }
+
+fieldset { font: caption; padding: 0.5% 1.5%; border: 1px solid rgb(204, 20=
+4, 204); border-radius: 4px; margin: 0px; background-color: rgb(255, 255, 2=
+55); vertical-align: inherit; }
+
+label { font: caption; vertical-align: baseline; padding: 0px; }
+
+select { vertical-align: baseline; }
+
+textarea { font-style: ; font-variant: normal; font-weight: ; font-stretch:=
+ ; line-height: ; font-family: ; font-optical-sizing: ; font-size-adjust: ;=
+ font-kerning: ; font-feature-settings: ; font-variation-settings: ; font-s=
+ize: 0.85em; border: 1px solid; margin: 2px; padding: 2px; }
+
+#inputregion { margin-top: 12px; }
+
+#inputlabel { margin-left: 2px; }
+
+#doc { width: 95.5%; margin-left: 2px; margin-top: 2px; padding: 3px 5px 2p=
+x; border-radius: 6px; border: 1px solid rgb(204, 204, 204); }
+
+#doc[type=3D"file"] { margin-top: -3px; width: initial; border: 0px; }
+
+#docselect { margin-left: 3px; }
+
+#submit { margin-left: 2px; }
+
+table { width: 100%; table-layout: fixed; }
+
+fieldset td, fieldset th { padding-top: 0.4em; padding-bottom: 0.4em; }
+
+tr:first-child td, tr:first-child th { vertical-align: top; }
+
+fieldset th { padding-left: 0px; padding-right: 0.4em; text-align: right; w=
+idth: 8em; font-weight: inherit; }
+
+fieldset td { padding-left: 0px; padding-right: 0px; }
+
+textarea, #doc[type=3D"url"] { font-family: Monaco, Consolas, "Andale Mono"=
+, monospace; }
+
+.stats, .details { font-size: 0.85em; }
+
+.details .msgschema { display: none; }
+
+.details p { margin: 0px; }
+
+.success, .failure, .fatalfailure { border-radius: 4px; padding: 0.5em; fon=
+t-weight: 700; font-family: Arial, sans-serif; }
+
+.success { color: rgb(0, 0, 0); background-color: rgb(204, 255, 204); borde=
+r: 1px solid rgb(204, 204, 204); }
+
+.failure { color: rgb(255, 255, 255); background-color: rgb(54, 93, 149); }
+
+.fatalfailure { color: rgb(255, 255, 255); background-color: rgb(255, 0, 0)=
+; }
+
+ol { margin: 1.5em 0px; padding: 0px 2.5em; }
+
+li { margin: 0px; padding: 0.5em; }
+
+li ol { padding-right: 0px; margin-top: 0.5em; margin-bottom: 0px; }
+
+li li { padding-right: 0px; padding-bottom: 0.2em; padding-top: 0.2em; }
+
+#results > ol:first-child { padding-top: 35px; padding-bottom: 25px; backgr=
+ound-color: rgb(239, 239, 239); border-radius: 4px; }
+
+#results > ol:first-child > li { border: 1px solid rgb(204, 204, 204); marg=
+in-bottom: 8px; padding-left: 12px; border-radius: 4px; background-color: r=
+gb(255, 255, 255); }
+
+#results > ol:first-child > li > p:first-child, #results > ol:first-child >=
+ li > p:first-child code { font-size: 16px; font-weight: 700; }
+
+#results > ol:first-child > li > p:first-child code { font-weight: 400; }
+
+#results > ol:first-child > li > p:first-child { color: transparent; }
+
+#results > ol:first-child > li > p:first-child > strong, #results > ol:firs=
+t-child > li > p:first-child > span { color: rgb(0, 0, 0); }
+
+#results > ol:first-child > li > p:first-child > strong:first-child { paddi=
+ng: 1px 6px; border-radius: 6px; border: 1px solid rgb(204, 204, 204); font=
+-style: ; font-variant: normal; font-stretch: ; font-size: ; line-height: ;=
+ font-family: ; font-optical-sizing: ; font-size-adjust: ; font-kerning: ; =
+font-feature-settings: ; font-variation-settings: ; font-weight: 700; }
+
+.info, .warning, .error, .io, .fatal, .schema, .internal { color: rgb(0, 0,=
+ 0); }
+
+.info > p:first-child > strong:first-child { background-color: rgb(204, 255=
+, 204); }
+
+.warning > p:first-child > strong:first-child { background-color: rgb(255, =
+255, 204); }
+
+.error > p:first-child > strong:first-child, .io > p:first-child > strong:f=
+irst-child, .fatal > p:first-child > strong:first-child, .schema > p:first-=
+child > strong:first-child, .internal > p:first-child > strong:first-child =
+{ background-color: rgb(255, 204, 204); }
+
+hr { border-top: 1px dotted rgb(102, 102, 102); border-bottom: none; border=
+-left: none; border-right: none; height: 0px; }
+
+p { margin: 0.5em 0px; }
+
+li p { margin: 0px; }
+
+.stats, .details { margin-top: 0.75em; }
+
+.lf { color: rgb(34, 34, 34); }
+
+.extract { overflow: hidden; max-height: 5.5em; }
+
+.extract b, .source b { color: rgb(0, 0, 0); background-color: rgb(255, 255=
+, 128); }
+
+.extract b { font-weight: 400; }
+
+ol.source li { padding-top: 0px; padding-bottom: 0px; }
+
+ol.source b, ol.source .b { color: rgb(0, 0, 0); background-color: rgb(255,=
+ 255, 128); font-weight: 700; }
+
+code { white-space: pre-wrap; overflow-wrap: break-word; }
+
+.error p, .info p, .warning p, .error dd, .info dd, .warning dd { line-heig=
+ht: 1.8; }
+
+.error p code { border: 1px dashed rgb(153, 153, 153); padding: 2px 4px; }
+
+.warning code { border: 1px dashed rgb(153, 153, 153); padding: 2px 4px; }
+
+.extract code { background-color: inherit; border: none; padding: 0px; }
+
+dl { margin-top: 0.5em; margin-bottom: 0px; }
+
+dd { margin-left: 1.5em; padding-left: 0px; margin-top: 2px; }
+
+table.imagereview { width: 100%; table-layout: auto; border-collapse: colla=
+pse; border-spacing: 0px; }
+
+col.img { width: 180px; }
+
+col.alt { color: rgb(0, 0, 0); background-color: rgb(255, 255, 204); }
+
+td.alt span { color: rgb(0, 0, 0); background-color: rgb(255, 255, 170); }
+
+.imagereview th { font-weight: 700; text-align: left; vertical-align: botto=
+m; }
+
+.imagereview td { vertical-align: middle; }
+
+td.img { padding: 0px 0.5em 0.5em 0px; text-align: right; }
+
+img { max-height: 180px; max-width: 180px; }
+
+th.img { padding: 0px 0.5em 0.5em 0px; vertical-align: bottom; text-align: =
+right; }
+
+td.alt, td.location { text-align: left; padding: 0px 0.5em 0.5em; }
+
+th.alt, th.location { padding: 0px 0.5em 0.5em; vertical-align: bottom; }
+
+[irrelevent], .irrelevant { display: none; }
+
+dd code ~ span { color: rgb(102, 102, 102); }
+
+dl.inputattrs { display: table; }
+
+dl.inputattrs dt { display: table-caption; }
+
+dl.inputattrs dd { display: table-row; }
+
+dl.inputattrs .inputattrname, dl.inputattrs .inputattrtypes, dl.inputattrs =
+> dd > a { display: table-cell; padding-top: 2px; padding-left: 1.5em; padd=
+ing-right: 1.5em; }
+
+dl.inputattrs .inputattrtypes { padding-left: 4px; padding-right: 4px; }
+
+.inputattrtypes > a { color: rgb(102, 102, 102); }
+
+dl.inputattrs .highlight { background-color: rgb(255, 255, 204); padding-bo=
+ttom: 2px; font-weight: 400; color: rgb(102, 102, 102); }
+
+@media (max-width: 24em) {
+  body { padding: 3px; }
+  table, thead, tfoot, tbody, tr, th, td { display: block; width: 100%; }
+  th { text-align: left; padding-bottom: 0px; }
+}
+
+.checkboxes label { margin-right: 20px; }
+
+#xnote { color: rgb(116, 116, 116); margin-left: 2px; margin-top: 6px; }
+
+#outline h2 { margin-top: 24px; margin-bottom: 0px; }
+
+#outline .heading { color: rgb(191, 79, 0); font-weight: 700; }
+
+#outline ol { margin-top: 0px; padding-top: 1px; }
+
+#outline > h2 + ol { margin-top: 0px; }
+
+#outline li { padding: 0px 0px 9px; margin: 0px; list-style-type: none; pos=
+ition: relative; }
+
+#outline li:first-child { padding-top: 7px; }
+
+#outline li li { list-style-type: none; }
+
+#outline li:first-child::before { position: absolute; top: 1px; height: 13p=
+x; left: -0.75em; width: 0.5em; border-color: rgb(187, 187, 187); border-st=
+yle: none none solid solid; content: ""; border-width: 0.1em; }
+
+#outline li:not(:last-child)::after { position: absolute; top: 1px; bottom:=
+ -0.6em; left: -0.75em; width: 0.5em; border-color: rgb(187, 187, 187); bor=
+der-style: none none solid solid; content: ""; border-width: 0.1em; }
+
+#results .hidden { display: none; }
+
+#filters { margin-left: 3%; margin-right: 3%; margin-bottom: 1em; padding: =
+4px 4px 0.5em; }
+
+#filters > div { font: caption; color: rgb(116, 116, 116); background-color=
+: rgb(255, 255, 204); padding: 4px; }
+
+#filters button { min-height: 18px; border-radius: 6px; border: 1px solid r=
+gb(204, 204, 204); background-color: rgb(255, 255, 204); }
+
+.message_filtering { transition: 1.5s ease-out; background-color: rgb(255, =
+255, 255) !important; }
+
+#filters .filtercount { font-variant: normal; font-weight: ; font-stretch: =
+; font-size: ; line-height: ; font-family: ; font-optical-sizing: ; font-si=
+ze-adjust: ; font-kerning: ; font-feature-settings: ; font-variation-settin=
+gs: ; font-style: italic; padding-left: 4px; padding-top: 6px; }
+
+#filters.expanded { background-color: rgb(255, 255, 204); transition: 0.8s =
+ease-out; opacity: 1; visibility: visible; }
+
+#filters.unexpanded { transition: 0.8s ease-out; }
+
+#filters h2 { margin-top: 4px; margin-bottom: 0px; }
+
+#filters fieldset { margin: 1em; font: caption; }
+
+#filters fieldset.hidden, .checkboxes input.hidden, .checkboxes .extraoptio=
+ns.hidden { transition: 0.8s ease-out; opacity: 0; visibility: hidden; heig=
+ht: 0px; margin: -45px; }
+
+#filters fieldset.unhidden, .checkboxes input.unhidden, .checkboxes .extrao=
+ptions.unhidden { transition: 0.8s ease-out; opacity: 1; visibility: visibl=
+e; }
+
+.checkboxes .extraoptions label { margin-right: 0px; }
+
+#filters fieldset.unhidden, .checkboxes input.unhidden { background-color: =
+rgb(255, 255, 204); }
+
+#filters fieldset legend { font-weight: 700; font-family: sans-serif; }
+
+#filters fieldset legend a { font-weight: 400; }
+
+#filters input { position: absolute; top: 2px; left: 0px; }
+
+#filters ol { counter-reset: item 0; margin: 0px; padding: 0px 0px 0px 40px=
+; }
+
+#filters ol ol { margin-top: 6px; }
+
+#filters li { list-style-type: none; padding: 0px 0px 0px 25px; margin: 6px=
+ 0px 0px; position: relative; line-height: 1.8; }
+
+#filters li li { margin: 0px; }
+
+#filters li::before { content: counters(item, ".") " "; counter-increment: =
+item 1; width: 40px; position: absolute; top: 0px; left: -50px; text-align:=
+ right; color: rgb(119, 119, 119); }
+
+#filters fieldset label { font-family: sans-serif; }
+
+#filters code { white-space: pre-wrap; overflow-wrap: break-word; border: 1=
+px dashed rgb(153, 153, 153); background-color: rgb(255, 255, 221); padding=
+: 2px 4px; }
+
+#filters .hide, #filters .show { color: rgb(0, 0, 255); }
+
+.checkboxes { margin-left: 2px; }
+
+.checkboxes label { margin-right: 16px; }
+
+.checkboxgroup { padding: 3px 6px 2px 2px; border-radius: 6px; border: 1px =
+solid rgb(204, 204, 204); font-size: 11px; margin-right: 10px; }
+
+.checkboxgroup label { font-size: 11px; }
+
+label[for=3D"showimagereport"] { margin-right: 0px; }
+
+input[list=3D"useragents"], input#acceptlanguage { padding: 2px 4px 3px; bo=
+rder-radius: 6px; border: 1px solid rgb(204, 204, 204); }
+
+input[list=3D"useragents"] { width: 30.5%; margin-right: 10px; }
+
+input#acceptlanguage { width: 55px; }
+
+@media (max-width: 1234px) {
+  #accept-language-label { display: block; margin-top: 8px; }
+}
+
+@media (min-width: 954px) {
+  .checkboxes .extraoptions { padding-left: 8px; }
+}
+
+@media (max-width: 953px) {
+  .extraoptions { display: block; margin-top: 8px; padding-left: 0px; }
+  .checkboxes { margin-bottom: -43px; }
+  #inputregion { margin-top: 76px; }
+  .extraoptions.unhidden { margin-bottom: -68px; }
+  input[list=3D"useragents"] { width: 350px; }
+  #accept-language-label { display: inline; }
+}
+
+@media (max-width: 836px) {
+  #accept-language-label { display: block; margin-top: 8px; }
+}
+
+@media (max-width: 640px) {
+  #show_options { display: block; margin-top: 8px; padding-left: 0px; }
+  #inputregion { margin-top: 100px; }
+  .extraoptions.unhidden { margin-bottom: -90px; }
+  #user-agent-label { display: block; margin-top: 8px; }
+  input[list=3D"useragents"] { width: 96.9%; }
+  #about { font-size: 11px; }
+  .checkboxes { font-size: 12px; }
+}
+
+#headingoutline p { margin: 10px; font-weight: 700; color: rgb(191, 79, 0);=
+ }
+
+.h2 { padding-left: 24px; }
+
+.h3 { padding-left: 48px; }
+
+.h4 { padding-left: 72px; }
+
+.h5 { padding-left: 96px; }
+
+.h6 { padding-left: 120px; }
+
+.headinglevel, .missingheadinglevel { border-radius: 4px; padding: 1px 3px =
+1px 4px; font-size: 80%; font-weight: 400; color: rgb(255, 255, 255); }
+
+.headinglevel { background-color: rgb(0, 128, 0); }
+
+.missingheadinglevel { background-color: rgb(128, 0, 0); }
+
+.missingheading { color: rgb(116, 116, 116); }
+------MultipartBoundary--C7GML1cKI3W17jQdz9oasZCdyP76G1XdO0JkOioVaL----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-d012e13b-9ce4-4a7b-b154-c79b8ec55271@mhtml.blink
+
+@charset "utf-8";
+=0A
+------MultipartBoundary--C7GML1cKI3W17jQdz9oasZCdyP76G1XdO0JkOioVaL------
