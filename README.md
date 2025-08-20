@@ -5286,11 +5286,31 @@ git branch -M main
 </td>
   </tr>
   <tr>
-    <td colspan="2"><strong>Actual Result:</strong> </td>
+    <td colspan="2"><strong>Actual Result:</strong>
+  
+  **Pages reviewed: Home, About Me, Work Experience & Skills, Certifications, Bookings, Confirmation.**
+  - **Formats:** All page imagery I could inspect is delivered as WebP; social/iconography is SVG. This is ideal for performance. Examples:
+  - Home: header logo logolbg3.webp, carousel images homeCarousel1v3.webp, homeCarousel2v3.webp, homeCarousel3v3.webp.
+  - About: about-illustration2.webp and section thumbnails (WebP).
+  - Work Experience/Skills: multiple section images in WebP.
+  - Certifications: all badge/logo images as WebP.
+  - Bookings: page logo in WebP.
+  - **Visual quality:** Images render crisp at typical desktop/tablet/mobile sizes; no obvious upscaling artifacts observed.
+  - **No obvious legacy JPG/PNG content images:** Favicons remain small PNGs, which is normal and fine.
+    </td>
   </tr>
 <tr>
-    <td colspan="2"><strong>Pass/Fail:</strong> </td>
+    <td colspan="2"><strong>Pass/Fail:</strong> 
+      <p><strong>Pass (1st Test)</strong></p>
+    </td>
   </tr>
+   <tr>
+    <td colspan="2"><strong>Observations and Improvements:</strong>
+
+  - **Expected:** Optimised formats, quick rendering, no oversized images.
+  - **Actual: Meets expectation —** content images are WebP/SVG across pages; rendering is smooth; only minor best-practice tweaks (lazy-loading, intrinsic sizes, responsive srcset) remain.
+      </td>
+   </tr>
 </table>
 
 <table>
