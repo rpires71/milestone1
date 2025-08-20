@@ -378,10 +378,10 @@ Introduces my background, values, and teaching/IT profile in an approachable, pr
 <summary><strong>View wireframes (Desktop / Tablet / Mobile)</strong></summary>
 
 **Desktop**  
-<img width="900" alt="aboutMe" src="https://github.com/user-attachments/assets/17ddbb58-0498-4fad-a72c-12a42bda6982" />
+<img width="900" alt="aboutMe" src="https://github.com/user-attachments/assets/17ddbb58-0498-4fad-a72c-12a42bda6982"/>
 
 **Tablet**  
-<img width="500" alt="aboutMeTablet" src="https://github.com/user-attachments/assets/e20de65d-51c1-436f-94ad-f16ceb8a51b3" />
+<img width="500" alt="aboutMeTablet" src="https://github.com/user-attachments/assets/792fa813-ead5-4dd9-badc-bd103e01adac"/>
 
 **Mobile**  
 <img width="320" alt="aboutMeMobile" src="https://github.com/user-attachments/assets/80fa7638-f599-401e-9b2f-4f930befcfdc" />
