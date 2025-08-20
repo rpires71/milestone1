@@ -5114,7 +5114,7 @@ git branch -M main
        <td><strong>work-experience.html test</strong></td><td><img width="400" height="305" alt="image" src="https://github.com/user-attachments/assets/32e36fa2-9354-4df5-8ea5-5a547a08d962" /></td>
     </tr>
   <tr>
-       <td><strong>work-experience.html#skills test</strong></td><td><img width="372" height="247" alt="image" src="https://github.com/user-attachments/assets/0814326c-db7c-4fa7-bb0a-beb285be6746" />
+       <td><strong>work-experience.html#skills test</strong></td><td><img width="395" height="317" alt="image" src="https://github.com/user-attachments/assets/ec73bc40-55a2-4784-aaf7-9d6f0e07ccd4" />
 </td>
     </tr>
     <tr>
@@ -5148,7 +5148,8 @@ git branch -M main
 </td>
     </tr>
   <tr>
-       <td><strong>work-experience.html#skills test</strong></td><td><img width="398" height="250" alt="image" src="https://github.com/user-attachments/assets/a090f505-2495-4a83-a541-c70e4091f205" />
+       <td><strong>work-experience.html#skills test</strong></td><td><img width="402" height="248" alt="image" src="https://github.com/user-attachments/assets/00b6fa19-80fc-4dd5-b5c3-04d3a272f6cf" />
+
 </td>
     </tr>
     <tr>
@@ -5166,6 +5167,30 @@ git branch -M main
 
   **Notes (optional hardening):**
   - Consider replacing Google Fonts @import with <link rel="preconnect"> + <link rel="stylesheet"> in <head> to trim render delay, and add loading="lazy" to non-critical images (e.g., footer images or non-active carousel slides).
+
+### Test Note — Using Lighthouse Timespan for the Skills section (work-experience.html#skills)
+### Date: 20 Aug 2025
+### Page under test: work-experience.html (Skills subsection)
+
+**Why Timespan was required**
+- Running Lighthouse in Navigation mode directly against the hash URL (work-experience.html#skills) produced an incomplete trace (e.g., missing LCP/TBT, odd "NO_LCP" in the export).
+- **Reason:** a hash link changes in-page state without a full navigation. Navigation audits are optimised for page loads from a URL, not for user-initiated scrolling into sections after load. The recording started from an already-loaded document, so key "page load" metrics were undefined.
+- To accurately measure the user interaction of moving to and rendering the Skills section, Lighthouse Timespan mode is more appropriate because it records a slice of user activity (scrolling/interaction) rather than only the initial navigation.
+
+**What I did**
+**1. Ran a standard Navigation audit on work-experience.html (no hash) to capture baseline SEO/Best Practices/Accessibility/Performance for the page load.**
+**2. Ran a Timespan audit:**
+- Start recording on work-experience.html.
+- Navigate (Tab/Enter or click) to Skills (#skills) and wait for the section to settle.
+- Stop recording to capture layout stability and responsiveness for that interaction.
+
+**Outcomes / Notes**
+- Timespan provided reliable metrics for the Skills section interaction (CLS, responsiveness) where Navigation (via hash) did not.
+- One actionable finding surfaced consistently: images without intrinsic dimensions (no width/height) can cause small layout shifts. I added width/height (or aspect-ratio) to relevant images and re-tested to confirm reduced CLS for that flow.
+
+**How this fits the test plan**
+- Navigation mode remains the source of truth for full page loads.
+- Timespan mode supplements the plan for in-page flows (e.g., jumping to #skills), ensuring realistic, user-centred performance measures for sections that are revealed post-load.
       </td>
    </tr>
 </table>
