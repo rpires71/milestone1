@@ -5164,11 +5164,39 @@ git branch -M main
        <td><strong>confirmation.html test</strong></td><td><img width="401" height="307" alt="image" src="https://github.com/user-attachments/assets/3b652bfb-e9ba-45c1-9766-08bf81c0ec19" /></td>
     </tr>
   </table>
+<table>
+  <tr><td>index.html#contact test (Desktop)</td><td><img width="401" height="240" alt="image" src="https://github.com/user-attachments/assets/a4ad23f6-c5db-4b3d-aa0b-9259391f1593" />
+</td></tr>
+  <tr><td>about-me.html#contact test (Desktop)</td><td><img width="395" height="253" alt="image" src="https://github.com/user-attachments/assets/1b676e5f-b1ef-4bda-a975-a8e0b50a8c0d" />
+</td></tr>
+  <tr><td>work-experience.html#contact test (Desktop)</td><td><img width="402" height="245" alt="image" src="https://github.com/user-attachments/assets/5447ea89-a102-4b5c-93df-5928d6d9d8d5" />
+</td></tr>
+  <tr><td>certifications.html#contact test (Desktop)</td><td><img width="402" height="232" alt="image" src="https://github.com/user-attachments/assets/0539ba1f-9f6b-4fd0-b1c4-a2bf152cf74b" />
+</td></tr>
+  <tr><td>bookings.html#contact test (Desktop)</td><td><img width="404" height="237" alt="image" src="https://github.com/user-attachments/assets/94ed98bc-4440-47bd-81f8-b1565c3b9eb6" />
+</td></tr>
+   <tr><td>confirmation.html#contact test (Desktop)</td><td><img width="374" height="224" alt="image" src="https://github.com/user-attachments/assets/1a47dddf-e987-4219-ae96-573188e847be" />
+</td></tr>
+</table>
+<table>
+  <tr><td>index.html#contact test (Mobile)</td><td><img width="404" height="229" alt="image" src="https://github.com/user-attachments/assets/fd190fca-37e4-4a06-9b7e-814657c5ae71" />
+</td></tr>
+  <tr><td>about-me.html#contact test (Mobile)</td><td><img width="403" height="224" alt="image" src="https://github.com/user-attachments/assets/df4c210e-a5a4-4256-801f-44e753cb5bbd" />
+</td></tr>
+  <tr><td>work-experience.html#contact test (Mobile)</td><td><img width="401" height="228" alt="image" src="https://github.com/user-attachments/assets/551a13a8-8247-48ba-adc9-328633689a04" />
+</td></tr>
+  <tr><td>certifications.html#contact test (Mobile)</td><td><img width="402" height="236" alt="image" src="https://github.com/user-attachments/assets/f0cd1c2f-b514-48b8-b227-9c3808f4ed83" />
+</td></tr>
+  <tr><td>bookings.html#contact test (Mobile)</td><td><img width="403" height="229" alt="image" src="https://github.com/user-attachments/assets/e622247a-2e3e-4f60-8fd5-b5c352f95f0a" />
+</td></tr>
+   <tr><td>confirmation.html#contact test (Mobile)</td><td><img width="401" height="245" alt="image" src="https://github.com/user-attachments/assets/38607b6a-8d17-4f6a-a3be-40eafe3786cc" />
 
+</td></tr>
+</table>
   **Notes (optional hardening):**
   - Consider replacing Google Fonts @import with <link rel="preconnect"> + <link rel="stylesheet"> in <head> to trim render delay, and add loading="lazy" to non-critical images (e.g., footer images or non-active carousel slides).
 
-### Test Note — Using Lighthouse Timespan for the Skills section (work-experience.html#skills)
+### Test Note 1 — Using Lighthouse Timespan for the Skills section (work-experience.html#skills)
 ### Date: 20 Aug 2025
 ### Page under test: work-experience.html (Skills subsection)
 
@@ -5191,6 +5219,40 @@ git branch -M main
 **How this fits the test plan**
 - Navigation mode remains the source of truth for full page loads.
 - Timespan mode supplements the plan for in-page flows (e.g., jumping to #skills), ensuring realistic, user-centred performance measures for sections that are revealed post-load.
+
+### Test Note 2 — Using Lighthouse Timespan for all Contact sections (#contact)
+### Date: 20 Aug 2025
+### Sections under test: Footer Contact section (#contact) on all pages
+
+**Why Timespan was required**
+- The Contact area is a section within each page, not a separate URL. Jumping to #contact (via the navbar link) does not trigger a full page navigation.
+- Lighthouse Navigation mode focuses on initial page load. When started from or navigated to a hash target, Navigation runs can produce incomplete page-load metrics (e.g., missing LCP) because no new document load occurs.
+- Lighthouse Timespan mode records a slice of user interaction (e.g., clicking “Contact” in the navbar, smooth-scroll into the footer, content settling). This captures layout stability and responsiveness for the in-page transition I actually care about.
+
+**Method**
+- **1. Open page (e.g., index.html) with DevTools → Lighthouse.**
+- **2. Run a Navigation audit once (baseline page load).**
+- **3. Switch to Timespan mode:**
+- Start recording.
+- Activate the Contact navbar link (or press Tab to it and Enter).
+- Let the page smooth-scroll to #contact and settle (accounting for sticky navbar offset).
+- Stop recording.
+- **4. Repeat steps on all listed pages and viewports (Desktop & Mobile throttles).**
+
+**What the Timespan captured**
+- CLS during the scroll and reveal of the footer tiles.
+- Interactivity/latency while the section becomes visible (INP/TBT proxies in the report).
+- Any image/icon loading shifts within the footer (e.g., social icons, badge).
+- Confirmation that focus/active state changes (IntersectionObserver highlighting “Contact”) do not introduce jank.
+
+**Outcomes / Notes**
+- Timespan runs gave reliable, repeatable metrics for the in-page Contact transition, where Navigation mode would not.
+- Minor layout shifts were observed initially and mitigated by adding intrinsic image dimensions / aspect-ratio and ensuring consistent focus styles.
+- No significant performance regressions across pages; the Contact section remains stable, accessible, and responsive after adjustments.
+
+**Fit with the test plan**
+- Navigation audits remain the baseline for full page loads.
+- Timespan audits are used for section-level UX flows (like #contact) to reflect real user behaviour and ensure performance/accessibility at the moment of interaction.
       </td>
    </tr>
 </table>
