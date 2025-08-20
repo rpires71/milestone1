@@ -5371,8 +5371,16 @@ git branch -M main
   - **CSS (style.css):** consolidated duplicate/overlapping rules, moved colours to CSS variables, unified focus styles, and removed redundant declarations while keeping Autoprefixer vendor prefixes. Revalidated with no errors (only expected vendor-prefix notes).
 
   **Updated validation reports have been added to /docs/validation/.**
-      </td>
-   </tr>
+
+  **PROOF EVIDENCE**
+  <table>
+    <tr> <strong>index.html</strong></tr>
+    <tr><strong>First check</strong></tr>
+    <tr><img width="1722" height="3258" alt="image" src="https://github.com/user-attachments/assets/c08f6146-b73d-4839-9aa7-3bc96df963d6" />
+</tr>
+    <tr><strong>Second check</strong></tr>
+  <tr><img width="1722" height="830" alt="image" src="https://github.com/user-attachments/assets/18313e57-2511-4700-b3a9-a5e84eeed85c" />
+</tr>
 </table>
 
 **Regression Testing**
