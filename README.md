@@ -5105,100 +5105,317 @@ git branch -M main
   **Based on live behavior, all pages load quickly with smooth rendering and no blocking issues, meeting the intent of the under-3s guideline and providing responsive interactivity. Capture Lighthouse/PageSpeed screenshots for numeric scores (target ≥85).**
 
  
-  <table>
-    <tr>
-       <td><strong>Evidence of testing - Google Chrome Lifehouse (Desktop)</strong></td><td><img width="399" height="216" alt="image" src="https://github.com/user-attachments/assets/a951f1ab-1563-49cd-99dd-b7525a4a8a9c" /></td>
-    </tr>
-    <tr>
-       <td><strong>index.html test</strong></td><td><img width="401" height="306" alt="image" src="https://github.com/user-attachments/assets/db1b0928-1264-485e-8f95-50fb999a1b41" /></td>
-    </tr>
-     <tr>
-       <td><strong>about-me.html test</strong></td><td><img width="401" height="313" alt="image" src="https://github.com/user-attachments/assets/5d47663d-864c-497d-b63a-8603d817b84c" />
-</td>
-    </tr>
-    <tr>
-       <td><strong>work-experience.html test</strong></td><td><img width="400" height="305" alt="image" src="https://github.com/user-attachments/assets/32e36fa2-9354-4df5-8ea5-5a547a08d962" /></td>
-    </tr>
-  <tr>
-       <td><strong>work-experience.html#skills test</strong></td><td><img width="395" height="317" alt="image" src="https://github.com/user-attachments/assets/ec73bc40-55a2-4784-aaf7-9d6f0e07ccd4" />
-</td>
-    </tr>
-    <tr>
-       <td><strong>certifications.html test</strong></td><td><img width="399" height="308" alt="image" src="https://github.com/user-attachments/assets/488099b3-1efb-4a12-9b20-1cb600c1a7ad"/>
-</td>
-    </tr>
-    <tr>
-       <td><strong>bookings.html test</strong></td><td><img width="371" height="307" alt="image" src="https://github.com/user-attachments/assets/e33e8d58-0a11-496a-a60b-3b42bc5b2d84" />
-</td>
-    </tr>
-    <tr>
-       <td><strong>confirmation.html test</strong></td><td><img width="403" height="311" alt="image" src="https://github.com/user-attachments/assets/52a4f0f3-074f-4d3e-b6db-94dbfd8123f9" />
-</td>
-    </tr>
-  </table>
-  <table>
-    <tr>
-       <td><strong>Evidence of testing - Google Chrome Lifehouse (Mobile)</strong></td><td><img width="403" height="219" alt="image" src="https://github.com/user-attachments/assets/f2a2852d-5719-4975-b947-87598848cc78" />
-</td>
-    </tr>
-    <tr>
-       <td><strong>index.html test</strong></td><td><img width="401" height="310" alt="image" src="https://github.com/user-attachments/assets/e285d236-f5aa-4694-965f-411a639292db" />
-</td>
-    </tr>
-     <tr>
-       <td><strong>about-me.html test</strong></td><td><img width="399" height="308" alt="image" src="https://github.com/user-attachments/assets/834385f4-12eb-4964-8ede-013cdd218cc2" />
-</td>
-    </tr>
-    <tr>
-       <td><strong>work-experience.html test</strong></td><td><img width="399" height="308" alt="image" src="https://github.com/user-attachments/assets/6ee809ef-b66f-46cb-8f30-d3cc983ef595" />
-</td>
-    </tr>
-  <tr>
-       <td><strong>work-experience.html#skills test</strong></td><td><img width="402" height="248" alt="image" src="https://github.com/user-attachments/assets/00b6fa19-80fc-4dd5-b5c3-04d3a272f6cf" />
+  <h3>Evidence of testing — Google Chrome Lighthouse (Desktop)</h3>
 
-</td>
-    </tr>
-    <tr>
-       <td><strong>certifications.html test</strong></td><td><img width="402" height="310" alt="image" src="https://github.com/user-attachments/assets/169bce4e-55a7-47c8-a7de-2cd2ee9b596b" />
-</td>
-    </tr>
-    <tr>
-       <td><strong>bookings.html test</strong></td><td><img width="401" height="312" alt="image" src="https://github.com/user-attachments/assets/f2831bbf-9ef2-43bb-b732-d48c6de272a3" />
-</td>
-    </tr>
-    <tr>
-       <td><strong>confirmation.html test</strong></td><td><img width="401" height="307" alt="image" src="https://github.com/user-attachments/assets/3b652bfb-e9ba-45c1-9766-08bf81c0ec19" /></td>
-    </tr>
-  </table>
-<table>
-  <tr><td>index.html#contact test (Desktop)</td><td><img width="401" height="240" alt="image" src="https://github.com/user-attachments/assets/a4ad23f6-c5db-4b3d-aa0b-9259391f1593" />
-</td></tr>
-  <tr><td>about-me.html#contact test (Desktop)</td><td><img width="395" height="253" alt="image" src="https://github.com/user-attachments/assets/1b676e5f-b1ef-4bda-a975-a8e0b50a8c0d" />
-</td></tr>
-  <tr><td>work-experience.html#contact test (Desktop)</td><td><img width="402" height="245" alt="image" src="https://github.com/user-attachments/assets/5447ea89-a102-4b5c-93df-5928d6d9d8d5" />
-</td></tr>
-  <tr><td>certifications.html#contact test (Desktop)</td><td><img width="402" height="232" alt="image" src="https://github.com/user-attachments/assets/0539ba1f-9f6b-4fd0-b1c4-a2bf152cf74b" />
-</td></tr>
-  <tr><td>bookings.html#contact test (Desktop)</td><td><img width="404" height="237" alt="image" src="https://github.com/user-attachments/assets/94ed98bc-4440-47bd-81f8-b1565c3b9eb6" />
-</td></tr>
-   <tr><td>confirmation.html#contact test (Desktop)</td><td><img width="374" height="224" alt="image" src="https://github.com/user-attachments/assets/1a47dddf-e987-4219-ae96-573188e847be" />
-</td></tr>
-</table>
-<table>
-  <tr><td>index.html#contact test (Mobile)</td><td><img width="404" height="229" alt="image" src="https://github.com/user-attachments/assets/fd190fca-37e4-4a06-9b7e-814657c5ae71" />
-</td></tr>
-  <tr><td>about-me.html#contact test (Mobile)</td><td><img width="403" height="224" alt="image" src="https://github.com/user-attachments/assets/df4c210e-a5a4-4256-801f-44e753cb5bbd" />
-</td></tr>
-  <tr><td>work-experience.html#contact test (Mobile)</td><td><img width="401" height="228" alt="image" src="https://github.com/user-attachments/assets/551a13a8-8247-48ba-adc9-328633689a04" />
-</td></tr>
-  <tr><td>certifications.html#contact test (Mobile)</td><td><img width="402" height="236" alt="image" src="https://github.com/user-attachments/assets/f0cd1c2f-b514-48b8-b227-9c3808f4ed83" />
-</td></tr>
-  <tr><td>bookings.html#contact test (Mobile)</td><td><img width="403" height="229" alt="image" src="https://github.com/user-attachments/assets/e622247a-2e3e-4f60-8fd5-b5c352f95f0a" />
-</td></tr>
-   <tr><td>confirmation.html#contact test (Mobile)</td><td><img width="401" height="245" alt="image" src="https://github.com/user-attachments/assets/38607b6a-8d17-4f6a-a3be-40eafe3786cc" />
+<details open>
+  <summary><strong>index.html — desktop</strong></summary>
+  <p>
+    <a href="https://github.com/user-attachments/assets/db1b0928-1264-485e-8f95-50fb999a1b41">
+      <img src="https://github.com/user-attachments/assets/db1b0928-1264-485e-8f95-50fb999a1b41"
+           alt="Lighthouse report screenshot for index.html (desktop)"
+           width="900" loading="lazy">
+    </a>
+  </p>
+</details>
 
-</td></tr>
-</table>
+<details>
+  <summary><strong>about-me.html — desktop</strong></summary>
+  <p>
+    <a href="https://github.com/user-attachments/assets/5d47663d-864c-497d-b63a-8603d817b84c">
+      <img src="https://github.com/user-attachments/assets/5d47663d-864c-497d-b63a-8603d817b84c"
+           alt="Lighthouse report screenshot for about-me.html (desktop)"
+           width="900" loading="lazy">
+    </a>
+  </p>
+</details>
+
+<details>
+  <summary><strong>work-experience.html — desktop</strong></summary>
+  <p>
+    <a href="https://github.com/user-attachments/assets/32e36fa2-9354-4df5-8ea5-5a547a08d962">
+      <img src="https://github.com/user-attachments/assets/32e36fa2-9354-4df5-8ea5-5a547a08d962"
+           alt="Lighthouse report screenshot for work-experience.html (desktop)"
+           width="900" loading="lazy">
+    </a>
+  </p>
+</details>
+
+<details>
+  <summary><strong>work-experience.html#skills — desktop</strong></summary>
+  <p>
+    <a href="https://github.com/user-attachments/assets/ec73bc40-55a2-4784-aaf7-9d6f0e07ccd4">
+      <img src="https://github.com/user-attachments/assets/ec73bc40-55a2-4784-aaf7-9d6f0e07ccd4"
+           alt="Lighthouse report screenshot for work-experience.html skills section (desktop)"
+           width="900" loading="lazy">
+    </a>
+  </p>
+</details>
+
+<details>
+  <summary><strong>certifications.html — desktop</strong></summary>
+  <p>
+    <a href="https://github.com/user-attachments/assets/488099b3-1efb-4a12-9b20-1cb600c1a7ad">
+      <img src="https://github.com/user-attachments/assets/488099b3-1efb-4a12-9b20-1cb600c1a7ad"
+           alt="Lighthouse report screenshot for certifications.html (desktop)"
+           width="900" loading="lazy">
+    </a>
+  </p>
+</details>
+
+<details>
+  <summary><strong>bookings.html — desktop</strong></summary>
+  <p>
+    <a href="https://github.com/user-attachments/assets/e33e8d58-0a11-496a-a60b-3b42bc5b2d84">
+      <img src="https://github.com/user-attachments/assets/e33e8d58-0a11-496a-a60b-3b42bc5b2d84"
+           alt="Lighthouse report screenshot for bookings.html (desktop)"
+           width="900" loading="lazy">
+    </a>
+  </p>
+</details>
+
+<details>
+  <summary><strong>confirmation.html — desktop</strong></summary>
+  <p>
+    <a href="https://github.com/user-attachments/assets/52a4f0f3-074f-4d3e-b6db-94dbfd8123f9">
+      <img src="https://github.com/user-attachments/assets/52a4f0f3-074f-4d3e-b6db-94dbfd8123f9"
+           alt="Lighthouse report screenshot for confirmation.html (desktop)"
+           width="900" loading="lazy">
+    </a>
+  </p>
+</details>
+
+<hr>
+
+<h3>Evidence of testing — Google Chrome Lighthouse (Mobile)</h3>
+
+<details open>
+  <summary><strong>index.html — mobile</strong></summary>
+  <p>
+    <a href="https://github.com/user-attachments/assets/e285d236-f5aa-4694-965f-411a639292db">
+      <img src="https://github.com/user-attachments/assets/e285d236-f5aa-4694-965f-411a639292db"
+           alt="Lighthouse report screenshot for index.html (mobile)"
+           width="900" loading="lazy">
+    </a>
+  </p>
+</details>
+
+<details>
+  <summary><strong>about-me.html — mobile</strong></summary>
+  <p>
+    <a href="https://github.com/user-attachments/assets/834385f4-12eb-4964-8ede-013cdd218cc2">
+      <img src="https://github.com/user-attachments/assets/834385f4-12eb-4964-8ede-013cdd218cc2"
+           alt="Lighthouse report screenshot for about-me.html (mobile)"
+           width="900" loading="lazy">
+    </a>
+  </p>
+</details>
+
+<details>
+  <summary><strong>work-experience.html — mobile</strong></summary>
+  <p>
+    <a href="https://github.com/user-attachments/assets/6ee809ef-b66f-46cb-8f30-d3cc983ef595">
+      <img src="https://github.com/user-attachments/assets/6ee809ef-b66f-46cb-8f30-d3cc983ef595"
+           alt="Lighthouse report screenshot for work-experience.html (mobile)"
+           width="900" loading="lazy">
+    </a>
+  </p>
+</details>
+
+<details>
+  <summary><strong>work-experience.html#skills — mobile</strong></summary>
+  <p>
+    <a href="https://github.com/user-attachments/assets/00b6fa19-80fc-4dd5-b5c3-04d3a272f6cf">
+      <img src="https://github.com/user-attachments/assets/00b6fa19-80fc-4dd5-b5c3-04d3a272f6cf"
+           alt="Lighthouse report screenshot for work-experience.html skills section (mobile)"
+           width="900" loading="lazy">
+    </a>
+  </p>
+</details>
+
+<details>
+  <summary><strong>certifications.html — mobile</strong></summary>
+  <p>
+    <a href="https://github.com/user-attachments/assets/169bce4e-55a7-47c8-a7de-2cd2ee9b596b">
+      <img src="https://github.com/user-attachments/assets/169bce4e-55a7-47c8-a7de-2cd2ee9b596b"
+           alt="Lighthouse report screenshot for certifications.html (mobile)"
+           width="900" loading="lazy">
+    </a>
+  </p>
+</details>
+
+<details>
+  <summary><strong>bookings.html — mobile</strong></summary>
+  <p>
+    <a href="https://github.com/user-attachments/assets/f2831bbf-9ef2-43bb-b732-d48c6de272a3">
+      <img src="https://github.com/user-attachments/assets/f2831bbf-9ef2-43bb-b732-d48c6de272a3"
+           alt="Lighthouse report screenshot for bookings.html (mobile)"
+           width="900" loading="lazy">
+    </a>
+  </p>
+</details>
+
+<details>
+  <summary><strong>confirmation.html — mobile</strong></summary>
+  <p>
+    <a href="https://github.com/user-attachments/assets/3b652bfb-e9ba-45c1-9766-08bf81c0ec19">
+      <img src="https://github.com/user-attachments/assets/3b652bfb-e9ba-45c1-9766-08bf81c0ec19"
+           alt="Lighthouse report screenshot for confirmation.html (mobile)"
+           width="900" loading="lazy">
+    </a>
+  </p>
+</details>
+
+<hr>
+
+<h3>Contact section checks — Desktop</h3>
+
+<details open>
+  <summary><strong>index.html#contact — desktop</strong></summary>
+  <p>
+    <a href="https://github.com/user-attachments/assets/a4ad23f6-c5db-4b3d-aa0b-9259391f1593">
+      <img src="https://github.com/user-attachments/assets/a4ad23f6-c5db-4b3d-aa0b-9259391f1593"
+           alt="Contact section test screenshot — index.html (desktop)"
+           width="900" loading="lazy">
+    </a>
+  </p>
+</details>
+
+<details>
+  <summary><strong>about-me.html#contact — desktop</strong></summary>
+  <p>
+    <a href="https://github.com/user-attachments/assets/1b676e5f-b1ef-4bda-a975-a8e0b50a8c0d">
+      <img src="https://github.com/user-attachments/assets/1b676e5f-b1ef-4bda-a975-a8e0b50a8c0d"
+           alt="Contact section test screenshot — about-me.html (desktop)"
+           width="900" loading="lazy">
+    </a>
+  </p>
+</details>
+
+<details>
+  <summary><strong>work-experience.html#contact — desktop</strong></summary>
+  <p>
+    <a href="https://github.com/user-attachments/assets/5447ea89-a102-4b5c-93df-5928d6d9d8d5">
+      <img src="https://github.com/user-attachments/assets/5447ea89-a102-4b5c-93df-5928d6d9d8d5"
+           alt="Contact section test screenshot — work-experience.html (desktop)"
+           width="900" loading="lazy">
+    </a>
+  </p>
+</details>
+
+<details>
+  <summary><strong>certifications.html#contact — desktop</strong></summary>
+  <p>
+    <a href="https://github.com/user-attachments/assets/0539ba1f-9f6b-4fd0-b1c4-a2bf152cf74b">
+      <img src="https://github.com/user-attachments/assets/0539ba1f-9f6b-4fd0-b1c4-a2bf152cf74b"
+           alt="Contact section test screenshot — certifications.html (desktop)"
+           width="900" loading="lazy">
+    </a>
+  </p>
+</details>
+
+<details>
+  <summary><strong>bookings.html#contact — desktop</strong></summary>
+  <p>
+    <a href="https://github.com/user-attachments/assets/94ed98bc-4440-47bd-81f8-b1565c3b9eb6">
+      <img src="https://github.com/user-attachments/assets/94ed98bc-4440-47bd-81f8-b1565c3b9eb6"
+           alt="Contact section test screenshot — bookings.html (desktop)"
+           width="900" loading="lazy">
+    </a>
+  </p>
+</details>
+
+<details>
+  <summary><strong>confirmation.html#contact — desktop</strong></summary>
+  <p>
+    <a href="https://github.com/user-attachments/assets/1a47dddf-e987-4219-ae96-573188e847be">
+      <img src="https://github.com/user-attachments/assets/1a47dddf-e987-4219-ae96-573188e847be"
+           alt="Contact section test screenshot — confirmation.html (desktop)"
+           width="900" loading="lazy">
+    </a>
+  </p>
+</details>
+
+<hr>
+
+<h3>Contact section checks — Mobile</h3>
+
+<details open>
+  <summary><strong>index.html#contact — mobile</strong></summary>
+  <p>
+    <a href="https://github.com/user-attachments/assets/fd190fca-37e4-4a06-9b7e-814657c5ae71">
+      <img src="https://github.com/user-attachments/assets/fd190fca-37e4-4a06-9b7e-814657c5ae71"
+           alt="Contact section test screenshot — index.html (mobile)"
+           width="900" loading="lazy">
+    </a>
+  </p>
+</details>
+
+<details>
+  <summary><strong>about-me.html#contact — mobile</strong></summary>
+  <p>
+    <a href="https://github.com/user-attachments/assets/df4c210e-a5a4-4256-801f-44e753cb5bbd">
+      <img src="https://github.com/user-attachments/assets/df4c210e-a5a4-4256-801f-44e753cb5bbd"
+           alt="Contact section test screenshot — about-me.html (mobile)"
+           width="900" loading="lazy">
+    </a>
+  </p>
+</details>
+
+<details>
+  <summary><strong>work-experience.html#contact — mobile</strong></summary>
+  <p>
+    <a href="https://github.com/user-attachments/assets/551a13a8-8247-48ba-adc9-328633689a04">
+      <img src="https://github.com/user-attachments/assets/551a13a8-8247-48ba-adc9-328633689a04"
+           alt="Contact section test screenshot — work-experience.html (mobile)"
+           width="900" loading="lazy">
+    </a>
+  </p>
+</details>
+
+<details>
+  <summary><strong>certifications.html#contact — mobile</strong></summary>
+  <p>
+    <a href="https://github.com/user-attachments/assets/f0cd1c2f-b514-48b8-b227-9c3808f4ed83">
+      <img src="https://github.com/user-attachments/assets/f0cd1c2f-b514-48b8-b227-9c3808f4ed83"
+           alt="Contact section test screenshot — certifications.html (mobile)"
+           width="900" loading="lazy">
+    </a>
+  </p>
+</details>
+
+<details>
+  <summary><strong>bookings.html#contact — mobile</strong></summary>
+  <p>
+    <a href="https://github.com/user-attachments/assets/e622247a-2e3e-4f60-8fd5-b5c352f95f0a">
+      <img src="https://github.com/user-attachments/assets/e622247a-2e3e-4f60-8fd5-b5c352f95f0a"
+           alt="Contact section test screenshot — bookings.html (mobile)"
+           width="900" loading="lazy">
+    </a>
+  </p>
+</details>
+
+<details>
+  <summary><strong>confirmation.html#contact — mobile</strong></summary>
+  <p>
+    <a href="https://github.com/user-attachments/assets/38607b6a-8d17-4f6a-a3be-40eafe3786cc">
+      <img src="https://github.com/user-attachments/assets/38607b6a-8d17-4f6a-a3be-40eafe3786cc"
+           alt="Contact section test screenshot — confirmation.html (mobile)"
+           width="900" loading="lazy">
+    </a>
+  </p>
+</details>
+
+<hr>
+
+<!-- Optional: a single cover image / heading if you still want a banner -->
+<p>
+  <a href="https://github.com/user-attachments/assets/a951f1ab-1563-49cd-99dd-b7525a4a8a9c">
+    <img src="https://github.com/user-attachments/assets/a951f1ab-1563-49cd-99dd-b7525a4a8a9c"
+         alt="Cover image: Evidence of testing — Google Chrome Lighthouse (Desktop)"
+         width="900" loading="lazy">
+  </a>
+</p>
+
   **Notes (optional hardening):**
   - Consider replacing Google Fonts @import with <link rel="preconnect"> + <link rel="stylesheet"> in <head> to trim render delay, and add loading="lazy" to non-critical images (e.g., footer images or non-active carousel slides).
 
