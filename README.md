@@ -453,7 +453,7 @@ The Bookings page enables potential clients, schools, or students to contact me 
 
 ## User Stories - Homepage
 
-### 1. Rob Pires – Website Developer (Site Owner)
+### 1. Roberto Pires – Website Developer (Site Owner)
 
 **User Story**  
 As the website developer, I want the homepage to deliver a clear, professional first impression and guide visitors smoothly to other sections so that they engage meaningfully with my content.
@@ -555,7 +555,7 @@ The homepage should reference my IT certifications, web development training, an
 
 ## User Stories - About Me
 
-### 1. Rob Pires – Website Developer (Site Owner)
+### 1. Roberto Pires – Website Developer (Site Owner)
 
 **User Goal**  
 As the developer, I want the About Me page to reflect my personality, professionalism, and background so that users can understand who I am and what I offer.
@@ -586,16 +586,14 @@ As a student or parent, they want to understand who I am as a tutor so that they
 The page should show my human side — my passion for education, patience, communication style, and ability to support learners of different ages and abilities.
 
 **Acceptance Criteria**
-- [ ] The tone is clear, supportive, and easy to understand.  
-- [ ] Mentions tutoring subjects and levels (KS3, GCSE, A-levels).  
+- [ ] The tone is clear, supportive, and easy to understand.
 - [ ] Reassures users of my experience and personal approach.  
 - [ ] A call-to-action or link to Bookings and other pages is visible.  
 - [ ] The site is responsive and accessible across desktop, tablet, and mobile.
 
 **Tasks**
-- [ ] Add sentence like: “I offer tutoring in Computer Science and Maths for KS3, GCSE, and A-Level.”  
-- [ ] Mention my approach: patient, structured, encouraging.  
-- [ ] Include a friendly line about how to get in touch.  
+- [ ] Mention my my mission is to empower learners and professionals alike through meaningful technology education and solutions.  
+- [ ] Include a contact information.  
 - [ ] Add “Book a Tutoring Session” button/link to Bookings and other pages.  
 - [ ] Test readability and responsiveness across desktop, tablet, and mobile.  
 
@@ -610,14 +608,13 @@ The About Me page should convey my philosophy on education, lifelong learning, c
 
 **Acceptance Criteria**
 - [ ] Includes teaching experience and subject specialisms.  
-- [ ] Mentions of FE/secondary education and key qualifications.  
 - [ ] Shows commitment to CPD and learning.  
 - [ ] Links to other relevant pages are available.  
 - [ ] The site is responsive and accessible across desktop, tablet, and mobile.
 
 **Tasks**
-- [ ] Write about experience in schools and colleges.  
-- [ ] Reference CPD and formal qualifications (e.g. PGCE, CPD Graphic Design).  
+- [ ] Write about experience as educator.  
+- [ ] Reference lifelong learning and skills.  
 - [ ] Add links to other pages.  
 - [ ] Ensure tone is professional yet personal.  
 - [ ] Test readability and responsiveness across desktop, tablet, and mobile.  
@@ -628,20 +625,20 @@ The About Me page should convey my philosophy on education, lifelong learning, c
 **User Goal**  
 As an IT employer, they want to understand my journey into IT and web development so that they can assess my technical potential and transferable skills.
 
-**Description**  
-This page should summarise my technical training, certifications, and motivation for entering IT. It should highlight my transition from teaching into full-stack development and technical support roles.
+**Description**
+This page should summarise my technical training, certifications, and motivation for entering IT. It should highlight my transition from teaching into full-stack development and technical support.
 
 **Acceptance Criteria**
-- [ ] Briefly mentions IT certifications: CompTIA A+, ITF+, CCNA.  
+- [ ] Reference lifelong learning and skills.  
 - [ ] Notes current training: Level 5 Full Stack Development.  
-- [ ] Indicates transferable skills (communication, problem-solving, analysis).  
+- [ ] Indicates transferable skills (support, problem-solving).  
 - [ ] Links to other relevant pages are available.  
 - [ ] The site is responsive and accessible across desktop, tablet, and mobile.
 
 
 **Tasks**
-- [ ] Add paragraph like: “Alongside my teaching career, I hold industry certifications including A+, ITF+, and CCNA. I’m currently completing a Level 5 Full Stack Development diploma.”  
-- [ ] Emphasise adaptability and strong communication.  
+- [ ] Add paragraph like: "Alongside my teaching career, I eveloped strong skills in programming, web development, hardware, CAD, networking. I’m currently completing a Level 5 Full Stack Development diploma."  
+- [ ] Emphasise adaptability, support and innovate.  
 - [ ] Add buttons or links: “See My Technical Skills” / “View Projects”.  
 - [ ] Maintain a clean, modern layout.  
 - [ ] Add links to other pages.  
@@ -653,15 +650,15 @@ This page should summarise my technical training, certifications, and motivation
 | Stakeholder         | Focus                                            | Link/CTA                           |
 |---------------------|--------------------------------------------------|------------------------------------|
 | Developer (You)     | Communicate identity, values, and professionalism | Skills, Work Experience            |
-| Students/Parents    | Reassure about tutoring style and subjects       | Bookings                           |
-| Education Employers | Highlight teaching ethos, CPD, and qualifications | CV, Certifications, Experience     |
-| IT/Web Employers    | Showcase IT certifications and transition to development | Skills, Projects              |
+| Students/Parents    | Reassure about dedication and learning engagement       | Bookings                           |
+| Education Employers | Highlight teaching ethos and CPD | CV, Certifications, Experience     |
+| IT/Web Employers    | Showcase IT skills and pedagogy | Skills, Certifications            |
 
 ---
 
 ## User Stories - Work Experience
 
-### 1. Rob Pires – Website Developer (Site Owner)
+### 1. Roberto Pires – Website Developer (Site Owner)
 
 **User Goal** 
 
@@ -673,19 +670,19 @@ The page should summarise over 20 years of professional experience across teachi
 
 **Acceptance Criteria**
 
-- [ ] Shows job roles in reverse chronological order or grouped by sector.  
-- [ ] Each role includes institution name, job title, date range, and brief description.  
-- [ ] Includes bullet points of responsibilities or key contributions.  
+- [ ] Shows job roles  grouped by sector.  
+- [ ] Each role includes institution name, job title, and brief description.  
+- [ ] Includes responsibilities or contributions.  
 - [ ] Layout is responsive and suitable for all screen sizes.  
 - [ ] Visual design is consistent with rest of the site.  
 
 **Tasks**
 
-- [ ] Extract roles and dates from CV and organise by relevance (e.g. Education, IT Support).  
-- [ ] Write concise descriptions and achievements.  
-- [ ] Choose appropriate layout (e.g. vertical timeline or tile-based).  
+- [ ] Extract roles from CV and organise (e.g. Education, IT Support).  
+- [ ] Write descriptions and achievements.  
+- [ ] Choose appropriate layout (e.g. tile-based).  
 - [ ] Add internal menu links to other pages e.g. Certifications, Projects, or Skills.  
-- [ ] Test mobile/tablet responsiveness and accessibility.  
+- [ ] Test mobile/tablet responsiveness and accessibility. 
 
 ### 2. Potential Tutees / Parents
 
@@ -700,20 +697,20 @@ This page should show that I have taught in secondary schools and colleges, and 
 **Acceptance Criteria**
 
 - [ ] Clearly lists teaching positions and subjects taught.  
-- [ ] Highlights experience with KS3, GCSE, A-level, and Functional Skills.  
+- [ ] Highlights experience with KS3, GCSE, and A-level.  
 - [ ] Uses clear, friendly language to explain roles.  
-- [ ] Includes a call-to-action to view tutoring options or Bookings page and access to other pages.  
+- [ ] Includes a call-to-action to view Bookings page and access to other pages.  
 - [ ] Layout is responsive and suitable for all screen sizes.  
 - [ ] Visual design is consistent with rest of the site.  
 
 **Tasks**
 
 - [ ] Highlight relevant tutoring experience or private support work.  
-- [ ] Mention curriculum types supported (OCR, AQA, Functional Skills).  
-- [ ] Use bold headings or icons to signal age/subject groups.  
+- [ ] Mention curriculum types supported (OCR, AQA, BTEC).  
+- [ ] Use bold headings or icons.  
 - [ ] Add button or link: “Bookings”.  
 - [ ] Add internal menu links to other pages.  
-- [ ] Test mobile/tablet responsiveness and accessibility.  
+- [ ] Test mobile/tablet responsiveness and accessibility.
 
 ### 3. Education Employers (e.g. Headteachers, Recruitment Officers)
 
@@ -727,7 +724,7 @@ The Work Experience page should provide evidence of subject knowledge, experienc
 
 **Acceptance Criteria**
 
-- [ ] Clearly lists roles with dates, responsibilities, and curriculum areas.  
+- [ ] Clearly lists roles, responsibilities, and curriculum areas.  
 - [ ] Identifies subject specialisms (e.g. Computer Science, Creative iMedia, Maths).  
 - [ ] Mentions environments (e.g. FE College, Secondary School, International).  
 - [ ] Option to view/download full CV is available.  
@@ -737,7 +734,7 @@ The Work Experience page should provide evidence of subject knowledge, experienc
 
 **Tasks**
 
-- [ ] Include bullet points under each job to show scope and impact.  
+- [ ] Present information in tiles to show scope and impact.  
 - [ ] Write in a concise, professional tone.  
 - [ ] Add a link to downloadable CV or Certifications page.  
 - [ ] Add internal menu links to other pages.  
@@ -747,7 +744,7 @@ The Work Experience page should provide evidence of subject knowledge, experienc
 
 **User Goal**  
 
-As an IT employer or recruiter, they want to identify any relevant IT support or web development experience so that they can consider Rob for technical or hybrid roles.
+As an IT employer or recruiter, they want to identify any relevant IT support or web development experience so that they can consider me for technical or hybrid roles.
 
 **Description**  
 
@@ -755,7 +752,7 @@ This page should briefly showcase my experience in IT systems, technical trouble
 
 **Acceptance Criteria**
 
-- [ ] Lists any IT support, admin, or technical roles (e.g. freelance support, project work).  
+- [ ] Lists any IT support, admin, or technical roles.  
 - [ ] References key certifications (A+, ITF+, CCNA) in context.  
 - [ ] Shows current or recent web dev training or projects.  
 - [ ] Includes access to other pages.  
@@ -766,7 +763,7 @@ This page should briefly showcase my experience in IT systems, technical trouble
 
 - [ ] Identify and write up any IT-related responsibilities from previous roles (e.g. managing school systems, supporting tech integration).  
 - [ ] Include sentence noting current Level 5 Full Stack Development training.  
-- [ ] Add internal menu links to other pages e.g. “View My Technical Skills” / “See My Projects”.  
+- [ ] Add internal menu links to other pages e.g. "View My Technical Skills".  
 - [ ] Use a clear visual separation between teaching and technical roles.  
 - [ ] Test mobile/tablet responsiveness and accessibility.  
 
@@ -774,31 +771,31 @@ This page should briefly showcase my experience in IT systems, technical trouble
 
 | Stakeholder         | Goal                                                    | Key Feature/Action                               |
 |---------------------|----------------------------------------------------------|--------------------------------------------------|
-| Developer (You)     | Showcase structured, responsive experience history      | Grouped layout, clear descriptions               |
-| Students/Parents    | Understand Rob’s teaching experience and subject coverage| Highlight KS3–A-level support, link to Bookings  |
-| Education Employers | Assess Rob’s teaching background, subject areas, and institutions | Bullet points, chronological layout, link to CV |
-| IT/Web Employers    | Identify relevant IT support and technical roles         | Mention certifications, link to Skills/Projects  |
+| Developer (Myself)     | Showcase structured, responsive experience history      | Grouped layout, clear descriptions               |
+| Students/Parents    | Understand my teaching experience and subject coverage| Highlight KS3–A-level support, link to Bookings  |
+| Education Employers | Assess my teaching background, subject areas, and institutions | Bullet points, chronological layout, link to CV |
+| IT/Web Employers    | Identify relevant IT support and technical roles         | Mention certifications, link to Skills  |
 
 ---
 
 ## User Stories - Skills
 
-### 1. Rob Pires – Website Developer (Site Owner)
+### 1. Roberto Pires – Website Developer (Site Owner)
 
 **User Goal** 
 
-As the developer, I want to showcase my diverse skill set in teaching, tutoring, IT, and web development so that all users understand my expertise and versatility.
+As the developer, I want to showcase my diverse skill set in teaching, tutoring, IT support, and web development so that all users understand my expertise and versatility.
 
 **Description** 
 
-The Skills page should present my strengths across multiple disciplines: education, IT support, and development. It should be clearly organised, visually appealing, and easy to scan. The content must be relevant to each target audience and lead users to deeper content (e.g. Certifications, Projects).
+The Skills page should present my strengths across multiple disciplines: education, IT support, and development. It should be clearly organised, visually appealing, and easy to scan. The content must be relevant to each target audience and lead users to deeper content (e.g. Certifications).
 
 **Acceptance Criteria**
 
-- [ ] Skills are grouped into logical categories (e.g. Teaching, Coding, Networking, IT Support, Project Management).  
+- [ ] Skills are grouped into logical categories (e.g. Teaching, Coding, Networking, IT Support, Graphic Design).  
 - [ ] Each skill has a short, clear description.  
 - [ ] Visual layout is consistent with site design (e.g. tiles, icons, badges).  
-- [ ] Links to supporting pages (e.g. Certifications, Projects, Work Experience) are included.  
+- [ ] Links to supporting pages (e.g. Certifications, Work Experience) are included.  
 - [ ] Navigation is easy to use for non-technical users.
 - [ ] The site is responsive across desktop, tablet, and mobile.
 
@@ -822,7 +819,7 @@ This page should clearly communicate my subject knowledge in Computer Science an
 
 **Acceptance Criteria**
 
-- [ ] Subject areas are clearly listed with the relevant levels (KS3, GCSE, A-Level, Functional Skills).  
+- [ ] Subject areas are clearly listed with the relevant levels (KS3, GCSE, A-Level).  
 - [ ] Teaching experience and approach are mentioned briefly.  
 - [ ] Key qualifications are highlighted or linked to the Certifications page.  
 - [ ] A link to Bookings or Contact page is visible.  
@@ -832,7 +829,7 @@ This page should clearly communicate my subject knowledge in Computer Science an
 **Tasks**
 
 - [ ] Write brief, accessible descriptions for CS and Maths.  
-- [ ] Include call-to-action: “Book a Tutoring Session” or “Enquire Now”.  
+- [ ] Include call-to-action: "Book a Tutoring Session" or "Enquire Now".  
 - [ ] Highlight PGCE, CPD or relevant CPD courses with a link.  
 - [ ] Ensure menu links to other pages.
 - [ ] Implement responsive navigation using HTML/CSS or Bootstrap.
@@ -846,24 +843,23 @@ As an employer, they want to see my professional competencies so that they can a
 
 **Description**
 
-This page should highlight teaching-related skills, such as curriculum planning, assessment, pastoral care, digital learning, and cross-curricular delivery. It should demonstrate my range, CPD engagement, and professional polish.
+This page should highlight teaching-related skills, such as curriculum planning, assessment, pastoral care, digital learning, and cross-curricular delivery. It should demonstrate my range and CPD engagement.
 
 **Acceptance Criteria**
 
-- [ ] Lists teaching competencies with clear examples (e.g. “GCSE Curriculum Design”, “BTEC Coursework Moderation”).  
-- [ ] Shows CPD engagement and adaptability (e.g. “Blended Learning”, “Behaviour Management”).  
+- [ ] Lists teaching competencies with clear examples.  
+- [ ] Shows CPD engagement and adaptability.  
 - [ ] Link to Work Experience and Certifications provided.  
 - [ ] Layout is formal and easy to scan.
 - [ ] Menu Links to other pages are easily accessible.
-- [ ] Option to download CV is visible.
+- [ ] Option to download/view CV is visible.
 - [ ] The site is responsive across desktop, tablet, and mobile.
 
 
 **Tasks**
 
-- [ ] Write bullet points or tiles for each teaching skill with real-world context.  
-- [ ] Include subheadings: “Teaching & Curriculum Skills”, “Digital Learning”, “Leadership & Pastoral”.  
-- [ ] Add link: “See My Teaching Experience” or “View My Qualifications”.  
+- [ ] Write tiles for each skill.  
+- [ ] Add link: "Work Experience" or "Download CV (PDF)".  
 - [ ] Style using a clean and professional format.  
 - [ ] Include a CV download button or link.
 - [ ] Feature quick-access menu links to other pages.
@@ -881,18 +877,18 @@ This page should clearly communicate my hands-on knowledge of IT systems, networ
 
 **Acceptance Criteria**
 
-- [ ] IT and web development skills are grouped (e.g. “Frontend”, “Backend”, “Networking”, “Support”).  
-- [ ] Relevant technologies and tools are listed (e.g. Python, Git, HTML, Cisco, CompTIA).  
-- [ ] Mentions of qualifications (A+, CCNA, etc.) and current Full Stack course.  
-- [ ] Menu Links to other pages are provided e.g. Projects and Certifications pages .  
+- [ ] IT and web development skills are grouped (e.g. "Coding", "Web Development", "Networking", "Support").  
+- [ ] Relevant technologies and tools are listed (e.g. Python, HTML, Cisco, CompTIA).  
+- [ ] Mentions of qualifications (A+, CCNA, etc.) and current Level 5 Diploma Website Development.  
+- [ ] Menu Links to other pages are provided e.g. Work Experience and Certifications pages .  
 - [ ] Navigation and layout are mobile/tablet-friendly and accessible.
 
 **Tasks**
 
-- [ ] List each technical skill with tool/language (e.g. “Python – scripting and basic web apps”).  
+- [ ] List each technical skill with tool/language (e.g. "Python – scripting and basic web apps").  
 - [ ] Organise into clear groups: Programming, Networking, Web Dev, Systems Support.  
 - [ ] Include short paragraph about ongoing Code Institute Level 5 training.  
-- [ ] Menu link to other pages e.g. Projects and Certifications pages.  
+- [ ] Menu link to other pages e.g. Work Experience and Certifications pages.  
 - [ ] Use icons or badges for modern, visual appeal. 
 - [ ] Ensure skills loads quickly and looks clean on all devices.
 - [ ] Implement responsive navigation using HTML/CSS or Bootstrap.
@@ -901,16 +897,16 @@ This page should clearly communicate my hands-on knowledge of IT systems, networ
 
 | Stakeholder         | Focus                                           | Key Features / CTA                       |
 |---------------------|--------------------------------------------------|------------------------------------------|
-| Developer (You)     | Present well-organised, responsive summary of all skill areas | Grouped tiles, links to Projects and Certs |
-| Students / Parents  | Understand tutoring areas and confidence in subject delivery   | CS & Maths levels, call-to-action to Bookings |
+| Developer (Myself)     | Present well-organised, responsive summary of all skill areas | Grouped tiles, links to Work Experience and Certs |
+| Students / Parents  | Understand education areas and confidence in subject delivery   | CS & Maths levels, call-to-action to Bookings |
 | Education Employers | Review teaching/pedagogical skills in detail               | Curriculum skills, CPD, link to Experience |
-| IT / Web Employers  | View IT and dev expertise and relevant tools/languages     | Programming, certifications, link to Projects |
+| IT / Web Employers  | View IT and dev expertise and relevant tools/languages     | Programming, certifications, link to Experience |
 
 ---
 
 ## User Stories - Certifications
 
-### 1. Rob Pires – Website Developer (Site Owner)
+### 1. Roberto Pires – Website Developer (Site Owner)
 
 **User Goal** 
 
@@ -918,12 +914,12 @@ As the developer, I want to clearly inform them of my teaching and IT-related qu
 
 **Description**  
 
-This page will inform the target audience of my formal training, including teaching, IT support, graphic design, and full stack development. The layout should be clean and responsive, using icons or tiles for easy scanning.
+This page will inform the target audience of my formal training, including teaching, IT support, graphic design, and full stack web development. The layout should be clean and responsive, using icons or tiles for easy scanning.
 
 **Acceptance Criteria**
 
-- [ ] Displays all relevant qualifications with name, awarding body, and year.  
-- [ ] Groups certifications by category (e.g. Teaching, IT, Design, Development).  
+- [ ] Displays all relevant qualifications with name, and awarding body.  
+- [ ] Groups certifications by category (e.g. Teaching, IT, Design, Software Development).  
 - [ ] Includes visual elements like icons or logos where appropriate.  
 - [ ] Responsive design works across desktop, tablet, and mobile.  
 - [ ] Links to download CV or view Work Experience and Skills.  
@@ -931,7 +927,7 @@ This page will inform the target audience of my formal training, including teach
 
 **Tasks**
 
-- [ ] Categorise and list certifications (e.g. PGCE, CompTIA A+, CCNA, CPD Graphic Design).  
+- [ ] List certifications in organised manner (e.g. PGCE, CompTIA A+, CCNA, CPD Graphic Design).  
 - [ ] Write clear descriptions for each.  
 - [ ] Design tile or card layout with logos/icons.  
 - [ ] Add menu links to other pages e.g. CV, Work Experience, and Skills pages.  
@@ -954,16 +950,15 @@ This page should highlight my teaching credentials and relevant subject-related 
 - [ ] Teaching qualifications (e.g. PGCE, CPD) are easy to find and explained simply.  
 - [ ] No technical jargon — use parent-friendly language.  
 - [ ] Highlights subject-specific credentials (e.g. Computer Science).  
-- [ ] A call-to-action guides users to the Bookings page.
+- [ ] A link to the Bookings page.
 - [ ] Navigation is easy to use for non-technical users.
 - [ ] The site is responsive across desktop, tablet, and mobile.
 
 **Tasks**
 
-- [ ] Add a heading like “Qualified Teacher & Subject Specialist”.  
 - [ ] Provide short description of PGCE and CPD training in plain English.  
 - [ ] Emphasise Maths and CS relevance.  
-- [ ] Include a button or link: “Book a Tutoring Session”.  
+- [ ] Include a button or link: “Bookings”.  
 - [ ] Ensure menu links to other pages.
 - [ ] Implement responsive navigation using HTML/CSS or Bootstrap.
 
@@ -971,7 +966,7 @@ This page should highlight my teaching credentials and relevant subject-related 
 
 **User Goal**  
 
-As an education employer, they want to verify my formal qualifications so that they can ensure I meets compliance and curriculum delivery standards.
+As an education employer, they want to verify my formal qualifications so that they can ensure I meet compliance and curriculum delivery standards.
 
 **Description**  
 
@@ -979,9 +974,8 @@ The page should provide a clear breakdown of my teaching qualifications, IT expe
 
 **Acceptance Criteria**
 
-- [ ] Clearly lists PGCE, subject degree, and recent CPD.  
-- [ ] Includes dates and awarding institutions.  
-- [ ] Mentions any safeguarding or SEND CPD if applicable.  
+- [ ] Clearly lists PGCE, subject degree, and CPD.  
+- [ ] Includes awarding institutions.   
 - [ ] Offers link to downloadable CV or Work Experience.  
 - [ ] Menu links to other pages are easily accessible.
 - [ ] The layout reflects professionalism and clarity.
@@ -989,10 +983,10 @@ The page should provide a clear breakdown of my teaching qualifications, IT expe
 
 **Tasks**
 
-- [ ] Add list format or structured layout for formal credentials.  
-- [ ] Label each entry: “Qualification – Institution – Year”.  
-- [ ] Include section for recent CPD (e.g. National College, BCS).  
-- [ ] Add link: “View Full CV” or “Explore Teaching Experience”.  
+- [ ] Add tile format or structured grid layout for formal credentials.  
+- [ ] Label each entry: "Qualification – Institution".  
+- [ ] Include section for CPD.  
+- [ ] Add link: "Download CV" or "Explore Teaching Experience".  
 - [ ] Feature quick-access menu links to other pages.
 - [ ] Implement responsive navigation using HTML/CSS or Bootstrap.
 
@@ -1005,7 +999,7 @@ As an IT/web employer, they want to see my technical certifications and current 
 
 **Description**  
 
-This page should clearly list my technical certifications (e.g. CompTIA A+, ITF+, CCNA) and current training (e.g. Full Stack Diploma with Code Institute), showing my proactive upskilling and technical credibility.
+This page should clearly list my technical certifications (e.g. CompTIA A+, ITF+, CCNA) and current training (e.g. Website Development Diploma with Code Institute), showing my proactive upskilling and technical credibility.
 
 **Acceptance Criteria**
 
@@ -1018,10 +1012,9 @@ This page should clearly list my technical certifications (e.g. CompTIA A+, ITF+
 
 **Tasks**
 
-- [ ] Group technical qualifications separately from teaching.  
 - [ ] Use IT-related logos/icons (e.g. CompTIA, Cisco, Code Institute).  
-- [ ] Write short, informative blurbs for each certification.  
-- [ ] Add internal menu links to other mages ]e.g. Skills, Projects.  
+- [ ] Write short, informative content for each certification.  
+- [ ] Add internal menu links to other pages e.g. Skills, Projects.  
 - [ ] Ensure certifications page loads quickly and looks clean on all devices.
 - [ ] Place technical content where it's easy to notice but not overwhelming.
 - [ ] Implement responsive navigation using HTML/CSS or Bootstrap.
@@ -1031,16 +1024,16 @@ This page should clearly list my technical certifications (e.g. CompTIA A+, ITF+
 
 | Stakeholder         | Key Goal                                         | Essential Features / Links                      |
 |---------------------|--------------------------------------------------|--------------------------------------------------|
-| Developer (You)     | Showcase all credentials in a visual, accessible format | Grouped layout, icons, links to CV/Skills        |
+| Developer (Myself)     | Showcase all credentials in a visual, accessible format | Grouped layout, icons, links to CV/Skills        |
 | Students / Parents  | Build trust through clear evidence of teaching training | PGCE/CPD highlighted, CTA to Bookings            |
-| Education Employers | Verify Rob's qualifications for teaching positions       | Full list with institutions and dates, CV link   |
+| Education Employers | Verify my qualifications for teaching positions       | Full list with institutions and dates, CV link   |
 | IT/Web Employers    | Validate technical ability and current IT training      | IT/Dev certs, link to Projects and Skills        |
 
 ---
 
 ## User Stories - Bookings
 
-### 1. Rob Pires – Website Developer (Site Owner)
+### 1. Roberto Pires – Website Developer (Site Owner)
 
 **User Goal**  
 
@@ -1048,11 +1041,11 @@ As the developer, I want a clean and accessible booking form so that visitors ca
 
 **Description**  
 
-The page should include a simple, responsive booking/enquiry form and outline the services I offer (e.g. tutoring, freelance IT support, training). It should provide multiple ways to get in touch and reinforce professionalism and trust.
+The page should include a simple, responsive booking/enquiry form and outline the services I offer (e.g. tutoring, consulting). It should provide multiple ways to get in touch and reinforce professionalism and trust.
 
 **Acceptance Criteria**
 
-- [ ] Includes a contact/booking form with fields for name, telephone, email, subject/service and message.  
+- [ ] Includes a contact/booking form with fields for name, telephone, email, service and message.  
 - [ ] Form is responsive across all devices.  
 - [ ] A confirmation message appears upon successful submission.  
 - [ ] Clear summary of available services is shown above the form.  
@@ -1064,8 +1057,8 @@ The page should include a simple, responsive booking/enquiry form and outline th
 
 - [ ] Design and build a booking form using HTML and CSS (or form integration tool).  
 - [ ] Add validation for required fields.  
-- [ ] Write short service descriptions (e.g. “Tutoring – GCSE Maths & CS”, “IT support – software/hardware troubleshooting”).  
-- [ ] Set up form submission (e.g. via email).  
+- [ ] Write short service descriptions (e.g. "Tutoring", "Web Development").  
+- [ ] Set up form submission.  
 - [ ] Add confirmation message or redirect.  
 - [ ] Style layout to be clean, professional, and accessible.  
 - [ ] Implement responsive navigation using HTML/CSS or Bootstrap.
@@ -1080,7 +1073,7 @@ As a student or parent, they want to book a tutoring session easily so that they
 
 **Description**  
 
-The page should provide a friendly summary of tutoring services offered (subject, level, availability), followed by a clear and easy-to-use form. Tone and layout should be reassuring and parent/student-friendly.
+The page should provide a friendly summary of tutoring services offered, followed by a clear and easy-to-use form. Tone and layout should be reassuring and parent/student-friendly.
 
 **Acceptance Criteria**
 
@@ -1094,9 +1087,7 @@ The page should provide a friendly summary of tutoring services offered (subject
 **Tasks**
 
 - [ ] Write a short section explaining tutoring services.  
-- [ ] Add form field for selecting tutoring level or subject.  
-- [ ] Include prompt: “Not sure what you need? Leave a message and I’ll get in touch.”  
-- [ ] Add call-to-action: “Book a Tutoring Session” or “Enquire Now”.  
+- [ ] Add form field for selecting service.  
 - [ ] Style form for simplicity and accessibility.  
 - [ ] Ensure menu links to other pages.
 - [ ] Implement responsive navigation using HTML/CSS or Bootstrap.
@@ -1109,7 +1100,7 @@ As an education employer, they want to enquire about my availability for teachin
 
 **Description**  
 
-The page should cater to professional inquiries by listing available services (e.g. short-term teaching, resource design, tutoring), a form to capture details, and menu links to other pages e.g. CV and certifications.
+The page should cater to professional inquiries by listing available services (e.g. workshops, tutoring), a form to capture details, and menu links to other pages e.g. CV and certifications.
 
 **Acceptance Criteria**
 
@@ -1123,9 +1114,8 @@ The page should cater to professional inquiries by listing available services (e
 
 **Tasks**
 
-- [ ] Add brief section: “Available for freelance teaching, intervention support, or curriculum resource development.”  
-- [ ] Include link: “Download My CV” and button to “View Teaching Experience”.  
-- [ ] Customise form field for “Organisation / Institution Name”.  
+- [ ] Add brief section: "Available for part-time, full-time teaching or tutoring."  
+- [ ] Include links: "Download CV" and "Work Experience".  
 - [ ] Test for form reliability and professional tone.  
 - [ ] Feature quick-access menu links to other pages.
 - [ ] Implement responsive navigation using HTML/CSS or Bootstrap.
@@ -1142,22 +1132,20 @@ The page should provide a brief summary of my IT services (e.g. technical suppor
 
 **Acceptance Criteria**
 
-- [ ] Lists services like PC setup, troubleshooting, web dev, or support roles.  
-- [ ] Option to specify the type of service needed.  
-- [ ] Includes links to technical Skills and Projects pages.  
+- [ ] Lists services like consulting or workshops.  
+- [ ] Option to specify the type of service needed in a message box.  
+- [ ] Includes links to technical Skills and certifications.  
 - [ ] Professional and concise layout.  
-- [ ] Provides menu links to other pages e.g. Projects and Skills pages.
+- [ ] Provides menu links to other pages e.g. Certifications and Skills pages.
 - [ ] Navigation and layout are mobile/tablet-friendly and accessible.
 - [ ] The site is responsive across desktop, tablet, and mobile.
 
 **Tasks**
 
-- [ ] Write short list: “Technical services offered: CompTIA-certified PC support, network troubleshooting, front-end development.”  
-- [ ] Include form field for “Type of Service Requested”.  
-- [ ] Add internal links: “See My IT Skills” / “View Projects”.  
-- [ ] Include option to upload job spec (optional advanced feature).  
+- [ ] Include form field for "Type of Service Requested".  
+- [ ] Add internal links: "Skills" / "Certifications".  
 - [ ] Ensure layout works well on mobile and desktop.  
-- [ ] Add internal menu links to other mages ]e.g. Skills, Projects.
+- [ ] Add internal menu links to other pages e.g. Skills, Certifications.
 - [ ] Ensure bookings page loads quickly and looks clean on all devices.
 - [ ] Implement responsive navigation using HTML/CSS or Bootstrap.
 
@@ -1165,16 +1153,16 @@ The page should provide a brief summary of my IT services (e.g. technical suppor
 
 | Stakeholder         | User Goal                                              | Key Features / Actions                                        |
 |---------------------|--------------------------------------------------------|----------------------------------------------------------------|
-| Developer (You)     | Provide simple way for visitors to request services    | Booking form, service summaries, confirmation message          |
-| Students / Parents  | Easily book tutoring for specific subjects and levels  | Service options, friendly tone, “Book Now” CTA                 |
+| Developer (Myself)     | Provide simple way for visitors to request services    | Booking form, service summaries, confirmation message          |
+| Students / Parents  | Easily book tutoring for specific subjects and levels  | Service options, friendly tone, "Bookings" link                 |
 | Education Employers | Make professional enquiries and access CV and credentials | Form + CV download, links to Work Experience & Certs         |
-| IT / Web Employers  | Request me for freelance/contract work in IT/web dev  | IT service list, form fields, links to Projects/Skills         |
+| IT / Web Employers  | Request me for consultancy work in IT/web dev  | IT service list, form fields, links to Certifications/Skills         |
 
 ---
 
 ## User Stories - Conferences/Workshops
 
-### 1. Rob Pires – Website Developer (Site Owner)
+### 1. Roberto Pires – Website Developer (Site Owner)
 
 **User Goal**
 
@@ -1312,7 +1300,7 @@ This page should highlight attendance at tech-focused events, digital transforma
 
 ## User Stories - Projects
 
-### 1. Rob Pires – Website Developer (Site Owner)
+### 1. Roberto Pires – Website Developer (Site Owner)
 
 **User Goal**  
 
@@ -1452,7 +1440,7 @@ This page should feature projects built using web or IT-related technologies. Pr
 
 ## User Stories - CV Download
 
-### 1. Rob Pires – Website Developer (Site Owner)
+### 1. Roberto Pires – Website Developer (Site Owner)
 
 **User Story**
   
@@ -1463,7 +1451,7 @@ As the developer, I want users to be able to download my CV so that they have of
 - [ ] A download button or link is visible on key pages (e.g. Homepage, About Me, Work Experience).
 - [ ] The CV is provided in PDF format.
 - [ ] The file is professionally formatted and up to date.
-- [ ] The link is accessible and clearly labelled (e.g. “Download My CV”).
+- [ ] The link is accessible and clearly labelled (e.g. “Download CV (PDF)”).
 - [ ] The download link works on all devices and browsers.
 
 **Tasks**
@@ -1476,7 +1464,8 @@ As the developer, I want users to be able to download my CV so that they have of
 
 ### 2. Potential Tutees / Parents
 
-**User Story**  
+**User Story**
+
 As a student or parent, they want to download my CV so that they can review my teaching qualifications and experience in detail before committing to a session.
 
 **Acceptance Criteria**
@@ -1489,8 +1478,7 @@ As a student or parent, they want to download my CV so that they can review my t
 **Tasks**
 
 - [ ] Include CV link next to or within the About Me or Bookings section.
-- [ ] Ensure file name is clear and readable (e.g. `Rob_Pires_Tutor_CV.pdf`).
-- [ ] Write supporting text like: “Download my full CV to learn more about my teaching background.”
+- [ ] Ensure file name is clear and readable (e.g. 'Rob_Pires_Tutor_CV.pdf').
 - [ ] Test download functionality across desktop and mobile.
 - [ ] Ensure accessibility with descriptive alt text or ARIA labels.
 
@@ -1512,7 +1500,7 @@ As an education employer, they want to download my CV so that they can review my
 **Tasks**
 
 - [ ] Ensure CV includes full qualifications (e.g. PGCE, CPD) and experience timeline.
-- [ ] Label link professionally (e.g. “Download Full Teaching CV”).
+- [ ] Label link professionally (e.g. "Download CV (PDF)").
 - [ ] Test download functionality across desktop and mobile.
 - [ ] Ensure accessibility with descriptive alt text or ARIA labels.
 
@@ -1526,7 +1514,7 @@ As an IT or web employer, they want to download my CV so that they can assess my
 **Acceptance Criteria**
 
 - [ ] CV highlights IT certifications and current web development training.
-- [ ] Link to CV is accessible on relevant pages e.g. homepage or Projects/Skills pages.
+- [ ] Link to CV is accessible on relevant pages e.g. homepage or Certifications/Skills pages.
 - [ ] The file provides an overview of relevant technical skills and experience.
 - [ ] The document is clearly labelled and downloadable in one click.
 - [ ] The download link works on all devices and browsers.
@@ -1534,16 +1522,14 @@ As an IT or web employer, they want to download my CV so that they can assess my
 **Tasks**
 - [ ] Highlight IT qualifications (CompTIA A+, ITF+, CCNA, Code Institute Level 5) in CV.
 - [ ] Add download link to Skills or Projects section.
-- [ ] Consider tagging download link as “Technical CV (PDF)” if separate from education-focused CV.
 - [ ] Test download functionality across desktop and mobile.
 - [ ] Ensure accessibility with descriptive alt text or ARIA labels.
----
 
 ### Summary Table – CV Download Feature (Could Have)
 
 | Stakeholder         | Goal                                              | Key Feature/Action                                      |
 |---------------------|---------------------------------------------------|---------------------------------------------------------|
-| Developer (You)     | Make CV easily downloadable for all user types   | Download button, hosted PDF, cross-device testing       |
+| Developer (Myself)     | Make CV easily downloadable for all user types   | Download button, hosted PDF, cross-device testing       |
 | Students / Parents  | Check qualifications before booking tutoring     | Clear CV link with relevant teaching background         |
 | Education Employers | Verify credentials for recruitment consideration | Detailed PDF CV, labelled and easy to find              |
 | IT/Web Employers    | Evaluate technical skills and IT qualifications  | Technical focus in CV, linked from Skills/Projects page |
@@ -1552,7 +1538,7 @@ As an IT or web employer, they want to download my CV so that they can assess my
 
 ## User Stories - Newsletter Sign-up
 
-### 1. Rob Pires – Website Developer (Site Owner)
+### 1. Roberto Pires – Website Developer (Site Owner)
 
 **User Story** 
 
@@ -1649,7 +1635,7 @@ As an IT or web employer, they want to sign up for updates on my technical progr
 
 ## User Stories - Testimonials
 
-### 1. Rob Pires – Website Developer (Site Owner)
+### 1. Roberto Pires – Website Developer (Site Owner)
 
 **User Story**
 
@@ -1747,7 +1733,7 @@ As an IT employer or recruiter, they want to see testimonials relating to my tec
 
 ## User Stories - Live Chat
 
-### 1. Rob Pires – Website Developer (Site Owner)
+### 1. Roberto Pires – Website Developer (Site Owner)
 
 **User Story**
 
