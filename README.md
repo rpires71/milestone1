@@ -381,7 +381,7 @@ Introduces my background, values, and teaching/IT profile in an approachable, pr
 <img width="900" alt="aboutMe" src="https://github.com/user-attachments/assets/17ddbb58-0498-4fad-a72c-12a42bda6982" />
 
 **Tablet**  
-<img width="500" alt="aboutMeTablet" src="https://github.com/user-attachments/assets/6f4b9577-de6d-4c02-a241-cc7ee74c2792" />
+<img width="500" alt="aboutMeTablet" src="https://github.com/user-attachments/assets/e20de65d-51c1-436f-94ad-f16ceb8a51b3" />
 
 **Mobile**  
 <img width="320" alt="aboutMeMobile" src="https://github.com/user-attachments/assets/80fa7638-f599-401e-9b2f-4f930befcfdc" />
