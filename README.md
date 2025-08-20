@@ -5479,6 +5479,28 @@ git branch -M main
     </a>
   </p>
 </details>
+<h3>confirmation.html — Validator screenshots</h3>
+<details open>
+  <summary><strong>First check</strong></summary>
+  <p>
+    <a href="https://github.com/user-attachments/assets/d856fa33-c38c-4621-9dda-12e9046e75dc">
+      <img src="https://github.com/user-attachments/assets/d856fa33-c38c-4621-9dda-12e9046e75dc" 
+           alt="index.html — validator first check (full screenshot)"
+           width="900" loading="lazy">
+    </a>
+  </p>
+</details>
+<details>
+  <summary><strong>Second check</strong></summary>
+  <p>
+    <a href="https://github.com/user-attachments/assets/76ac4801-e8d7-4b87-8039-1c971232cbfc">
+      <img src="https://github.com/user-attachments/assets/76ac4801-e8d7-4b87-8039-1c971232cbfc"
+           alt="index.html — validator second check (summary)"
+           width="900" loading="lazy">
+    </a>
+  </p>
+</details>
+
 ## Regression Testing
 
 <table>
