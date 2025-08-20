@@ -5106,7 +5106,14 @@ git branch -M main
 
  
   <h3>Evidence of testing — Google Chrome Lighthouse (Desktop)</h3>
-
+  <hr>
+<p>
+  <a href="https://github.com/user-attachments/assets/95490e72-5756-4eef-a0c4-24a15b05d626">
+    <img src="https://github.com/user-attachments/assets/95490e72-5756-4eef-a0c4-24a15b05d626"
+         alt="Cover image: Evidence of testing — Google Chrome Lighthouse (Mobile)"
+         width="900" loading="lazy">
+  </a>
+</p>
 <details open>
   <summary><strong>index.html — desktop</strong></summary>
   <p>
@@ -5187,7 +5194,14 @@ git branch -M main
 <hr>
 
 <h3>Evidence of testing — Google Chrome Lighthouse (Mobile)</h3>
-
+<hr>
+<p>
+  <a href="https://github.com/user-attachments/assets/34f73fde-7f75-4025-bcbe-4ddb0ba17ddb">
+    <img src="https://github.com/user-attachments/assets/34f73fde-7f75-4025-bcbe-4ddb0ba17ddb"
+         alt="Cover image: Evidence of testing — Google Chrome Lighthouse (Mobile)"
+         width="900" loading="lazy">
+  </a>
+</p>
 <details open>
   <summary><strong>index.html — mobile</strong></summary>
   <p>
@@ -5268,7 +5282,14 @@ git branch -M main
 <hr>
 
 <h3>Contact section checks — Desktop</h3>
-
+<hr>
+<p>
+  <a href="https://github.com/user-attachments/assets/b97f0414-2676-4281-9e99-64c4f9310d36">
+    <img src="https://github.com/user-attachments/assets/b97f0414-2676-4281-9e99-64c4f9310d36"
+         alt="Cover image: Evidence of testing — Google Chrome Lighthouse (Mobile)"
+         width="900" loading="lazy">
+  </a>
+</p>
 <details open>
   <summary><strong>index.html#contact — desktop</strong></summary>
   <p>
@@ -5338,7 +5359,14 @@ git branch -M main
 <hr>
 
 <h3>Contact section checks — Mobile</h3>
-
+<hr>
+<p>
+  <a href="https://github.com/user-attachments/assets/6f2dfebb-d152-45a1-90db-7a3b65a6079d">
+    <img src="https://github.com/user-attachments/assets/6f2dfebb-d152-45a1-90db-7a3b65a6079d"
+         alt="Cover image: Evidence of testing — Google Chrome Lighthouse (Mobile)"
+         width="900" loading="lazy">
+  </a>
+</p>
 <details open>
   <summary><strong>index.html#contact — mobile</strong></summary>
   <p>
@@ -5404,17 +5432,6 @@ git branch -M main
     </a>
   </p>
 </details>
-
-<hr>
-
-<!-- Optional: a single cover image / heading if you still want a banner -->
-<p>
-  <a href="https://github.com/user-attachments/assets/a951f1ab-1563-49cd-99dd-b7525a4a8a9c">
-    <img src="https://github.com/user-attachments/assets/a951f1ab-1563-49cd-99dd-b7525a4a8a9c"
-         alt="Cover image: Evidence of testing — Google Chrome Lighthouse (Desktop)"
-         width="900" loading="lazy">
-  </a>
-</p>
 
   **Notes (optional hardening):**
   - Consider replacing Google Fonts @import with <link rel="preconnect"> + <link rel="stylesheet"> in <head> to trim render delay, and add loading="lazy" to non-critical images (e.g., footer images or non-active carousel slides).
