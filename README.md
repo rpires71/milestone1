@@ -5413,11 +5413,38 @@ git branch -M main
 </td>
   </tr>
   <tr>
-    <td colspan="2"><strong>Actual Result:</strong> </td>
+    <td colspan="2"><strong>Actual Result:</strong>
+      
+  **Pages reviewed: Home, About Me, Work Experience & Skills, Certifications, Bookings, Confirmation.**
+
+  - **Global navigation & header/footer:**
+  - Same navbar and footer appear on all pages; links route correctly between sections/pages.
+  - The "Contact" anchor targets the footer section consistently. A visible "Skip to content" link is present at the very top (first tabbable element).
+  - **Content & media:**
+  - Home carousel renders with indicators and previous/next controls; each slide image has descriptive alt text.
+  - Images and copy load correctly across pages; no obvious broken assets observed.
+  - **Forms (Bookings):**
+  - Form shows required markers and inline guidance (e.g., "Enter a valid email address." / "Please choose a service."). Submits to confirmation.html via GET.
+  - **External resources:**
+  - CV (PDF) link works and opens the correct file.
+  - Social links (LinkedIn/Facebook/Instagram) point to the right destinations. (Target/rel attributes aren't visible in this rendered view; recommend keeping target="_blank" rel="noopener noreferrer" in markup.)
+  - **Responsiveness & consistency:**
+  - Layout/typography/colour palette appear consistent across pages; cards/tiles/footers preserve the same look-and-feel. No horizontal overflow noticed.
+    </td>
   </tr>
 <tr>
-    <td colspan="2"><strong>Pass/Fail:</strong> </td>
+    <td colspan="2"><strong>Pass/Fail:</strong> 
+      <p><strong>Pass</strong></p>
+    </td>
   </tr>
+  <tr>
+    <td colspan="2"><strong>Observations and Improvements:</strong>
+      
+  ### PASS 
+  
+  **No regressions observed. Core navigation, content, carousel, footer links, form flow, and CV download continue to function and present consistently after recent updates.**
+      </td>
+   </tr>
 </table>
 
 ---
