@@ -5178,8 +5178,8 @@ git branch -M main
 - To accurately measure the user interaction of moving to and rendering the Skills section, Lighthouse Timespan mode is more appropriate because it records a slice of user activity (scrolling/interaction) rather than only the initial navigation.
 
 **What I did**
-**1. Ran a standard Navigation audit on work-experience.html (no hash) to capture baseline SEO/Best Practices/Accessibility/Performance for the page load.**
-**2. Ran a Timespan audit:**
+- **1. Ran a standard Navigation audit on work-experience.html (no hash) to capture baseline SEO/Best Practices/Accessibility/Performance for the page load.**
+- **2. Ran a Timespan audit:**
 - Start recording on work-experience.html.
 - Navigate (Tab/Enter or click) to Skills (#skills) and wait for the section to settle.
 - Stop recording to capture layout stability and responsiveness for that interaction.
