@@ -5397,7 +5397,30 @@ git branch -M main
   </p>
 </details>
 
-**Regression Testing**
+<h3>about-me.html — Validator screenshots</h3>
+
+<details open>
+  <summary><strong>First check</strong></summary>
+  <p>
+    <a href="https://github.com/user-attachments/assets/7ad6759c-d154-44c9-ad3d-c26494cf2d98">
+      <img src="https://github.com/user-attachments/assets/7ad6759c-d154-44c9-ad3d-c26494cf2d98"
+           alt="index.html — validator first check (full screenshot)"
+           width="900" loading="lazy">
+    </a>
+  </p>
+</details>
+
+<details>
+  <summary><strong>Second check</strong></summary>
+  <p>
+    <a href="https://github.com/user-attachments/assets/45b061cc-458c-4510-80c5-58d37a2236ad">
+      <img src="https://github.com/user-attachments/assets/45b061cc-458c-4510-80c5-58d37a2236ad"
+           alt="index.html — validator second check (summary)"
+           width="900" loading="lazy">
+    </a>
+  </p>
+</details>
+## Regression Testing
 
 <table>
   <tr>
