@@ -5315,6 +5315,7 @@ git branch -M main
 
   - **Expected:** Optimised formats, quick rendering, no oversized images.
   - **Actual: Meets expectation —** content images are WebP/SVG across pages; rendering is smooth; only minor best-practice tweaks (lazy-loading, intrinsic sizes, responsive srcset) remain.
+    
   **Updated reports have been added to /docs.**
       </td>
    </tr>
