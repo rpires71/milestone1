@@ -5372,7 +5372,7 @@ git branch -M main
 
   **Updated validation reports have been added to /docs/validation/.**
 
-  **PROOF EVIDENCE**
+  ### PROOF EVIDENCE
 <h3>index.html — Validator screenshots</h3>
 
 <details open>
@@ -5415,6 +5415,31 @@ git branch -M main
   <p>
     <a href="https://github.com/user-attachments/assets/45b061cc-458c-4510-80c5-58d37a2236ad">
       <img src="https://github.com/user-attachments/assets/45b061cc-458c-4510-80c5-58d37a2236ad"
+           alt="index.html — validator second check (summary)"
+           width="900" loading="lazy">
+    </a>
+  </p>
+</details>
+
+<h3>work-experience.html — Validator screenshots</h3>
+
+<details open>
+  <summary><strong>First check</strong></summary>
+  <p>
+    <a href="https://github.com/user-attachments/assets/8a165890-d758-4d64-91fa-1b5bddc06069" >
+      <img src="https://github.com/user-attachments/assets/8a165890-d758-4d64-91fa-1b5bddc06069" 
+           alt="index.html — validator first check (full screenshot)"
+           width="900" loading="lazy">
+    </a>
+    
+  </p>
+</details>
+
+<details>
+  <summary><strong>Second check</strong></summary>
+  <p>
+    <a href="https://github.com/user-attachments/assets/9bf4842f-e1b0-4fea-af50-941bad3363cc">
+      <img src="https://github.com/user-attachments/assets/9bf4842f-e1b0-4fea-af50-941bad3363cc"
            alt="index.html — validator second check (summary)"
            width="900" loading="lazy">
     </a>
