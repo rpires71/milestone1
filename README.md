@@ -16,18 +16,18 @@
   - [Technologies Used](#technologies-used)
   - [Wireframes](#wireframes)
   - [Portfolio Wireframes](#portfolio-wireframes)
-  - [User Stories - Homepage](#user-stories-homepage)
-  - [User Stories - About Me](#user-stories-about-me)
-  - [User Stories - Work Experience](#user-stories-work-experience)
-  - [User Stories - Skills](#user-stories-skills)
-  - [User Stories - Certifications](#user-stories-certifications)
-  - [User Stories - User Stories - Bookings](#user-stories-bookings)
-  - [User Stories - Conferences/Workshops](#user-stories-conferences-workshops)
-  - [User Stories - Projects](#user-stories-projects)
-  - [User Stories - CV Download](#user-stories-cv-download)
-  - [User Stories - Newsletter Sign-up](#user-stories-newsletter-sign-up)
-  - [User Stories - Testimonials](#user-stories-testimonials)
-  - [User Stories - Live Chat](#user-stories-live-chat)
+  - [User Stories for Homepage](#user-stories-for-homepage)
+  - [User Stories for About Me page](#user-stories-for-about-me-page)
+  - [User Stories for Work Experience page](#user-stories-for-work-experience-page)
+  - [User Stories for Skills page](#user-stories-for-skills-page)
+  - [User Stories for Certifications page](#user-stories-for-certifications-page)
+  - [User Stories for Bookings page](#user-stories-for-bookings-page)
+  - [User Stories for Conferences/Workshops page](#user-stories-conferences/workshops-page)
+  - [User Stories for Projects page](#user-stories-for-projects-page)
+  - [User Stories for CV Download link](#user-stories-for-cv-download)
+  - [User Stories for Newsletter page](#user-stories-for-newsletter-page)
+  - [User Stories for Testimonials section](#user-stories-for-testimonials-section)
+  - [User Stories for Live Chat section](#user-stories-for-live-chat-section)
   - [Colour Palette Justification for Portfolio Website](#colour-palette-justification-for-portfolio-website)
   - [Typography Justification for Portfolio Website](#typography-justification-for-portfolio-website)
   - [Accessibility Implementation and User Flow and Navigation Strategies](#accessibility-implementation--and-user-flow--and-navegation-strategies)
@@ -1288,7 +1288,7 @@ The page should provide a brief summary of my IT services (e.g. technical suppor
 
 ---
 
-## User Stories for Conferences-Workshops page
+## User Stories for Conferences/Workshops page
 [⬆ Back to Table of contents](#table-of-contents)
 
 **(should-have)**
@@ -1672,7 +1672,7 @@ As an IT or web employer, they want to download my CV so that they can assess my
 
 ---
 
-## User Stories for Newsletter Sign-up page
+## User Stories for Newsletter page
 [⬆ Back to Table of contents](#table-of-contents)
 
 **(could-have)**
