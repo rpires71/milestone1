@@ -720,7 +720,7 @@ Add small, tied messages and announce them; keep browser validation for WCAG 2.4
   border-radius: 6px;
 }
 
-/* Align global focus-visible ring with the same brand color */
+/* Align global focus-visible ring with the same brand colour */
 :where(input, select, textarea):focus-visible {
   outline-color: var(--focus-border);
 }
@@ -745,7 +745,7 @@ textarea:focus {
   /* keep a visible ring that’s ≥2px thick overall */
   box-shadow: 0 0 0 0.25rem var(--focus-ring) !important;
   outline: 0;
-  /* set outline color via :focus-visible */
+  /* set outline colour via :focus-visible */
 }
 
 /* Optional: add a subtle background tint to further help CVD users */
