@@ -30,24 +30,23 @@
   - [User Stories for Live Chat Section](#user-stories-for-live-chat-section)
   - [Colour Palette Justification for Portfolio Website](#colour-palette-justification-for-portfolio-website)
   - [Typography Justification for Portfolio Website](#typography-justification-for-portfolio-website)
-  - [Accessibility Implementation and User Flow and Navigation Strategies](#accessibility-implementation-and-user-flow-and-navigation-strategies)
+  - [Accessibility Implementation, User Flow and Navigation Strategies](#accessibility-implementation-user-flow-and-navigation-strategies)
   - [Approach for Website Test Planning](#approach-for-website-test-planning)
   - [Test Case Planning](#test-case-planning)
-    - [Functionality and Content Accuracy Testing - Planning](#functionality-and-content-accuracy-testing--planning)
-    - [Usability and Typography Testing - Planning](#usability-and-typography-testing--planning)
-    - [Responsiveness Testing - Planning](#responsiveness-testing--planning)
-    - [Accessibility Testing - Planning](#accessibility-testing--planning)
-    - [Performance Testing - Planning](#performance-testing--planning)
-    - [Regression Testing - Planning](#regression-testing--planning)
+    - [Functionality and Content Accuracy Testing - Planning](#functionality-and-content-accuracy-testing---planning)
+    - [Usability and Typography Testing - Planning](#usability-and-typography-testing---planning)
+    - [Responsiveness Testing - Planning](#responsiveness-testing---planning)
+    - [Accessibility Testing - Planning](#accessibility-testing---planning)
+    - [Performance Testing - Planning](#performance-testing---planning)
+    - [Regression Testing - Planning](#regression-testing---planning)
   - [Project Setup with GitHub and Visual Studio Code](#project-setup-with-github-and-visual-studio-code)
   - [Website Testing](#website-testing)
-    - [Functionality and Content Accuracy Testing - Results](#functionality-and-content-accuracy-testing--results)
-    - [Usability and Typography Testing - Results](#usability-and-typography-testing--results)
-    - [Responsiveness Testing - Results](#responsiveness-testing--results)
-    - [Accessibility Testing - Results](#accessibility-testing--results)
-    - [Performance Testing - Results](#performance-testing--results)
-    - [Regression Testing - Results](#regression-testing--results)
-</details>
+    - [Functionality and Content Accuracy Testing - Results](#functionality-and-content-accuracy-testing---results)
+    - [Usability and Typography Testing - Results](#usability-and-typography-testing---results)
+    - [Responsiveness Testing - Results](#responsiveness-testing---results)
+    - [Accessibility Testing - Results](#accessibility-testing---results)
+    - [Performance Testing - Results](#performance-testing---results)
+    - [Regression Testing - Results](#regression-testing---results)
 
 # Milestone Project 1
 Development Milestone Project 1 - User Centric Frontend
@@ -2156,7 +2155,7 @@ h1, h2, h3 {
 
 ---
 
-## Accessibility Implementation and User Flow and Navigation Strategies
+## Accessibility Implementation, User Flow and Navigation Strategies
 [⬆ Back to Table of contents](#table-of-contents)
 
 A crucial aspect of the development of this portfolio website is the implementation of accessibility features. To ensure the website is usable by the broadest possible audience, including users with visual, motor, auditory, and cognitive impairments, coding and design choices adhere to the **Web Content Accessibility Guidelines (WCAG) 2.1**.
@@ -3582,6 +3581,7 @@ git branch -M main
 ---
 
 ## Website Testing
+[⬆ Back to Table of contents](#table-of-contents)
 
 ### Types of Tests Implemented
 
