@@ -1,11 +1,11 @@
 <details>
 <summary><strong>Table of contents</strong></summary>
 
-- [Milestone Project 1](#milestone1)
+- [Milestone Project 1](#milestone-project-1)
 - [Personal Portfolio Website](#personal-portfolio-website)
   - [Project Overview](#project-overview)
   - [Project Goals](#project-goals)
-  - [Purpose of the Website](#purpose-of-website)
+  - [Purpose of the Website](#purpose-of-the-website)
   - [Target Audiences](#target-audience)
   - [Key Features and Skills Demonstrated ](#key-features)
   - [UX Strategy](#ux-strategy)
