@@ -808,14 +808,13 @@ textarea:focus {
 
 /* High Contrast Mode support (Windows) */
 @media (forced-colors: active) {
-
   .form-control:focus,
   .form-select:focus,
   textarea:focus {
-    outline: 2px solid SelectedItem;
+    outline: 2px solid currentColor; /* fallback */
     outline-offset: 2px;
     box-shadow: none;
-    border-color: SelectedItem;
+    border-color: currentColor;
   }
 }
 
