@@ -40,6 +40,7 @@
 
 # Milestone Project 1
 Development Milestone Project 1 - User Centric Frontend
+[⬆ Back to Table of contents](#table-of-contents)
 
 # Personal Portfolio Website
 
