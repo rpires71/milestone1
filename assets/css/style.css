@@ -13,14 +13,14 @@
 /* --------------------------------------------------------------------------
    Google Fonts
    - Imports two font families used across the site.
-   - Using @import in CSS is fine here because it’s a simple static site.
-   - In large apps, I'll prefer a <link> in HTML for better performance.
+   - Using @import in CSS is fine here because it's a simple static site.
+   - In large apps, I'll use a <link> in HTML for better performance.
 --------------------------------------------------------------------------- */
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:wght@400;600&display=swap");
 
 /* --------------------------------------------------------------------------
    Design Tokens (CSS Variables)
-   - Centralized colour palette and typography choices.
+   - Centralised colour palette and typography choices.
    - Benefits:
      1) Consistency: change in one place cascades everywhere.
      2) Theming: easy to swap schemes (e.g., dark mode).
@@ -41,11 +41,15 @@
   /* Accent: gold */
   --primary-accents-buttons: #b7986b;
   /* Accent: hazel brown (buttons, header bg) */
-  --error-colour: #7a1f0f; /* high-contrast, matches this palette */
-   /* Picked for high contrast on the light page bg (#f9f6f1) */
-  --focus-border: var(--headings-footer-background);        /* #3e2c23 */
-  --focus-ring: rgba(62, 44, 35, 0.35);                     /* soft outer glow */
-   --content-max: 1800px; /* 1600–2200px */
+  --error-colour: #7a1f0f;
+  /* high-contrast, matches this palette */
+  /* Picked for high contrast on the light page bg (#f9f6f1) */
+  --focus-border: var(--headings-footer-background);
+  /* #3e2c23 */
+  --focus-ring: rgba(62, 44, 35, 0.35);
+  /* soft outer glow */
+  --content-max: 1800px;
+  /* 1600–2200px */
 }
 
 /* --------------------------------------------------------------------------
@@ -58,13 +62,19 @@
    Smooth scrolling for in-page anchors
    - This is a progressive enhancement that animates jumps (#contact, #skills).
 --------------------------------------------------------------------------- */
-html { scroll-behavior: smooth; } /* Smooth in-page jumps (#skills, #contact, etc.) */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Smooth in-page jumps (#skills, #contact, etc.) */
 
 body {
   font-family: var(--secondary-typeface);
   color: var(--body-text-colour);
   background-color: var(--page-background);
-  font-size: 16px; line-height: 1.6; /* Improvement Test TC011 - Raise minimum text sizes & line-height*/
+  font-size: 16px;
+  /* Improvement Test TC011 - Raise minimum text sizes & line-height*/
+  line-height: 1.6;
 }
 
 h1,
@@ -78,8 +88,10 @@ h6 {
 }
 
 /* Improvement Test TC011 - Raise minimum text sizes & line-height*/
-/* Utility for paragraph rhythm if needed */
-p { margin-block: 0 1rem; }
+p {
+  margin-block: 0 1rem;
+}
+
 /* --------------------------------------------------------------------------
    Header (Hero) styling
    - The header is a full-width band with accent background and light text.
@@ -97,9 +109,20 @@ header {
    - clamp(min, preferred, max) makes fluid typography that adapts to viewport.
    - This avoids abrupt jumps at breakpoints and improves readability on all devices.
 --------------------------------------------------------------------------- */
-.header-title   { font-size: clamp(3.5rem, 5vw, 5rem); margin-bottom: 1rem; }
-.header-subtitle{ font-size: clamp(1.75rem, 3vw, 2.3rem); font-weight: 400; }
-.header-lead    { font-size: clamp(1.6rem, 3vw, 2rem);  font-weight: 400; }
+.header-title {
+  font-size: clamp(3.5rem, 5vw, 5rem);
+  margin-bottom: 1rem;
+}
+
+.header-subtitle {
+  font-size: clamp(1.75rem, 3vw, 2.3rem);
+  font-weight: 400;
+}
+
+.header-lead {
+  font-size: clamp(1.6rem, 3vw, 2rem);
+  font-weight: 400;
+}
 
 /* --------------------------------------------------------------------------
    Header layout container
@@ -161,18 +184,25 @@ header h3 {
 
 /* --------------------------------------------------------------------------
    Logo sizing
-   - Keep raster/SVG logos responsive but capped so they don’t dominate the layout.
+   - Keep raster/SVG logos responsive but capped so they don't dominate the layout.
 --------------------------------------------------------------------------- */
 
 /* Navbar-specific logo: smaller */
-.logo-navbar { max-height: 30px; height: auto; width: auto; margin-right: 10px; }
+.logo-navbar {
+  max-height: 30px;
+  height: auto;
+  width: auto;
+  margin-right: 10px;
+}
 
 /* Header logo */
 .logo-header {
   max-height: clamp(100px, 20vw, 250px);
   height: auto;
   width: auto;
-  display: block; margin-left: auto; margin-right: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* --------------------------------------------------------------------------
@@ -207,14 +237,13 @@ header h3 {
   color: var(--primary-accents-buttons);
 }
 
-/* NAVBAR links: underline on hover/focus-visible + keep your existing colour change (TC010 Fix) */
+/* NAVBAR links: underline on hover/focus-visible + keep existing colour change (TC010 Fix) */
 .custom-navbar .nav-link:hover,
 .custom-navbar .nav-link:focus-visible {
   text-decoration: underline;
   text-underline-offset: 0.15em;
   text-decoration-thickness: 2px;
 }
-
 
 /* --------------------------------------------------------------------------
    Burger icon colour
@@ -224,7 +253,6 @@ header h3 {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(249, 246, 241, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
 }
 
-
 /* --------------------------------------------------------------------------
    Content Tiles
    - Card-like containers with border, subtle shadow, and responsive font sizing.
@@ -232,7 +260,8 @@ header h3 {
 --------------------------------------------------------------------------- */
 
 .tile {
-  border: 2px solid var(--primary-accents-buttons); /* Hazel Brown border */
+  border: 2px solid var(--primary-accents-buttons);
+  /* Hazel Brown border */
   border-radius: 8px;
   padding: 1rem;
   background-color: var(--page-background);
@@ -251,52 +280,49 @@ header h3 {
 /* Space between icons and headings inside tiles */
 .tile img {
   margin-bottom: 0.75rem;
-  /* Adjust this value if you want more or less space */
+  /* Adjust this value if I want more or less space */
 }
 
 /* --------------------------------------------------------------------------
    Semantic-visual alignment helpers
-   - These classes can keep correct HTML semantics (H1/H2/paragraph)
+   - These classes keep correct HTML semantics (H1/H2/paragraph)
      while preserving the visual design previously used with H3/H5.
    - This is important for accessibility/SEO without changing the look.
 --------------------------------------------------------------------------- */
-/* Make the new H1 in the About page header look like your old header line */
+/* Make the new H1 in the About page header look like my old header line */
 .h1-as-lead {
   font-size: clamp(2rem, 3vw, 1.6rem) !important;
   font-weight: 400;
   margin-bottom: 0;
 }
 
-/* Make the page H1 look like your previous header <h3> */
+/* Make the page H1 look like my previous header <h3> */
 .h1-as-h3 {
   font-size: 2.5rem;
-  /* matches your header h3 size */
+  /* matches my header h3 size */
   font-weight: 400;
   margin: 0;
 }
 
-/* Make the new H2s inside tiles look like your old H3s */
-.tile .as-h3 { 
-  font-size: clamp(.8rem, 1.5vw, 1.1rem); 
-  font-weight: 700; 
-  line-height: 1.4; 
-  margin: 0 0 .5rem 0; 
-  color: var(--body-text-colour); 
+/* Make the new H2s inside tiles look like my old H3s */
+.tile .as-h3 {
+  font-size: clamp(0.8rem, 1.5vw, 1.1rem);
+  font-weight: 700;
+  line-height: 1.4;
+  margin: 0 0 0.5rem 0;
+  color: var(--body-text-colour);
 }
-
 
 /* Keep the old look after switching to semantic tags in the intro tile */
 .tile .as-h4,
 .tile .as-h5,
 .tile h4,
-.tile h5 { 
-  font-size: clamp(.8rem, 1.5vw, 1.1rem); 
-  font-weight: 400; 
-  line-height: 1.4; 
-  margin-bottom: .5rem; 
+.tile h5 {
+  font-size: clamp(0.8rem, 1.5vw, 1.1rem);
+  font-weight: 400;
+  line-height: 1.4;
+  margin-bottom: 0.5rem;
 }
-
-
 
 /* --------------------------------------------------------------------------
    Grid layout for tiles
@@ -319,10 +345,9 @@ header h3 {
   border-radius: 8px;
   padding: 1rem;
   background-color: var(--page-background);
-  box-shadow: 0 0 10px rgba(0,0,0,.1);
-  margin-bottom: .5rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 0.5rem;
 }
-
 
 /* --------------------------------------------------------------------------
    Carousel images
@@ -340,7 +365,7 @@ header h3 {
 
 /* --------------------------------------------------------------------------
 Visible keyboard focus on the controls (improvement Test TC006):  
-  WCAG 2.2 – SC 2.4.7 “Focus Visible” (Level AA). Adds a visible focus indicator for keyboard users on the carousel controls.
+  WCAG 2.2 – SC 2.4.7 "Focus Visible" (Level AA). Adds a visible focus indicator for keyboard users on the carousel controls.
   CSS file already uses a global :focus-visible; add an explicit rule for clarity.
 ---------------------------------------------------------------------------*/
 .carousel-control-prev:focus-visible,
@@ -351,9 +376,11 @@ Visible keyboard focus on the controls (improvement Test TC006):
   border-radius: 6px;
 }
 
-/* Respect reduced motion preferences (TC006) */
+/* Respect reduced motion preferences (improvement Test TC006) */
 @media (prefers-reduced-motion: reduce) {
-  .carousel, .carousel * {
+
+  .carousel,
+  .carousel * {
     animation-duration: 0.001ms !important;
     animation-iteration-count: 1 !important;
     transition-duration: 0.001ms !important;
@@ -363,35 +390,43 @@ Visible keyboard focus on the controls (improvement Test TC006):
 
 /* Keep carousel images at a fixed height on narrow screens (prevents layout jump) */
 @media (max-width: 768px) {
-  .carousel-inner img { height: 305px; object-fit: cover; }
+  .carousel-inner img {
+    height: 305px;
+    object-fit: cover;
+  }
 }
+
 /* --------------------------------------------------------------------------
    Section spacing / icons
    - First main section gets comfortable top/bottom rhythm.
    - .section-icon keeps SVG/PNG badges a consistent visual size.
 --------------------------------------------------------------------------- */
 
-
-main > section:first-of-type {
+main>section:first-of-type {
   margin-top: 1.5rem;
   margin-bottom: 1.5rem;
 }
 
 /*  Improvement TC024 - Skip to content link */
-#main { scroll-margin-top: 100px; } /* match navbar height */
+#main {
+  scroll-margin-top: 100px;
+}
+
+/* match navbar height */
 
 .section-icon {
-  width: 120px; height: auto; 
+  width: 120px;
+  height: auto;
   display: block;
-  margin: 0  auto .5rem;
+  margin: 0 auto 0.5rem;
 }
 
 /* Illustrations scale down responsively while keeping aspect ratio */
 .main-illustration {
-  width: 100%; 
-  max-width: 400px; 
-  height: auto; 
-  display: block; 
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  display: block;
   margin: 0 auto;
 }
 
@@ -402,15 +437,19 @@ main > section:first-of-type {
 #about-me {
   display: flex;
   flex-wrap: wrap;
-  gap: 1rem;            /* Even spacing between tiles */
-  align-items: stretch; /* Equal-height feel */
+  gap: 1rem;
+  /* Even spacing between tiles */
+  align-items: stretch;
+  /* Equal-height feel */
 }
 
 #about-me .tile {
   border: 2px solid var(--primary-accents-buttons);
   /* Hazel Brown border */
-  margin: 0;                 /* remove old margin if you had one */
-  flex: 1 1 280px;           /* responsive width target */
+  margin: 0;
+  /* remove old margin if you had one */
+  flex: 1 1 280px;
+  /* responsive width target */
   box-sizing: border-box;
 }
 
@@ -422,12 +461,12 @@ main > section:first-of-type {
 
 /* --------------------------------------------------------------------------
    Anchor offset for sticky headers
-   - When you scroll to #skills, this prevents the sticky navbar from covering
+   - When I scroll to #skills, this prevents the sticky navbar from covering
      the top lines of content by adding a logical “scroll margin”.
 --------------------------------------------------------------------------- */
 #skills {
   scroll-margin-top: 100px;
-  /* Adjust based on your navbar height */
+  /* Adjust based on the navbar height */
 }
 
 /* --------------------------------------------------------------------------
@@ -454,14 +493,13 @@ footer {
   padding: 1rem;
   margin: 0.5rem;
   text-align: center;
-  box-shadow: 0 0 10px rgba(0,0,0,.1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   color: var(--light-font-colour);
 }
-
 
 /* Footer section heading: larger but still subordinate to page H1 */
 .footer-title {
@@ -485,15 +523,18 @@ footer a:focus-visible {
 Improvement: Constrain footer content width on ultra-wide screens and center it
 ---------------------------------------------------------------------------*/
 
-footer #contacts{
-  max-width: 2000px;          /* pick 1800–2500px */
-  margin-inline: auto;        /* centers inside the full-width footer */
-  padding-inline: clamp(16px, 3vw, 32px); /* keep comfy side gutters */
+footer #contacts {
+  max-width: 2000px;
+  /* pick 1800–2500px */
+  margin-inline: auto;
+  /* centers inside the full-width footer */
+  padding-inline: clamp(16px, 3vw, 32px);
+  /* keep comfy side gutters */
   box-sizing: border-box;
 }
 
 /* Constrain the inner grid wrapper */
-footer #contact{
+footer #contact {
   max-width: var(--content-max);
   margin-inline: auto;
   padding-inline: clamp(16px, 3vw, 32px);
@@ -509,8 +550,10 @@ footer #contact{
 /* Improvement for mobile and tablets: Footer tiles: responsive grid */
 #contact {
   display: grid;
-  grid-template-columns: 1fr;          /* mobile: 1 column */
-  gap: 1rem;                            /* even spacing both ways */
+  grid-template-columns: 1fr;
+  /* mobile: 1 column */
+  gap: 1rem;
+  /* even spacing both ways */
 }
 
 #contact div {
@@ -525,9 +568,18 @@ footer #contact{
 }
 
 /* tablet */
-@media (min-width: 768px) { #contact { grid-template-columns: repeat(2, 1fr); } }
+@media (min-width: 768px) {
+  #contact {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
 /* laptop/desktop */
-@media (min-width: 992px) { #contact { grid-template-columns: repeat(4, 1fr); } }
+@media (min-width: 992px) {
+  #contact {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
 
 /* --------------------------------------------------------------------------
    Link styling
@@ -541,7 +593,6 @@ a {
   /* Removes the underline */
 }
 
-
 /*  Improvement TC024 - Skip to content link */
 /* Placed after Bootstrap so it wins*/
 .skip-link {
@@ -552,7 +603,8 @@ a {
   color: var(--light-font-colour);
   padding: 0.5rem 0.75rem;
   border-radius: 6px;
-  z-index: 1100; /* above sticky navbar */
+  z-index: 1100;
+  /* above sticky navbar */
 }
 
 .skip-link:focus,
@@ -566,8 +618,10 @@ a {
 /* CV sections */
 /* CV buttons – match site palette */
 .btn-accent {
-  background-color: var(--primary-accents-buttons);/* #b7986b - Improvement Test TC011*/
-  color: var(--headings-footer-background); /* #3e2c23 (dark - Improvement Test TC011 */
+  background-color: var(--primary-accents-buttons);
+  /* #b7986b - Improvement Test TC011*/
+  color: var(--headings-footer-background);
+  /* #3e2c23 (dark - Improvement Test TC011 */
   border: 2px solid var(--primary-accents-buttons);
 }
 
@@ -590,8 +644,7 @@ a {
   color: var(--light-font-colour);
 }
 
-
-/* Accessible keyboard focus ring (keeps your global :focus-visible too) (Improvement Test TC010 )
+/* Accessible keyboard focus ring (keeps global :focus-visible too) (Improvement Test TC010 )
 Underline gives an immediate, familiar visual cue (hover/mouse + keyboard).
 Outline ensures a high-contrast focus indicator that meets WCAG 2.4.7 / 1.4.11.*/
 .btn-accent:focus-visible,
@@ -607,16 +660,17 @@ Outline ensures a high-contrast focus indicator that meets WCAG 2.4.7 / 1.4.11.*
 
 .btn-accent:disabled,
 .btn-outline-accent:disabled {
-  opacity: .6;
+  opacity: 0.6;
   cursor: not-allowed;
   box-shadow: none;
 }
+
 /* Inline CV call-to-action spacing */
 .cv-cta {
-  gap: .5rem;
+  gap: 0.5rem;
 }
 
-/* Make the navbar CV dropdown match your dark navbar */
+/* Make the navbar CV dropdown match dark navbar */
 .custom-navbar .dropdown-menu {
   background-color: var(--headings-footer-background);
   border-color: var(--primary-accents-buttons);
@@ -648,53 +702,59 @@ Outline ensures a high-contrast focus indicator that meets WCAG 2.4.7 / 1.4.11.*
     background-color: lightgray;
 }*/
 
-
-
 /* --------------------------------------------------------------------------
 Form Accessible inline error messages (improvement Test TC002):  
 Add small, tied messages and announce them; keep browser validation for WCAG 2.4.7 compliance
 ---------------------------------------------------------------------------*/
 /* Strong keyboard focus */
-:where(a, button, input, select, textarea,
-       .carousel-control-prev, .carousel-control-next,
-       .carousel-indicators [data-bs-target]):focus-visible {
+:where(a,
+  button,
+  input,
+  select,
+  textarea,
+  .carousel-control-prev,
+  .carousel-control-next,
+  .carousel-indicators [data-bs-target]):focus-visible {
   outline: 3px solid currentColor;
   outline-offset: 3px;
   border-radius: 6px;
 }
 
-/* Align your global focus-visible ring with the same brand color */
+/* Align global focus-visible ring with the same brand color */
 :where(input, select, textarea):focus-visible {
   outline-color: var(--focus-border);
 }
 
-/* Error color uses your palette variable */
+/* Error colour uses palette variable */
 .err {
-  margin: .25rem 0 0;
+  margin: 0.25rem 0 0;
   color: var(--error-colour);
 }
 
 .invalid .form-control,
 .invalid .form-select,
-.invalid textarea { border: 2px solid var(--error-colour); }
+.invalid textarea {
+  border: 2px solid var(--error-colour);
+}
 
-/* Inputs, selects, textareas (overrides Bootstrap’s blue) */
+/* Inputs, selects, textareas (overrides Bootstrap's blue) */
 .form-control:focus,
 .form-select:focus,
 textarea:focus {
   border-color: var(--focus-border) !important;
   /* keep a visible ring that’s ≥2px thick overall */
   box-shadow: 0 0 0 0.25rem var(--focus-ring) !important;
-  outline: 0; /* we’ll set outline color via :focus-visible below */
+  outline: 0;
+  /* set outline color via :focus-visible */
 }
 
 /* Optional: add a subtle background tint to further help CVD users */
 .form-control:focus,
 .form-select:focus,
 textarea:focus {
-  background-color: #fff; /* keep content contrast; remove if you already force white */
+  background-color: #fff;
+  /* keep content contrast; */
 }
-
 
 /* Screen-reader-only helper */
 .sr-only {
@@ -712,24 +772,43 @@ textarea:focus {
 --------------------------------------------------------------------------- */
 /* Collapse the two-column tile grid on narrow screens */
 @media (max-width: 768px) {
-  .tile-grid { grid-template-columns: 1fr; }
+  .tile-grid {
+    grid-template-columns: 1fr;
+  }
 }
 
 /* Brand scaling */
 @media (max-width: 992px) {
-  .header-title   { font-size: 3rem; }
-  .header-subtitle{ font-size: 1.4rem; }
-  .logo-header    { max-height: 175px; }
+  .header-title {
+    font-size: 3rem;
+  }
+
+  .header-subtitle {
+    font-size: 1.4rem;
+  }
+
+  .logo-header {
+    max-height: 175px;
+  }
 }
 
 @media (max-width: 576px) {
-  .header-title   { font-size: 2.5rem; }
-  .header-subtitle{ font-size: 1rem; }
-  .logo-header    { max-height: 100px; }
+  .header-title {
+    font-size: 2.5rem;
+  }
+
+  .header-subtitle {
+    font-size: 1rem;
+  }
+
+  .logo-header {
+    max-height: 100px;
+  }
 }
 
 /* High Contrast Mode support (Windows) */
 @media (forced-colors: active) {
+
   .form-control:focus,
   .form-select:focus,
   textarea:focus {
@@ -742,6 +821,7 @@ textarea:focus {
 
 /* Bootstrap containers expansion on ultra-wide screens */
 @media (min-width: 1400px) {
+
   .container,
   .container-lg,
   .container-xl,
@@ -749,11 +829,3 @@ textarea:focus {
     max-width: var(--content-max);
   }
 }
-/* --------------------------------------------------------------------------
-   (Optional) Debug helpers (keep commented in production)
----------------------------------------------------------------------------
-
-.container, .row { outline: 2px dashed #ccc; }
-.col-12 { outline: 1px solid #eee; background-color: #fafafa; }
-
-*/
