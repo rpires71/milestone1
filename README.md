@@ -1999,7 +1999,10 @@ As an IT recruiter or employer, they want to initiate a live conversation with m
 | Gold Brown               | `#CBA135`  | Highlights, call-to-action elements    |
 | Dark Chocolate Brown     | `#3E2C23`  | Headings, footer backgrounds           |
 | Light Beige (Background) | `#F9F6F1`  | Main page background                   |
-| Dark Grey / Dark Brown   | –          | Body text and headings                 |
+| Light Beige (Light Font Colour) | `#F9F6F1`  | Main page body text and headings  |
+| Dark Brown               | `#3a1705`  | Body text and headings                 |
+| Brown                    | `#7a1f0f`  | Error colour                 |
+| Dark Chocolate Brown     | `#3E2C23`  | Focus border                |
 
 
 ### Overview and Rationale
