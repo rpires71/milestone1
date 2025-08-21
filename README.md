@@ -37,9 +37,8 @@
   - [Website Testing](#website-testing)
 </details>
 
-# Milestone Project 1
+# Milestone Project 1 [⬆ Back to Table of contents](#table-of-contents)
 Development Milestone Project 1 - User Centric Frontend
-[⬆ Back to Table of contents](#table-of-contents)
 
 # Personal Portfolio Website
 [⬆ Back to Table of contents](#table-of-contents)
