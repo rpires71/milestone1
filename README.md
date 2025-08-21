@@ -16,24 +16,24 @@
   - [Technologies Used](#technologies-used)
   - [Wireframes](#wireframes)
   - [Portfolio Wireframes](#portfolio-wireframes)
-  - [User Stories - Homepage (must-have)](#user-stories-homepage)
-  - [User Stories - About Me (must-have)](#user-stories-about-me)
-  - [User Stories - Work Experience (must-have)](#user-stories-work-experience)
-  - [User Stories - Skills (must-have)](#user-stories-skills)
-  - [User Stories - Certifications (must-have)](#user-stories-certifications)
-  - [User Stories - User Stories - Bookings (must-have)](#user-stories-bookings)
-  - [User Stories - Conferences/Workshops (should-have)](#user-stories-conferences-workshops)
-  - [User Stories - Projects (should-have)](#user-stories-projects)
-  - [User Stories - CV Download (must-have)](#user-stories-cv-download)
-  - [User Stories - Newsletter Sign-up (could-have)](#user-stories-newsletter-sign-up)
-  - [User Stories - Testimonials (could-have)](#user-stories-testimonials)
-  - [User Stories - Live Chat (could-have)](#user-stories-live-chat)
-  - [Colour Palette Justification for Portfolio Website](#colour-palette-justification)
-  - [Typography Justification for Portfolio Website](#typography-justification)
-  - [Accessibility Implementation and User Flow and Navigation Strategies](#accessibility-implementation-user-flow-navegation-strategies)
-  - [Approach for Website Test Planning](#approach-website-test-planning)
+  - [User Stories - Homepage](#user-stories-homepage)
+  - [User Stories - About Me](#user-stories-about-me)
+  - [User Stories - Work Experience](#user-stories-work-experience)
+  - [User Stories - Skills](#user-stories-skills)
+  - [User Stories - Certifications](#user-stories-certifications)
+  - [User Stories - User Stories - Bookings](#user-stories-bookings)
+  - [User Stories - Conferences/Workshops](#user-stories-conferences-workshops)
+  - [User Stories - Projects](#user-stories-projects)
+  - [User Stories - CV Download](#user-stories-cv-download)
+  - [User Stories - Newsletter Sign-up](#user-stories-newsletter-sign-up)
+  - [User Stories - Testimonials](#user-stories-testimonials)
+  - [User Stories - Live Chat](#user-stories-live-chat)
+  - [Colour Palette Justification for Portfolio Website](#colour-palette-justification-for-portfolio-website)
+  - [Typography Justification for Portfolio Website](#typography-justification-for-portfolio-website)
+  - [Accessibility Implementation and User Flow and Navigation Strategies](#accessibility-implementation--and-user-flow--and-navegation-strategies)
+  - [Approach for Website Test Planning](#approach-for-website-test-planning)
   - [Test Case Planning](#test-case-planning)
-  - [Milestone 1: Project Setup with GitHub and Visual Studio Code](#project-setup-github-vscode)
+  - [Project Setup with GitHub and Visual Studio Code](#project-setup-with-github-and-visual-studio-code)
   - [Website Testing](#website-testing)
 </details>
 
@@ -3407,7 +3407,7 @@ At the end of each test case, I plan to:
 
 ---
 
-## Milestone 1: Project Setup with GitHub and Visual Studio Code
+## Project Setup with GitHub and Visual Studio Code
 
 The following content documents the creation of the `milestone1` repository on GitHub and how Visual Studio Code (VS Code) was configured for day-to-day development.
 
