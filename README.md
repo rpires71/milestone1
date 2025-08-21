@@ -1978,6 +1978,7 @@ As an IT recruiter or employer, they want to initiate a live conversation with m
 ---
 
 ## Colour Palette Justification for Portfolio Website
+[⬆ Back to Table of contents](#table-of-contents)
 
 ### Chosen Colour Palette
 
@@ -2055,6 +2056,7 @@ This thoughtful application of colour not only reflects my professional ethos bu
 ---
 
 ## Typography Justification for Portfolio Website
+[⬆ Back to Table of contents](#table-of-contents)
 
 ### Overview
 
@@ -2143,6 +2145,7 @@ h1, h2, h3 {
 ---
 
 ## Accessibility Implementation and User Flow and Navigation Strategies
+[⬆ Back to Table of contents](#table-of-contents)
 
 A crucial aspect of the development of this portfolio website is the implementation of accessibility features. To ensure the website is usable by the broadest possible audience, including users with visual, motor, auditory, and cognitive impairments, coding and design choices adhere to the **Web Content Accessibility Guidelines (WCAG) 2.1**.
 
@@ -2177,6 +2180,7 @@ Using ARIA and semantic markup, accessible error notifications, real-time valida
 **Justification:** Helps remove barriers in user interaction, such as correctly labelled forms with accessible error handling to support users with cognitive, motor, or visual impairments.
 
 ## User Flow and Navigation Strategy
+[⬆ Back to Table of contents](#table-of-contents)
 
 I’ve planned to apply a clear, logical user flow designed to assist users of all backgrounds in achieving their objectives effectively and intuitively. By keeping user-focused interaction in mind, the website is structured with user-friendly navigation.
 
@@ -2216,6 +2220,7 @@ I’ve planned to apply a clear, logical user flow designed to assist users of a
 ---
 
 ## Approach for Website Test Planning
+[⬆ Back to Table of contents](#table-of-contents)
 
 ### Definition of Purpose and Scope
 
@@ -2284,10 +2289,12 @@ At the end of each test case, I plan to:
 ---
 
 ## Test Case Planning
+[⬆ Back to Table of contents](#table-of-contents)
 
 **Justification:** Using test cases provides evidence of thorough and repeated testing.
 
 ### Functionality and Content Accuracy Testing
+[⬆ Back to Table of contents](#table-of-contents)
 
 **Purpose:** To ensure that website components and interactive elements function as intended. Also, in alignment with user expectations, confirm that content is comprehensive and accurate.
 
@@ -2652,6 +2659,7 @@ At the end of each test case, I plan to:
 </table>
 
 ### Usability and Typography Testing
+[⬆ Back to Table of contents](#table-of-contents)
 
 **Purpose:** Ensure typographic support across all devices in terms of legibility, visual structure, and a professional appearance. Confirm that the site offers a user-friendly and intuitive experience that meets the expectations of the target audience.
 
@@ -2843,6 +2851,7 @@ At the end of each test case, I plan to:
 </table>
 
 ### Responsiveness Testing
+[⬆ Back to Table of contents](#table-of-contents)
 
 **Purpose:** Correct adaptation across a range of device sizes and orientations (desktop, tablet, and mobile) of website layout, content, and interactive components is ensured.
 
@@ -2965,6 +2974,7 @@ At the end of each test case, I plan to:
 </table>
 
 ### Accessibility Testing
+[⬆ Back to Table of contents](#table-of-contents)
 
 **Purpose:** Fulfilling acknowledged accessibility criteria to ensure the website is usable by all users, including individuals with disabilities.
 
@@ -3236,6 +3246,7 @@ At the end of each test case, I plan to:
 </table>
 
 ### Performance Testing
+[⬆ Back to Table of contents](#table-of-contents)
 
 **Purpose:** Regardless of device or network performance, it is essential to ensure the website loads promptly and operates efficiently under standard user conditions.
 
@@ -3355,6 +3366,7 @@ At the end of each test case, I plan to:
 </table>
 
 ### Regression Testing
+[⬆ Back to Table of contents](#table-of-contents)
 
 **Purpose:** Ensure that existing website features or functionalities are not adversely affected by recent modifications, updates, or bug resolutions.
 
@@ -3408,6 +3420,7 @@ At the end of each test case, I plan to:
 ---
 
 ## Project Setup with GitHub and Visual Studio Code
+[⬆ Back to Table of contents](#table-of-contents)
 
 The following content documents the creation of the `milestone1` repository on GitHub and how Visual Studio Code (VS Code) was configured for day-to-day development.
 
@@ -3573,8 +3586,10 @@ git branch -M main
 
 
 ### Test Cases
+[⬆ Back to Table of contents](#table-of-contents)
 
-**Functionality and Content Accuracy Testing**
+#### Functionality and Content Accuracy Testing
+[⬆ Back to Table of contents](#table-of-contents)
 
 <table>
   <tr>
@@ -4289,7 +4304,8 @@ git branch -M main
   </tr>
 </table>
 
-**Usability and Typography Testing**
+#### Usability and Typography Testing
+[⬆ Back to Table of contents](#table-of-contents)
 
 <table>
   <tr>
@@ -4600,7 +4616,7 @@ git branch -M main
    </tr>
 </table>
 
-**Responsiveness Testing**
+#### Responsiveness Testing
 
 <table>
   <tr>
@@ -4769,7 +4785,8 @@ git branch -M main
    </tr>
 </table>
 
-**Accessibility Testing**
+#### Accessibility Testing
+[⬆ Back to Table of contents](#table-of-contents)
 
 <table>
   <tr>
@@ -5182,7 +5199,8 @@ git branch -M main
    </tr>
 </table>
 
-**Performance Testing**
+#### Performance Testing
+[⬆ Back to Table of contents](#table-of-contents)
 
 <table>
   <tr>
@@ -5887,7 +5905,8 @@ git branch -M main
   </p>
 </details>
 
-## Regression Testing
+#### Regression Testing
+[⬆ Back to Table of contents](#table-of-contents)
 
 <table>
   <tr>
