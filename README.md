@@ -33,20 +33,20 @@
   - [Accessibility Implementation and User Flow and Navigation Strategies](#accessibility-implementation-and-user-flow-and-navigation-strategies)
   - [Approach for Website Test Planning](#approach-for-website-test-planning)
   - [Test Case Planning](#test-case-planning)
-    - [Functionality and Content Accuracy Testing](#functionality-and-content-accuracy-testing)
-    - [Usability and Typography Testing](#usability-and-typography-testing)
-    - [Responsiveness Testing](#responsiveness-testing)
-    - [Accessibility Testing](#accessibility-testing)
-    - [Performance Testing](#performance-testing)
-    - [Regression Testing](#regression-testing)
+    - [Functionality and Content Accuracy Testing - Planning](#functionality-and-content-accuracy-testing--planning)
+    - [Usability and Typography Testing - Planning](#usability-and-typography-testing--planning)
+    - [Responsiveness Testing - Planning](#responsiveness-testing--planning)
+    - [Accessibility Testing - Planning](#accessibility-testing--planning)
+    - [Performance Testing - Planning](#performance-testing--planning)
+    - [Regression Testing - Planning](#regression-testing--planning)
   - [Project Setup with GitHub and Visual Studio Code](#project-setup-with-github-and-visual-studio-code)
   - [Website Testing](#website-testing)
-    - [Functionality and Content Accuracy Testing](#functionality-and-content-accuracy-testing)
-    - [Usability and Typography Testing](#usability-and-typography-testing)
-    - [Responsiveness Testing](#responsiveness-testing)
-    - [Accessibility Testing](#accessibility-testing)
-    - [Performance Testing](#performance-testing)
-    - [Regression Testing](#regression-testing)
+    - [Functionality and Content Accuracy Testing - Results](#functionality-and-content-accuracy-testing--results)
+    - [Usability and Typography Testing - Results](#usability-and-typography-testing--results)
+    - [Responsiveness Testing - Results](#responsiveness-testing--results)
+    - [Accessibility Testing - Results](#accessibility-testing--results)
+    - [Performance Testing - Results](#performance-testing--results)
+    - [Regression Testing - Results](#regression-testing--results)
 </details>
 
 # Milestone Project 1
@@ -2305,7 +2305,7 @@ At the end of each test case, I plan to:
 
 **Justification:** Using test cases provides evidence of thorough and repeated testing.
 
-### Functionality and Content Accuracy Testing
+### Functionality and Content Accuracy Testing - Planning
 [⬆ Back to Table of contents](#table-of-contents)
 
 **Purpose:** To ensure that website components and interactive elements function as intended. Also, in alignment with user expectations, confirm that content is comprehensive and accurate.
@@ -2670,7 +2670,7 @@ At the end of each test case, I plan to:
   </tr>
 </table>
 
-### Usability and Typography Testing
+### Usability and Typography Testing - Planning
 [⬆ Back to Table of contents](#table-of-contents)
 
 **Purpose:** Ensure typographic support across all devices in terms of legibility, visual structure, and a professional appearance. Confirm that the site offers a user-friendly and intuitive experience that meets the expectations of the target audience.
@@ -2862,7 +2862,7 @@ At the end of each test case, I plan to:
   </tr>
 </table>
 
-### Responsiveness Testing
+### Responsiveness Testing - Planning
 [⬆ Back to Table of contents](#table-of-contents)
 
 **Purpose:** Correct adaptation across a range of device sizes and orientations (desktop, tablet, and mobile) of website layout, content, and interactive components is ensured.
@@ -2985,7 +2985,7 @@ At the end of each test case, I plan to:
   </tr>
 </table>
 
-### Accessibility Testing
+### Accessibility Testing - Planning
 [⬆ Back to Table of contents](#table-of-contents)
 
 **Purpose:** Fulfilling acknowledged accessibility criteria to ensure the website is usable by all users, including individuals with disabilities.
@@ -3257,7 +3257,7 @@ At the end of each test case, I plan to:
   </tr>
 </table>
 
-### Performance Testing
+### Performance Testing - Planning
 [⬆ Back to Table of contents](#table-of-contents)
 
 **Purpose:** Regardless of device or network performance, it is essential to ensure the website loads promptly and operates efficiently under standard user conditions.
@@ -3377,7 +3377,7 @@ At the end of each test case, I plan to:
   </tr>
 </table>
 
-### Regression Testing
+### Regression Testing - Planning
 [⬆ Back to Table of contents](#table-of-contents)
 
 **Purpose:** Ensure that existing website features or functionalities are not adversely affected by recent modifications, updates, or bug resolutions.
@@ -3600,7 +3600,7 @@ git branch -M main
 ### Test Cases
 [⬆ Back to Table of contents](#table-of-contents)
 
-#### Functionality and Content Accuracy Testing
+#### Functionality and Content Accuracy Testing - Results
 [⬆ Back to Table of contents](#table-of-contents)
 
 <table>
@@ -4316,7 +4316,7 @@ git branch -M main
   </tr>
 </table>
 
-#### Usability and Typography Testing
+#### Usability and Typography Testing - Results
 [⬆ Back to Table of contents](#table-of-contents)
 
 <table>
@@ -4628,7 +4628,7 @@ git branch -M main
    </tr>
 </table>
 
-#### Responsiveness Testing
+#### Responsiveness Testing - Results
 
 <table>
   <tr>
@@ -4797,7 +4797,7 @@ git branch -M main
    </tr>
 </table>
 
-#### Accessibility Testing
+#### Accessibility Testing - Results
 [⬆ Back to Table of contents](#table-of-contents)
 
 <table>
@@ -5211,7 +5211,7 @@ git branch -M main
    </tr>
 </table>
 
-#### Performance Testing
+#### Performance Testing - Results
 [⬆ Back to Table of contents](#table-of-contents)
 
 <table>
@@ -5917,7 +5917,7 @@ git branch -M main
   </p>
 </details>
 
-#### Regression Testing
+#### Regression Testing - Results
 [⬆ Back to Table of contents](#table-of-contents)
 
 <table>
