@@ -17,20 +17,20 @@
   - [Wireframes](#wireframes)
   - [Portfolio Wireframes](#portfolio-wireframes)
   - [User Stories for Homepage](#user-stories-for-homepage)
-  - [User Stories for About Me page](#user-stories-for-about-me-page)
-  - [User Stories for Work Experience page](#user-stories-for-work-experience-page)
-  - [User Stories for Skills page](#user-stories-for-skills-page)
-  - [User Stories for Certifications page](#user-stories-for-certifications-page)
-  - [User Stories for Bookings page](#user-stories-for-bookings-page)
-  - [User Stories for Conferences/Workshops page](#user-stories-conferences/workshops-page)
-  - [User Stories for Projects page](#user-stories-for-projects-page)
-  - [User Stories for CV Download link](#user-stories-for-cv-download)
-  - [User Stories for Newsletter page](#user-stories-for-newsletter-page)
-  - [User Stories for Testimonials section](#user-stories-for-testimonials-section)
-  - [User Stories for Live Chat section](#user-stories-for-live-chat-section)
+  - [User Stories for About Me Page](#user-stories-for-about-me-page)
+  - [User Stories for Work Experience Page](#user-stories-for-work-experience-page)
+  - [User Stories for Skills Page](#user-stories-for-skills-page)
+  - [User Stories for Certifications Page](#user-stories-for-certifications-page)
+  - [User Stories for Bookings Page](#user-stories-for-bookings-page)
+  - [User Stories for Conferences and Workshops Page](#user-stories-for-conferences-and-workshops-page)
+  - [User Stories for Projects Page](#user-stories-for-projects-page)
+  - [User Stories for CV Download Link](#user-stories-for-cv-download-link)
+  - [User Stories for Newsletter Page](#user-stories-for-newsletter-page)
+  - [User Stories for Testimonials Section](#user-stories-for-testimonials-section)
+  - [User Stories for Live Chat Section](#user-stories-for-live-chat-section)
   - [Colour Palette Justification for Portfolio Website](#colour-palette-justification-for-portfolio-website)
   - [Typography Justification for Portfolio Website](#typography-justification-for-portfolio-website)
-  - [Accessibility Implementation and User Flow and Navigation Strategies](#accessibility-implementation--and-user-flow--and-navegation-strategies)
+  - [Accessibility Implementation and User Flow and Navigation Strategies](#accessibility-implementation--and-user-flow-and-navegation-strategies)
   - [Approach for Website Test Planning](#approach-for-website-test-planning)
   - [Test Case Planning](#test-case-planning)
   - [Project Setup with GitHub and Visual Studio Code](#project-setup-with-github-and-visual-studio-code)
@@ -669,7 +669,7 @@ The homepage should reference my IT certifications, web development training, an
 
 ---
 
-## User Stories for About Me page
+## User Stories for About Me Page
 [⬆ Back to Table of contents](#table-of-contents)
 
 **(must-have)**
@@ -775,7 +775,7 @@ This page should summarise my technical training, certifications, and motivation
 
 ---
 
-## User Stories for Work Experience page
+## User Stories for Work Experience Page
 [⬆ Back to Table of contents](#table-of-contents)
 
 **(must-have)**
@@ -900,7 +900,7 @@ This page should briefly showcase my experience in IT systems, technical trouble
 
 ---
 
-## User Stories for Skills page
+## User Stories for Skills Page
 [⬆ Back to Table of contents](#table-of-contents)
 
 **(must-have)**
@@ -1028,7 +1028,7 @@ This page should clearly communicate my hands-on knowledge of IT systems, networ
 
 ---
 
-## User Stories for Certifications page
+## User Stories for Certifications Page
 [⬆ Back to Table of contents](#table-of-contents)
 
 **(must-have)**
@@ -1156,7 +1156,7 @@ This page should clearly list my technical certifications (e.g. CompTIA A+, ITF+
 
 ---
 
-## User Stories for Bookings page
+## User Stories for Bookings Page
 [⬆ Back to Table of contents](#table-of-contents)
 
 **(must-have)**
@@ -1288,7 +1288,7 @@ The page should provide a brief summary of my IT services (e.g. technical suppor
 
 ---
 
-## User Stories for Conferences/Workshops page
+## User Stories for Conferences and Workshops Page
 [⬆ Back to Table of contents](#table-of-contents)
 
 **(should-have)**
@@ -1429,7 +1429,7 @@ This page should highlight attendance at tech-focused events, digital transforma
 
 ---
 
-## User Stories for Projects page
+## User Stories for Projects Page
 [⬆ Back to Table of contents](#table-of-contents)
 
 **(should-have)**
@@ -1572,7 +1572,7 @@ This page should feature projects built using web or IT-related technologies. Pr
 
 ---
 
-## User Stories for CV Download link
+## User Stories for CV Download Link
 [⬆ Back to Table of contents](#table-of-contents)
 
 **(must-have)**
@@ -1672,7 +1672,7 @@ As an IT or web employer, they want to download my CV so that they can assess my
 
 ---
 
-## User Stories for Newsletter page
+## User Stories for Newsletter Page
 [⬆ Back to Table of contents](#table-of-contents)
 
 **(could-have)**
@@ -1772,7 +1772,7 @@ As an IT or web employer, they want to sign up for updates on my technical progr
 
 ---
 
-## User Stories for Testimonials section
+## User Stories for Testimonials Section
 [⬆ Back to Table of contents](#table-of-contents)
 
 **(could-have)**
@@ -1873,7 +1873,7 @@ As an IT employer or recruiter, they want to see testimonials relating to my tec
 
 ---
 
-## User Stories for Live Chat section
+## User Stories for Live Chat Section
 [⬆ Back to Table of contents](#table-of-contents)
 
 **(could-have)**
