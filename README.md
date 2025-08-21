@@ -547,12 +547,14 @@ The Bookings page enables potential clients, schools, or students to contact me 
 
 ---
 
-## User Stories - Homepage (must-have)
+## User Stories for Homepage
+
+**(must-have)**
 
 ### 1. Roberto Pires – Website Developer (Site Owner)
 
 **User Story**  
-As the website developer, I want the homepage to deliver a clear, professional first impression and guide visitors smoothly to other sections so that they engage meaningfully with my content.
+As the website developer, I want the homepage to deliver a clear, professional first impression and guide visitors smoothly to other sections so that they engage meaningfully with my content. (must-have)
 
 **Description**  
 The homepage should reflect my personal brand and present my key strengths across teaching, tutoring, and IT services. It should introduce the site, establish credibility, and invite further exploration.
@@ -649,7 +651,9 @@ The homepage should reference my IT certifications, web development training, an
 
 ---
 
-## User Stories - About Me (must-have)
+## User Stories for About Me page
+
+**(must-have)**
 
 ### 1. Roberto Pires – Website Developer (Site Owner)
 
@@ -752,7 +756,9 @@ This page should summarise my technical training, certifications, and motivation
 
 ---
 
-## User Stories - Work Experience (must-have)
+## User Stories for Work Experience page
+
+**(must-have)**
 
 ### 1. Roberto Pires – Website Developer (Site Owner)
 
@@ -874,7 +880,9 @@ This page should briefly showcase my experience in IT systems, technical trouble
 
 ---
 
-## User Stories - Skills (must-have)
+## User Stories for Skills page
+
+**(must-have)**
 
 ### 1. Roberto Pires – Website Developer (Site Owner)
 
@@ -999,7 +1007,9 @@ This page should clearly communicate my hands-on knowledge of IT systems, networ
 
 ---
 
-## User Stories - Certifications (must-have)
+## User Stories for Certifications page
+
+**(must-have)**
 
 ### 1. Roberto Pires – Website Developer (Site Owner)
 
@@ -1124,7 +1134,9 @@ This page should clearly list my technical certifications (e.g. CompTIA A+, ITF+
 
 ---
 
-## User Stories - Bookings (must-have)
+## User Stories for Bookings page
+
+**(must-have)**
 
 ### 1. Roberto Pires – Website Developer (Site Owner)
 
@@ -1253,7 +1265,9 @@ The page should provide a brief summary of my IT services (e.g. technical suppor
 
 ---
 
-## User Stories - Conferences/Workshops (should-have)
+## User Stories for Conferences-Workshops page
+
+**(should-have)**
 
 ### 1. Roberto Pires – Website Developer (Site Owner)
 
@@ -1391,7 +1405,9 @@ This page should highlight attendance at tech-focused events, digital transforma
 
 ---
 
-## User Stories - Projects (should-have)
+## User Stories for Projects page
+
+**(should-have)**
 
 ### 1. Roberto Pires – Website Developer (Site Owner)
 
@@ -1531,7 +1547,9 @@ This page should feature projects built using web or IT-related technologies. Pr
 
 ---
 
-## User Stories - CV Download (must-have)
+## User Stories for CV Download link
+
+**(must-have)**
 
 ### 1. Roberto Pires – Website Developer (Site Owner)
 
@@ -1628,7 +1646,9 @@ As an IT or web employer, they want to download my CV so that they can assess my
 
 ---
 
-## User Stories - Newsletter Sign-up (could-have)
+## User Stories for Newsletter Sign-up page
+
+**(could-have)**
 
 ### 1. Roberto Pires – Website Developer (Site Owner)
 
@@ -1725,7 +1745,9 @@ As an IT or web employer, they want to sign up for updates on my technical progr
 
 ---
 
-## User Stories - Testimonials (could-have)
+## User Stories for Testimonials section
+
+**(could-have)**
 
 ### 1. Roberto Pires – Website Developer (Site Owner)
 
@@ -1823,7 +1845,9 @@ As an IT employer or recruiter, they want to see testimonials relating to my tec
 
 ---
 
-## User Stories - Live Chat (could-have)
+## User Stories for Live Chat section
+
+**(could-have)**
 
 ### 1. Roberto Pires – Website Developer (Site Owner)
 
