@@ -491,7 +491,7 @@ footer {
   border: 2px solid var(--primary-accents-buttons);
   border-radius: 10px;
   padding: 1rem;
-  margin: 0.5rem;
+  margin: 0.01rem;
   text-align: center;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   height: 100%;
