@@ -1,6 +1,5 @@
+# Table of Contents
 <details>
-<summary><strong>Table of contents</strong></summary>
-
 - [Milestone Project 1](#milestone-project-1)
 - [Personal Portfolio Website](#personal-portfolio-website)
   - [Project Overview](#project-overview)
