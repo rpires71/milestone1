@@ -37,8 +37,9 @@
   - [Website Testing](#website-testing)
 </details>
 
-# Milestone Project 1 [⬆ Back to Table of contents](#table-of-contents)
+# Milestone Project 1
 Development Milestone Project 1 - User Centric Frontend
+[⬆ Back to Table of contents](#table-of-contents)
 
 # Personal Portfolio Website
 [⬆ Back to Table of contents](#table-of-contents)
@@ -402,6 +403,7 @@ Using both these browsers throughout the project ensured that the website was th
 ---
 
 ## Wireframes
+[⬆ Back to Table of contents](#table-of-contents)
 
 Before the stage of focusing on design details or styling, a **wireframe** is a stripped-down visual representation of a digital interface, web page, or app that concentrates primarily on the structural layout.
 
@@ -423,6 +425,8 @@ The importance of demonstrating an understanding of user experience (UX) princip
 ---
 
 ## Portfolio Wireframes
+[⬆ Back to Table of contents](#table-of-contents)
+
 The wireframes presented here correspond to the seven pages planned for inclusion in this portfolio website. Each page is shown in three versions: desktop, tablet, and mobile.
 
 ---
@@ -561,6 +565,7 @@ The Bookings page enables potential clients, schools, or students to contact me 
 ---
 
 ## User Stories for Homepage
+[⬆ Back to Table of contents](#table-of-contents)
 
 **(must-have)**
 
@@ -665,6 +670,7 @@ The homepage should reference my IT certifications, web development training, an
 ---
 
 ## User Stories for About Me page
+[⬆ Back to Table of contents](#table-of-contents)
 
 **(must-have)**
 
@@ -770,6 +776,7 @@ This page should summarise my technical training, certifications, and motivation
 ---
 
 ## User Stories for Work Experience page
+[⬆ Back to Table of contents](#table-of-contents)
 
 **(must-have)**
 
@@ -894,6 +901,7 @@ This page should briefly showcase my experience in IT systems, technical trouble
 ---
 
 ## User Stories for Skills page
+[⬆ Back to Table of contents](#table-of-contents)
 
 **(must-have)**
 
@@ -1021,6 +1029,7 @@ This page should clearly communicate my hands-on knowledge of IT systems, networ
 ---
 
 ## User Stories for Certifications page
+[⬆ Back to Table of contents](#table-of-contents)
 
 **(must-have)**
 
@@ -1148,6 +1157,7 @@ This page should clearly list my technical certifications (e.g. CompTIA A+, ITF+
 ---
 
 ## User Stories for Bookings page
+[⬆ Back to Table of contents](#table-of-contents)
 
 **(must-have)**
 
@@ -1279,6 +1289,7 @@ The page should provide a brief summary of my IT services (e.g. technical suppor
 ---
 
 ## User Stories for Conferences-Workshops page
+[⬆ Back to Table of contents](#table-of-contents)
 
 **(should-have)**
 
@@ -1419,6 +1430,7 @@ This page should highlight attendance at tech-focused events, digital transforma
 ---
 
 ## User Stories for Projects page
+[⬆ Back to Table of contents](#table-of-contents)
 
 **(should-have)**
 
@@ -1561,6 +1573,7 @@ This page should feature projects built using web or IT-related technologies. Pr
 ---
 
 ## User Stories for CV Download link
+[⬆ Back to Table of contents](#table-of-contents)
 
 **(must-have)**
 
@@ -1660,6 +1673,7 @@ As an IT or web employer, they want to download my CV so that they can assess my
 ---
 
 ## User Stories for Newsletter Sign-up page
+[⬆ Back to Table of contents](#table-of-contents)
 
 **(could-have)**
 
@@ -1759,6 +1773,7 @@ As an IT or web employer, they want to sign up for updates on my technical progr
 ---
 
 ## User Stories for Testimonials section
+[⬆ Back to Table of contents](#table-of-contents)
 
 **(could-have)**
 
@@ -1859,6 +1874,7 @@ As an IT employer or recruiter, they want to see testimonials relating to my tec
 ---
 
 ## User Stories for Live Chat section
+[⬆ Back to Table of contents](#table-of-contents)
 
 **(could-have)**
 
