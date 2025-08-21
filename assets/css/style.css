@@ -45,6 +45,7 @@
    /* Picked for high contrast on the light page bg (#f9f6f1) */
   --focus-border: var(--headings-footer-background);        /* #3e2c23 */
   --focus-ring: rgba(62, 44, 35, 0.35);                     /* soft outer glow */
+   --content-max: 1800px; /* 1600–2200px */
 }
 
 /* --------------------------------------------------------------------------
@@ -481,6 +482,25 @@ footer a:focus-visible {
 }
 
 /* --------------------------------------------------------------------------
+Improvement: Constrain footer content width on ultra-wide screens and center it
+---------------------------------------------------------------------------*/
+
+footer #contacts{
+  max-width: 2000px;          /* pick 1800–2500px */
+  margin-inline: auto;        /* centers inside the full-width footer */
+  padding-inline: clamp(16px, 3vw, 32px); /* keep comfy side gutters */
+  box-sizing: border-box;
+}
+
+/* Constrain the inner grid wrapper */
+footer #contact{
+  max-width: var(--content-max);
+  margin-inline: auto;
+  padding-inline: clamp(16px, 3vw, 32px);
+  box-sizing: border-box;
+}
+
+/* --------------------------------------------------------------------------
    Contact grid
    - Flex + wrap lays out blocks responsively without extra media queries.
    - A light border keeps structure visible on dark footer background.
@@ -717,6 +737,16 @@ textarea:focus {
     outline-offset: 2px;
     box-shadow: none;
     border-color: SelectedItem;
+  }
+}
+
+/* Bootstrap containers expansion on ultra-wide screens */
+@media (min-width: 1400px) {
+  .container,
+  .container-lg,
+  .container-xl,
+  .container-xxl {
+    max-width: var(--content-max);
   }
 }
 /* --------------------------------------------------------------------------
