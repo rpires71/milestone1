@@ -1,3 +1,6 @@
+
+<img width="1453" height="826" alt="am-i-responsive" src="https://github.com/user-attachments/assets/81a35234-a4ef-40e0-a3f3-3ed687b5e86b" />
+
 ## Table of contents
 
 - [Milestone Project 1](#milestone-project-1)
