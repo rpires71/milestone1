@@ -3338,9 +3338,10 @@ At the end of each test case, I plan to:
 5. Ensure no oversized or uncompressed image files are present.<br>
 </td>
   </tr>
+  
   <tr>
-    <td colspan="2"><strong>Expected Result:</strong><br>
-- All images should load quickly, appear sharp, and be under appropriate file size limits (generally <500KB per image). No unnecessary large images or format warnings should be flagged in performance testing tools.
+    <td colspan="2"><strong>Expected Result:</strong>
+<p>All images should load quickly, appear sharp, and be under appropriate file size limits (generally below 500KB per image). No unnecessary large images or format warnings should be flagged in performance testing tools.</p>
 </td>
   </tr>
   <tr>
@@ -3399,9 +3400,7 @@ At the end of each test case, I plan to:
 <table>
   <tr>
     <td><strong>Test Case:</strong> TC028</td>
-    <td><strong>Feature:</strong> General functionality and UI consistency across the entire website after updates or changes.
-
-</td>
+    <td><strong>Feature:</strong> General functionality and UI consistency across the entire website after updates or changes.</td>
   </tr>
   <tr>
     <td colspan="2"><strong>Description:</strong> Conduct a full walkthrough of all website pages to ensure that after implementing updates (e.g. new content, design changes, testimonials, or features), all previously working elements — including navigation, forms, typography, images, accessibility features, and responsiveness — continue to function correctly and display as intended.
@@ -3409,7 +3408,6 @@ At the end of each test case, I plan to:
   </tr>
   <tr>
     <td colspan="2"><strong>Justification:</strong> Regression testing ensures no existing functionality is broken during updates. It supports a stable user experience, safeguards accessibility and responsive design compliance, and meets the quality assurance standards outlined in the course brief.
-
 </td>
   </tr>
   <tr>
