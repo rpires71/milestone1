@@ -304,6 +304,24 @@ header h3 {
   margin: 0;
 }
 
+/* Make the page H1 look like my previous header <h3> */
+.p-as-h3 {
+  font-size: clamp(1rem, 1.2vw, 1.5rem);
+  /* matches my header h3 size */
+  font-weight: 400;
+  margin: 0;
+
+  /* make it justified */
+  text-align: justify;
+
+  /* optional: better spacing on narrow columns */
+  hyphens: auto;
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
+  /* optional: helps some browsers distribute spaces */
+  text-justify: inter-word;
+}
+
 /* Make the new H2s inside tiles look like my old H3s */
 .tile .as-h3 {
   font-size: clamp(0.8rem, 1.5vw, 1.1rem);
