@@ -57,6 +57,7 @@
 - [Website Information Architecture: Page Purpose & Structure](#website-information-architecture-page-purpose--structure)
   - [Homepage — purpose & structure](#homepage--purpose--structure)
   - [About Me — purpose & structure](#about-me--purpose--structure)
+  - [Work Experience & Skills — purpose & structure](#work-experience--purpose--structure)
 
 # Milestone Project 1
 Development Milestone Project 1 - User Centric Frontend
@@ -6054,10 +6055,45 @@ Introduce who I am and what I do, give a concise professional summary, showcase 
 **Navigation onward.**  
 - Navbar links to Home, Work Experience, Skills (anchor on Work Experience page), Certifications, Bookings, and Contact (footer anchor).
 
-### Link to Homepage
+### Link to About Me Page
 - [Link to Live Website](https://rpires71.github.io/milestone1/about-me.html)
 
-<img width="800" height="600" alt="am-i-responsive" src="https://github.com/user-attachments/assets/26cfa53a-a5eb-43e5-8b9f-9eb701381d55" />
+<img width="800" height="600" alt="am-i-responsive-about-me" src="https://github.com/user-attachments/assets/26cfa53a-a5eb-43e5-8b9f-9eb701381d55" />
 
+## Work Experience & Skills — purpose & structure
+[⬆ Back to Table of contents](#table-of-contents)
+
+**Purpose.**  
+Showcase my professional roles and responsibilities alongside a clear, breakdown of technical skills. The page is designed for quick recruiter review, with a direct **Skills** anchor (from the navbar) and signposting to related pages such as **Certifications** and **Bookings**.
+
+**Structure.**  
+1) **Global navigation & skip link.** Shared navbar (Home, About Me, Work Experience, Skills anchor, Certifications, Bookings, Contact) and a *Skip to content* link for keyboard users.  
+2) **Header (intro band).**  
+   - **H1:** "Work Experience & Skills"  
+   - **Short intro:** one-two sentences summarising my background and focus areas.  
+   - **Brand/graphic:** responsive badge/logo on the right.  
+3) **Main — Work Experience cards.**  
+   - Role-based tiles (e.g., **Computer Science Teacher**, **IT Tutor**, **IT Support**, **Programmer**) with brief context and key responsibilities/impact.  
+   - Consistent “card” styling, equal visual weight, and responsive layout (single column on mobile, two/four columns on larger screens).  
+4) **Main — Skills section (anchor: `#skills`).**  
+   - Category tiles (e.g., **Core Skills overview**, **Networks**, **Graphic Design**, **Project Management**, **Languages**).  
+   - Short bullet lists/paragraphs highlighting tools, technologies, and strengths; cross-links to **Certifications** where relevant.  
+   - The `#skills` anchor is targeted by the navbar item so users can jump straight here.  
+5) **Footer / Contacts.**  
+   - Contact tiles for address, email, telephone, and social links (LinkedIn, Facebook, Instagram), plus copyright.
+
+**Notable accessibility touches.**  
+- Logical heading levels and descriptive `alt` text on icons/illustrations.  
+- Keyboard-visible focus styles and a *Skip to content* link.  
+- The `#skills` anchor uses a scroll offset to avoid being hidden behind the sticky navbar.
+
+**Navigation onward.**  
+- From Work Experience cards → **Bookings** (to enquire).  
+
+### Link to Work Experience & Skills Page
+- [Link to Live Website](https://rpires71.github.io/milestone1/work-experience.html)
+
+<img width="800" height="600" alt="am-i-responsive-work-experience-skills" src="https://github.com/user-attachments/assets/1cf289b4-17ca-432a-a57b-1aa0d408697a" />
 
 ---
+
