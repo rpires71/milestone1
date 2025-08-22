@@ -304,12 +304,13 @@ header h3 {
   margin: 0;
 }
 
-/* Make the page H1 look like my previous header <h3> */
+/* Make the page p look like my previous header <h3> */
 .p-as-h3 {
   font-size: clamp(1rem, 1.2vw, 1.5rem);
   /* matches my header h3 size */
   font-weight: 400;
   margin: 0;
+  color: var(--body-text-colour);
 
   /* make it justified */
   text-align: justify;
