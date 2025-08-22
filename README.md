@@ -63,6 +63,7 @@
   - [Bookings — purpose & structure](#bookings--purpose--structure)
   - [Confirmation — purpose & structure](#confirmation--purpose--structure)
   - [Stylesheet (`assets/css/style.css`) — technical approach, purpose & structure](#stylesheet-assetscssstylecss--technical-approach-purpose--structure)
+- [Reflection](#reflection)
 
 # Milestone Project 1
 Development Milestone Project 1 - User Centric Frontend
@@ -6308,4 +6309,54 @@ Provide a single, consistent source of truth for colours, typography, components
 
 ---
 
+## Reflection
+
+### Summary
+Milestone 1 delivered a small, fast, and accessible portfolio site built with **Bootstrap 5** + a single custom stylesheet using **CSS variables**. The site has a clear IA (Home, About, Work Experience & Skills, Certifications, Bookings → Confirmation), consistent tiles, and a sticky navbar with good keyboard support.
+
+### What worked well
+- **Design system in CSS:** Centralised palette, typography, and focus styles via `:root` variables made iteration quick and consistent.
+- **Reusable layout patterns:** “Tile + grid” components scaled cleanly from mobile → desktop; carousel is lightweight and keyboard-accessible.
+- **Accessibility baseline:** Skip link, visible `:focus-visible` outlines, semantic headings, descriptive `alt`, reduced-motion support, and anchor scroll-offsets.
+- **Performance hygiene:** WebP images, small CSS, CDN Bootstrap, and generally good Lighthouse scores (perf/a11y/best practices/SEO).
+- **Documentation & testing:** Page-by-page “Purpose & Structure”, TOC anchors, and a cross-browser/device evidence table covering desktop + mobile.
+
+### Challenges (and how I resolved them)
+- **Excess white space in the hero on 1600×992 viewports**  
+  Fixed by removing the hard `min-height`, reducing vertical padding, capping the logo size, and tightening `clamp()` for headings on wide-but-short screens.
+- **Uneven tile heights (text tile looked “empty” next to image/carousel)**  
+  Root cause was `align-items: stretch` plus `img { height:100% }` in the carousel. Resolved by either (a) letting tiles be natural height and using `height:auto`, or (b) keeping equal heights but capping media with an aspect ratio / `max-height`.
+- **Filename consistency (kebab-case)**  
+  Normalised assets to kebab-case and fixed mismatches (e.g., `badge-v2.webp` vs `badgev2.webp`) to avoid 404s and keep links predictable (case-sensitive on Pages).
+- **CSS validation issue (`SelectedItem` in forced-colors)**  
+  Replaced the nonstandard token with a compliant outline/border colour while keeping high-contrast support.
+- **Rules not applying due to a broken CSS comment**  
+  A stray `* ... */` near the end stopped later media queries from parsing—rewrote as a proper `/* ... */` comment.
+- **README horizontal scrolling**  
+  Caused by wide HTML tables and large fixed-width images; switched big screenshots to Markdown images or smaller `width` values and converted some HTML tables to Markdown.
+- **Git gotcha: “rejected (fetch first)”**  
+  Occurred when pushing to `main` while remote had new commits. Used `git pull --rebase` (or `stash` + rebase) → resolved conflicts → push.
+- **Clarity for Safari testing**  
+  Recorded **Safari (macOS) version + macOS version** to distinguish from iOS Safari.
+
+### What I would improve next
+- **Form submission & privacy:** Switch Bookings from `GET` to **`POST`** (and/or a serverless endpoint) so personal data doesn’t appear in URLs/history.
+- **Image pipeline:** Add a tiny build step (e.g., ImageOptim/Sharp) for automated compression; document target dimensions and use `aspect-ratio` or Bootstrap’s `ratio` helper for predictable media height.
+- **Fonts & layout stability:** Add `font-display: swap` or self-host fonts to reduce flashes; review large headings/clamps to cut CLS further.
+- **CI for quality gates:** GitHub Actions to run **HTML/CSS validators**, link checks, and Lighthouse CI on pull requests.
+- **PWA polish:** Move `site.webmanifest` to the site root with correct `scope` and confirm icons; consider a simple service worker for offline page shell.
+- **Content tidy-up:** Remove or move dev artefacts (Lighthouse PDFs/HTML) to `/docs/` so the production branch stays lean; ensure one canonical image per use case.
+
+### Key lessons learned
+- **Fluid type + sensible caps** (`clamp`) beats fixed sizes, but watch for short-viewport desktops (min-height and centering easily cause white space).
+- **Equal heights are a trade-off:** If you need them, **cap the media**; otherwise, prefer natural heights for content parity.
+- **Small correctness issues have big effects:** One bad CSS comment or filename mismatch can quietly break entire sections.
+- **Evidence matters:** A compact testing table with versions/devices is faster for assessors to verify than scattered notes.
+
+### Evidence pointers
+- **Validation:** W3C HTML/CSS checks with no critical errors after fixes (vendor-prefix warnings expected).  
+- **Testing:** Cross-browser/device table (Chrome, Edge, Firefox, Safari on macOS, iOS/Android spot checks).  
+- **Lighthouse:** Saved summaries (performance/accessibility) for desktop & mobile.
+
+---
 
