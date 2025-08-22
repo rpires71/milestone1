@@ -57,7 +57,7 @@
 - [Website Information Architecture: Page Purpose & Structure](#website-information-architecture-page-purpose--structure)
   - [Homepage — purpose & structure](#homepage--purpose--structure)
   - [About Me — purpose & structure](#about-me--purpose--structure)
-  - [Work Experience & Skills — purpose & structure](#work-experience--purpose--structure)
+  - [Work Experience & Skills — purpose & structure](#work-experience--skills--purpose--structure)
 
 # Milestone Project 1
 Development Milestone Project 1 - User Centric Frontend
