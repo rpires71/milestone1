@@ -55,6 +55,7 @@
     - [Performance Testing - Results](#performance-testing---results)
     - [Regression Testing - Results](#regression-testing---results)
 - [Website Information Architecture: Page Purpose & Structure](#website-information-architecture-page-purpose--structure)
+  - [Homepage — purpose & structure](#homepage--purpose--structure)
 
 # Milestone Project 1
 Development Milestone Project 1 - User Centric Frontend
@@ -6000,8 +6001,10 @@ git branch -M main
 ---
 
 # Website Information Architecture: Page Purpose & Structure.
+[⬆ Back to Table of contents](#table-of-contents)
 
-# Homepage — purpose & structure
+## Homepage — purpose & structure
+[⬆ Back to Table of contents](#table-of-contents)
 
 **Purpose.**  
 The homepage gives a clear first impression of who I am, routes viewers to core sections (About, Work Experience, Skills, Certifications, Bookings), and provides quick access to my CV and contacts. It also showcases visuals via a small carousel to set tone and credibility.
@@ -6022,7 +6025,5 @@ The homepage gives a clear first impression of who I am, routes viewers to core 
 
 <img width="800" height="600" alt="am-i-responsive" src="https://github.com/user-attachments/assets/1e7107dd-9391-4ae9-9ff2-b14599f0c3d4" />
 
-
-[⬆ Back to Table of contents](#table-of-contents)
 
 ---
