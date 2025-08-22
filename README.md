@@ -58,6 +58,7 @@
   - [Homepage — purpose & structure](#homepage--purpose--structure)
   - [About Me — purpose & structure](#about-me--purpose--structure)
   - [Work Experience & Skills — purpose & structure](#work-experience--skills--purpose--structure)
+  - [Certifications — purpose & structure](#certifications--purpose--structure)
 
 # Milestone Project 1
 Development Milestone Project 1 - User Centric Frontend
@@ -6095,5 +6096,38 @@ Showcase my professional roles and responsibilities alongside a clear, breakdown
 
 <img width="800" height="600" alt="am-i-responsive-work-experience-skills" src="https://github.com/user-attachments/assets/1cf289b4-17ca-432a-a57b-1aa0d408697a" />
 
+## Certifications — purpose & structure
+[⬆ Back to Table of contents](#table-of-contents)
+
+**Purpose.**  
+Present my formal qualifications and industry certifications in a clear, recruiter-friendly way. This page backs up the skills shown elsewhere with recognisable credentials (CompTIA, Cisco, PGCE, ECDL, etc.) and provides quick context for each item.
+
+**Structure.**  
+1) **Global navigation & skip link.** Same navbar as the rest of the site plus a *Skip to content* link for keyboard users.  
+2) **Header (intro band).**  
+   - **H1:** “Certifications”  
+   - **Short intro:** one–two sentences explaining what the section covers and why it matters.  
+   - **Brand/graphic:** a small certificate/badge motif on the right (responsive).  
+3) **Main — certification tiles/cards.**  
+   - Individual tiles for key awards (e.g., **CompTIA A+ / ITF+**, **CCNA**, **PGCE**, **ECDL/ICDL**, **Software Developer / CS degree**).  
+   - Each tile shows a logo/mark plus a brief description (scope, relevance, or key competencies).  
+   - Responsive layout: single column on mobile; multi-column grid on tablets/desktops.  
+4) **Footer / Contacts.**  
+   - Contact tiles (address, email, phone, social) and copyright.
+
+**Notable accessibility touches.**  
+- Semantic headings, descriptive `alt` text on certification logos, and consistent focus styles.  
+- Images are responsive and do not convey information that isn’t also available in text.
+
+**Navigation onward.**  
+- From a certification tile → **Work Experience & Skills** (to see credentials in action).  
+- Global links to **About Me**, **Bookings** (to enquire), and the contact footer.
+
+### Link to Work Experience & Skills Page
+- [Link to Live Website](https://rpires71.github.io/milestone1/certifications.html)
+
+<img width="800" height="600" alt="am-i-responsive-certifications" src="https://github.com/user-attachments/assets/1079e277-58fe-4ba0-8713-fcefb1b33a39" />
+
 ---
+
 
