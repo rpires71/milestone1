@@ -6025,11 +6025,8 @@ The homepage gives a clear first impression of who I am, routes viewers to core 
 ### Link to Homepage
 - [Link to Live Website](https://rpires71.github.io/milestone1/index.html)
 
-<details>
-  <summary>View screenshot</summary>
-
-  <img src="https://github.com/user-attachments/assets/08f3146a-1d71-4fcd-b54c-c0a4cb5d79fa"
-       alt="Am I Responsive preview" width="600">
-</details>
+[<img src="https://github.com/user-attachments/assets/08f3146a-1d71-4fcd-b54c-c0a4cb5d79fa"
+      alt="Am I Responsive preview" width="600">]
+(https://github.com/user-attachments/assets/08f3146a-1d71-4fcd-b54c-c0a4cb5d79fa)
 
 [⬆ Back to Table of contents](#table-of-contents)
