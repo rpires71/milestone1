@@ -6310,6 +6310,7 @@ Provide a single, consistent source of truth for colours, typography, components
 ---
 
 ## Reflection
+[⬆ Back to Table of contents](#table-of-contents)
 
 ### Summary
 Milestone 1 delivered a small, fast, and accessible portfolio site built with **Bootstrap 5** + a single custom stylesheet using **CSS variables**. The site has a clear IA (Home, About, Work Experience & Skills, Certifications, Bookings → Confirmation), consistent tiles, and a sticky navbar with good keyboard support.
