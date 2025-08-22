@@ -6207,33 +6207,33 @@ Confirm that a booking/enquiry was submitted successfully, show a clear summary 
 Provide a single, consistent source of truth for colours, typography, components (tiles, header/hero, navbar, footer, carousel), accessibility states, and responsive behaviour across the site. The file centralises design tokens and applies them to semantic, reusable classes. :contentReference[oaicite:0]{index=0}
 
 **Technical approach.**  
-- **PostCSS + Autoprefixer.** The sheet is authored with modern CSS and automatically prefixed for the "last 4 versions" of major browsers. :contentReference[oaicite:1]{index=1}  
-- **Design tokens via CSS Variables.** Palette, typefaces, focus colours, shadows, and max content width live in `:root` for easy theming. Change once, update everywhere. :contentReference[oaicite:2]{index=2}  
-- **Progressive enhancement.** Smooth in-page scrolling; reduced-motion fallback; Windows High-Contrast support; sticky navbar. :contentReference[oaicite:3]{index=3}  
-- **Accessibility baked in.** Global `:focus-visible` ring, clear button/link focus, skip-link, screen-reader-only utility, inline error styles, and form focus rings that respect brand tokens. :contentReference[oaicite:4]{index=4}  
-- **Responsive strategy.** Fluid typography with `clamp(...)`, CSS Grid/Flex layouts, Bootstrap-aligned breakpoints (576/768/992/1400+), and content width caps for ultra-wide screens. :contentReference[oaicite:5]{index=5}
+- **PostCSS + Autoprefixer.** The sheet is authored with modern CSS and automatically prefixed for the "last 4 versions" of major browsers.
+- **Design tokens via CSS Variables.** Palette, typefaces, focus colours, shadows, and max content width live in `:root` for easy theming. Change once, update everywhere. 
+- **Progressive enhancement.** Smooth in-page scrolling; reduced-motion fallback; Windows High-Contrast support; sticky navbar. 
+- **Accessibility baked in.** Global `:focus-visible` ring, clear button/link focus, skip-link, screen-reader-only utility, inline error styles, and form focus rings that respect brand tokens. 
+- **Responsive strategy.** Fluid typography with `clamp(...)`, CSS Grid/Flex layouts, Bootstrap-aligned breakpoints (576/768/992/1400+), and content width caps for ultra-wide screens.
 
 **Structure (what lives where).**  
-1) **Imports & tokens.** Google Fonts `@import` and `:root` variables for fonts, colours, focus ring, and `--content-max`. :contentReference[oaicite:6]{index=6}  
-2) **Global base.** Body typography, smooth scroll, default heading colours, paragraph spacing. :contentReference[oaicite:7]{index=7}  
-3) **Header/Hero.** `header`, `.header-background` (flex centring + min-height), display scales (`.header-title`, `.header-subtitle`, `.header-lead`), intro copy sizing, and header logo caps. :contentReference[oaicite:8]{index=8}  
-4) **Navbar.** Sticky dark navbar theme, hover/active states, and a light burger icon via data-URI for consistent colour. :contentReference[oaicite:9]{index=9}  
-5) **Tiles & type helpers.** `.tile` card styling; semantic-visual helpers (`.h1-as-lead`, `.h1-as-h3`, `.p-as-h3`) and tile-scoped heading sizes (`.as-h3/.as-h4/.as-h5`). :contentReference[oaicite:10]{index=10}  
-6) **Tile/grid layout.** `.tile-grid` as a 2-column grid with gaps (collapses to 1 column ≤768px). :contentReference[oaicite:11]{index=11}  
-7) **Carousel.** Framed `.carousel-wrapper`; images set to fill their box (`width:100%; height:100%; object-fit:cover`); visible keyboard focus for controls; reduced-motion rules; mobile height lock. :contentReference[oaicite:12]{index=12}  
-8) **Section spacing & media.** First section margins; `#main` scroll offset for sticky nav; `.section-icon` and `.main-illustration` sizing. :contentReference[oaicite:13]{index=13}  
-9) **About-me layout.** `#about-me` flex with wrapping and equal-height feel; local heading colour override. :contentReference[oaicite:14]{index=14}  
-10) **Anchors & skills.** `#skills` uses `scroll-margin-top` to avoid being hidden under the sticky navbar. :contentReference[oaicite:15]{index=15}  
-11) **Footer.** Dark theme, responsive contact grid (`#contact`) switching 1 → 2 → 4 columns at 768/992px; outer width constraints for ultra-wide screens. :contentReference[oaicite:16]{index=16}  
-12) **Links, skip-link, and buttons.** Inherit colour links, visible focus/hover; accent button themes; dropdown menu theme to match navbar. :contentReference[oaicite:17]{index=17}  
-13) **Forms & a11y utilities.** Global `:focus-visible` rules, error styles (`.err`, `.invalid`), branded focus ring (`box-shadow`), `.sr-only`, and hidden error handling. :contentReference[oaicite:18]{index=18}  
-14) **Responsive helpers.** Brand scaling at ≤992/576px; forced-colors fallback; container max-width expansion at ≥1400px. :contentReference[oaicite:19]{index=19}
+1) **Imports & tokens.** Google Fonts `@import` and `:root` variables for fonts, colours, focus ring, and `--content-max`.
+2) **Global base.** Body typography, smooth scroll, default heading colours, paragraph spacing.
+3) **Header/Hero.** `header`, `.header-background` (flex centring + min-height), display scales (`.header-title`, `.header-subtitle`, `.header-lead`), intro copy sizing, and header logo caps.
+4) **Navbar.** Sticky dark navbar theme, hover/active states, and a light burger icon via data-URI for consistent colour.
+5) **Tiles & type helpers.** `.tile` card styling; semantic-visual helpers (`.h1-as-lead`, `.h1-as-h3`, `.p-as-h3`) and tile-scoped heading sizes (`.as-h3/.as-h4/.as-h5`).
+6) **Tile/grid layout.** `.tile-grid` as a 2-column grid with gaps (collapses to 1 column ≤768px).
+7) **Carousel.** Framed `.carousel-wrapper`; images set to fill their box (`width:100%; height:100%; object-fit:cover`); visible keyboard focus for controls; reduced-motion rules; mobile height lock.
+8) **Section spacing & media.** First section margins; `#main` scroll offset for sticky nav; `.section-icon` and `.main-illustration` sizing.
+9) **About-me layout.** `#about-me` flex with wrapping and equal-height feel; local heading colour override.
+10) **Anchors & skills.** `#skills` uses `scroll-margin-top` to avoid being hidden under the sticky navbar. 
+11) **Footer.** Dark theme, responsive contact grid (`#contact`) switching 1 → 2 → 4 columns at 768/992px; outer width constraints for ultra-wide screens. 
+12) **Links, skip-link, and buttons.** Inherit colour links, visible focus/hover; accent button themes; dropdown menu theme to match navbar.
+13) **Forms & a11y utilities.** Global `:focus-visible` rules, error styles (`.err`, `.invalid`), branded focus ring (`box-shadow`), `.sr-only`, and hidden error handling. 
+14) **Responsive helpers.** Brand scaling at ≤992/576px; forced-colors fallback; container max-width expansion at ≥1400px.
 
 **Key patterns & rationale.**  
-- **Fluid type:** `clamp(min, vw, max)` keeps headings and body copy readable from phones to desktops without abrupt jumps. :contentReference[oaicite:20]{index=20}  
-- **Component caps:** logos, icons, and carousel images have max heights/`object-fit` so media doesn’t dominate layout. :contentReference[oaicite:21]{index=21}  
-- **Scroll offsets:** anchor targets (e.g., `#main`, `#skills`) set `scroll-margin-top` to account for the sticky navbar—links land cleanly at the visible heading. :contentReference[oaicite:22]{index=22}  
-- **Accessible focus:** consistent, high-contrast focus outlines on links, buttons, and form controls; reduced-motion and high-contrast media queries respect user preferences. :contentReference[oaicite:23]{index=23}
+- **Fluid type:** `clamp(min, vw, max)` keeps headings and body copy readable from phones to desktops without abrupt jumps. 
+- **Component caps:** logos, icons, and carousel images have max heights/`object-fit` so media doesn’t dominate layout. 
+- **Scroll offsets:** anchor targets (e.g., `#main`, `#skills`) set `scroll-margin-top` to account for the sticky navbar—links land cleanly at the visible heading. 
+- **Accessible focus:** consistent, high-contrast focus outlines on links, buttons, and form controls; reduced-motion and high-contrast media queries respect user preferences.
 
 ---
 
