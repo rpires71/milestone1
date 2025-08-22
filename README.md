@@ -59,6 +59,7 @@
   - [About Me — purpose & structure](#about-me--purpose--structure)
   - [Work Experience & Skills — purpose & structure](#work-experience--skills--purpose--structure)
   - [Certifications — purpose & structure](#certifications--purpose--structure)
+  - [Bookings — purpose & structure](#bookings--purpose--structure)
 
 # Milestone Project 1
 Development Milestone Project 1 - User Centric Frontend
@@ -6123,10 +6124,45 @@ Present my formal qualifications and industry certifications in a clear, recruit
 - From a certification tile → **Work Experience & Skills** (to see credentials in action).  
 - Global links to **About Me**, **Bookings** (to enquire), and the contact footer.
 
-### Link to Work Experience & Skills Page
+### Link to Certifications Page
 - [Link to Live Website](https://rpires71.github.io/milestone1/certifications.html)
 
 <img width="800" height="600" alt="am-i-responsive-certifications" src="https://github.com/user-attachments/assets/1079e277-58fe-4ba0-8713-fcefb1b33a39" />
+
+## Bookings — purpose & structure
+[⬆ Back to Table of contents](#table-of-contents)
+
+**Purpose.**  
+Provide a simple, accessible way for visitors to request tuition/consultancy, choose a service, and share contact details. The page emphasises clarity, validation, and low-friction submission to the confirmation page.
+
+**Structure.**  
+1) **Global navigation & skip link.** Same sticky navbar and a *Skip to content* link for keyboard users.  
+2) **Header (intro band).**  
+   - **H1:** “Bookings”  
+   - **Short intro:** what services can be booked and what to expect after submission.  
+   - **Brand/graphic:** small page logo on the right (responsive).  
+3) **Main — booking form.**  
+   - **Contact fields:** name, email (required, pattern-validated), phone (optional).  
+   - **Service selection:** dropdown (e.g., Tutoring / IT Support / Web help).  
+   - **Date/time or notes:** free-text area for availability or details.  
+   - **Actions:** primary submit button; form submits to `confirmation.html` (method: GET).  
+   - **Inline guidance:** small helper text and error messages where applicable.  
+4) **Footer / Contacts.**  
+   - Contact tiles (address, email, telephone, social links) and copyright.
+
+**Notable accessibility touches.**  
+- Labels tied to inputs; required fields clearly indicated.  
+- Visible focus styles on all interactive controls; keyboard-only flow supported.  
+- Descriptive `aria` where needed and helpful placeholder/helper text that doesn’t replace labels.
+
+**Navigation onward.**  
+- Successful submission routes to **Confirmation**.  
+- Navbar links to **Home**, **About Me**, **Work Experience & Skills**, **Certifications**, and the **Contact** footer.
+
+### Link to Bookings Page
+- [Link to Live Website](https://rpires71.github.io/milestone1/bookings.html)
+
+<img width="800" height="600" alt="am-i-responsive-bookings" src="https://github.com/user-attachments/assets/fda71358-5cc0-4971-9290-2d4340d524f8" />
 
 ---
 
