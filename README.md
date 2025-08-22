@@ -56,6 +56,7 @@
     - [Regression Testing - Results](#regression-testing---results)
 - [Website Information Architecture: Page Purpose & Structure](#website-information-architecture-page-purpose--structure)
   - [Homepage — purpose & structure](#homepage--purpose--structure)
+  - [About Me — purpose & structure](#about-me--purpose--structure)
 
 # Milestone Project 1
 Development Milestone Project 1 - User Centric Frontend
@@ -6019,11 +6020,44 @@ The homepage gives a clear first impression of who I am, routes viewers to core 
 - Semantic headings and a *Skip to content* link support keyboard and screen-reader users.  
 - Descriptive `alt` text on images.  
 - Carousel controls expose clear "Previous/Next" labels for assistive tech.
-- 
+
 ### Link to Homepage
 - [Link to Live Website](https://rpires71.github.io/milestone1/index.html)
 
 <img width="800" height="600" alt="am-i-responsive" src="https://github.com/user-attachments/assets/1e7107dd-9391-4ae9-9ff2-b14599f0c3d4" />
+
+## About Me — purpose & structure
+[⬆ Back to Table of contents](#table-of-contents)
+
+**Purpose.**  
+Introduce who I am and what I do, give a concise professional summary, showcase core skills and lifelong-learning focus, and route visitors onward to other sections (Work Experience, Skills, Certifications, Bookings) and the contact footer.
+
+**Structure.**  
+1) **Global navigation & skip link.** Same navbar as other pages plus a *Skip to content* link for keyboard users.  
+2) **Header (intro band).**  
+   - **H1:** “About Me”  
+   - **Subheading:** “Educator | Technologist | IT Consultant”  
+   - **Intro paragraphs:** brief background and mission statement  
+   - **Brand image:** badge/logo on the right (responsive)  
+3) **Main content — “About me” tiles.**  
+   - **Professional Bio (text tile):** one–two paragraphs describing experience and strengths.  
+   - **Skills (visual tile):** skills icon + composite skills illustration (responsive image).  
+   - **Lifelong Learner (text tile):** current study/training and growth mindset.  
+4) **Footer / Contacts.**  
+   - Grid of contact tiles: badge, full postal address, email & phone, social links (LinkedIn, Facebook, Instagram).  
+   - Copyright line.
+
+**Notable accessibility touches.**  
+- Skip link to `#main`, semantic headings, descriptive `alt` text on images.  
+- Keyboard-friendly links/buttons; consistent color contrast and focus styles across the site.
+
+**Navigation onward.**  
+- Navbar links to Home, Work Experience, Skills (anchor on Work Experience page), Certifications, Bookings, and Contact (footer anchor).
+
+### Link to Homepage
+- [Link to Live Website](https://rpires71.github.io/milestone1/about-me.html)
+
+<img width="800" height="600" alt="am-i-responsive" src="https://github.com/user-attachments/assets/26cfa53a-a5eb-43e5-8b9f-9eb701381d55" />
 
 
 ---
