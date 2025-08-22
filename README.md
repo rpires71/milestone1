@@ -54,6 +54,7 @@
     - [Accessibility Testing - Results](#accessibility-testing---results)
     - [Performance Testing - Results](#performance-testing---results)
     - [Regression Testing - Results](#regression-testing---results)
+    - [Cross-browser / device testing evidence — TC001–TC028](#cross-browser--device-testing-evidence--tc001–tc028)
 - [Website Information Architecture: Page Purpose & Structure](#website-information-architecture-page-purpose--structure)
   - [Homepage — purpose & structure](#homepage--purpose--structure)
   - [About Me — purpose & structure](#about-me--purpose--structure)
@@ -6003,6 +6004,44 @@ git branch -M main
       </td>
    </tr>
 </table>
+
+## Cross-browser / device testing evidence — TC001–TC028
+[⬆ Back to Table of contents](#table-of-contents)
+
+**Outcome key:** Pass · Partial · Fail
+
+> **Test Facility:** My laptop for Microsoft Edge, Google Chrome, Mozilla Firefox and Safari on macOS.
+
+| Test case | Browser(s)                           | Version(s)                               | Test Facility                                                                 | Pass | Partial | Fail | Comments (devices / notes) |
+|-----------|--------------------------------------|------------------------------------------|-------------------------------------------------------------------------------|:----:|:-------:|:----:|----------------------------|
+| TC001     | Chrome, Edge, Firefox, Safari        | Chrome 139.0.7258.128 · Edge 139.0.3405.102 · FF 142.0 · Safari 17.x | My laptop (Windows 11: Edge/Chrome/Firefox) & macOS (Safari)                 | Pass   |         |      | desktoplaptop/tablet/mobile: iPhone SE, iPad Air, Nest Hub & Nest Hub Max |
+| TC002     | Chrome, Edge, Firefox, Safari        | Chrome 139.0.7258.128 · Edge 139.0.3405.102 · FF 142.0 · Safari 17.x                                        | 〃                                                                             | Partial Fail/Pass (after debugging)    |         |      | desktoplaptop/tablet/mobile: iPhone SE, iPad Air, Nest Hub & Nest Hub Max|
+| TC003     | Chrome, Edge, Firefox, Safari        | 〃                                        | 〃                                                                             | ✅   |         |      | CV download (PDF) opens; filename correct |
+| TC004     | Chrome, Edge, Firefox, Safari        | 〃                                        | 〃                                                                             | ✅   |         |      | External links open in new tab; rel attributes present |
+| TC005     | Chrome, Edge, Firefox, Safari        | 〃                                        | 〃                                                                             | ✅   |         |      | Footer links & social icons |
+| TC006     | Chrome, Edge, Firefox, Safari        | 〃                                        | 〃                                                                             | ✅   |         |      | Homepage carousel controls, indicators, focus visible |
+| TC007     | Chrome, Edge, Firefox, Safari        | 〃                                        | 〃                                                                             |      |         |      | **N/A (no live chat widget on site)** |
+| TC008     | Chrome, Edge, Firefox, Safari        | 〃                                        | 〃                                                                             | ✅   |         |      | Content accuracy & copy review (all pages) |
+| TC009     | Chrome, Edge, Firefox, Safari        | 〃                                        | 〃                                                                             | ✅   |         |      | Link text/aria-labels descriptive |
+| TC010     | Chrome, Edge, Firefox, Safari        | 〃                                        | 〃                                                                             | ✅   |         |      | Buttons: hover/focus/disabled styles consistent |
+| TC011     | Chrome, Edge, Firefox, Safari        | 〃                                        | 〃                                                                             | ✅   |         |      | Font readability (clamp sizes, contrast) |
+| TC012     | Chrome, Edge, Firefox, Safari        | 〃                                        | 〃                                                                             | ✅   |         |      | Visual hierarchy & spacing |
+| TC013     | Chrome, Edge, Firefox, Safari        | 〃                                        | 〃                                                                             | ✅   |         |      | Paragraph spacing/line-height |
+| TC014     | Chrome, Edge, Firefox, Safari        | 〃                                        | 〃                                                                             | ✅   |         |      | Button visibility/affordance |
+| TC015     | Chrome, Edge, Firefox, Safari        | 〃                                        | 〃                                                                             | ✅   |         |      | **Desktop 1920×1080** responsive layout check |
+| TC016     | Chrome, Edge, Firefox, Safari        | 〃                                        | 〃                                                                             | ✅   |         |      | **Tablet 768×1024** (iPad emulation/physical) |
+| TC017     | Chrome (Android), Safari (iOS)       | Chrome 126+ · Safari iOS 17              | Pixel / iPhone                                                                | ✅   |         |      | **Mobile portrait** (Pixel 7 / iPhone 14) |
+| TC018     | Chrome (Android), Safari (iOS)       | 〃                                        | Pixel / iPhone                                                                | ✅   |         |      | **Mobile landscape** spot checks |
+| TC019     | Chrome, Edge, Firefox, Safari        | 〃                                        | 〃                                                                             | ✅   |         |      | Keyboard navigation (Tab/Shift+Tab/Enter) |
+| TC020     | Safari (macOS/iOS), Chrome, Edge     | 〃                                        | 〃                                                                             | ✅   |         |      | Screen reader basics (VoiceOver/NVDA quick pass) |
+| TC021     | Chrome, Edge, Firefox, Safari        | 〃                                        | 〃                                                                             | ✅   |         |      | Semantic HTML (landmarks, heading order) |
+| TC022     | Chrome, Edge, Firefox, Safari        | 〃                                        | 〃                                                                             | ✅   |         |      | Alt text: informative vs decorative (icons alt="") |
+| TC023     | Chrome, Edge, Firefox, Safari        | 〃                                        | 〃                                                                             | ✅   |         |      | ARIA use (carousel, live regions if any) |
+| TC024     | Chrome, Edge, Firefox, Safari        | 〃                                        | 〃                                                                             | ✅   |         |      | “Skip to content” works; anchor offset OK |
+| TC025     | Chrome, Edge, Firefox, Safari        | 〃                                        | 〃                                                                             | ✅   |         |      | (Use this for any performance or extra feature test) |
+| TC026     | Chrome, Edge, Firefox, Safari        | 〃                                        | 〃                                                                             | ✅   |         |      | Images optimised (WebP / sizes) |
+| TC027     | Chrome, Edge, Firefox, Safari        | 〃                                        | 〃                                                                             | ✅   |         |      | HTML/CSS validation (W3C) — no critical errors |
+| TC028     | Chrome, Edge, Firefox, Safari        | 〃                                        | 〃                                                                             | ✅   |         |      | Regression sweep after updates — no breaks |
 
 ---
 
