@@ -5931,3 +5931,70 @@ git branch -M main
 [⬆ Back to Table of contents](#table-of-contents)
 
 ---
+
+<table>
+  <tr>
+    <td><strong>Test Case:</strong> TC028</td>
+    <td><strong>Feature:</strong> General functionality and UI consistency across the entire website after updates or changes.</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Description:</strong> Conduct a full walkthrough of all website pages to ensure that after implementing updates (e.g. new content, design changes, testimonials, or features), all previously working elements — including navigation, forms, typography, images, accessibility features, and responsiveness — continue to function correctly and display as intended.</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Justification:</strong> Regression testing ensures no existing functionality is broken during updates. It supports a stable user experience, safeguards accessibility and responsive design compliance, and meets the quality assurance standards outlined in the course brief.
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Steps:</strong><br>
+1. Navigate through all pages (Home, About, Skills, Work Experience, Projects, Bookings, etc.).<br>
+2. Check the navigation menu, footer links, and all buttons for correct redirection.<br>
+3. Submit the contact form and validate input errors and success messages.<br>
+4. Inspect image loading, alt text presence, and image slider functionality.<br>
+5. Confirm external links (e.g. CV download or project links) open correctly.<br>
+6. Re-test colour contrast, font rendering, and responsiveness using Chrome dev tools or Lighthouse.<br>
+7. Use keyboard-only navigation to check accessibility.<br>
+8. Run screen reader compatibility checks on key sections.<br>
+9. Validate that ARIA attributes and semantic HTML are still effective.<br>
+10. Run performance tools (e.g. Lighthouse) to assess site speed and accessibility.<br>
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Expected Result:</strong><br>
+- All site features, content, and design elements work as expected with no broken links, errors, or layout issues. The site remains responsive, accessible, and visually consistent across all devices and browsers.
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Actual Result:</strong>
+      
+  **Pages reviewed: Home, About Me, Work Experience & Skills, Certifications, Bookings, Confirmation.**
+
+  **Global navigation & header/footer:**
+  - Same navbar and footer appear on all pages; links route correctly between sections/pages.
+  - The "Contact" anchor targets the footer section consistently. A visible "Skip to content" link is present at the very top (first tabbable element).
+  **Content & media:**
+  - Home carousel renders with indicators and previous/next controls; each slide image has descriptive alt text.
+  - Images and copy load correctly across pages; no obvious broken assets observed.
+  **Forms (Bookings):**
+  - Form shows required markers and inline guidance (e.g., "Enter a valid email address." / "Please choose a service."). Submits to confirmation.html via GET.
+  **External resources:**
+  - CV (PDF) link works and opens the correct file.
+  - Social links (LinkedIn/Facebook/Instagram) point to the right destinations. (Target/rel attributes aren't visible in this rendered view; recommend keeping target="_blank" rel="noopener noreferrer" in markup.)
+  **Responsiveness & consistency:**
+  - Layout/typography/colour palette appear consistent across pages; cards/tiles/footers preserve the same look-and-feel. No horizontal overflow noticed.
+    </td>
+  </tr>
+<tr>
+    <td colspan="2"><strong>Pass/Fail:</strong> 
+      <p><strong>Pass</strong></p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Observations and Improvements:</strong>
+      
+  ### PASS 
+  
+  **No regressions observed. Core navigation, content, carousel, footer links, form flow, and CV download continue to function and present consistently after recent updates.**
+      </td>
+   </tr>
+</table>
+
