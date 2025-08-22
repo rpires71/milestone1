@@ -6003,29 +6003,3 @@ git branch -M main
 </table>
 
 ---
-
-# Website Information Architecture: Page Purpose & Structure.
-
-# Homepage — purpose & structure
-
-**Purpose.**  
-The homepage gives a clear first impression of who I am, routes viewers to core sections (About, Work Experience, Skills, Certifications, Bookings), and provides quick access to my CV and contacts. It also showcases visuals via a small carousel to set tone and credibility.
-
-**Structure.**  
-1) **Global navigation & skip link.** A visible *Skip to content* link improves accessibility, followed by a navbar with links to Home, About Me, Work Experience, Skills (anchor), Certifications, Bookings, Contact, and a "Download CV (PDF)" action.  
-2) **Hero/intro band.** Prominent logo and headings (site title + subhead) introduce my role and expertise, with short intro paragraphs that summarise what I teach and offer.  
-3) **Feature tiles (main).** A text tile (“Welcome to My Portfolio”) sits alongside a compact image carousel (3 slides) that reinforces my tech focus; previous/next controls and indicators enable keyboard/mouse navigation.  
-4) **Contacts footer.** A titled section ("My Contacts") presents badge branding, full postal address, email, telephone, and social links (LinkedIn, Facebook, Instagram) in a tidy grid, ending with copyright.
-
-**Notable accessibility touches.**  
-- Semantic headings and a *Skip to content* link support keyboard and screen-reader users.  
-- Descriptive `alt` text on images.  
-- Carousel controls expose clear "Previous/Next" labels for assistive tech.
-- 
-### Link to Homepage
-- [Link to Live Website](https://rpires71.github.io/milestone1/index.html)
-
-<img width="800" height="600" alt="am-i-responsive" src="https://github.com/user-attachments/assets/1e7107dd-9391-4ae9-9ff2-b14599f0c3d4" />
-
-
-[⬆ Back to Table of contents](#table-of-contents)
