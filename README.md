@@ -64,6 +64,7 @@
   - [Confirmation — purpose & structure](#confirmation--purpose--structure)
   - [Stylesheet (`assets/css/style.css`) — technical approach, purpose & structure](#stylesheet-assetscssstylecss--technical-approach-purpose--structure)
 - [Reflection](#reflection)
+- [Credits](#credits)
 
 # Milestone Project 1
 Development Milestone Project 1 - User Centric Frontend
@@ -6360,4 +6361,19 @@ Milestone 1 delivered a small, fast, and accessible portfolio site built with **
 - **Lighthouse:** Saved summaries (performance/accessibility) for desktop & mobile.
 
 ---
+
+## Credits
+[⬆ Back to Table of contents](#table-of-contents)
+
+### People
+
+Mentor Brian Macharia for advising and guiding throughout the project lifecycle.
+Professor Raghav Kovvuri for advising and guiding throughout the project lifecycle.
+
+### Javascript Code
+OpenAI (2025) ChatGPT (GPT-5 Thinking). Code suggestions for portfolio site JavaScript (smooth-scroll anchors; mobile navbar collapse; IntersectionObserver nav highlighting; bookings validation). 22 August. Available at: https://chat.openai.com/
+ (Accessed: 22 August 2025).
+ 
+### Testing
+During the testing stages, I used to OpenAI (2025) ChatGPT (GPT-5 Thinking) for test cases TC001 to TC002.
 
