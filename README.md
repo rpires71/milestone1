@@ -5929,7 +5929,8 @@ git branch -M main
 
 #### Regression Testing - Results
 [⬆ Back to Table of contents](#table-of-contents)
-
+</tr>
+</table>
 ---
 
 <table>
