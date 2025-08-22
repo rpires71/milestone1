@@ -1,17 +1,9 @@
 # Milestone 1 Project - Roberto Pires Portfolio Website
 <img width="1453" height="826" alt="am-i-responsive" src="https://github.com/user-attachments/assets/81a35234-a4ef-40e0-a3f3-3ed687b5e86b" />
 
-[Live site](https://rpires71.github.io/milestone1/) · [Project repository](https://github.com/rpires71/milestone1)
-
 ## Links
-- 🌐 **Website:** https://rpires71.github.io/milestone1/
-- 📦 **Repository:** https://github.com/rpires71/milestone1
-
-[Live site][site] · [Repo][repo]
-
-[site]: https://rpires71.github.io/milestone1/
-[repo]: https://github.com/rpires71/milestone1
-
+[Link to Live Website](https://rpires71.github.io/milestone1/) 
+[GitHub Project Repository](https://github.com/rpires71/milestone1)
 
 ## Table of contents
 
