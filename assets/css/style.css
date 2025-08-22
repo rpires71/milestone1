@@ -173,13 +173,12 @@ header h3 {
 .header-intro {
   max-width: 800px;
   margin: 0 auto;
-  font-size: clamp(0.75rem, 1.5vw, 1.1rem);
   font-weight: 400;
   padding-top: 1rem;
   text-align: justify;
   /* Improvement Test TC011 - Raise minimum text sizes & line-height*/
   /* Header intro: keep fluid but never below 1rem; cap ≈18px */
-  font-size: clamp(1rem, 1.5vw, 1.125rem);
+  font-size: clamp(1.5rem, 1.5vw, 2rem);
 }
 
 /* --------------------------------------------------------------------------
