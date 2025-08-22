@@ -60,6 +60,7 @@
   - [Work Experience & Skills — purpose & structure](#work-experience--skills--purpose--structure)
   - [Certifications — purpose & structure](#certifications--purpose--structure)
   - [Bookings — purpose & structure](#bookings--purpose--structure)
+  - [Confirmation — purpose & structure](#confirmation--purpose--structure)
 
 # Milestone Project 1
 Development Milestone Project 1 - User Centric Frontend
@@ -6143,7 +6144,7 @@ Provide a simple, accessible way for visitors to request tuition/consultancy, ch
    - **Brand/graphic:** small page logo on the right (responsive).  
 3) **Main — booking form.**  
    - **Contact fields:** name, email (required, pattern-validated), phone (optional).  
-   - **Service selection:** dropdown (e.g., Tutoring / IT Support / Web help).  
+   - **Service selection:** dropdown (e.g., Tutoring).  
    - **Date/time or notes:** free-text area for availability or details.  
    - **Actions:** primary submit button; form submits to `confirmation.html` (method: GET).  
    - **Inline guidance:** small helper text and error messages where applicable.  
@@ -6153,7 +6154,7 @@ Provide a simple, accessible way for visitors to request tuition/consultancy, ch
 **Notable accessibility touches.**  
 - Labels tied to inputs; required fields clearly indicated.  
 - Visible focus styles on all interactive controls; keyboard-only flow supported.  
-- Descriptive `aria` where needed and helpful placeholder/helper text that doesn’t replace labels.
+- Descriptive `aria` where needed and helpful placeholder/helper text that doesn't replace labels.
 
 **Navigation onward.**  
 - Successful submission routes to **Confirmation**.  
@@ -6163,6 +6164,40 @@ Provide a simple, accessible way for visitors to request tuition/consultancy, ch
 - [Link to Live Website](https://rpires71.github.io/milestone1/bookings.html)
 
 <img width="800" height="600" alt="am-i-responsive-bookings" src="https://github.com/user-attachments/assets/fda71358-5cc0-4971-9290-2d4340d524f8" />
+
+## Confirmation — purpose & structure
+[⬆ Back to Table of contents](#table-of-contents)
+
+**Purpose.**  
+Confirm that a booking/enquiry was submitted successfully, show a clear summary of the details sent (e.g., name, email, telephone, selected service, notes), and direct the user to next actions (return Home, make another booking, or contact me).
+
+**Structure.**  
+1) **Global navigation & skip link.** Same navbar as the rest of the site plus a *Skip to content* link for keyboard users.  
+2) **Header (intro band).**  
+   - **H1:** “Confirmation” (or “Thank you”)  
+   - Short sentence acknowledging receipt (e.g., “We've received your request and will reply shortly.”)  
+3) **Main — submission summary.**  
+   - A confirmation panel summarising the fields sent from **Bookings** (your form currently submits via **GET**, so values arrive as query parameters in the URL).  
+   - Prominent CTAs: **Book another session**, **Go to Home**, **Contact**.  
+   - Optional note about response times and preferred contact method.  
+4) **Footer / Contacts.**  
+   - Standard contact grid (address, email, phone, social links) and copyright.
+
+**Notable accessibility touches.**  
+- Announce success in a programmatically detectable way (e.g., `<div role="status" aria-live="polite">` near the top, or a clearly-styled `<h2>`).  
+- Move keyboard focus to the main heading/status on load so screen-reader and keyboard users hear the confirmation immediately.  
+- Present the submitted details in a semantic structure (e.g., a `<dl>` *Summary* list or a table with header cells).
+
+**Improvement note.**  
+- With **GET**, user details appear in the URL (e.g., `?telephone=…&email=…&service=…&message=…`). I will be switching the form to **POST** to avoid exposing personal data in the address bar and browser history.
+
+**Navigation onward.**  
+- Clear links/buttons to **Home**, **Bookings** (start a new request), and **Contact**.
+
+### Link to Bookings Page
+- [Link to Live Website](https://rpires71.github.io/milestone1/confirmation.html?telephone=%2B447773554800&email=roberto.pires%40gmail.com&service=consulting&message=...)
+
+<img width="800" height="600" alt="am-i-responsive-confirmation" src="https://github.com/user-attachments/assets/0f065456-2398-4caa-9b9f-be5a3f595072" />
 
 ---
 
